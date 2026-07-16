@@ -15,7 +15,7 @@ window.QUIZ_DATA = {
             "D": "Cả 3 phương án đều sai"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Các bộ phận cụ thể của máy tính về mặt vật lý như màn hình, chuột, bàn phím,». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Phần cứng là các bộ phận vật lý của máy tính như màn hình, bàn phím, chuột, CPU, RAM… Người dùng có thể nhìn thấy và chạm vào. Ngược lại, phần mềm là chương trình và dữ liệu logic chạy trên phần cứng, không phải thiết bị vật lý."
         },
         {
           "id": 2,
@@ -27,7 +27,7 @@ window.QUIZ_DATA = {
             "D": "Sửa máy tính xách tay ít tốn kém hơn"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Máy tính xách tay có thể mang đi bất kì đâu». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Ưu thế nổi bật của máy tính xách tay là tính di động: có thể mang theo và dùng ở nhiều nơi nhờ tích hợp sẵn pin, màn hình và bàn phím. Máy để bàn thường mạnh hơn về nâng cấp nhưng kém linh hoạt khi di chuyển."
         },
         {
           "id": 3,
@@ -39,7 +39,7 @@ window.QUIZ_DATA = {
             "D": "Personnal Connector"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Personal Computer». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "PC viết tắt của Personal Computer — máy tính cá nhân dùng cho một người. Đây là thuật ngữ chuẩn trong tin học cơ bản, khác với các cụm từ không chính thống như Performance Computer."
         },
         {
           "id": 4,
@@ -51,7 +51,7 @@ window.QUIZ_DATA = {
             "D": "Máy tính FX500"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Máy tính bảng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Máy tính bảng dùng màn hình cảm ứng làm giao diện chính: chạm, bút cảm ứng hoặc bàn phím ảo để thao tác. Nó khác máy để bàn (chuột/bàn phím vật lý) và máy chủ (phục vụ mạng)."
         },
         {
           "id": 5,
@@ -63,7 +63,7 @@ window.QUIZ_DATA = {
             "D": "Điện thoại chỉ có chức năng nghe và gọi"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Điện thoại tích hợp một nền tảng hệ điều hành di động với nhiều tính năng hỗ trợ tiên tiến». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Smartphone là điện thoại gắn hệ điều hành di động và nhiều ứng dụng/tính năng nâng cao (Internet, camera, cảm biến…). Điện thoại thường chỉ nghe-gọi thì không đủ để gọi là smartphone."
         },
         {
           "id": 6,
@@ -75,7 +75,7 @@ window.QUIZ_DATA = {
             "D": "Sách điện tử"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Máy in». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thiết bị ngoại vi kết nối với máy tính để nhập/xuất hoặc lưu trữ bổ sung (bàn phím, chuột, màn hình, máy in…). Chúng nằm ngoài khối xử lý trung tâm nhưng phục vụ tương tác người–máy."
         },
         {
           "id": 7,
@@ -87,7 +87,7 @@ window.QUIZ_DATA = {
             "D": "Bàn phím, máy ghi hình trực tiếp, chuột, máy quét"
           },
           "answer": "D",
-          "explain": "«Bàn phím, máy ghi hình trực tiếp, chuột, máy quét» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Thiết bị nhập đưa dữ liệu/lệnh từ bên ngoài vào máy tính. Bàn phím, chuột, máy quét (scanner), webcam thuộc nhóm này; màn hình/máy in/loa thuộc nhóm xuất."
         },
         {
           "id": 8,
@@ -99,7 +99,7 @@ window.QUIZ_DATA = {
             "D": "HDD, CD- ROM Drive, FDD, bàn phím"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Bàn phím, chuột, màn hình, máy in». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thiết bị ngoại vi kết nối với máy tính để nhập/xuất hoặc lưu trữ bổ sung (bàn phím, chuột, màn hình, máy in…). Chúng nằm ngoài khối xử lý trung tâm nhưng phục vụ tương tác người–máy."
         },
         {
           "id": 9,
@@ -111,7 +111,7 @@ window.QUIZ_DATA = {
             "D": "Phần mềm máy tính"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Phần cứng máy tính». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần cứng máy tính. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 10,
@@ -123,7 +123,7 @@ window.QUIZ_DATA = {
             "D": "Recent Access Memory"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Random Access Memory». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "RAM (Random Access Memory) là bộ nhớ truy cập ngẫu nhiên: máy đọc/ghi nhanh dữ liệu đang chạy chương trình. Dung lượng RAM (ví dụ 4 GB) ảnh hưởng nhiều đến khả năng đa nhiệm; tắt máy thì nội dung RAM thường mất."
         },
         {
           "id": 11,
@@ -135,7 +135,7 @@ window.QUIZ_DATA = {
             "D": "Bộ nhớ ngoài"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Bộ nhớ chỉ đọc». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "ROM (Read Only Memory) là bộ nhớ chỉ đọc, thường chứa firmware/BIOS cần khi khởi động. Khác RAM, ROM giữ dữ liệu khi mất điện và người dùng thông thường không ghi đè tùy ý."
         },
         {
           "id": 12,
@@ -147,7 +147,7 @@ window.QUIZ_DATA = {
             "D": "Thiết bị hiển thị của máy tính"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Bộ xử lý trung tâm của máy tính». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "CPU (Central Processing Unit) là bộ xử lý trung tâm: thực thi lệnh chương trình và xử lý dữ liệu. Tốc độ/khả năng CPU quyết định lớn đến hiệu năng máy; thiếu CPU thì máy không hoạt động được."
         },
         {
           "id": 13,
@@ -159,7 +159,7 @@ window.QUIZ_DATA = {
             "D": "Độ phân giải màn hình"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Đo dung lượng của thiết bị lưu trữ như đĩa cứng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "MB (Megabyte) là đơn vị đo dung lượng lưu trữ/bộ nhớ. Trong tin học cơ bản, các đơn vị bit/byte/KB/MB/GB dùng để mô tả kích thước dữ liệu và dung lượng thiết bị."
         },
         {
           "id": 14,
@@ -171,7 +171,7 @@ window.QUIZ_DATA = {
             "D": "Read Only Memory"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Read Only Memory». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "ROM (Read Only Memory) là bộ nhớ chỉ đọc, thường chứa firmware/BIOS cần khi khởi động. Khác RAM, ROM giữ dữ liệu khi mất điện và người dùng thông thường không ghi đè tùy ý."
         },
         {
           "id": 15,
@@ -183,7 +183,7 @@ window.QUIZ_DATA = {
             "D": "CPU lưu trữ các phần mềm người sử dụng"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «CPU là viết tắt của Processing Unit, là đơn vị xử lý trung tâm được tích hợp trong một chip được gọi là một vi xử lý, để xử lý dữ liệu và dịch các lệnh của chương trình». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "CPU (Central Processing Unit) là bộ xử lý trung tâm: thực thi lệnh chương trình và xử lý dữ liệu. Tốc độ/khả năng CPU quyết định lớn đến hiệu năng máy; thiếu CPU thì máy không hoạt động được."
         },
         {
           "id": 16,
@@ -195,7 +195,7 @@ window.QUIZ_DATA = {
             "D": "Megabyte"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Bit». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Bit. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 17,
@@ -207,7 +207,7 @@ window.QUIZ_DATA = {
             "D": "Là một phần tử nhỏ mang một trong 2 giá trị 0 và 1"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Tất cả các đáp án đều đúng». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Về Bit là gì, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 18,
@@ -219,7 +219,7 @@ window.QUIZ_DATA = {
             "D": "8 bit"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «8 bit». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "1 byte gồm 8 bit — đơn vị cơ bản để biểu diễn một ký tự/mã dữ liệu nhỏ. Các đơn vị lớn hơn (KB, MB, GB) được xây từ byte."
         },
         {
           "id": 19,
@@ -231,7 +231,7 @@ window.QUIZ_DATA = {
             "D": "1024 byte"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «1024 byte». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Theo quy ước nhị phân phổ biến trong tin học cơ bản, 1 KB = 1024 byte (2^10). Tương tự, 1 MB = 1024 KB."
         },
         {
           "id": 20,
@@ -243,7 +243,7 @@ window.QUIZ_DATA = {
             "D": "Xuất dữ liệu"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Xử lý dữ liệu». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "CPU (Central Processing Unit) là bộ xử lý trung tâm: thực thi lệnh chương trình và xử lý dữ liệu. Tốc độ/khả năng CPU quyết định lớn đến hiệu năng máy; thiếu CPU thì máy không hoạt động được."
         },
         {
           "id": 21,
@@ -255,7 +255,7 @@ window.QUIZ_DATA = {
             "D": "Bộ nhớ chỉ đọc (ROM)"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Bộ nhớ truy cập ngẫu nhiên (RAM) và bộ nhớ chỉ đọc (ROM)». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "RAM (Random Access Memory) là bộ nhớ truy cập ngẫu nhiên: máy đọc/ghi nhanh dữ liệu đang chạy chương trình. Dung lượng RAM (ví dụ 4 GB) ảnh hưởng nhiều đến khả năng đa nhiệm; tắt máy thì nội dung RAM thường mất."
         },
         {
           "id": 22,
@@ -267,7 +267,7 @@ window.QUIZ_DATA = {
             "D": "Ổ đĩa mềm"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Ổ đĩa mềm». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Ổ đĩa mềm». Tên/đối tượng này đúng với vai trò được hỏi; hãy gắn với chức năng thực tế để khỏi nhầm nhóm tương tự."
         },
         {
           "id": 23,
@@ -279,7 +279,7 @@ window.QUIZ_DATA = {
             "D": "Bộ xử lý trung tâm, bộ nhớ, thiết bị nhập/xuất"
           },
           "answer": "D",
-          "explain": "«Bộ xử lý trung tâm, bộ nhớ, thiết bị nhập/xuất» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Máy tính gồm khối xử lý (CPU), bộ nhớ, thiết bị lưu trữ và thiết bị nhập/xuất. Các khối này phối hợp để nhận dữ liệu, xử lý, lưu và trả kết quả."
         },
         {
           "id": 24,
@@ -291,7 +291,7 @@ window.QUIZ_DATA = {
             "D": "CPU, các thiết bị lưu trữ, bộ nhớ, các thiết bị nhập và các thiết bị xuất dữ liệu"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «CPU, các thiết bị lưu trữ, bộ nhớ, các thiết bị nhập và các thiết bị xuất dữ liệu». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Máy tính gồm khối xử lý (CPU), bộ nhớ, thiết bị lưu trữ và thiết bị nhập/xuất. Các khối này phối hợp để nhận dữ liệu, xử lý, lưu và trả kết quả."
         },
         {
           "id": 25,
@@ -303,7 +303,7 @@ window.QUIZ_DATA = {
             "D": "Bộ nhớ RAM không bị xoá khi máy tính đã tắt. Bộ nhớ ROM bị xoá khi máy tính tắt"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Bộ nhớ RAM là bộ nhớ đọc và ghi, trong khi ROM là bộ nhớ chỉ đọc». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "RAM (Random Access Memory) là bộ nhớ truy cập ngẫu nhiên: máy đọc/ghi nhanh dữ liệu đang chạy chương trình. Dung lượng RAM (ví dụ 4 GB) ảnh hưởng nhiều đến khả năng đa nhiệm; tắt máy thì nội dung RAM thường mất."
         },
         {
           "id": 26,
@@ -315,7 +315,7 @@ window.QUIZ_DATA = {
             "D": "Chỉ tốc độ của bộ vi xử lý"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Chỉ dung lượng bộ nhớ truy cập ngẫu nhiên RAM». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "RAM (Random Access Memory) là bộ nhớ truy cập ngẫu nhiên: máy đọc/ghi nhanh dữ liệu đang chạy chương trình. Dung lượng RAM (ví dụ 4 GB) ảnh hưởng nhiều đến khả năng đa nhiệm; tắt máy thì nội dung RAM thường mất."
         },
         {
           "id": 27,
@@ -327,7 +327,7 @@ window.QUIZ_DATA = {
             "D": "Máy in"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «USB». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Thiết bị lưu trữ giữ dữ liệu lâu dài: ổ cứng, USB, thẻ nhớ, đĩa quang… Khác RAM, dữ liệu trên chúng thường còn sau khi tắt máy."
         },
         {
           "id": 28,
@@ -339,7 +339,7 @@ window.QUIZ_DATA = {
             "D": "Bàn phím 5"
           },
           "answer": "A",
-          "explain": "Phương án đúng là «Ổ đĩa cứng» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Đáp án đúng là «Ổ đĩa cứng». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 29,
@@ -351,7 +351,7 @@ window.QUIZ_DATA = {
             "D": "Máy in, máy scan, màn hình, loa"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Đĩa cứng trong, đĩa cứng ngoài, các loại đĩa quang (CD, DVD), thẻ nhớ, ổ nhớ di động». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thiết bị lưu trữ giữ dữ liệu lâu dài: ổ cứng, USB, thẻ nhớ, đĩa quang… Khác RAM, dữ liệu trên chúng thường còn sau khi tắt máy."
         },
         {
           "id": 30,
@@ -363,7 +363,7 @@ window.QUIZ_DATA = {
             "D": "RJ 45"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «USB». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Máy quét (scanner) chuyển tài liệu/ảnh giấy thành dữ liệu số đưa vào máy — thuộc thiết bị nhập. Kết nối phổ biến hiện nay là qua cổng USB."
         },
         {
           "id": 31,
@@ -375,7 +375,7 @@ window.QUIZ_DATA = {
             "D": "Thiết bị thoát thông tin"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Thiết bị nhập thông tin». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thiết bị nhập thông tin. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 32,
@@ -387,7 +387,7 @@ window.QUIZ_DATA = {
             "D": "Loa"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Máy quét». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thiết bị nhập đưa dữ liệu/lệnh từ bên ngoài vào máy tính. Bàn phím, chuột, máy quét (scanner), webcam thuộc nhóm này; màn hình/máy in/loa thuộc nhóm xuất."
         },
         {
           "id": 33,
@@ -399,7 +399,7 @@ window.QUIZ_DATA = {
             "D": "Máy in, màn hình, máy quét, chuột"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Bàn phím, chuột, máy quét». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thiết bị nhập đưa dữ liệu/lệnh từ bên ngoài vào máy tính. Bàn phím, chuột, máy quét (scanner), webcam thuộc nhóm này; màn hình/máy in/loa thuộc nhóm xuất."
         },
         {
           "id": 34,
@@ -411,7 +411,7 @@ window.QUIZ_DATA = {
             "D": "Webcam"
           },
           "answer": "A",
-          "explain": "«Máy ảnh kỹ thuật số» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Máy ảnh kỹ thuật số. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 35,
@@ -423,7 +423,7 @@ window.QUIZ_DATA = {
             "D": "Cả hai"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Máy quét». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thiết bị nhập đưa dữ liệu/lệnh từ bên ngoài vào máy tính. Bàn phím, chuột, máy quét (scanner), webcam thuộc nhóm này; màn hình/máy in/loa thuộc nhóm xuất."
         },
         {
           "id": 36,
@@ -435,7 +435,7 @@ window.QUIZ_DATA = {
             "D": "Ổ đĩa CD"
           },
           "answer": "B",
-          "explain": "Phương án đúng là «CPU» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Đáp án đúng là «CPU». Tên/đối tượng này đúng với vai trò được hỏi; hãy gắn với chức năng thực tế để khỏi nhầm nhóm tương tự."
         },
         {
           "id": 37,
@@ -447,7 +447,7 @@ window.QUIZ_DATA = {
             "D": "Thiết bị nhập"
           },
           "answer": "D",
-          "explain": "«Thiết bị nhập» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Máy quét (scanner) chuyển tài liệu/ảnh giấy thành dữ liệu số đưa vào máy — thuộc thiết bị nhập. Kết nối phổ biến hiện nay là qua cổng USB."
         },
         {
           "id": 38,
@@ -459,7 +459,7 @@ window.QUIZ_DATA = {
             "D": "Máy scan, máy tính bảng, ổ đĩa mềm (FDD)"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Bàn phím, chuột, máy scan, máy quét» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Đáp án đúng là «Bàn phím, chuột, máy scan, máy quét». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 39,
@@ -471,7 +471,7 @@ window.QUIZ_DATA = {
             "D": "Màn hình, ổ đĩa cứng, ổ đĩa mềm, bàn phím"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Màn hình, Máy in, máy chiếu, loa». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thiết bị xuất trình bày kết quả đã xử lý cho người dùng dưới dạng hình ảnh, chữ in hoặc âm thanh. Màn hình, máy in, loa, tai nghe, máy chiếu là các ví dụ điển hình."
         },
         {
           "id": 40,
@@ -483,7 +483,7 @@ window.QUIZ_DATA = {
             "D": "Màn hình, màn hình cảm ứng, máy in, loa, tai nghe"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Màn hình, màn hình cảm ứng, máy in, loa, tai nghe». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thiết bị xuất trình bày kết quả đã xử lý cho người dùng dưới dạng hình ảnh, chữ in hoặc âm thanh. Màn hình, máy in, loa, tai nghe, máy chiếu là các ví dụ điển hình."
         },
         {
           "id": 41,
@@ -495,7 +495,7 @@ window.QUIZ_DATA = {
             "D": "Khối xử lý"
           },
           "answer": "C",
-          "explain": "«Thiết bị xuất 7» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Đáp án đúng là «Thiết bị xuất». Tên/đối tượng này đúng với vai trò được hỏi; hãy gắn với chức năng thực tế để khỏi nhầm nhóm tương tự."
         },
         {
           "id": 42,
@@ -507,7 +507,7 @@ window.QUIZ_DATA = {
             "D": "Máy in, bàn phím, chuột"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Màn hình, máy in, loa» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Đáp án đúng là «Màn hình, máy in, loa». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 43,
@@ -519,7 +519,7 @@ window.QUIZ_DATA = {
             "D": "Là phần mềm có bản quyền và được thay đổi bởi bất cứ ai"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Là phần mềm không có bản quyền, bất cứ ai cũng có thể sử dụng miễn phí mà không bị hạn chế». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Giấy phép phần mềm quy định quyền và nghĩa vụ khi dùng phần mềm. Cài đặt thêm máy/sao chép chỉ hợp pháp khi giấy phép cho phép; dùng bản bẻ khóa là vi phạm bản quyền."
         },
         {
           "id": 44,
@@ -531,7 +531,7 @@ window.QUIZ_DATA = {
             "D": "Hệ điều hành"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Hệ điều hành». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Phần mềm hệ thống quản lý và điều phối máy tính; hệ điều hành là ví dụ điển hình. Nó khác phần mềm ứng dụng vốn phục vụ tác vụ người dùng cuối."
         },
         {
           "id": 45,
@@ -543,7 +543,7 @@ window.QUIZ_DATA = {
             "D": "Phần mềm là một tập hợp những câu lệnh được viết bằng một hoặc nhiều ngôn ngữ lập trình, và các dữ liệu hay tài liệu liên quan nhằm tự động thực hiện một số nhiệm vụ hay chức năng"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Phần mềm là một tập hợp những câu lệnh được viết bằng một hoặc nhiều ngôn ngữ lập trình, và các dữ liệu hay tài liệu liên quan nhằm tự động thực hiện một số nhiệm vụ hay chức năng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mềm là tập hợp câu lệnh (viết bằng ngôn ngữ lập trình) cùng dữ liệu/tài liệu liên quan để máy tính tự động thực hiện nhiệm vụ. Nó chạy trên phần cứng chứ không phải là thiết bị vật lý."
         },
         {
           "id": 46,
@@ -555,7 +555,7 @@ window.QUIZ_DATA = {
             "D": "Driver"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Driver». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Driver (trình điều khiển) là phần mềm giúp hệ điều hành giao tiếp đúng với thiết bị phần cứng. Khi gắn thiết bị mới, thường cần cài driver kèm theo đĩa/file nhà sản xuất."
         },
         {
           "id": 47,
@@ -567,7 +567,7 @@ window.QUIZ_DATA = {
             "D": "Điều khiển các thiết bị ngoại vi như ổ đĩa, máy in, bàn phím, màn hình"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Tất cả các đáp án đều đúng 8». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Về Chức năng chính của hệ điều hành (Operating System) là gì, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 48,
@@ -579,7 +579,7 @@ window.QUIZ_DATA = {
             "D": "Linux, Window"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Linux, Windows, Mac OS». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Hệ điều hành quản lý phần cứng và tài nguyên (CPU, bộ nhớ, đĩa, thiết bị), đồng thời cung cấp môi trường để phần mềm ứng dụng chạy. Windows, Linux, macOS là các ví dụ phổ biến."
         },
         {
           "id": 49,
@@ -591,7 +591,7 @@ window.QUIZ_DATA = {
             "D": "Phần cứng"
           },
           "answer": "B",
-          "explain": "«Hệ điều hành» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Hệ điều hành quản lý phần cứng và tài nguyên (CPU, bộ nhớ, đĩa, thiết bị), đồng thời cung cấp môi trường để phần mềm ứng dụng chạy. Windows, Linux, macOS là các ví dụ phổ biến."
         },
         {
           "id": 50,
@@ -603,7 +603,7 @@ window.QUIZ_DATA = {
             "D": "FireFox"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «MS Windows». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Hệ điều hành (ví dụ MS Windows) cần được cài trước vì nó quản lý phần cứng và tạo môi trường để các phần mềm ứng dụng chạy. Cài Word/Excel trước khi có hệ điều hành là không thực tế."
         },
         {
           "id": 51,
@@ -615,7 +615,7 @@ window.QUIZ_DATA = {
             "D": "Windows, Max"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Linux, Windows, Mac OS». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Hệ điều hành quản lý phần cứng và tài nguyên (CPU, bộ nhớ, đĩa, thiết bị), đồng thời cung cấp môi trường để phần mềm ứng dụng chạy. Windows, Linux, macOS là các ví dụ phổ biến."
         },
         {
           "id": 52,
@@ -627,7 +627,7 @@ window.QUIZ_DATA = {
             "D": "Phần mềm ứng dụng không cần hệ điều hành để chạy"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Phần mềm ứng dụng cần hệ điều hành để chạy». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mềm ứng dụng phục vụ công việc cụ thể của người dùng (soạn thảo, bảng tính, trình chiếu…). Nó cần hệ điều hành để chạy, khác phần mềm hệ thống."
         },
         {
           "id": 53,
@@ -639,7 +639,7 @@ window.QUIZ_DATA = {
             "D": "Trình duyệt web"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Phần mềm quản lý và phân phối tài nguyên máy tính phục vụ cho các ứng dụng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Hệ điều hành quản lý phần cứng và tài nguyên (CPU, bộ nhớ, đĩa, thiết bị), đồng thời cung cấp môi trường để phần mềm ứng dụng chạy. Windows, Linux, macOS là các ví dụ phổ biến."
         },
         {
           "id": 54,
@@ -651,7 +651,7 @@ window.QUIZ_DATA = {
             "D": "Windows 7"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Android 9» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Đáp án đúng là «Android». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 55,
@@ -663,7 +663,7 @@ window.QUIZ_DATA = {
             "D": "Tất cả đều là phần mềm hệ điều hành"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Tất cả đều là phần mềm hệ điều hành». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Hệ điều hành quản lý phần cứng và tài nguyên (CPU, bộ nhớ, đĩa, thiết bị), đồng thời cung cấp môi trường để phần mềm ứng dụng chạy. Windows, Linux, macOS là các ví dụ phổ biến."
         },
         {
           "id": 56,
@@ -675,7 +675,7 @@ window.QUIZ_DATA = {
             "D": "Windows 7"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Microsoft Word». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mềm ứng dụng phục vụ công việc cụ thể của người dùng (soạn thảo, bảng tính, trình chiếu…). Nó cần hệ điều hành để chạy, khác phần mềm hệ thống."
         },
         {
           "id": 57,
@@ -687,7 +687,7 @@ window.QUIZ_DATA = {
             "D": "Quy trình sản xuất máy tính"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Quy trình phát triển phần mềm». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Quy trình phát triển phần mềm. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 58,
@@ -699,7 +699,7 @@ window.QUIZ_DATA = {
             "D": "Phần mềm mã nguồn mở - Open Source Software: có đăng ký bản quyền, không cho phép sao chép dưới bất kỳ hình thức nào"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Phần mềm mã nguồn mở - Open Source Software: có đăng ký bản quyền, không cho phép sao chép dưới bất kỳ hình thức nào». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phải chọn phát biểu SAI: «Phần mềm mã nguồn mở - Open Source Software: có đăng ký bản quyền…». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 59,
@@ -711,7 +711,7 @@ window.QUIZ_DATA = {
             "D": "Phần mềm mã nguồn mở là phần mềm miễn phí"
           },
           "answer": "B",
-          "explain": "Phương án đúng là «Phần mềm mã nguồn mở là phần mềm phải mua bản quyền để sử dụng» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «Phần mềm mã nguồn mở là phần mềm phải mua bản quyền để sử dụng». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 60,
@@ -723,7 +723,7 @@ window.QUIZ_DATA = {
             "D": "Microsoft Office"
           },
           "answer": "D",
-          "explain": "Phương án đúng là «Microsoft Office» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Microsoft Office. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 61,
@@ -735,7 +735,7 @@ window.QUIZ_DATA = {
             "D": "Phần mềm mã nguồn mở không cho phép phân phối lại"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Phần mềm mã nguồn mở không có bảo hành». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mềm mã nguồn mở công bố mã nguồn để ai cũng có thể xem, sửa, phân phối theo giấy phép mở. Không đồng nghĩa với “phải mua bản quyền độc quyền” như phần mềm thương mại đóng."
         },
         {
           "id": 62,
@@ -747,7 +747,7 @@ window.QUIZ_DATA = {
             "D": "CPU"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «CPU». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «CPU». Tên/đối tượng này đúng với vai trò được hỏi; hãy gắn với chức năng thực tế để khỏi nhầm nhóm tương tự."
         },
         {
           "id": 63,
@@ -759,7 +759,7 @@ window.QUIZ_DATA = {
             "D": "Tốc độ của bộ vi xử lý. Tốc độ, dung lượng và không gian trống của ổ cứng"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Tất cả các đáp án đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Tốc độ của máy tính phụ thuộc vào các yếu tố nào sau đây, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 64,
@@ -771,7 +771,7 @@ window.QUIZ_DATA = {
             "D": "Tăng số cổng kết nối"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Nâng cấp RAM, CPU của máy tính». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cụm đúng là «Nâng cấp RAM, CPU của máy tính». Đây là dạng viết đầy đủ/ý nghĩa chuẩn của thuật ngữ viết tắt trong câu hỏi. Tránh nhầm các cụm gần giống nhưng không đúng quy ước tin học."
         },
         {
           "id": 65,
@@ -783,7 +783,7 @@ window.QUIZ_DATA = {
             "D": "Thường xuyên khôi phục các tệp tin từ thùng rác"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Loại bỏ các chương trình không bao giờ dùng và đóng bớt các ứng dụng cùng chạy tại một thời điểm». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Loại bỏ các chương trình không bao giờ dùng và đóng bớt các ứng dụng cùng chạy tại một thời điểm. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 66,
@@ -795,7 +795,7 @@ window.QUIZ_DATA = {
             "D": "Khi chuyển sang chế độ Shutdown của Windows 7, máy tính vẫn tiêu thụ điện năng"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Khi chuyển sang chế độ Sleep của Windows 7, máy tính vẫn tiêu thụ điện năng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Chế độ Sleep tạm dừng hầu hết hoạt động để tiết kiệm điện nhưng máy vẫn tiêu thụ một ít điện để giữ trạng thái trong RAM. Khác Hibernate (lưu trạng thái xuống ổ cứng rồi gần như tắt hẳn)."
         },
         {
           "id": 67,
@@ -807,7 +807,7 @@ window.QUIZ_DATA = {
             "D": "Mạng cục bộ, mạng toàn cục, mạng diện rộng, mạng toàn cầu"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Mạng cục bộ, mạng diện rộng, mạng toàn cầu». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Mạng cục bộ, mạng diện rộng, mạng toàn cầu». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 68,
@@ -819,7 +819,7 @@ window.QUIZ_DATA = {
             "D": "Local Area Network"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Local Area Network». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "LAN (Local Area Network) là mạng cục bộ kết nối máy trong phạm vi hẹp như phòng/văn phòng/tòa nhà để chia sẻ tài nguyên. Phạm vi nhỏ hơn WAN."
         },
         {
           "id": 69,
@@ -831,7 +831,7 @@ window.QUIZ_DATA = {
             "D": "Wide area networks"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Wide Area Network». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "WAN (Wide Area Network) nối các mạng/máy ở khoảng cách lớn (thành phố, quốc gia). Internet là ví dụ mạng diện rộng quy mô toàn cầu."
         },
         {
           "id": 70,
@@ -843,7 +843,7 @@ window.QUIZ_DATA = {
             "D": "Chia sẻ tài nguyên (ổ cứng, cơ sở dữ liệu, máy in, các phần mềm tiện ích,…)"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Tất cả các đáp án đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Khi sử dụng mạng LAN ta được các lợi ích gì, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 71,
@@ -855,7 +855,7 @@ window.QUIZ_DATA = {
             "D": "Không dùng chung một giao thức"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Ở gần nhau». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "LAN (Local Area Network) là mạng cục bộ kết nối máy trong phạm vi hẹp như phòng/văn phòng/tòa nhà để chia sẻ tài nguyên. Phạm vi nhỏ hơn WAN."
         },
         {
           "id": 72,
@@ -867,7 +867,7 @@ window.QUIZ_DATA = {
             "D": "Ở cách nhau một khoảng cách lớn"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Ở cách nhau một khoảng cách lớn». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "WAN (Wide Area Network) nối các mạng/máy ở khoảng cách lớn (thành phố, quốc gia). Internet là ví dụ mạng diện rộng quy mô toàn cầu."
         },
         {
           "id": 73,
@@ -879,7 +879,7 @@ window.QUIZ_DATA = {
             "D": "Kết nối bằng viễn thông và vệ tinh"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Chia sẻ tài nguyên (máy in, máy quét,…)». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Chia sẻ tài nguyên (máy in, máy quét,…)». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 74,
@@ -891,7 +891,7 @@ window.QUIZ_DATA = {
             "D": "LAN 12"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Tất cả các đáp án đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Căn cứ vào quy mô sử dụng người ta chia thành các loại mạng nào, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 75,
@@ -903,7 +903,7 @@ window.QUIZ_DATA = {
             "D": "LAN"
           },
           "answer": "D",
-          "explain": "«LAN» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "LAN. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 76,
@@ -915,7 +915,7 @@ window.QUIZ_DATA = {
             "D": "bps (bit per second)"
           },
           "answer": "D",
-          "explain": "«bps (bit per second)» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Tốc độ truyền dữ liệu mạng thường đo bằng bps (bit mỗi giây) và các bội số như Kbps, Mbps. Đơn vị này mô tả băng thông, khác đơn vị dung lượng lưu trữ (byte)."
         },
         {
           "id": 77,
@@ -927,7 +927,7 @@ window.QUIZ_DATA = {
             "D": "Tốc độ truyền dữ liệu"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Tốc độ truyền dữ liệu». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tốc độ truyền dữ liệu mạng thường đo bằng bps (bit mỗi giây) và các bội số như Kbps, Mbps. Đơn vị này mô tả băng thông, khác đơn vị dung lượng lưu trữ (byte)."
         },
         {
           "id": 78,
@@ -939,7 +939,7 @@ window.QUIZ_DATA = {
             "D": "Cáp điện thoại"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Tất cả các đáp án đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về phương tiện truyền dẫn thông tin, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 79,
@@ -951,7 +951,7 @@ window.QUIZ_DATA = {
             "D": "Là sự kết nối giữa 2 máy tính với nhau"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Là sự kết nối các máy tính trong 1 cơ quan, tùy theo cấu hình của nhà quản trị (Admin) mà mỗi thông tin được hay không được cho phép gửi ra bên ngoài». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Intranet là mạng nội bộ của tổ chức, dùng công nghệ kiểu Internet nhưng phạm vi kiểm soát nội bộ. Quản trị viên quyết định thông tin nào được phép ra ngoài."
         },
         {
           "id": 80,
@@ -963,7 +963,7 @@ window.QUIZ_DATA = {
             "D": "Hệ thống thông tin toàn cầu có thể được truy nhập công cộng gồm các mạng máy tính được liên kết với nhau."
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Hệ thống thông tin toàn cầu có thể được truy nhập công cộng gồm các mạng máy tính được liên kết với nhau». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Internet là hệ thống mạng máy tính toàn cầu liên kết với nhau, cho phép truy cập công cộng nhiều dịch vụ (Web, email…). Không phải dịch vụ chỉ do một công ty Mỹ độc quyền điều hành."
         },
         {
           "id": 81,
@@ -975,7 +975,7 @@ window.QUIZ_DATA = {
             "D": "Không trực tuyến"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Tải file hay folder». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Download là tải dữ liệu/file từ máy chủ hoặc thiết bị khác về máy của bạn. Ngược lại, upload là gửi dữ liệu từ máy bạn lên máy chủ."
         },
         {
           "id": 82,
@@ -987,7 +987,7 @@ window.QUIZ_DATA = {
             "D": "Tất cả các đáp án đều đúng"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Tất cả các đáp án đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Hãy kể tên các dịch vụ kết nối Internet, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 83,
@@ -999,7 +999,7 @@ window.QUIZ_DATA = {
             "D": "Ngân hàng điện tử"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Tất cả các đáp án đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Các dịch vụ Internet dành cho người dùng, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 84,
@@ -1011,7 +1011,7 @@ window.QUIZ_DATA = {
             "D": "E - lerning"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Tất cả các đáp án đều đúng». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Về Đâu là phương thức làm việc trực tuyến, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 85,
@@ -1023,7 +1023,7 @@ window.QUIZ_DATA = {
             "D": "Địa chỉ Email trùng với tên trong chứng minh nhân dân"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Email là viết tắt của từ Electronic mail, có nghĩa là thư điện tử». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Email (Electronic mail) là dịch vụ gửi/nhận thư qua mạng. Địa chỉ chuẩn dạng tên_người_dùng@tên_miền; ký hiệu @ bắt buộc có trong địa chỉ email."
         },
         {
           "id": 86,
@@ -1035,7 +1035,7 @@ window.QUIZ_DATA = {
             "D": "<Tên_miền>.<Tên_người_dùng>"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «<Tên_người_dùng>@<Tên_miền>». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Email (Electronic mail) là dịch vụ gửi/nhận thư qua mạng. Địa chỉ chuẩn dạng tên_người_dùng@tên_miền; ký hiệu @ bắt buộc có trong địa chỉ email."
         },
         {
           "id": 87,
@@ -1047,7 +1047,7 @@ window.QUIZ_DATA = {
             "D": "Dịch vụ này chưa có"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Là dịch vụ thực hiện truyền thông tin qua Internet thông qua các hộp thư điện tử». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Email (Electronic mail) là dịch vụ gửi/nhận thư qua mạng. Địa chỉ chuẩn dạng tên_người_dùng@tên_miền; ký hiệu @ bắt buộc có trong địa chỉ email."
         },
         {
           "id": 88,
@@ -1059,7 +1059,7 @@ window.QUIZ_DATA = {
             "D": "Tất cả các đáp án đều đúng"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Tất cả các đáp án đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Lợi ích của email so với thư thông thường, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 89,
@@ -1071,7 +1071,7 @@ window.QUIZ_DATA = {
             "D": "Bất kỳ người sử dụng nào cũng có thể truy cập vào nhóm mà không cần phải được mời"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Cho phép gửi các tập tin như tài liệu, hình ảnh, video clip, và âm thanh». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cho phép gửi các tập tin như tài liệu, hình ảnh, video clip, và âm thanh. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 90,
@@ -1083,7 +1083,7 @@ window.QUIZ_DATA = {
             "D": "Phụ thuộc vào loại mạng ảo hỗ trợ nó"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Cung cấp một liên kết đến các mạng điện thoại truyền thống và không trả thêm bất kì một khoản chi phí nào». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "VoIP truyền thoại qua giao thức IP/Internet thay vì chỉ phụ thuộc đường dây điện thoại truyền thống. Có thể gọi qua mạng máy tính với phần mềm/tài khoản phù hợp."
         },
         {
           "id": 91,
@@ -1095,7 +1095,7 @@ window.QUIZ_DATA = {
             "D": "Không yêu cầu một đường dây điện thoại truyền thống"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Không yêu cầu một đường dây điện thoại truyền thống». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "VoIP truyền thoại qua giao thức IP/Internet thay vì chỉ phụ thuộc đường dây điện thoại truyền thống. Có thể gọi qua mạng máy tính với phần mềm/tài khoản phù hợp."
         },
         {
           "id": 92,
@@ -1107,7 +1107,7 @@ window.QUIZ_DATA = {
             "D": "Là nơi để cho người dùng Internet trao đổi thảo luận và tán ngẫu nhau"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Là nơi để cho người dùng Internet trao đổi thảo luận và tán ngẫu nhau». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Diễn đàn (forum) là không gian trực tuyến để người dùng đăng bài, thảo luận theo chủ đề. Khác chat thời gian thực, forum thường lưu trữ theo luồng bài viết."
         },
         {
           "id": 93,
@@ -1119,7 +1119,7 @@ window.QUIZ_DATA = {
             "D": "Tin nội bộ"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Cổng thông tin điện tử». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cổng thông tin điện tử. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 94,
@@ -1131,7 +1131,7 @@ window.QUIZ_DATA = {
             "D": "Báo"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Trang tin điện tử». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Trang tin điện tử. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 95,
@@ -1143,7 +1143,7 @@ window.QUIZ_DATA = {
             "D": "Forum"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Forum». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Forum. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 96,
@@ -1155,7 +1155,7 @@ window.QUIZ_DATA = {
             "D": "Website"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Chatroom». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Chatroom. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 97,
@@ -1167,7 +1167,7 @@ window.QUIZ_DATA = {
             "D": "Luôn sử dụng một bệ nghỉ chân"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Các cánh tay, cẳng tay, cổ tay để thẳng với bàn làm việc. Bàn chân nên được đặt trên sàn và hợp với đầu gối tạo thành một góc vuông». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Ngồi máy đúng tư thế (lưng thẳng, chân đặt sàn, khuỷu tay gần góc vuông) và đặt màn hình tránh chói giúp giảm mỏi cổ–lưng–mắt. Ngồi lâu không nghỉ có thể gây hại sức khỏe."
         },
         {
           "id": 98,
@@ -1179,7 +1179,7 @@ window.QUIZ_DATA = {
             "D": "Mỏi mắt"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Tất cả các đáp án đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Tác hại khi ngồi lâu trước máy tính, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 99,
@@ -1191,7 +1191,7 @@ window.QUIZ_DATA = {
             "D": "Đối diện với cửa ra vào, của sổ, bóng đèn"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Không đối diện với cửa ra vào, cửa sổ, bóng đèn». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Ngồi máy đúng tư thế (lưng thẳng, chân đặt sàn, khuỷu tay gần góc vuông) và đặt màn hình tránh chói giúp giảm mỏi cổ–lưng–mắt. Ngồi lâu không nghỉ có thể gây hại sức khỏe."
         },
         {
           "id": 100,
@@ -1203,7 +1203,7 @@ window.QUIZ_DATA = {
             "D": "Gây ô nhiễm môi trường"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Giảm ô nhiễm môi trường». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tái chế linh kiện máy tính giúp thu hồi vật liệu và giảm rác thải điện tử gây ô nhiễm. Vứt thiết bị bừa bãi có thể phát tán kim loại nặng/hóa chất độc."
         },
         {
           "id": 101,
@@ -1215,7 +1215,7 @@ window.QUIZ_DATA = {
             "D": "h3llo"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «p@ssWord123». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Mật khẩu mạnh thường dài, kết hợp chữ hoa–thường, số và ký tự đặc biệt, tránh từ điển/tên dễ đoán. Mật khẩu yếu giúp kẻ tấn công dò ra nhanh hơn."
         },
         {
           "id": 102,
@@ -1227,7 +1227,7 @@ window.QUIZ_DATA = {
             "D": "Mật khẩu nhiều hơn 7 ký tự gồm cả chữ hoa, số, ký tự đặc biệt"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Mật khẩu nhiều hơn 7 ký tự gồm cả chữ hoa, số, ký tự đặc biệt». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Mật khẩu mạnh thường dài, kết hợp chữ hoa–thường, số và ký tự đặc biệt, tránh từ điển/tên dễ đoán. Mật khẩu yếu giúp kẻ tấn công dò ra nhanh hơn."
         },
         {
           "id": 103,
@@ -1239,7 +1239,7 @@ window.QUIZ_DATA = {
             "D": "Đặt mật khẩu nhiều hơn 7 ký tự, gồm cả chữ hoa, số, ký tự đặc biệt"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Tất cả các đáp án đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Cách nào để đề phòng khi giao dịch trực tuyến, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 104,
@@ -1251,7 +1251,7 @@ window.QUIZ_DATA = {
             "D": "Switch"
           },
           "answer": "B",
-          "explain": "«Tường lửa» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Cách đúng là: Tường lửa. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Tường lửa lọc kết nối mạng theo chính sách, giảm truy cập trái phép."
         },
         {
           "id": 105,
@@ -1263,7 +1263,7 @@ window.QUIZ_DATA = {
             "D": "Chương trình máy tính có khả năng tự lây lan nhằm phá hoại hoặc lấy cắp thông tin"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Chương trình máy tính có khả năng tự lây lan nhằm phá hoại hoặc lấy cắp thông tin». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Virus là chương trình độc hại có khả năng tự sao chép/lây lan và có thể phá dữ liệu hoặc đánh cắp thông tin. Nên dùng antivirus cập nhật và thận trọng với file lạ."
         },
         {
           "id": 106,
@@ -1275,7 +1275,7 @@ window.QUIZ_DATA = {
             "D": "Lây lan qua máy in 17"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Tự sao chép để lây nhiễm». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Virus là chương trình độc hại có khả năng tự sao chép/lây lan và có thể phá dữ liệu hoặc đánh cắp thông tin. Nên dùng antivirus cập nhật và thận trọng với file lạ."
         },
         {
           "id": 107,
@@ -1287,7 +1287,7 @@ window.QUIZ_DATA = {
             "D": "Worm"
           },
           "answer": "B",
-          "explain": "Phương án đúng là «Trojan» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Đáp án đúng là «Trojan». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 108,
@@ -1299,7 +1299,7 @@ window.QUIZ_DATA = {
             "D": "Microsoft Office"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Virut, Spyware». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Virut, Spyware». Tên/đối tượng này đúng với vai trò được hỏi; hãy gắn với chức năng thực tế để khỏi nhầm nhóm tương tự."
         },
         {
           "id": 109,
@@ -1311,7 +1311,7 @@ window.QUIZ_DATA = {
             "D": "Lưu bản sao tệp tin này vào đĩa cứng và mở bản sao này"
           },
           "answer": "A",
-          "explain": "Phương án đúng là «Quét tệp tin bằng chương trình chống virus» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phần mềm antivirus phát hiện, ngăn chặn và loại bỏ mã độc. Cần cập nhật mẫu nhận diện thường xuyên mới phát hiện mối đe dọa mới."
         },
         {
           "id": 110,
@@ -1323,7 +1323,7 @@ window.QUIZ_DATA = {
             "D": "Chỉ quét virus cho những ổ đĩa cài hệ điều hành"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Sử dụng các chương trình quét virus nổi tiếng và phải cập nhật thường xuyên, thường xuyên kiểm tra các ổ đĩa, đặc biệt thận trọng khi sao chép dữ liệu từ nơi khác mang tới». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mềm antivirus phát hiện, ngăn chặn và loại bỏ mã độc. Cần cập nhật mẫu nhận diện thường xuyên mới phát hiện mối đe dọa mới."
         },
         {
           "id": 111,
@@ -1335,7 +1335,7 @@ window.QUIZ_DATA = {
             "D": "Ngày 29/6/2008 và có hiệu lực ngày 01/01/2009"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Ngày 29/6/2006 và có hiệu lực ngày 01/01/2007». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Ngày 29/6/2006 và có hiệu lực ngày 01/01/2007. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 112,
@@ -1347,7 +1347,7 @@ window.QUIZ_DATA = {
             "D": "Thoả thuận không tiết lộ (Non-Disclosure Agreement)"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Giấy phép phần mềm (Software License)». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Giấy phép phần mềm quy định quyền và nghĩa vụ khi dùng phần mềm. Cài đặt thêm máy/sao chép chỉ hợp pháp khi giấy phép cho phép; dùng bản bẻ khóa là vi phạm bản quyền."
         },
         {
           "id": 113,
@@ -1359,7 +1359,7 @@ window.QUIZ_DATA = {
             "D": "Cài phần mềm, trò chơi bị bẻ khóa là không vi phạm luật bản quyền"
           },
           "answer": "D",
-          "explain": "Phương án đúng là «Cài phần mềm, trò chơi bị bẻ khóa là không vi phạm luật bản quyền» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «Cài phần mềm, trò chơi bị bẻ khóa là không vi phạm luật bản quyền». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 114,
@@ -1371,7 +1371,7 @@ window.QUIZ_DATA = {
             "D": "Quyền dịch chuyển"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Quyền tác giả». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Giấy phép phần mềm quy định quyền và nghĩa vụ khi dùng phần mềm. Cài đặt thêm máy/sao chép chỉ hợp pháp khi giấy phép cho phép; dùng bản bẻ khóa là vi phạm bản quyền."
         },
         {
           "id": 115,
@@ -1383,7 +1383,7 @@ window.QUIZ_DATA = {
             "D": "Người sử dụng tự do quảng bá chính họ là tác giả của phần mềm"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Giá chuyển nhượng các quyền». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Giấy phép phần mềm quy định quyền và nghĩa vụ khi dùng phần mềm. Cài đặt thêm máy/sao chép chỉ hợp pháp khi giấy phép cho phép; dùng bản bẻ khóa là vi phạm bản quyền."
         },
         {
           "id": 116,
@@ -1395,7 +1395,7 @@ window.QUIZ_DATA = {
             "D": "Microsoft Office"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Open Office». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mềm mã nguồn mở công bố mã nguồn để ai cũng có thể xem, sửa, phân phối theo giấy phép mở. Không đồng nghĩa với “phải mua bản quyền độc quyền” như phần mềm thương mại đóng."
         },
         {
           "id": 117,
@@ -1407,7 +1407,7 @@ window.QUIZ_DATA = {
             "D": "Khi nó được sử dụng tối đa cho 3 máy tính một lúc"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Khi có sự đồng ý bản quyền cho phép điều này». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Giấy phép phần mềm quy định quyền và nghĩa vụ khi dùng phần mềm. Cài đặt thêm máy/sao chép chỉ hợp pháp khi giấy phép cho phép; dùng bản bẻ khóa là vi phạm bản quyền."
         },
         {
           "id": 118,
@@ -1419,7 +1419,7 @@ window.QUIZ_DATA = {
             "D": "Phần mềm với mã nguồn có sẵn và có thể được sửa đổi bởi bất cứ ai"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Phần mềm với mã nguồn có sẵn và có thể được sửa đổi bởi bất cứ ai». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mềm mã nguồn mở công bố mã nguồn để ai cũng có thể xem, sửa, phân phối theo giấy phép mở. Không đồng nghĩa với “phải mua bản quyền độc quyền” như phần mềm thương mại đóng."
         },
         {
           "id": 119,
@@ -1431,7 +1431,7 @@ window.QUIZ_DATA = {
             "D": "Không cập nhật phần mềm hệ thống"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Luôn cập nhật phần mềm hệ thống 19». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cập nhật hệ điều hành/phần mềm vá lỗ hổng bảo mật đã biết. Không cập nhật khiến máy dễ bị khai thác qua điểm yếu cũ."
         },
         {
           "id": 120,
@@ -1443,7 +1443,7 @@ window.QUIZ_DATA = {
             "D": "Chia sẻ dữ liệu cho nhiều người dùng --- <a id=\"module-2\"></a> # MODULE 2: SỬ DỤNG MÁY TÍNH CƠ BẢN ## 2.1. LÝ THUYẾT ### 2.1.1. Khởi động – tắt máy – chế độ nguồn - Khi khởi động, **hệ điều hành** chạy trước các ứng dụng. - Tắt máy đúng cách: lưu dữ liệu → đóng chương trình → **Start → Shutdown**. - **Hibernate:** lưu trạng thái vào ổ cứng, nhấn phím bất kỳ để tiếp tục. - **Sleep:** tiết kiệm điện nhưng vẫn tiêu thụ điện. - Khóa máy tạm: **Ctrl + Alt + Del → Lock This Computer**. - Gỡ USB an toàn: chuột phải biểu tượng USB → **Eject**. - Có khoảng **4 cách** thoát chương trình ứng dụng trên Windows 7. **Khởi động lại:** Start → Restart; Ctrl+Alt+Del → Restart; nút Reset. **Không** dùng nút Power như cách “đúng chuẩn” duy nhất khi nói về restart an toàn (câu hỏi loại trừ: bấm Power là phát biểu sai trong ngữ cảnh restart đúng quy trình). ### 2.1.2. Phím tắt Windows quan trọng | Phím | Chức năng | |------|-----------| | **Alt + F4** | Đóng cửa sổ hiện hành | | **Alt + Tab** | Chuyển cửa sổ | | **Ctrl + Esc** / phím Windows | Mở Start | | **Windows + D** | Hiện Desktop | | **Ctrl + C / X / V** | Copy / Cut / Paste | | **Ctrl + Z** | Undo | | **Alt + Print Screen** | Chụp cửa sổ hiện hành | | **Print Screen** | Chụp toàn màn hình | | **Ctrl + A** | Chọn tất cả | | **F2** | Đổi tên | | **Delete** | Xóa (vào Recycle Bin nếu từ ổ cứng) | | **Shift + Delete** | Xóa vĩnh viễn | | **Ctrl + P** | In | Soạn thảo: mũi tên = 1 ký tự; **Ctrl + ←** = sang trái một từ; **Delete** xóa ký tự sau con trỏ. ### 2.1.3. Desktop, Control Panel, tùy chỉnh **Control Panel:** thiết lập ngày giờ, gỡ chương trình, cài thiết bị, tài khoản… | Việc cần làm | Vào đâu | |--------------|---------| | Hình nền | Chuột phải Desktop → **Personalization → Desktop Background** | | Screen Saver | Control Panel → **Display** | | Ngày/giờ hệ thống | **Date and Time** | | Định dạng ngày/giờ, ngôn ngữ | **Region and Language** | | Gỡ phần mềm | **Programs and Features → Uninstall** | | Xem bản cập nhật đã cài | Programs and Features → **View Installed Updates** | | Tài khoản người dùng | **User Accounts** | | Cách đăng nhập/xuất | User Accounts → Change the way users log on or off | | Hiện Computer trên Desktop | Start → chuột phải Computer → **Show on Desktop** | **Computer:** xem dung lượng ổ cứng, CD/DVD, USB… **Shortcut:** truy cập nhanh đối tượng. Xóa Shortcut **không** xóa chương trình gốc. Có **2 loại** Shortcut trên Windows 7. Sao Shortcut sang máy khác thường **không mở được** file gốc (đường dẫn khác máy). Cách tạo Shortcut: Send to → Desktop (Create Shortcut); New → Shortcut; kéo biểu tượng ra Desktop. Cách **không** đúng: “Send to Desktop” thiếu Create Shortcut theo một số đề. ### 2.1.4. File, thư mục, Recycle Bin - Tổ chức dạng **cây**. Thư mục chứa file và thư mục con; **file không chứa** file/thư mục khác. - Tên file = **2 phần**: tên + phần mở rộng (ngăn bởi dấu **.**). Phần mở rộng quy định **kiểu file**. - Tên tối đa **255** ký tự, không chứa ký tự đặc biệt (`\\ / : * ? \" < > |`). Ví dụ lỗi: `http://vtv.vn`, `Hoc_phan_tin1?.doc`. - Thư mục biểu tượng thường **màu vàng**. - Trùng tên thư mục trên Desktop → thông báo đã tồn tại / hỏi gộp. - Chọn liền nhau: **Shift**; không liền: **Ctrl**. - **Recycle Bin:** chứa file xóa từ **ổ cứng** (không phải USB). USB xóa → mất ngay. **Restore** / **Restore all Items** để khôi phục. - **Windows Explorer:** quản lý file/thư mục. - Tìm kiếm: theo tên, ngày sửa, kích thước. Ký tự đại diện: `*` (nhiều ký tự), `?` (một ký tự). Cách **không** đúng để Search: chuột phải Desktop → Search. ### 2.1.5. Phần mở rộng & ứng dụng | Phần mở rộng | Loại / Mở bằng | |--------------|----------------| | JPG | Ảnh | | MP3, WMA | Âm thanh / Windows Media Player | | PDF | Foxit Reader… | | PPT, PPTX | PowerPoint | | TXT | Text Document / Notepad | | RAR, ZIP | File nén – WinRAR, WinZip | **Nén dữ liệu:** giảm dung lượng, không mất thông tin – tiện gửi email nhiều file lớn. ### 2.1.6. Gõ tiếng Việt, in ấn - Bộ gõ: **Unikey**. **Ctrl + Shift:** chuyển Anh ↔ Việt. Bỏ dấu: phím **Z** (kiểu Telex phổ biến trong đề). - Font theo TT03/2014/TT-BTTTT: **Times New Roman**. Đổi font TCVN3 ↔ Unicode: **Unikey**. - Xem máy in: **Printers and Faxes**. Đặt mặc định: chuột phải → **Set as Default Printer**. - Cài máy in cần: Driver + máy tính + máy in đã kết nối. **Bàn phím ảo:** On-Screen Keyboard khi bàn phím hỏng. --- ## 2.2. THỰC HÀNH MODULE 2 ### Bài 1 – Quản lý Desktop & tắt máy 1. Đổi hình nền, Screen Saver; khóa máy bằng Ctrl+Alt+Del. 2. Thực hiện Shutdown đúng quy trình; thử Hibernate (nếu có). ### Bài 2 – File & thư mục 1. Trên Desktop tạo cấu trúc: `BaoCao/2024/Ky1/` và các file mẫu `.txt`, `.docx`. 2. Đổi tên (F2), copy/cut/paste, xóa vào thùng rác rồi Restore; thử Shift+Delete trên file thử nghiệm. 3. Tìm mọi file `*.txt` đã sửa trong tuần này. ### Bài 3 – Shortcut & nén 1. Tạo Shortcut Word trên Desktop; xóa Shortcut và kiểm tra Word vẫn còn. 2. Nén 5 file thành `.zip`/`.rar` và giải nén lại. ### Bài 4 – Unikey & in 1. Gõ đoạn tiếng Việt; chuyển Anh/Việt bằng Ctrl+Shift. 2. Đặt máy in mặc định; in thử trang bằng Ctrl+P (Print to PDF nếu không có máy in). ---"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Sao lưu dữ liệu thường xuyên». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Sao lưu (backup) định kỳ giữ bản sao dữ liệu quan trọng để khôi phục khi mất mát, hỏng đĩa hoặc nhiễm mã độc. Chỉ dựa vào một bản trên máy đang dùng là rủi ro cao."
         }
       ]
     },
@@ -1462,7 +1462,7 @@ window.QUIZ_DATA = {
             "D": "Tắt màn hình"
           },
           "answer": "A",
-          "explain": "«Tắt máy tính» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Shutdown tắt máy đúng quy trình: lưu dữ liệu, đóng chương trình rồi chọn Start → Shutdown. Cách này giúp hệ thống đóng file an toàn, giảm nguy cơ hỏng dữ liệu so với cắt điện đột ngột."
         },
         {
           "id": 2,
@@ -1474,7 +1474,7 @@ window.QUIZ_DATA = {
             "D": "2"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «4». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 4. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 3,
@@ -1486,7 +1486,7 @@ window.QUIZ_DATA = {
             "D": "Hệ điều hành"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Hệ điều hành». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Khi bật máy, hệ điều hành được nạp và chạy trước các ứng dụng. Ứng dụng chỉ hoạt động được sau khi hệ điều hành đã sẵn sàng quản lý phần cứng."
         },
         {
           "id": 4,
@@ -1498,7 +1498,7 @@ window.QUIZ_DATA = {
             "D": "Tắt nguồn điện"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Nhấn nút Start ở góc dưới bên trái màn hình nền, chọn mục Shutdown». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Shutdown tắt máy đúng quy trình: lưu dữ liệu, đóng chương trình rồi chọn Start → Shutdown. Cách này giúp hệ thống đóng file an toàn, giảm nguy cơ hỏng dữ liệu so với cắt điện đột ngột."
         },
         {
           "id": 5,
@@ -1510,7 +1510,7 @@ window.QUIZ_DATA = {
             "D": "Ghi dữ liệu vào đĩa, đóng các file chương trình, Chọn nút Start/Shut down"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Ghi dữ liệu vào đĩa, đóng các file chương trình, Chọn nút Start/Shut down». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Shutdown tắt máy đúng quy trình: lưu dữ liệu, đóng chương trình rồi chọn Start → Shutdown. Cách này giúp hệ thống đóng file an toàn, giảm nguy cơ hỏng dữ liệu so với cắt điện đột ngột."
         },
         {
           "id": 6,
@@ -1522,7 +1522,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải trên biểu tượng USB ở góc phải màn hình, chọn thiết bị cần gỡ bỏ và chọn Eject"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Kích chuột phải trên biểu tượng USB ở góc phải màn hình, chọn thiết bị cần gỡ bỏ và chọn Eject». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Gỡ USB an toàn (Eject) để hệ thống hoàn tất ghi dữ liệu trước khi rút. Rút đột ngột có thể làm hỏng file đang ghi hoặc hệ thống file trên USB."
         },
         {
           "id": 7,
@@ -1534,7 +1534,7 @@ window.QUIZ_DATA = {
             "D": "Taskbar and Start Menu"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Display». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Screen Saver thiết lập ảnh/hiệu ứng khi không thao tác một lúc; trong Windows thường cấu hình qua Display (Control Panel) hoặc Personalization. Mục đích chính là bảo vệ/hiển thị khi máy nhàn rỗi."
         },
         {
           "id": 8,
@@ -1546,7 +1546,7 @@ window.QUIZ_DATA = {
             "D": "Bấm nút Reset trên hộp máy"
           },
           "answer": "A",
-          "explain": "Phương án đúng là «Bấm nút Power trên hộp máy» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «nút Power trên hộp máy». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 9,
@@ -1558,7 +1558,7 @@ window.QUIZ_DATA = {
             "D": "Chọn System, chọn Change the way user log on or off"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Chọn User Accounts, chọn Change the way users log on or off». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "User Accounts quản lý tài khoản đăng nhập Windows và tùy chọn cách log on/log off. Mỗi tài khoản có quyền và dữ liệu riêng."
         },
         {
           "id": 10,
@@ -1570,7 +1570,7 @@ window.QUIZ_DATA = {
             "D": "Nhấn nút Power"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Bấm Ctrl + Alt + Del, chọn Lock This Computer». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là Ctrl + Alt + Del, chọn Lock This Computer. Đây là phím tắt thực hiện đúng thao tác được nêu trong câu hỏi; thuộc nhóm phím cần thuộc khi thao tác Windows/Office/trình duyệt."
         },
         {
           "id": 11,
@@ -1582,7 +1582,7 @@ window.QUIZ_DATA = {
             "D": "Kích Start, chọn Shutdown/Standby"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Kích Start, chọn Shutdown/Hibernate». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Shutdown tắt máy đúng quy trình: lưu dữ liệu, đóng chương trình rồi chọn Start → Shutdown. Cách này giúp hệ thống đóng file an toàn, giảm nguy cơ hỏng dữ liệu so với cắt điện đột ngột."
         },
         {
           "id": 12,
@@ -1594,7 +1594,7 @@ window.QUIZ_DATA = {
             "D": "Shift+ Print Screen"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Alt+Print Screen (hoặc Alt + PrtSc)». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Alt+Print Screen (hoặc Alt + PrtSc). Đây là phím tắt thực hiện đúng thao tác được nêu trong câu hỏi; thuộc nhóm phím cần thuộc khi thao tác Windows/Office/trình duyệt."
         },
         {
           "id": 13,
@@ -1606,7 +1606,7 @@ window.QUIZ_DATA = {
             "D": "F7"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Alt+F4». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Alt+F4: dùng để đóng cửa sổ/ứng dụng hiện hành. Khác Alt+Tab chỉ chuyển cửa sổ."
         },
         {
           "id": 14,
@@ -1618,7 +1618,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl+V"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Ctrl+C». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl+C: dùng để sao chép (Copy) nội dung đã chọn vào Clipboard. Bản gốc vẫn còn cho đến khi bị cắt hoặc xóa."
         },
         {
           "id": 15,
@@ -1630,7 +1630,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl+Z"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Ctrl+X». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Tổ hợp/phím đúng là Ctrl+X: dùng để cắt (Cut) nội dung vào Clipboard. Dùng khi muốn di chuyển chứ không nhân bản."
         },
         {
           "id": 16,
@@ -1642,7 +1642,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl+Tab"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Ctrl+Esc». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl+Esc: dùng để mở menu Start. Tương tự nhấn phím Windows."
         },
         {
           "id": 17,
@@ -1654,7 +1654,7 @@ window.QUIZ_DATA = {
             "D": "Alt + O"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Alt + Tab». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Alt + Tab: dùng để chuyển nhanh giữa các cửa sổ đang mở. Giữ Alt rồi nhấn Tab để chọn."
         },
         {
           "id": 18,
@@ -1666,7 +1666,7 @@ window.QUIZ_DATA = {
             "D": "Sang trái một từ"
           },
           "answer": "D",
-          "explain": "Tổ hợp/phím đúng là «Sang trái một từ». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Cách đúng là: Sang trái một từ. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 19,
@@ -1678,7 +1678,7 @@ window.QUIZ_DATA = {
             "D": "Sang trái một ký tự"
           },
           "answer": "A",
-          "explain": "«Sang phải một ký tự» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Theo mặc định Excel căn trái dữ liệu kiểu chữ và căn phải số/ngày tháng. Cách hiển thị này giúp nhận biết nhanh kiểu dữ liệu."
         },
         {
           "id": 20,
@@ -1690,7 +1690,7 @@ window.QUIZ_DATA = {
             "D": "Delete"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Delete». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Delete. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 21,
@@ -1702,7 +1702,7 @@ window.QUIZ_DATA = {
             "D": "Phục hồi lại thao tác trước đó"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Sao chép văn bản được chọn, và đưa vào bộ nhớ đệm». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Ctrl + C sao chép nội dung đã chọn vào Clipboard mà không xóa bản gốc. Sau đó dùng Ctrl + V để dán ở vị trí mới."
         },
         {
           "id": 22,
@@ -1714,7 +1714,7 @@ window.QUIZ_DATA = {
             "D": "Sao chép văn bản được chọn, và đưa vào bộ nhớ đệm"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Di chuyển văn bản được chọn, và đưa vào bộ nhớ đệm». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Ctrl + X cắt đối tượng vào Clipboard (bản gốc sẽ bị gỡ khi dán thành công theo ngữ cảnh). Dùng khi muốn di chuyển chứ không nhân bản."
         },
         {
           "id": 23,
@@ -1726,7 +1726,7 @@ window.QUIZ_DATA = {
             "D": "Kiểm tra lại kết nối mạng máy tính"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Tìm và mở ứng dụng bàn phím ảo (On-Screen Keyboard) có sẵn của hệ điều hành Windows 7 để bật bàn phím ảo» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Hệ điều hành quản lý phần cứng và tài nguyên (CPU, bộ nhớ, đĩa, thiết bị), đồng thời cung cấp môi trường để phần mềm ứng dụng chạy. Windows, Linux, macOS là các ví dụ phổ biến."
         },
         {
           "id": 24,
@@ -1738,7 +1738,7 @@ window.QUIZ_DATA = {
             "D": "Đóng cửa sổ đó"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Thu cửa sổ về kích thước trước đó». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Thu cửa sổ về kích thước trước đó». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 25,
@@ -1750,7 +1750,7 @@ window.QUIZ_DATA = {
             "D": "Recycle Bin"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Máy in HP» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Cụm đúng là «Máy in HP». Đây là dạng viết đầy đủ/ý nghĩa chuẩn của thuật ngữ viết tắt trong câu hỏi. Tránh nhầm các cụm gần giống nhưng không đúng quy ước tin học."
         },
         {
           "id": 26,
@@ -1762,7 +1762,7 @@ window.QUIZ_DATA = {
             "D": "Vietkey"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Windows» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Đáp án đúng là «Windows». Windows là hệ điều hành phổ biến; thường được cài trước để máy có môi trường chạy phần mềm ứng dụng."
         },
         {
           "id": 27,
@@ -1774,7 +1774,7 @@ window.QUIZ_DATA = {
             "D": "Control Panel - System"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Control Panel/Region and Language». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Control Panel là nơi thiết lập hệ thống Windows: ngày giờ, ngôn ngữ, gỡ chương trình, tài khoản, thiết bị… Nhiều tùy chỉnh quan trọng được tập trung tại đây."
         },
         {
           "id": 28,
@@ -1786,7 +1786,7 @@ window.QUIZ_DATA = {
             "D": "Gadgets"
           },
           "answer": "B",
-          "explain": "«Personalization, chọn Desktop Background» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Đổi hình nền Desktop qua Personalization → Desktop Background (chuột phải Desktop). Chỉ đổi giao diện, không ảnh hưởng dữ liệu người dùng."
         },
         {
           "id": 29,
@@ -1798,7 +1798,7 @@ window.QUIZ_DATA = {
             "D": "System Restore"
           },
           "answer": "A",
-          "explain": "«Control Panel» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Đáp án đúng là «Control Panel». Control Panel tập trung nhiều thiết lập hệ thống Windows (ngày giờ, chương trình, tài khoản…)."
         },
         {
           "id": 30,
@@ -1810,7 +1810,7 @@ window.QUIZ_DATA = {
             "D": "Tại cửa sổ Printers and Faxes, nhấp phải chuột vào máy in và chọn Remove Device"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Tại cửa sổ Printers and Faxes, nhấp phải chuột vào máy in và chọn Remove Device». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Tại cửa sổ Printers and Faxes, nhấp phải chuột vào máy in và chọn Remove Device. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 31,
@@ -1822,7 +1822,7 @@ window.QUIZ_DATA = {
             "D": "Update"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Uninstall». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Programs and Features cho phép Uninstall phần mềm đã cài. Gỡ đúng cách giúp xóa đăng ký/file chương trình sạch hơn so với chỉ xóa thư mục."
         },
         {
           "id": 32,
@@ -1834,7 +1834,7 @@ window.QUIZ_DATA = {
             "D": "Nhấn phím Ctrl + C"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Kích chuột vào nút Start/Nhấp phải chuột vào Computer và chọn Show on Desktop». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: chuột vào nút Start/Nhấp phải chuột vào Computer và chọn Show on Desktop. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 33,
@@ -1846,7 +1846,7 @@ window.QUIZ_DATA = {
             "D": "Add Hardware"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Programs and Features». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Control Panel là nơi thiết lập hệ thống Windows: ngày giờ, ngôn ngữ, gỡ chương trình, tài khoản, thiết bị… Nhiều tùy chỉnh quan trọng được tập trung tại đây."
         },
         {
           "id": 34,
@@ -1858,7 +1858,7 @@ window.QUIZ_DATA = {
             "D": "Date and Time trong cửa sổ Control Panel"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Date and Time trong cửa sổ Control Panel». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Control Panel là nơi thiết lập hệ thống Windows: ngày giờ, ngôn ngữ, gỡ chương trình, tài khoản, thiết bị… Nhiều tùy chỉnh quan trọng được tập trung tại đây."
         },
         {
           "id": 35,
@@ -1870,7 +1870,7 @@ window.QUIZ_DATA = {
             "D": "Display"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Region and Language». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Region and Language. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 36,
@@ -1882,7 +1882,7 @@ window.QUIZ_DATA = {
             "D": "Taskbar and Start Menu"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Display». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Screen Saver thiết lập ảnh/hiệu ứng khi không thao tác một lúc; trong Windows thường cấu hình qua Display (Control Panel) hoặc Personalization. Mục đích chính là bảo vệ/hiển thị khi máy nhàn rỗi."
         },
         {
           "id": 37,
@@ -1894,7 +1894,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải vào biểu tượng rồi bấm tổ hợp phím Shift + Delete"
           },
           "answer": "B",
-          "explain": "«View Installed Updates» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Cách đúng là: View Installed Updates. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 38,
@@ -1906,7 +1906,7 @@ window.QUIZ_DATA = {
             "D": "User Accounts"
           },
           "answer": "D",
-          "explain": "«User Accounts» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Cách đúng là: User Accounts. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 39,
@@ -1918,7 +1918,7 @@ window.QUIZ_DATA = {
             "D": "Date and Time trong cửa sổ Control Panel"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Date and Time trong cửa sổ Control Panel». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Control Panel là nơi thiết lập hệ thống Windows: ngày giờ, ngôn ngữ, gỡ chương trình, tài khoản, thiết bị… Nhiều tùy chỉnh quan trọng được tập trung tại đây."
         },
         {
           "id": 40,
@@ -1930,7 +1930,7 @@ window.QUIZ_DATA = {
             "D": "Region and Language"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Region and Language». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Region and Language. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 41,
@@ -1942,7 +1942,7 @@ window.QUIZ_DATA = {
             "D": "Thiết lập cấu hình Windows 7 như thay đổi ngày giờ, cài đặt thêm các thiết bị, gỡ bỏ các chương trình ứng dụng, …"
           },
           "answer": "D",
-          "explain": "«Thiết lập cấu hình Windows 7 như thay đổi ngày giờ, cài đặt thêm các thiết bị, gỡ bỏ các chương trình ứng dụng, …» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Control Panel là nơi thiết lập hệ thống Windows: ngày giờ, ngôn ngữ, gỡ chương trình, tài khoản, thiết bị… Nhiều tùy chỉnh quan trọng được tập trung tại đây."
         },
         {
           "id": 42,
@@ -1954,7 +1954,7 @@ window.QUIZ_DATA = {
             "D": "Control Panel/Fonts"
           },
           "answer": "B",
-          "explain": "«Control Panel/Date and Time» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Control Panel là nơi thiết lập hệ thống Windows: ngày giờ, ngôn ngữ, gỡ chương trình, tài khoản, thiết bị… Nhiều tùy chỉnh quan trọng được tập trung tại đây."
         },
         {
           "id": 43,
@@ -1966,7 +1966,7 @@ window.QUIZ_DATA = {
             "D": "Recycle Bin"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Computer». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Computer». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 44,
@@ -1978,7 +1978,7 @@ window.QUIZ_DATA = {
             "D": "Là biểu tượng của thư mục chứa virus"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Là biểu tượng giúp người dùng truy cập nhanh vào đối tượng thường sử dụng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Shortcut là lối tắt trỏ tới file/chương trình gốc để mở nhanh. Xóa shortcut không xóa chương trình; copy shortcut sang máy khác thường hỏng vì đường dẫn gốc khác."
         },
         {
           "id": 45,
@@ -1990,7 +1990,7 @@ window.QUIZ_DATA = {
             "D": "1 loại 27"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «2 loại». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «2 loại». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 46,
@@ -2002,7 +2002,7 @@ window.QUIZ_DATA = {
             "D": "Bị xóa"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Không thay đổi». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Shortcut là lối tắt trỏ tới file/chương trình gốc để mở nhanh. Xóa shortcut không xóa chương trình; copy shortcut sang máy khác thường hỏng vì đường dẫn gốc khác."
         },
         {
           "id": 47,
@@ -2014,7 +2014,7 @@ window.QUIZ_DATA = {
             "D": "Không mở được thư mục hoặc tệp"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Không mở được thư mục hoặc tệp». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Shortcut là lối tắt trỏ tới file/chương trình gốc để mở nhanh. Xóa shortcut không xóa chương trình; copy shortcut sang máy khác thường hỏng vì đường dẫn gốc khác."
         },
         {
           "id": 48,
@@ -2026,7 +2026,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải tại biểu tượng chương trình, chọn Send to Desktop"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Trỏ chuột vào biểu tượng chương trình, sau đó kéo ra Desktop» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «Trỏ chuột vào biểu tượng chương trình, sau đó kéo ra Desktop». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 49,
@@ -2038,7 +2038,7 @@ window.QUIZ_DATA = {
             "D": "Truy cập mạng"
           },
           "answer": "A",
-          "explain": "«Quản lý tập tin, thư mục» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Windows Explorer (File Explorer) dùng quản lý ổ đĩa, thư mục và tập tin: sao chép, đổi tên, tìm kiếm, xem thuộc tính… Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 50,
@@ -2050,7 +2050,7 @@ window.QUIZ_DATA = {
             "D": "Bấm Shift+Tab"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Bấm Ctrl+Esc». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là Ctrl+Esc: dùng để mở menu Start. Tương tự nhấn phím Windows."
         },
         {
           "id": 51,
@@ -2062,7 +2062,7 @@ window.QUIZ_DATA = {
             "D": "Menu pad 28"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Menu bar». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Menu bar. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 52,
@@ -2074,7 +2074,7 @@ window.QUIZ_DATA = {
             "D": "Windows + D"
           },
           "answer": "D",
-          "explain": "Tổ hợp/phím đúng là «Windows + D». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Windows + D: dùng để hiện Desktop (ẩn/hiện tạm các cửa sổ). Thuận tiện truy cập biểu tượng màn hình nền."
         },
         {
           "id": 53,
@@ -2086,7 +2086,7 @@ window.QUIZ_DATA = {
             "D": "Foxit Reader"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Foxit Reader». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mở rộng sau dấu chấm cho biết kiểu file và chương trình mặc định mở nó (ví dụ .jpg ảnh, .mp3 nhạc, .pdf tài liệu). Đổi đuôi tùy tiện có thể làm file mở sai."
         },
         {
           "id": 54,
@@ -2098,7 +2098,7 @@ window.QUIZ_DATA = {
             "D": "Foxit Reader"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Microsoft Office Power Point». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mở rộng/định dạng đúng là Microsoft Office Power Point. Đuôi file cho biết kiểu dữ liệu và chương trình phù hợp để mở. Chọn sai định dạng dễ khiến file mở lỗi hoặc mất tương thích."
         },
         {
           "id": 55,
@@ -2110,7 +2110,7 @@ window.QUIZ_DATA = {
             "D": "Paint"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Windows Media Player». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mở rộng/định dạng đúng là Windows Media Player. Đuôi file cho biết kiểu dữ liệu và chương trình phù hợp để mở. Chọn sai định dạng dễ khiến file mở lỗi hoặc mất tương thích."
         },
         {
           "id": 56,
@@ -2122,7 +2122,7 @@ window.QUIZ_DATA = {
             "D": "File âm thanh"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «File ảnh». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mở rộng sau dấu chấm cho biết kiểu file và chương trình mặc định mở nó (ví dụ .jpg ảnh, .mp3 nhạc, .pdf tài liệu). Đổi đuôi tùy tiện có thể làm file mở sai."
         },
         {
           "id": 57,
@@ -2134,7 +2134,7 @@ window.QUIZ_DATA = {
             "D": "File ảnh"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «File âm thanh». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mở rộng sau dấu chấm cho biết kiểu file và chương trình mặc định mở nó (ví dụ .jpg ảnh, .mp3 nhạc, .pdf tài liệu). Đổi đuôi tùy tiện có thể làm file mở sai."
         },
         {
           "id": 58,
@@ -2146,7 +2146,7 @@ window.QUIZ_DATA = {
             "D": "Vàng"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Vàng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Vàng». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 59,
@@ -2158,7 +2158,7 @@ window.QUIZ_DATA = {
             "D": "Cấu trúc đồ thị"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Cấu trúc cây». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "File/thư mục trong Windows tổ chức dạng cây: thư mục chứa file và thư mục con. Một file không chứa file/thư mục khác bên trong."
         },
         {
           "id": 60,
@@ -2170,7 +2170,7 @@ window.QUIZ_DATA = {
             "D": "Đồ thị"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Cây». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "File/thư mục trong Windows tổ chức dạng cây: thư mục chứa file và thư mục con. Một file không chứa file/thư mục khác bên trong."
         },
         {
           "id": 61,
@@ -2182,7 +2182,7 @@ window.QUIZ_DATA = {
             "D": "Microsoft Word, My Computer, Unikey"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Microsoft Word, Micrsoft Excel, Unikey». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Unikey hỗ trợ gõ tiếng Việt (Telex/VNI…); Ctrl + Shift thường dùng chuyển Anh↔Việt, phím Z thường bỏ dấu theo Telex. Font Times New Roman được nêu trong quy định thể thức văn bản hành chính."
         },
         {
           "id": 62,
@@ -2194,7 +2194,7 @@ window.QUIZ_DATA = {
             "D": "Trong một thư mục có thể chứa các file và thư mục con khác"
           },
           "answer": "B",
-          "explain": "Phương án đúng là «Trong một file có thể chứa các file và thư mục con khác» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Đáp án đúng khẳng định: Trong một file có thể chứa các file và thư mục con khác. Hiểu vì sao nội dung này đúng với tình huống đề (định nghĩa, điều kiện dùng hoặc kết quả thao tác) sẽ giúp làm các câu tương tự."
         },
         {
           "id": 63,
@@ -2206,7 +2206,7 @@ window.QUIZ_DATA = {
             "D": "Tệp là đơn vị lưu trữ thông tin nhỏ nhất, không thể chứa tệp, thư mục khác"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Tệp là đơn vị lưu trữ thông tin nhỏ nhất, không thể chứa tệp, thư mục khác». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tệp là đơn vị lưu trữ thông tin nhỏ nhất, không thể chứa tệp, thư mục khác. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 64,
@@ -2218,7 +2218,7 @@ window.QUIZ_DATA = {
             "D": "Quy định kích thước file"
           },
           "answer": "C",
-          "explain": "«Quy định kiểu file» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Phần mở rộng sau dấu chấm cho biết kiểu file và chương trình mặc định mở nó (ví dụ .jpg ảnh, .mp3 nhạc, .pdf tài liệu). Đổi đuôi tùy tiện có thể làm file mở sai."
         },
         {
           "id": 65,
@@ -2230,7 +2230,7 @@ window.QUIZ_DATA = {
             "D": "Dấu chấm than (!) 30"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Dấu chấm (.)». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mở rộng/định dạng đúng là Dấu chấm (.). Đuôi file cho biết kiểu dữ liệu và chương trình phù hợp để mở. Chọn sai định dạng dễ khiến file mở lỗi hoặc mất tương thích."
         },
         {
           "id": 66,
@@ -2242,7 +2242,7 @@ window.QUIZ_DATA = {
             "D": "Item Type"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Name». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Name. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 67,
@@ -2254,7 +2254,7 @@ window.QUIZ_DATA = {
             "D": "Nhấp chuột phải lên nút Start, chọn Arrange Icons By…"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Nhấp chuột phải trên Desktop, chon Arrange Icons By…». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Nhấp chuột phải trên Desktop, chon Arrange Icons By. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 68,
@@ -2266,7 +2266,7 @@ window.QUIZ_DATA = {
             "D": "Edit - New - Folder"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Chuột phải chọn New - Folder». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Chuột phải chọn New - Folder. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 69,
@@ -2278,7 +2278,7 @@ window.QUIZ_DATA = {
             "D": "Bấm Ctrl + N, gõ tên thư mục mới và bấm Enter"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Kích chuột phải, chọn New/ Folder, gõ tên thư mục mới và bấm Enter». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: chuột phải, chọn New/ Folder, gõ tên thư mục mới và bấm Enter. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 70,
@@ -2290,7 +2290,7 @@ window.QUIZ_DATA = {
             "D": "Anh.bmp"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «http://vtv.vn» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Thao tác đúng đi theo đường lệnh: http://vtv.vn. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 71,
@@ -2302,7 +2302,7 @@ window.QUIZ_DATA = {
             "D": "Một thông báo xuất hiện báo cho bạn rằng đã có một thư mục cùng tên với thư mục bạn đang tạo và hỏi bạn có muốn gộp với thư mục đã có không 31"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Một thông báo xuất hiện báo cho bạn rằng đã có một thư mục cùng tên với thư mục bạn đang tạo và hỏi bạn có muốn gộp với thư mục đã có không 31». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Một thông báo xuất hiện báo cho bạn rằng đã có một thư mục cùng tên với thư mục bạn đang tạo…. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 72,
@@ -2314,7 +2314,7 @@ window.QUIZ_DATA = {
             "D": "pps"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «txt». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Phần mở rộng/định dạng đúng là txt. Đuôi file cho biết kiểu dữ liệu và chương trình phù hợp để mở. Chọn sai định dạng dễ khiến file mở lỗi hoặc mất tương thích."
         },
         {
           "id": 73,
@@ -2326,7 +2326,7 @@ window.QUIZ_DATA = {
             "D": "Hoc_phan_tin_1.doc"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Hoc_phan_tin1?.doc». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Hoc_phan_tin1?.doc». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 74,
@@ -2338,7 +2338,7 @@ window.QUIZ_DATA = {
             "D": "Hoc*phan*tin*1.doc"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Hoc_phan_tin_1». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Hoc_phan_tin_1». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 75,
@@ -2350,7 +2350,7 @@ window.QUIZ_DATA = {
             "D": "F2"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «F2». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Tổ hợp/phím đúng là F2: dùng để đổi tên file/thư mục hoặc sửa nội dung ô Excel. Tùy ngữ cảnh Explorer hay bảng tính."
         },
         {
           "id": 76,
@@ -2362,7 +2362,7 @@ window.QUIZ_DATA = {
             "D": "Tối đa 255 ký tự, không bắt đầu bằng chữ số, không chứa khoảng trắng."
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Tối đa 255 ký tự, không chứa các ký tự đặc biệt». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tên file gồm tên + phần mở rộng, ngăn bởi dấu chấm; tối đa khoảng 255 ký tự và không dùng \\ / : * ? \" < > |. Ký tự cấm hoặc dạng giống URL dễ khiến hệ thống báo lỗi."
         },
         {
           "id": 77,
@@ -2374,7 +2374,7 @@ window.QUIZ_DATA = {
             "D": "1 phần"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «2 phần». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tên file gồm tên + phần mở rộng, ngăn bởi dấu chấm; tối đa khoảng 255 ký tự và không dùng \\ / : * ? \" < > |. Ký tự cấm hoặc dạng giống URL dễ khiến hệ thống báo lỗi."
         },
         {
           "id": 78,
@@ -2386,7 +2386,7 @@ window.QUIZ_DATA = {
             "D": "Không có đáp án đúng"
           },
           "answer": "B",
-          "explain": "«Đổi tên thư mục» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "F2 đổi tên file/thư mục đang chọn trong Windows Explorer. Sau khi sửa tên, nhấn Enter để xác nhận."
         },
         {
           "id": 79,
@@ -2398,7 +2398,7 @@ window.QUIZ_DATA = {
             "D": "Nhấp phải chuột vào tệp/thư mục, chọn Properties/xem tại Attributes"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Nhấp phải chuột vào tệp/thư mục, chọn Properties/xem tại Attributes». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Nhấp phải chuột vào tệp/thư mục, chọn Properties/xem tại Attributes. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 80,
@@ -2410,7 +2410,7 @@ window.QUIZ_DATA = {
             "D": "Đổi tên thư mục"
           },
           "answer": "B",
-          "explain": "«Xóa thư mục» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Phím Delete xóa ký tự bên phải con trỏ khi soạn thảo, hoặc đưa file/thư mục vào Recycle Bin khi quản lý đĩa cứng. Shift + Delete thì xóa vĩnh viễn."
         },
         {
           "id": 81,
@@ -2422,7 +2422,7 @@ window.QUIZ_DATA = {
             "D": "Hidden"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Read Only». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Read Only. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 82,
@@ -2434,7 +2434,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải tại file đầu, giữ phím F4 sau đó kích chuột tại file cuối"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Kích chuột tại file đầu, giữ phím Shift sau đó kích chuột tại file cuối». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Giữ Shift khi chọn giúp bôi một dải file/thư mục liền nhau từ mục đầu đến mục cuối. Muốn chọn rải rác thì dùng Ctrl."
         },
         {
           "id": 83,
@@ -2446,7 +2446,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải tại file đầu, giữ phím F5 sau đó kích chuột tại file cuối"
           },
           "answer": "B",
-          "explain": "Phương án đúng là «Giữ phím Ctrl và kích chuột tại các file cần chọn» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Giữ Ctrl và click từng mục để chọn nhiều file không liền nhau. Shift dùng cho dải liên tục."
         },
         {
           "id": 84,
@@ -2458,7 +2458,7 @@ window.QUIZ_DATA = {
             "D": "Nhấn tổ hợp phím Alt + Tab"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Nhấn tổ hợp phím Ctrl + A». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là tổ hợp phím Ctrl + A: dùng để chọn tất cả đối tượng trong vùng đang active. Áp dụng cho chữ, ô, file trong cửa sổ hiện hành."
         },
         {
           "id": 85,
@@ -2470,7 +2470,7 @@ window.QUIZ_DATA = {
             "D": "Shift"
           },
           "answer": "B",
-          "explain": "Phương án đúng là «Ctrl» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Giữ Ctrl và click từng mục để chọn nhiều file không liền nhau. Shift dùng cho dải liên tục."
         },
         {
           "id": 86,
@@ -2482,7 +2482,7 @@ window.QUIZ_DATA = {
             "D": "Nhấn tổ hợp phím Ctrl + C hoặc nhấp phải chuột vào đối tượng chọn Copy"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Nhấn tổ hợp phím Ctrl + C hoặc nhấp phải chuột vào đối tượng chọn Copy». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Ctrl + C sao chép nội dung đã chọn vào Clipboard mà không xóa bản gốc. Sau đó dùng Ctrl + V để dán ở vị trí mới."
         },
         {
           "id": 87,
@@ -2494,7 +2494,7 @@ window.QUIZ_DATA = {
             "D": "Nhấn tổ hợp phím Ctrl + V hoặc nhấp phải chuột vào đối tượng chọn Paste"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Nhấn tổ hợp phím Ctrl + V hoặc nhấp phải chuột vào đối tượng chọn Paste». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Ctrl + V dán nội dung từ Clipboard vào vị trí hiện tại. Cần Copy/Cut trước thì Clipboard mới có dữ liệu để dán."
         },
         {
           "id": 88,
@@ -2506,7 +2506,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải tại file, chọn Delete"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Kích chuột phải tại file, chọn Delete». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: chuột phải tại file, chọn Delete. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 89,
@@ -2518,7 +2518,7 @@ window.QUIZ_DATA = {
             "D": "Nhấn phím Ctrl + X"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Nhấp phải chuột vào thư mục chọn Delete hoặc nhấn phím Delete». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Nhấp phải chuột vào thư mục chọn Delete hoặc nhấn phím Delete. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 90,
@@ -2530,7 +2530,7 @@ window.QUIZ_DATA = {
             "D": "Thư mục Documents"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Recycle Bin». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng hướng tới «Recycle Bin». Recycle Bin (Thùng rác) giữ tạm file xóa từ ổ cứng để có thể Restore khi cần."
         },
         {
           "id": 91,
@@ -2542,7 +2542,7 @@ window.QUIZ_DATA = {
             "D": "Lưu các tệp tin bị xoá từ ổ cứng và ổ đĩa mạng được đặt ở nơi khác"
           },
           "answer": "C",
-          "explain": "«Chỉ lưu các tệp tin bị xoá từ ổ đĩa cứng» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Recycle Bin giữ tạm file xóa từ ổ cứng nội bộ để có thể Restore. File xóa từ USB thường mất ngay, không qua thùng rác."
         },
         {
           "id": 92,
@@ -2554,7 +2554,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải tại đối tượng, chọn Restore"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Kích chuột phải tại đối tượng, chọn Restore». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Recycle Bin giữ tạm file xóa từ ổ cứng nội bộ để có thể Restore. File xóa từ USB thường mất ngay, không qua thùng rác."
         },
         {
           "id": 93,
@@ -2566,7 +2566,7 @@ window.QUIZ_DATA = {
             "D": "Restore all Items"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Restore all Items». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Recycle Bin giữ tạm file xóa từ ổ cứng nội bộ để có thể Restore. File xóa từ USB thường mất ngay, không qua thùng rác."
         },
         {
           "id": 94,
@@ -2578,7 +2578,7 @@ window.QUIZ_DATA = {
             "D": "Đã được xóa vĩnh viễn"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Có thể khôi phục lại vị trí ban đầu». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Recycle Bin giữ tạm file xóa từ ổ cứng nội bộ để có thể Restore. File xóa từ USB thường mất ngay, không qua thùng rác."
         },
         {
           "id": 95,
@@ -2590,7 +2590,7 @@ window.QUIZ_DATA = {
             "D": "Có thể sao dữ liệu ra các thiết bị lưu trữ khác nhau"
           },
           "answer": "A",
-          "explain": "Phương án đúng là «Có thể lấy lại dữ liệu sau khi xóa bằng nhấn tổ hợp phím Shift+Delete» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «Có thể lấy lại dữ liệu sau khi xóa bằng nhấn tổ hợp phím Shift+Delete». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 96,
@@ -2602,7 +2602,7 @@ window.QUIZ_DATA = {
             "D": "Không có đáp án đúng"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Kích View, chọn Details». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: View, chọn Details. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 97,
@@ -2614,7 +2614,7 @@ window.QUIZ_DATA = {
             "D": "Có thể được phục hồi khi mở My Documents"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Xóa khỏi máy tính». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Xóa khỏi máy tính». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 98,
@@ -2626,7 +2626,7 @@ window.QUIZ_DATA = {
             "D": "Thư mục bị xoá vĩnh viễn khỏi máy 35"
           },
           "answer": "D",
-          "explain": "Tổ hợp/phím đúng là «Thư mục bị xoá vĩnh viễn khỏi máy 35». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Shift + Delete xóa vĩnh viễn, không đưa vào Recycle Bin nên khó khôi phục bằng thùng rác. Chỉ dùng khi chắc chắn không cần phục hồi."
         },
         {
           "id": 99,
@@ -2638,7 +2638,7 @@ window.QUIZ_DATA = {
             "D": "Nhấn tổ hợp phím Ctrl + A"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Chọn thư mục và nhấn tổ hợp phím Shift + Delete». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là thư mục và nhấn tổ hợp phím Shift + Delete: dùng để xóa vĩnh viễn, bỏ qua Recycle Bin. Khó khôi phục bằng thùng rác."
         },
         {
           "id": 100,
@@ -2650,7 +2650,7 @@ window.QUIZ_DATA = {
             "D": "Giữ phím Alt và kích chuột phải, chọn Delete"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Giữ phím Shift và kích chuột phải, chọn Delete» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Giữ Shift khi Delete (hoặc Shift + Delete) xóa vĩnh viễn, không đưa vào Recycle Bin. Chỉ dùng khi chắc chắn không cần khôi phục bằng thùng rác."
         },
         {
           "id": 101,
@@ -2662,7 +2662,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải tại Desktop, chọn Search"
           },
           "answer": "D",
-          "explain": "Phương án đúng là «Kích chuột phải tại Desktop, chọn Search» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «chuột phải tại Desktop, chọn Search». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 102,
@@ -2674,7 +2674,7 @@ window.QUIZ_DATA = {
             "D": "Ngày tạo"
           },
           "answer": "C",
-          "explain": "«Tên, Ngày chỉnh sửa, Kích thước» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Đáp án đúng là «Tên, Ngày chỉnh sửa, Kích thước». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 103,
@@ -2686,7 +2686,7 @@ window.QUIZ_DATA = {
             "D": "Kí tự * và ?"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Kí tự * và ?». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Kí tự * và ?. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 104,
@@ -2698,7 +2698,7 @@ window.QUIZ_DATA = {
             "D": "Thay thế cho từ khóa 36"
           },
           "answer": "A",
-          "explain": "«Thay thế cho 1 số ký tự» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Cách đúng là: Thay thế cho 1 số ký tự. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 105,
@@ -2710,7 +2710,7 @@ window.QUIZ_DATA = {
             "D": "Mã hóa dữ liệu để người khác không đọc được"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Giảm dung lượng lưu trữ». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Nén (ZIP/RAR) giảm dung lượng lưu trữ/truyền tải mà vẫn giữ thông tin để giải nén lại. Rất hữu ích khi gửi nhiều file lớn qua email."
         },
         {
           "id": 106,
@@ -2722,7 +2722,7 @@ window.QUIZ_DATA = {
             "D": "Windows 7"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Winrar, WinZip». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Nén (ZIP/RAR) giảm dung lượng lưu trữ/truyền tải mà vẫn giữ thông tin để giải nén lại. Rất hữu ích khi gửi nhiều file lớn qua email."
         },
         {
           "id": 107,
@@ -2734,7 +2734,7 @@ window.QUIZ_DATA = {
             "D": "File thực thi"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «File nén». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mở rộng sau dấu chấm cho biết kiểu file và chương trình mặc định mở nó (ví dụ .jpg ảnh, .mp3 nhạc, .pdf tài liệu). Đổi đuôi tùy tiện có thể làm file mở sai."
         },
         {
           "id": 108,
@@ -2746,7 +2746,7 @@ window.QUIZ_DATA = {
             "D": "Tệp tin ban đầu có dung lượng nhỏ hơn dung lượng của tệp tin nén"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Tệp tin nén có kích thước nhỏ hơn kích thước của tệp tin ban đầu và thông tin ban đầu không bị mất». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Nén (ZIP/RAR) giảm dung lượng lưu trữ/truyền tải mà vẫn giữ thông tin để giải nén lại. Rất hữu ích khi gửi nhiều file lớn qua email."
         },
         {
           "id": 109,
@@ -2758,7 +2758,7 @@ window.QUIZ_DATA = {
             "D": "Trình duyệt web"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Chương trình nén và giải nén». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mở rộng sau dấu chấm cho biết kiểu file và chương trình mặc định mở nó (ví dụ .jpg ảnh, .mp3 nhạc, .pdf tài liệu). Đổi đuôi tùy tiện có thể làm file mở sai."
         },
         {
           "id": 110,
@@ -2770,7 +2770,7 @@ window.QUIZ_DATA = {
             "D": "Sử dụng chương trình nén để nén và gửi tệp tin nén này với dung lượng nhỏ hơn"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Sử dụng chương trình nén để nén và gửi tệp tin nén này với dung lượng nhỏ hơn». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Nén (ZIP/RAR) giảm dung lượng lưu trữ/truyền tải mà vẫn giữ thông tin để giải nén lại. Rất hữu ích khi gửi nhiều file lớn qua email."
         },
         {
           "id": 111,
@@ -2782,7 +2782,7 @@ window.QUIZ_DATA = {
             "D": "Malware"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Antivirus». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mềm antivirus phát hiện, ngăn chặn và loại bỏ mã độc. Cần cập nhật mẫu nhận diện thường xuyên mới phát hiện mối đe dọa mới."
         },
         {
           "id": 112,
@@ -2794,7 +2794,7 @@ window.QUIZ_DATA = {
             "D": "Laban Key"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Unikey». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Unikey hỗ trợ gõ tiếng Việt (Telex/VNI…); Ctrl + Shift thường dùng chuyển Anh↔Việt, phím Z thường bỏ dấu theo Telex. Font Times New Roman được nêu trong quy định thể thức văn bản hành chính."
         },
         {
           "id": 113,
@@ -2806,7 +2806,7 @@ window.QUIZ_DATA = {
             "D": "Arial"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Times New Roman». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Theo quy định thể thức văn bản hành chính phổ biến trong đề thi, font Times New Roman được yêu cầu khi trình bày văn bản. Giúp thống nhất hình thức công văn."
         },
         {
           "id": 114,
@@ -2818,7 +2818,7 @@ window.QUIZ_DATA = {
             "D": "Z"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Z». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Z. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 115,
@@ -2830,7 +2830,7 @@ window.QUIZ_DATA = {
             "D": "Tắt chương trình gõ tiếng Việt"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Chuyển chế độ gõ tiếng Anh sang tiếng Việt hoặc ngược lại tiếng Việt sang tiếng Anh». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Đáp án đúng khẳng định: Chuyển chế độ gõ tiếng Anh sang tiếng Việt hoặc ngược lại tiếng Việt sang tiếng Anh. Hiểu vì sao nội dung này đúng với tình huống đề (định nghĩa, điều kiện dùng hoặc kết quả thao tác) sẽ giúp làm các câu tương tự."
         },
         {
           "id": 116,
@@ -2842,7 +2842,7 @@ window.QUIZ_DATA = {
             "D": "ABC"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Unikey». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Unikey hỗ trợ gõ tiếng Việt (Telex/VNI…); Ctrl + Shift thường dùng chuyển Anh↔Việt, phím Z thường bỏ dấu theo Telex. Font Times New Roman được nêu trong quy định thể thức văn bản hành chính."
         },
         {
           "id": 117,
@@ -2854,7 +2854,7 @@ window.QUIZ_DATA = {
             "D": "Default Programs"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Printers and Faxes 38». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Printers and Faxes. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 118,
@@ -2866,7 +2866,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải tại biểu tượng máy in, chọn Set as Default Printer"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Kích chuột phải tại biểu tượng máy in, chọn Set as Default Printer». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Set as Default Printer chọn máy in dùng mặc định khi in. Các lệnh in sẽ ưu tiên máy này trừ khi chọn máy khác."
         },
         {
           "id": 119,
@@ -2878,7 +2878,7 @@ window.QUIZ_DATA = {
             "D": "Máy in"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Driver, máy tính, máy in đã kết nối với máy tính». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cài máy in cần máy tính, máy in đã kết nối và driver phù hợp. Thiếu driver thì hệ điều hành khó điều khiển đúng thiết bị."
         },
         {
           "id": 120,
@@ -2890,7 +2890,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl+Shift+F11 --- <a id=\"module-3\"></a> # MODULE 3: XỬ LÝ VĂN BẢN CƠ BẢN (WORD) ## 3.1. LÝ THUYẾT ### 3.1.1. Khởi động, giao diện, lưu file - Mở Word: đúp shortcut; Start → Programs → Word… - File mặc định Word 2010: **`.docx`**. Có thể lưu `.doc`, `.docx`, `.pdf`. - Phần mềm soạn thảo: Word, LibreOffice Writer, OpenOffice Writer. - Thanh tiêu đề: hiện **tên văn bản**. Quick Access: **Save, Undo, Redo**. - Help: **F1** (cần Word; một số nội dung cần mạng). | Phím / Lệnh | Chức năng | |-------------|-----------| | Ctrl+N | Tạo mới | | Ctrl+O | Mở | | Ctrl+S | Lưu | | File → Save As | Lưu tên/định dạng khác | | File → Close | Đóng văn bản | | Ctrl+P | In | | Ctrl+Z | Undo | | Ctrl+A | Chọn tất cả | | Ctrl+F | Tìm | | Ctrl+H | Tìm & thay thế | | Ctrl+G | Đi tới trang | | Ctrl+K | Hyperlink | | Ctrl+E / L / R / J | Căn giữa / trái / phải / đều | | Ctrl+B / I / U | Đậm / nghiêng / gạch chân | | Ctrl+] | Tăng cỡ chữ | | Ctrl+= | Chỉ số dưới; Ctrl+Shift+= chỉ số trên | | Ctrl+Shift+C | Copy định dạng | | Ctrl+Enter | Ngắt trang | | Enter | Ngắt đoạn | | Shift+Enter | Xuống dòng không ngắt đoạn | **Chế độ xem:** Print Layout (như khi in); Full Screen Reading (đọc, hạn chế sửa); Web Layout; Zoom 100% ≈ kích thước in. **Tùy chọn:** File → Options → Save (AutoRecover, Default file location); Advanced → Show Text Boundaries. ### 3.1.2. Định dạng ký tự & đoạn - Font, cỡ, đậm/nghiêng; Change Case: Upper/Lower Case… - Caps Lock: viết hoa; tắt bằng nhấn Caps Lock lại. - Shading: màu nền đoạn (Paragraph); Highlight: đánh dấu chữ (Font). - Paragraph: Indent Left/Right; First line / Hanging; Spacing Before/After; Line Spacing. - Bullets / Numbering (nhóm Paragraph). - Tab: Tab stop position, Alignment (Left/Center/Right), Leader (dòng chấm). - Border & Shading; Page Border (Art); Apply to: First Page Only… - Style: Home → Styles → Modify / áp dụng Style. - Hyphenation: tách từ (Page Setup). - AutoCorrect / Proofing: tắt gạch đỏ–xanh tiếng Việt nếu cần. - Symbol: Insert → Symbol (©, ®, ≥…). ### 3.1.3. Bảng, đối tượng, trang in - Insert → Table; kích thước **m×n** = m cột × n dòng (theo đề: 5×6 = 5 cột 6 dòng). - Tab: ô kế tiếp; Merge Cells / Split; Cell Width; Border; Shading; Text Direction; Delete Table (Layout). - Insert → Illustrations: Picture, Shapes, Chart; Text Box; Footnote (References); Page Number; Header & Footer. - Page Layout: Orientation (**Portrait** dọc mặc định / **Landscape** ngang); Margins; Size. - Lề = khoảng cách cạnh giấy và nội dung. - Print Preview; hủy in: đúp biểu tượng máy in → Cancel. - Bảo vệ: File → Info → Protect Document → Encrypt with Password. - Font thể thức văn bản hành chính (TT01): **Times New Roman**. --- ## 3.2. THỰC HÀNH MODULE 3 ### Bài TH-W1 – Văn bản hành chính cơ bản 1. Tạo văn bản mới, font Times New Roman 13/14, căn đều, lề theo quy định đơn vị. 2. Đặt tiêu đề đậm, căn giữa; đánh số mục bằng Numbering. 3. Chèn Header (tên đơn vị), Footer (số trang), Page Border trang đầu. 4. Lưu `.docx` và xuất `.pdf`; đặt mật khẩu mở file. ### Bài TH-W2 – Công thức (Equation) *(theo bài thực hành Word số 2)* 1. Insert → Equation, soạn các công thức trong đề PDF (phân số, căn, chỉ số…). 2. Căn giữa công thức; đánh số công thức bên phải bằng Tab + Leader nếu yêu cầu. ### Bài TH-W3 – Hóa đơn bán hàng (Tab Stop + Leader) *(theo bài TH Word số 2)* **Mục tiêu:** tạo dòng chấm dẫn giữa “Tên hàng” và “Thành tiền”. **Các bước (Word 2010):** 1. Mở Word → nhóm **Paragraph** → mũi tên mở rộng → **Tabs…** 2. Thiết lập: - **Tab stop position:** vị trí dừng dòng chấm - **Default tab stops:** khoảng cách mặc định - **Alignment:** Left / Center / Right - **Leader:** chọn kiểu chấm / gạch 3. **Set → OK**. Gõ nội dung → nhấn **Tab** để hiện dòng chấm. ### Bài TH-W4 – Soạn thảo mẫu theo đề *(Bài TH Word số 3)* Mở file `Bài TH word số 3.pdf` và soạn lại **đủ 3 mẫu văn bản** minh họa trong đề (giữ đúng bố cục, bảng, căn lề, font). ### Bài TH-W5 – Bảng & đối tượng 1. Chèn bảng 5 cột × 6 dòng; Merge ô tiêu đề; đổ màu dòng đầu; đổi hướng chữ 1 ô. 2. Chèn ảnh, Shape, Chart; thêm Footnote cho một thuật ngữ. ---"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Ctrl+P». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl+P: dùng để mở lệnh in (Print). Có thể chọn máy in và tùy chọn trước khi in."
         }
       ]
     },
@@ -2909,7 +2909,7 @@ window.QUIZ_DATA = {
             "D": "Start\\ Run\\ gõ Word.exe\\ Ok"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Kích đúp chuột vào biểu tượng shortcut Microsoft Office Word». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách phổ biến để mở Word là kích đúp biểu tượng shortcut Microsoft Office Word trên Desktop/thanh tác vụ. Shortcut chỉ là lối tắt; chương trình Word phải đã được cài trên máy."
         },
         {
           "id": 2,
@@ -2921,7 +2921,7 @@ window.QUIZ_DATA = {
             "D": "Căn thẳng lề trái văn bản"
           },
           "answer": "B",
-          "explain": "Tổ hợp/phím đúng là «Căn thẳng ở giữa văn bản». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Trong Word/PowerPoint, Ctrl + E căn giữa đoạn đang chọn. Căn giữa thường dùng cho tiêu đề."
         },
         {
           "id": 3,
@@ -2933,7 +2933,7 @@ window.QUIZ_DATA = {
             "D": ".docx"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «.docx». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Word 2007/2010 trở đi lưu mặc định dạng .docx (Office Open XML). .doc là định dạng cũ hơn; vẫn có thể Save As sang PDF khi cần."
         },
         {
           "id": 4,
@@ -2945,7 +2945,7 @@ window.QUIZ_DATA = {
             "D": "Mở hộp thoại Paragraph"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Mở hộp thoại tạo các liên kết (Hyperlink)». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Ctrl + K mở hộp thoại chèn/sửa Hyperlink — gắn liên kết tới trang web, file hoặc vị trí trong tài liệu. Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 5,
@@ -2957,7 +2957,7 @@ window.QUIZ_DATA = {
             "D": "Cả (1)+(2)+(3)"
           },
           "answer": "D",
-          "explain": "«Cả (1)+(2)+(3)» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Về phần mềm sau đâu là phần mềm có thể dùng để soạn thảo văn bản, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 6,
@@ -2969,7 +2969,7 @@ window.QUIZ_DATA = {
             "D": "Hiển thị nội dung văn bản trên màn hình (1)"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Cả (1)+(2)+(3)». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Về Chương trình soạn thảo văn bản có chức năng chính là gì, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 7,
@@ -2981,7 +2981,7 @@ window.QUIZ_DATA = {
             "D": "File/Open"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «File/Close». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: File/Close. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 8,
@@ -2993,7 +2993,7 @@ window.QUIZ_DATA = {
             "D": "File/Save as wizard"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «File/Save». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: File/Save. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 9,
@@ -3005,7 +3005,7 @@ window.QUIZ_DATA = {
             "D": "Đóng tài liệu"
           },
           "answer": "B",
-          "explain": "Tổ hợp/phím đúng là «Tạo tài liệu mới». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Ctrl + N tạo tài liệu/workbook/presentation mới theo ứng dụng đang dùng. Nhanh hơn vào menu File → New."
         },
         {
           "id": 10,
@@ -3017,7 +3017,7 @@ window.QUIZ_DATA = {
             "D": "Thanh thước kẻ"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Thanh tiêu đề». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Thanh tiêu đề». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 11,
@@ -3029,7 +3029,7 @@ window.QUIZ_DATA = {
             "D": "Save, Undo, Copy"
           },
           "answer": "A",
-          "explain": "«Save, undo, redo» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Đáp án đúng là «Save, undo, redo». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 12,
@@ -3041,7 +3041,7 @@ window.QUIZ_DATA = {
             "D": "Hiển thị văn bản được phóng to"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Hiển thị văn bản như khi được in ra giấy». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Print Layout hiển thị trang gần như khi in (lề, đầu trang, chân trang…). Thuận tiện chỉnh bố cục trước khi in."
         },
         {
           "id": 13,
@@ -3053,7 +3053,7 @@ window.QUIZ_DATA = {
             "D": "Web Layout"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Full Screen Reading» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Cách đúng là: Full Screen Reading. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 14,
@@ -3065,7 +3065,7 @@ window.QUIZ_DATA = {
             "D": "Thay thế thông tin cần tìm kiếm"
           },
           "answer": "A",
-          "explain": "«Trợ giúp tìm kiếm thông tin trên Word» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "F1 mở trợ giúp (Help) của ứng dụng Office/Windows. Dùng để tra cứu lệnh và thao tác khi chưa nhớ đường menu."
         },
         {
           "id": 15,
@@ -3077,7 +3077,7 @@ window.QUIZ_DATA = {
             "D": "F4"
           },
           "answer": "C",
-          "explain": "«F1 41» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Tổ hợp/phím đúng là F1: dùng để mở trợ giúp Help. Tra cứu lệnh ngay trong phần mềm."
         },
         {
           "id": 16,
@@ -3089,7 +3089,7 @@ window.QUIZ_DATA = {
             "D": "Máy tính có Word và được kết nối mạng"
           },
           "answer": "C",
-          "explain": "«Máy tính có phần mềm Word 2010» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Cách đúng là: Máy tính có phần mềm Word 2010. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 17,
@@ -3101,7 +3101,7 @@ window.QUIZ_DATA = {
             "D": "Page Layout"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Web Layout». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Layout quy định bố cục placeholder (ô chứa tiêu đề/nội dung/ảnh…). Ví dụ Title and Content có tiêu đề + vùng nội dung; số placeholder tùy mẫu (Two Content, Comparison…)."
         },
         {
           "id": 18,
@@ -3113,7 +3113,7 @@ window.QUIZ_DATA = {
             "D": "Văn bản đang được hiển thị ở chế độ Website."
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Văn bản được hiển thị như khi được in ra giấy». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Văn bản được hiển thị như khi được in ra giấy. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 19,
@@ -3125,7 +3125,7 @@ window.QUIZ_DATA = {
             "D": "Home"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «View». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: View. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 20,
@@ -3137,7 +3137,7 @@ window.QUIZ_DATA = {
             "D": "Outline"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Full Screen Reading». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Full Screen Reading». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 21,
@@ -3149,7 +3149,7 @@ window.QUIZ_DATA = {
             "D": "View/Show"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «View/Switch Windows». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: View/Switch Windows. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng. Windows là hệ điều hành phổ biến; thường được cài trước để máy có môi trường chạy phần mềm ứng dụng."
         },
         {
           "id": 22,
@@ -3161,7 +3161,7 @@ window.QUIZ_DATA = {
             "D": "Click chuột vào nút Maximize tại góc trên cùng bên trái màn hình"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Click chuột vào nút Maximize tại góc trên cùng bên phải màn hình». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "MAX chọn giá trị lớn nhất trong các đối số. Ví dụ =MAX(30,10,65,5) cho 65."
         },
         {
           "id": 23,
@@ -3173,7 +3173,7 @@ window.QUIZ_DATA = {
             "D": "Thời gian để lưu file tự động"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Thời gian để lưu file tự động». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Save AutoRecover đặt khoảng thời gian Word tự lưu bản phục hồi. Khi treo/mất điện, có cơ hội lấy lại phần đã soạn."
         },
         {
           "id": 24,
@@ -3185,7 +3185,7 @@ window.QUIZ_DATA = {
             "D": "File/Options/Save/Auto Recover file location"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «File/Options/Save/Default file location». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: File/Options/Save/Default file location. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 25,
@@ -3197,7 +3197,7 @@ window.QUIZ_DATA = {
             "D": "Insert/Options/Advanced/đánh dấu lựa chọn Show Text Boundaries"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «File/Options/Advanced/đánh dấu lựa chọn Show Text Boundaries». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: File/Options/Advanced/đánh dấu lựa chọn Show Text Boundaries. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 26,
@@ -3209,7 +3209,7 @@ window.QUIZ_DATA = {
             "D": "Mở một file mới"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Mở một file đã có». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Ctrl + O mở file đã có trên máy. Hộp thoại Open cho phép chọn đường dẫn và kiểu file."
         },
         {
           "id": 27,
@@ -3221,7 +3221,7 @@ window.QUIZ_DATA = {
             "D": "Alt+O"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Ctrl+O». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl+O: dùng để mở file đã có trên máy. Hộp thoại Open cho chọn đường dẫn và kiểu file."
         },
         {
           "id": 28,
@@ -3233,7 +3233,7 @@ window.QUIZ_DATA = {
             "D": "Copy phần dữ liệu định chèn. Vào Home/ Paste/Microsoft Excel 2003 Worksheet Object /OK 43"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Copy phần dữ liệu định chèn. Vào Home/ Paste/ Paste Special/ Microsoft Excel 2003 Worksheet Object /OK». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Copy phần dữ liệu định chèn. Vào Home/ Paste/ Paste Special/ Microsoft Excel 2003 Worksheet Object /OK. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 29,
@@ -3245,7 +3245,7 @@ window.QUIZ_DATA = {
             "D": "Kí tự thông thường"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Ký hiệu đặc biệt». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Ký hiệu đặc biệt. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 30,
@@ -3257,7 +3257,7 @@ window.QUIZ_DATA = {
             "D": "Vào thanh Quick Access Toolbar/ Spelling and Grammar"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Insert/ Symbol». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Insert → Symbol chèn ký tự đặc biệt không có sẵn trên bàn phím (©, ®, ≥…). Có thể chọn thêm trong More Symbols/Special Characters."
         },
         {
           "id": 31,
@@ -3269,7 +3269,7 @@ window.QUIZ_DATA = {
             "D": "Insert/ Symbol/ More Symbols/ Symbol/ Special Character"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Insert/ Symbol/ More Symbols/ Special Character». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Insert → Symbol chèn ký tự đặc biệt không có sẵn trên bàn phím (©, ®, ≥…). Có thể chọn thêm trong More Symbols/Special Characters."
         },
         {
           "id": 32,
@@ -3281,7 +3281,7 @@ window.QUIZ_DATA = {
             "D": "Lưu tài liệu"
           },
           "answer": "D",
-          "explain": "Tổ hợp/phím đúng là «Lưu tài liệu». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "File → Save hoặc Ctrl + S lưu thay đổi vào file hiện có. Lưu thường xuyên giảm mất dữ liệu khi sự cố."
         },
         {
           "id": 33,
@@ -3293,7 +3293,7 @@ window.QUIZ_DATA = {
             "D": "File/Save"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «File/Save As». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Chuột phải ảnh → Save picture as lưu riêng file ảnh; File → Save As lưu cả trang (có tùy chọn HTML only nếu không cần kèm ảnh). Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 34,
@@ -3305,7 +3305,7 @@ window.QUIZ_DATA = {
             "D": ".docx,.xls,.pdf"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «.doc, .docx,.pdf». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Word 2007/2010 trở đi lưu mặc định dạng .docx (Office Open XML). .doc là định dạng cũ hơn; vẫn có thể Save As sang PDF khi cần."
         },
         {
           "id": 35,
@@ -3317,7 +3317,7 @@ window.QUIZ_DATA = {
             "D": "File/ Window/ Arrange All"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «View/ Window/ Arrange All». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: View/ Window/ Arrange All. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 36,
@@ -3329,7 +3329,7 @@ window.QUIZ_DATA = {
             "D": "Vào Review/ Trong nhóm Window chọn kiểu sắp xếp thích hợp"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Vào View/ Trong nhóm Window chọn kiểu sắp xếp thích hợp». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Vào View/ Trong nhóm Window chọn kiểu sắp xếp thích hợp. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 37,
@@ -3341,7 +3341,7 @@ window.QUIZ_DATA = {
             "D": "Chọn văn bản cần xóa/ Click chuột/ Chọn Delete"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Chọn văn bản cần xóa/ Click phải chuột/ Chọn Delete». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phím Delete xóa ký tự bên phải con trỏ khi soạn thảo, hoặc đưa file/thư mục vào Recycle Bin khi quản lý đĩa cứng. Shift + Delete thì xóa vĩnh viễn."
         },
         {
           "id": 38,
@@ -3353,7 +3353,7 @@ window.QUIZ_DATA = {
             "D": "Click chuột phải 3 lần liên tiếp tại lề trên văn bản"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Click chuột trái 3 lần liên tiếp tại lề trái văn bản». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Click chuột trái 3 lần liên tiếp tại lề trái văn bản. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 39,
@@ -3365,7 +3365,7 @@ window.QUIZ_DATA = {
             "D": "Bấm tổ hợp phím Ctrl+G, trong mục Enter Page Number nhập số trang cần đến."
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Bấm tổ hợp phím Ctrl+G, trong mục Enter Page Number nhập số trang cần đến». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Page Number/Header/Footer gắn thông tin lặp trên các trang; Page Break ngắt sang trang mới đúng vị trí. Các lệnh nằm chủ yếu ở Insert và Page Layout."
         },
         {
           "id": 40,
@@ -3377,7 +3377,7 @@ window.QUIZ_DATA = {
             "D": "Giữ phím Ctrl và ấn số 5"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Giữ phím Shift và ấn số 5». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Giữ Shift khi chọn giúp bôi một dải file/thư mục liền nhau từ mục đầu đến mục cuối. Muốn chọn rải rác thì dùng Ctrl."
         },
         {
           "id": 41,
@@ -3389,7 +3389,7 @@ window.QUIZ_DATA = {
             "D": "Chọn khối, ấn Ctrl + Delete"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Chọn khối, ấn Delete». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: khối, ấn Delete. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 42,
@@ -3401,7 +3401,7 @@ window.QUIZ_DATA = {
             "D": "Tools/ Symbol"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Insert/ Symbol 45». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Insert → Symbol chèn ký tự đặc biệt không có sẵn trên bàn phím (©, ®, ≥…). Có thể chọn thêm trong More Symbols/Special Characters."
         },
         {
           "id": 43,
@@ -3413,7 +3413,7 @@ window.QUIZ_DATA = {
             "D": "Mở hộp thoại Tab"
           },
           "answer": "B",
-          "explain": "Tổ hợp/phím đúng là «Mở hộp thoại tìm kiếm và thay thế văn bản». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Ctrl + H mở Find and Replace để tìm và thay văn bản hàng loạt. Tiết kiệm thời gian hơn sửa từng chỗ thủ công."
         },
         {
           "id": 44,
@@ -3425,7 +3425,7 @@ window.QUIZ_DATA = {
             "D": "Mở chức năng tìm kiếm văn bản"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Mở chức năng tìm kiếm văn bản». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Ctrl + F mở tìm kiếm trong tài liệu/trang. Nhập từ khóa để nhảy tới các vị trí khớp."
         },
         {
           "id": 45,
@@ -3437,7 +3437,7 @@ window.QUIZ_DATA = {
             "D": "Điền từ cần tìm kiếm"
           },
           "answer": "D",
-          "explain": "«Điền từ cần tìm kiếm» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Đáp án đúng là «Điền từ cần tìm kiếm». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 46,
@@ -3449,7 +3449,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl + A"
           },
           "answer": "D",
-          "explain": "Tổ hợp/phím đúng là «Ctrl + A». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl + A: dùng để chọn tất cả đối tượng trong vùng đang active. Áp dụng cho chữ, ô, file trong cửa sổ hiện hành."
         },
         {
           "id": 47,
@@ -3461,7 +3461,7 @@ window.QUIZ_DATA = {
             "D": "Chọn đoạn văn bản cần di chuyển, sau đó mở file văn bản đích, ấn Ctrl+V"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Chọn đoạn văn bản cần di chuyển, ấn phím Ctrl+X, sau đó mở file văn bản đích, ấn Ctrl+V». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Ctrl + X cắt đối tượng vào Clipboard (bản gốc sẽ bị gỡ khi dán thành công theo ngữ cảnh). Dùng khi muốn di chuyển chứ không nhân bản."
         },
         {
           "id": 48,
@@ -3473,7 +3473,7 @@ window.QUIZ_DATA = {
             "D": "Hủy thao tác"
           },
           "answer": "B",
-          "explain": "Tổ hợp/phím đúng là «Quay lại thao tác trước thao tác hiện hành». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Ctrl + Z hoàn tác (Undo) thao tác vừa làm. Giúp sửa nhanh sai sót mà không cần làm lại từ đầu."
         },
         {
           "id": 49,
@@ -3485,7 +3485,7 @@ window.QUIZ_DATA = {
             "D": "Chọn chức năng Redo"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Chọn chức năng Undo». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: chức năng Undo. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 50,
@@ -3497,7 +3497,7 @@ window.QUIZ_DATA = {
             "D": "Vào File/ Option/ AutoCorrect Option/ Tìm mục cần xóa sau đó ấn Delete/OK"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Vào File/ Option/ Proofing/ AutoCorrect Option/ Tìm mục cần xóa sau đó ấn Delete/OK». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "AutoCorrect tự sửa chữ khi gõ; với tiếng Việt đôi khi sửa sai gây phiền. Vào File → Options → Proofing → AutoCorrect Options để xóa/tắt mục không cần."
         },
         {
           "id": 51,
@@ -3509,7 +3509,7 @@ window.QUIZ_DATA = {
             "D": "Vào Home/ Option/Proofing/ Trong mục When correcting spelling and Gramma in Word bỏ tích chọn tất cả các lựa chọn"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Vào File/ Option/Proofing/ Trong mục When correcting spelling and Gramma in Word bỏ tích chọn tất cả các lựa chọn». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Vào File/ Option/Proofing/ Trong mục When correcting spelling and Gramma in Word bỏ tích chọn tất cả các lựa chọn. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 52,
@@ -3521,7 +3521,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl + B"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Ctrl + ]». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Cách đúng là: Ctrl + ]. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 53,
@@ -3533,7 +3533,7 @@ window.QUIZ_DATA = {
             "D": "Chuyển một chữ thường thành chữ nghiêng"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Chuyển một chữ thường thành chữ đậm». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Ctrl + B bật/tắt chữ đậm (Bold) cho vùng chọn. Đây là phím tắt định dạng font phổ biến trong Office."
         },
         {
           "id": 54,
@@ -3545,7 +3545,7 @@ window.QUIZ_DATA = {
             "D": "Cách (1), (2), (3) đều đúng"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Cách (1), (2), (3) đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Chỉ số trên/dưới (superscript/subscript) dùng cho công thức, chú thích. Có thể bật qua nhóm Font trên tab Home hoặc hộp thoại Font."
         },
         {
           "id": 55,
@@ -3557,7 +3557,7 @@ window.QUIZ_DATA = {
             "D": "Dùng tổ hợp phím Ctrl + Shift + = (2)"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Cách (1), (2), (3) đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Chỉ số trên/dưới (superscript/subscript) dùng cho công thức, chú thích. Có thể bật qua nhóm Font trên tab Home hoặc hộp thoại Font."
         },
         {
           "id": 56,
@@ -3569,7 +3569,7 @@ window.QUIZ_DATA = {
             "D": "Vào Tab Insert/Trong nhóm Paragraph/ Chọn biểu tượng Shading"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Vào Tab Home/Trong nhóm Paragraph/ Chọn biểu tượng Shading». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Shading tô nền đoạn/ô được chọn để nhấn mạnh nội dung. Nằm trong nhóm Paragraph (Word) hoặc Design của bảng."
         },
         {
           "id": 57,
@@ -3581,7 +3581,7 @@ window.QUIZ_DATA = {
             "D": "Tất cả các câu đều có in hoa đầu câu"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Tất cả các kí tự khi soạn thảo đều viết hoa». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Caps Lock giữ trạng thái gõ hoa toàn bộ phím chữ; Change Case (Upper/Lower…) đổi hoa/thường cho đoạn đã chọn mà không cần gõ lại. Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 58,
@@ -3593,7 +3593,7 @@ window.QUIZ_DATA = {
             "D": "Ấn phím ESC trên bàn phím"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Nhấn phím Caps Lock 1 lần trên bàn phím». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: phím Caps Lock 1 lần trên bàn phím. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 59,
@@ -3605,7 +3605,7 @@ window.QUIZ_DATA = {
             "D": "Chữ có khoảng cách đầu dòng là 1.27 cm"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Chữ in hoa». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Caps Lock giữ trạng thái gõ hoa toàn bộ phím chữ; Change Case (Upper/Lower…) đổi hoa/thường cho đoạn đã chọn mà không cần gõ lại. Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 60,
@@ -3617,7 +3617,7 @@ window.QUIZ_DATA = {
             "D": "Viết hoa toàn bộ đoạn văn được chọn"
           },
           "answer": "D",
-          "explain": "«Viết hoa toàn bộ đoạn văn được chọn» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Caps Lock giữ trạng thái gõ hoa toàn bộ phím chữ; Change Case (Upper/Lower…) đổi hoa/thường cho đoạn đã chọn mà không cần gõ lại. Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 61,
@@ -3629,7 +3629,7 @@ window.QUIZ_DATA = {
             "D": "Viết hoa ký tự đầu tiên và viết thường các ký tự còn lại 48"
           },
           "answer": "B",
-          "explain": "«Viết thường toàn bộ đoạn văn được chọn» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Caps Lock giữ trạng thái gõ hoa toàn bộ phím chữ; Change Case (Upper/Lower…) đổi hoa/thường cho đoạn đã chọn mà không cần gõ lại. Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 62,
@@ -3641,7 +3641,7 @@ window.QUIZ_DATA = {
             "D": "Tab Home/ nhóm Font/ Subscript"
           },
           "answer": "A",
-          "explain": "«Tab Home/ nhóm Font/ Change Case» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Caps Lock giữ trạng thái gõ hoa toàn bộ phím chữ; Change Case (Upper/Lower…) đổi hoa/thường cho đoạn đã chọn mà không cần gõ lại. Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 63,
@@ -3653,7 +3653,7 @@ window.QUIZ_DATA = {
             "D": "Vào References/Orentation"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Vào Page Setup/Hyphenation». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Vào Page Setup/Hyphenation. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 64,
@@ -3665,7 +3665,7 @@ window.QUIZ_DATA = {
             "D": "Không có đáp án nào đúng"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Click chuột trái 3 lần liên tiếp lên đoạn cần chọn». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Click chuột trái 3 lần liên tiếp lên đoạn cần chọn. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 65,
@@ -3677,7 +3677,7 @@ window.QUIZ_DATA = {
             "D": "Alt+Enter"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Enter». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Enter. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 66,
@@ -3689,7 +3689,7 @@ window.QUIZ_DATA = {
             "D": "Mở hộp thoại Paragraph/Indentation/Left"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Mở hộp thoại Paragraph/Indentation/Left». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Indentation trong hộp thoại Paragraph thụt đoạn trái/phải theo số đo cụ thể. Giúp bố cục rõ cấp ý hơn so với chỉ dùng Space."
         },
         {
           "id": 67,
@@ -3701,7 +3701,7 @@ window.QUIZ_DATA = {
             "D": "Mở hộp thoại Paragraph/Spacing/Left"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Mở hộp thoại Paragraph/Indentation/Right». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Indentation trong hộp thoại Paragraph thụt đoạn trái/phải theo số đo cụ thể. Giúp bố cục rõ cấp ý hơn so với chỉ dùng Space."
         },
         {
           "id": 68,
@@ -3713,7 +3713,7 @@ window.QUIZ_DATA = {
             "D": "Tất cả các kiểu (1), (2) và (3) đều đúng"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Tất cả các kiểu (1), (2) và (3) đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Word hỗ trợ các loại thụt đầu dòng nào, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 69,
@@ -3725,7 +3725,7 @@ window.QUIZ_DATA = {
             "D": "View/ Outline"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «View/ Show / đánh dấu/bỏ đánh dấu vào mục Ruler». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thước kẻ (Ruler) hỗ trợ căn lề, tab và thụt đoạn trực quan. Bật/tắt qua View → Show → Ruler."
         },
         {
           "id": 70,
@@ -3737,7 +3737,7 @@ window.QUIZ_DATA = {
             "D": "Thiết lập khoảng cách mặc định cho Tab trên bàn phím"
           },
           "answer": "C",
-          "explain": "«Chọn vị trí điểm dừng Tab» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Đáp án đúng là «Chọn vị trí điểm dừng Tab». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 71,
@@ -3749,7 +3749,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột vào Tab và nhấn phím Tab từ bàn phím"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Kích chuột vào Tab trên thanh Ruler, kéo Tab ra khỏi thanh Ruler». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thước kẻ (Ruler) hỗ trợ căn lề, tab và thụt đoạn trực quan. Bật/tắt qua View → Show → Ruler."
         },
         {
           "id": 72,
@@ -3761,7 +3761,7 @@ window.QUIZ_DATA = {
             "D": "Tab Home/ nhóm Clipboard/ cửa sổ Paragraph/ Spacing/ Line Spacing"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Tab Home/ nhóm Paragraph/ cửa sổ Paragraph/ chọn Spacing/ chỉnh sửa thông số của Before và After». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Spacing (Before/After, Line Spacing) chỉnh khoảng cách đoạn và dòng cho dễ đọc. Tránh xuống dòng thủ công bằng Enter để tạo khoảng trống giả."
         },
         {
           "id": 73,
@@ -3773,7 +3773,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl+D/Advance/Trong mục Scale chọn Expanded hoặc Condensed"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Ctrl+D/Advance/Trong mục Spacing chọn Expanded hoặc Condensed». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là Ctrl+D/Advance/Trong mục Spacing chọn Expanded hoặc Condensed. Đây là phím tắt thực hiện đúng thao tác được nêu trong câu hỏi; thuộc nhóm phím cần thuộc khi thao tác Windows/Office/trình duyệt."
         },
         {
           "id": 74,
@@ -3785,7 +3785,7 @@ window.QUIZ_DATA = {
             "D": "Tab Home/ nhóm Paragraph/ cửa sổ Paragraph/ Spacing/ Line Spacing"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Tab Home/ nhóm Paragraph/ cửa sổ Paragraph/ Spacing/ Line Spacing». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Spacing (Before/After, Line Spacing) chỉnh khoảng cách đoạn và dòng cho dễ đọc. Tránh xuống dòng thủ công bằng Enter để tạo khoảng trống giả."
         },
         {
           "id": 75,
@@ -3797,7 +3797,7 @@ window.QUIZ_DATA = {
             "D": "Tab Home/ nhóm Paragraph/ Bullets"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Tab Home/ nhóm Paragraph/ Bullets». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Bullets tạo danh sách ký hiệu; Numbering tạo danh sách đánh số. Cả hai nằm nhóm Paragraph tab Home, giúp cấu trúc ý rõ ràng."
         },
         {
           "id": 76,
@@ -3809,7 +3809,7 @@ window.QUIZ_DATA = {
             "D": "Tab Home/ nhóm Font/ Bullets"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Tab Home/ nhóm Paragraph/ Numbering». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Bullets tạo danh sách ký hiệu; Numbering tạo danh sách đánh số. Cả hai nằm nhóm Paragraph tab Home, giúp cấu trúc ý rõ ràng."
         },
         {
           "id": 77,
@@ -3821,7 +3821,7 @@ window.QUIZ_DATA = {
             "D": "Home/Paragraph/Border and Shading/chọn Tab Page Border/ Trong mục Style chọn Art"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Home/Paragraph/Border and Shading/chọn Tab Page Border/ Trong mục Style chọn Art». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Borders and Shading/Page Border tạo viền đoạn hoặc viền trang (kể cả kiểu Art). Có thể giới hạn áp dụng First Page Only khi cần."
         },
         {
           "id": 78,
@@ -3833,7 +3833,7 @@ window.QUIZ_DATA = {
             "D": "Tab Design/ nhóm Paragraph/ Border"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Tab Home/ nhóm Paragraph/ Border and Shading». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Borders and Shading/Page Border tạo viền đoạn hoặc viền trang (kể cả kiểu Art). Có thể giới hạn áp dụng First Page Only khi cần."
         },
         {
           "id": 79,
@@ -3845,7 +3845,7 @@ window.QUIZ_DATA = {
             "D": "Mở hộp thoại Border and Shading/ Trong mục Apply to chọn This section- First Page Only"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Mở hộp thoại Border and Shading/ Trong mục Apply to chọn This section- First Page Only». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Borders and Shading/Page Border tạo viền đoạn hoặc viền trang (kể cả kiểu Art). Có thể giới hạn áp dụng First Page Only khi cần."
         },
         {
           "id": 80,
@@ -3857,7 +3857,7 @@ window.QUIZ_DATA = {
             "D": "Vào Tab Reference/ Trong nhóm Styles/ chuột phải vào Style bạn muốn thay đổi định dạng và chọn Modify."
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Vào Tab Home/ Trong nhóm Styles/ chuột phải vào Style bạn muốn thay đổi định dạng và chọn Modify». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Style gói sẵn font, cỡ chữ, khoảng đoạn… để áp dụng đồng nhất. Modify Style để đổi định dạng mẫu; chọn đoạn rồi chọn Style để áp dụng."
         },
         {
           "id": 81,
@@ -3869,7 +3869,7 @@ window.QUIZ_DATA = {
             "D": "Chọn đoạn văn bản cần áp dụng Style. Vào Tab Home/ Trong nhóm Styles/ chọn Style muốn áp dụng"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Chọn đoạn văn bản cần áp dụng Style. Vào Tab Home/ Trong nhóm Styles/ chọn Style muốn áp dụng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Style gói sẵn font, cỡ chữ, khoảng đoạn… để áp dụng đồng nhất. Modify Style để đổi định dạng mẫu; chọn đoạn rồi chọn Style để áp dụng."
         },
         {
           "id": 82,
@@ -3881,7 +3881,7 @@ window.QUIZ_DATA = {
             "D": "Copy dữ liệu trong Word"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Copy định dạng trong Word». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Ctrl + Shift + C sao chép định dạng (format) trong Word để dán định dạng sang chỗ khác (thường kèm Ctrl + Shift + V). Khác Ctrl + C chỉ copy nội dung."
         },
         {
           "id": 83,
@@ -3893,7 +3893,7 @@ window.QUIZ_DATA = {
             "D": "Bảng gồm 5 dòng 6 cột"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Bảng gồm 5 cột 6 dòng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Bảng (Table) tổ chức dữ liệu theo hàng–cột; kích thước m×n nghĩa là m cột n hàng (theo cách đề nêu). Tab di chuyển giữa các ô; Merge Cells gộp ô."
         },
         {
           "id": 84,
@@ -3905,7 +3905,7 @@ window.QUIZ_DATA = {
             "D": "Vào Tab Home/ Table/ Insert Table/ Gõ số hàng số cột"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Vào Tab Insert/ Table/ Insert Table/ Gõ số hàng số cột». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Bảng (Table) tổ chức dữ liệu theo hàng–cột; kích thước m×n nghĩa là m cột n hàng (theo cách đề nêu). Tab di chuyển giữa các ô; Merge Cells gộp ô."
         },
         {
           "id": 85,
@@ -3917,7 +3917,7 @@ window.QUIZ_DATA = {
             "D": "Chọn ô cần thay đổi hướng chữ/Vào Tab Insert/ Design/ Chọn Text Direction"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Chọn ô cần thay đổi hướng chữ/Vào Tab Table Tools/ Layout/ Chọn Text Direction». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Layout quy định bố cục placeholder (ô chứa tiêu đề/nội dung/ảnh…). Ví dụ Title and Content có tiêu đề + vùng nội dung; số placeholder tùy mẫu (Two Content, Comparison…)."
         },
         {
           "id": 86,
@@ -3929,7 +3929,7 @@ window.QUIZ_DATA = {
             "D": "ESC"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Tab». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Bảng (Table) tổ chức dữ liệu theo hàng–cột; kích thước m×n nghĩa là m cột n hàng (theo cách đề nêu). Tab di chuyển giữa các ô; Merge Cells gộp ô."
         },
         {
           "id": 87,
@@ -3941,7 +3941,7 @@ window.QUIZ_DATA = {
             "D": "Table Tool/Layout/ Split Cells"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Table Tool/Layout/ Merge Cells». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Bảng (Table) tổ chức dữ liệu theo hàng–cột; kích thước m×n nghĩa là m cột n hàng (theo cách đề nêu). Tab di chuyển giữa các ô; Merge Cells gộp ô."
         },
         {
           "id": 88,
@@ -3953,7 +3953,7 @@ window.QUIZ_DATA = {
             "D": "Chọn ô cần thay đổi độ rộng/ Table Tools/ Layout/ Trong nhóm Cell Size chọn Width"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Chọn ô cần thay đổi độ rộng/ Table Tools/ Layout/ Trong nhóm Cell Size chọn Width». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Layout quy định bố cục placeholder (ô chứa tiêu đề/nội dung/ảnh…). Ví dụ Title and Content có tiêu đề + vùng nội dung; số placeholder tùy mẫu (Two Content, Comparison…)."
         },
         {
           "id": 89,
@@ -3965,7 +3965,7 @@ window.QUIZ_DATA = {
             "D": "Chọn ô cần thay đổi đường viền/Vào Table Tools/ Design/ Chọn Border and Shading/ Chọn kiểu dáng đường viền cần thay đổi trong mục Style/ Ok"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Chọn ô cần thay đổi đường viền/Vào Table Tools/ Design/ Chọn Border and Shading/ Chọn kiểu dáng đường viền cần thay đổi trong mục Style/ Ok». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Borders and Shading/Page Border tạo viền đoạn hoặc viền trang (kể cả kiểu Art). Có thể giới hạn áp dụng First Page Only khi cần."
         },
         {
           "id": 90,
@@ -3977,7 +3977,7 @@ window.QUIZ_DATA = {
             "D": "Chọn ô cần đổ màu/Vào Home/ Design/ Chọn biểu tượng Shading"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Chọn ô cần đổ màu/Vào Table Tools/ Design/ Chọn biểu tượng Shading». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Shading tô nền đoạn/ô được chọn để nhấn mạnh nội dung. Nằm trong nhóm Paragraph (Word) hoặc Design của bảng."
         },
         {
           "id": 91,
@@ -3989,7 +3989,7 @@ window.QUIZ_DATA = {
             "D": "Chọn bảng cần xóa/Vào Insert/ Chọn Delete Table"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Chọn bảng cần xóa/Vào Layout/ Chọn Delete Table». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Layout quy định bố cục placeholder (ô chứa tiêu đề/nội dung/ảnh…). Ví dụ Title and Content có tiêu đề + vùng nội dung; số placeholder tùy mẫu (Two Content, Comparison…)."
         },
         {
           "id": 92,
@@ -4001,7 +4001,7 @@ window.QUIZ_DATA = {
             "D": "View/ Toolbars/ Drawing"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Insert/ Illustrations/ Shapes 53». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Nhóm Illustrations/Insert cho phép chèn Shape, Chart, Picture, Text Box… để minh họa nội dung. Sau khi chèn có thể định dạng viền, màu, kích thước."
         },
         {
           "id": 93,
@@ -4013,7 +4013,7 @@ window.QUIZ_DATA = {
             "D": "References/ Illustrations/ Chart"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Insert/ Illustrations/ Chart». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Nhóm Illustrations/Insert cho phép chèn Shape, Chart, Picture, Text Box… để minh họa nội dung. Sau khi chèn có thể định dạng viền, màu, kích thước."
         },
         {
           "id": 94,
@@ -4025,7 +4025,7 @@ window.QUIZ_DATA = {
             "D": "Tab Design/ nhóm Illustrations"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Tab Insert/ nhóm Illustrations». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Nhóm Illustrations/Insert cho phép chèn Shape, Chart, Picture, Text Box… để minh họa nội dung. Sau khi chèn có thể định dạng viền, màu, kích thước."
         },
         {
           "id": 95,
@@ -4037,7 +4037,7 @@ window.QUIZ_DATA = {
             "D": "Chèn hình ảnh"
           },
           "answer": "D",
-          "explain": "«Chèn hình ảnh» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Đáp án đúng là «Chèn hình ảnh». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 96,
@@ -4049,7 +4049,7 @@ window.QUIZ_DATA = {
             "D": "Cắt ảnh, chỉnh độ mờ cho ảnh (2)"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Tất cả (1), (2) và (3) đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Khi chèn hình ảnh vào Word, ta có thể, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 97,
@@ -4061,7 +4061,7 @@ window.QUIZ_DATA = {
             "D": "Vào Review/ Chọn Textbox"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Vào Insert/ Chọn Textbox». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Nhóm Illustrations/Insert cho phép chèn Shape, Chart, Picture, Text Box… để minh họa nội dung. Sau khi chèn có thể định dạng viền, màu, kích thước."
         },
         {
           "id": 98,
@@ -4073,7 +4073,7 @@ window.QUIZ_DATA = {
             "D": "Vào Insert/Chọn Shape Outline/ Chọn màu sắc cần thay đổi"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Vào Format/Chọn Shape Outline/ Chọn màu sắc cần thay đổi». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Sau khi điền form web, chọn Submit (hoặc tương đương) để gửi dữ liệu lên máy chủ xử lý. Không bấm gửi thì dữ liệu thường chưa được chuyển."
         },
         {
           "id": 99,
@@ -4085,7 +4085,7 @@ window.QUIZ_DATA = {
             "D": "Ấn Ctrl+Shift +S"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Ấn Ctrl +S». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là Ấn Ctrl +S: dùng để lưu file hiện tại. Ghi đè lên bản đã có đường dẫn lưu."
         },
         {
           "id": 100,
@@ -4097,7 +4097,7 @@ window.QUIZ_DATA = {
             "D": "Vào References/ Chọn Insert Footnote"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Vào References/ Chọn Insert Footnote». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Insert Footnote (tab References) thêm chú thích cuối trang gắn với vị trí đánh dấu trong văn bản. Phù hợp trích dẫn/giải thích thuật ngữ."
         },
         {
           "id": 101,
@@ -4109,7 +4109,7 @@ window.QUIZ_DATA = {
             "D": "Vào References/ Chọn Page Number"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Vào Insert/ Chọn Page Number». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Page Number/Header/Footer gắn thông tin lặp trên các trang; Page Break ngắt sang trang mới đúng vị trí. Các lệnh nằm chủ yếu ở Insert và Page Layout."
         },
         {
           "id": 102,
@@ -4121,7 +4121,7 @@ window.QUIZ_DATA = {
             "D": "Căn giữa văn bản"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Căn văn bản đều hai bên». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Ctrl + J căn đều hai bên (justify), làm mép trái và phải thẳng hàng. Thường dùng cho thân văn bản trang trọng."
         },
         {
           "id": 103,
@@ -4133,7 +4133,7 @@ window.QUIZ_DATA = {
             "D": "References/ Captions/ Break"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Insert/ Pages/ Page Break». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Page Number/Header/Footer gắn thông tin lặp trên các trang; Page Break ngắt sang trang mới đúng vị trí. Các lệnh nằm chủ yếu ở Insert và Page Layout."
         },
         {
           "id": 104,
@@ -4145,7 +4145,7 @@ window.QUIZ_DATA = {
             "D": "Insert / Header and Footer"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Insert / Header and Footer / nhấn nút Header hoặc Footer». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Page Number/Header/Footer gắn thông tin lặp trên các trang; Page Break ngắt sang trang mới đúng vị trí. Các lệnh nằm chủ yếu ở Insert và Page Layout."
         },
         {
           "id": 105,
@@ -4157,7 +4157,7 @@ window.QUIZ_DATA = {
             "D": "Hướng dọc"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Hướng dọc». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Orientation Portrait là hướng dọc (mặc định), Landscape là ngang. Đổi trong Page Layout → Orientation tùy khổ trình bày."
         },
         {
           "id": 106,
@@ -4169,7 +4169,7 @@ window.QUIZ_DATA = {
             "D": "Hướng ngang"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Hướng dọc». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Orientation Portrait là hướng dọc (mặc định), Landscape là ngang. Đổi trong Page Layout → Orientation tùy khổ trình bày."
         },
         {
           "id": 107,
@@ -4181,7 +4181,7 @@ window.QUIZ_DATA = {
             "D": "Là khoảng cách giữa cạnh giấy và văn bản trong tài liệu"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Là khoảng cách giữa cạnh giấy và văn bản trong tài liệu». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Lề (Margins) là khoảng trống giữa mép giấy và vùng chữ. Chỉnh lề giúp văn bản cân đối và tránh bị máy in cắt chữ."
         },
         {
           "id": 108,
@@ -4193,7 +4193,7 @@ window.QUIZ_DATA = {
             "D": "Hướng nghiêng 45 độ"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Hướng ngang». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Orientation Portrait là hướng dọc (mặc định), Landscape là ngang. Đổi trong Page Layout → Orientation tùy khổ trình bày."
         },
         {
           "id": 109,
@@ -4205,7 +4205,7 @@ window.QUIZ_DATA = {
             "D": "Tab Design/ nhóm Page Setup/ Landscape"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Tab Page Layout/ nhóm Page Setup/ Orientation». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Orientation Portrait là hướng dọc (mặc định), Landscape là ngang. Đổi trong Page Layout → Orientation tùy khổ trình bày."
         },
         {
           "id": 110,
@@ -4217,7 +4217,7 @@ window.QUIZ_DATA = {
             "D": "File/ Page Setup"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «File/ Page Setup». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: File/ Page Setup. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 111,
@@ -4229,7 +4229,7 @@ window.QUIZ_DATA = {
             "D": "Tab Page Layout/ nhóm Page Setup/ Design"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Tab Page Layout/ nhóm Paper Setup/ Margins». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Lề (Margins) là khoảng trống giữa mép giấy và vùng chữ. Chỉnh lề giúp văn bản cân đối và tránh bị máy in cắt chữ."
         },
         {
           "id": 112,
@@ -4241,7 +4241,7 @@ window.QUIZ_DATA = {
             "D": "Kích đúp chuột vào biểu tượng máy in ở thanh taskbar"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Kích đúp chuột vào biểu tượng máy in ở thanh taskbar». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: đúp chuột vào biểu tượng máy in ở thanh taskbar. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 113,
@@ -4253,7 +4253,7 @@ window.QUIZ_DATA = {
             "D": "Kích đúp chuột vào biểu tượng máy in ở thanh taskbar/ Chuột phải vào tài liệu muốn hủy lệnh in/ Chọn Restart"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Kích đúp chuột vào biểu tượng máy in ở thanh taskbar/ Chuột phải vào tài liệu muốn hủy lệnh in/ Chọn Cancel». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: đúp chuột vào biểu tượng máy in ở thanh taskbar/ Chuột phải vào tài liệu muốn hủy lệnh in/ Chọn Cancel. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 114,
@@ -4265,7 +4265,7 @@ window.QUIZ_DATA = {
             "D": "Print Preview"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Print Preview». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Print Preview. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Print Preview xem trước bố cục in để phát hiện lỗi trước khi in giấy."
         },
         {
           "id": 115,
@@ -4277,7 +4277,7 @@ window.QUIZ_DATA = {
             "D": "Vào File/Save/Trong mục Save as Type chọn PDF(*.pdf)."
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Vào File/Save/Trong mục Save as Type chọn PDF(*.pdf)». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Chuột phải ảnh → Save picture as lưu riêng file ảnh; File → Save As lưu cả trang (có tùy chọn HTML only nếu không cần kèm ảnh). Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 116,
@@ -4289,7 +4289,7 @@ window.QUIZ_DATA = {
             "D": "Vào Home/ Info/Chọn Protect Document/ Encrypt with Password"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Vào File/ Info/Chọn Protect Document/ Encrypt with Password». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Encrypt with Password khóa file bằng mật khẩu; không có mật khẩu đúng thì khó mở nội dung. Cần nhớ mật khẩu vì mất có thể không mở lại được."
         },
         {
           "id": 117,
@@ -4301,7 +4301,7 @@ window.QUIZ_DATA = {
             "D": "Vào File/Save & Send/ Send Using E_mail"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Vào File/Save & Send/ Send Using E_mail». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Toán tử & nối chuỗi trong Excel. Có thể ghép ô và chuỗi cố định, ví dụ =A5&\" \"&B5 để tạo họ tên có khoảng trắng."
         },
         {
           "id": 118,
@@ -4313,7 +4313,7 @@ window.QUIZ_DATA = {
             "D": "Vào File/Save & Send/ Save to Web"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Vào File/Save & Send/ Save to Web». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Toán tử & nối chuỗi trong Excel. Có thể ghép ô và chuỗi cố định, ví dụ =A5&\" \"&B5 để tạo họ tên có khoảng trắng."
         },
         {
           "id": 119,
@@ -4325,7 +4325,7 @@ window.QUIZ_DATA = {
             "D": "Vào File/New/ Letters/ Chọn mẫu Letter muốn tạo/Download"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Vào File/New/ Letters/ Chọn mẫu Letter muốn tạo/Download». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Vào File/New/ Letters/ Chọn mẫu Letter muốn tạo/Download. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 120,
@@ -4337,7 +4337,7 @@ window.QUIZ_DATA = {
             "D": "Times New Roman --- <a id=\"module-4\"></a> # MODULE 4: SỬ DỤNG BẢNG TÍNH CƠ BẢN (EXCEL) ## 4.1. LÝ THUYẾT ### 4.1.1. Khái niệm & giao diện - Excel dùng để **tính toán**. File mặc định 2010: **`.xlsx`** (thường nhỏ hơn `.xls` cùng nội dung). - Thành phần: WorkBook, WorkSheet, WorkSpace… (**không** có “Workdocument”). - Sheet Excel 2010: **1.048.576 hàng × 16.384 cột**. - Phím: F1 Help; Ctrl+O mở; Ctrl+N mới; Ctrl+F4 đóng workbook; **F12** Save As; **F2** sửa ô; **F4** đổi kiểu tham chiếu / lặp lại; **F9** tính thử công thức. ### 4.1.2. Ô, vùng, tham chiếu | Kiểu | Ví dụ | Khi copy | |------|-------|----------| | Tương đối | A12 | Đổi theo vị trí | | Tuyệt đối | $A$12 | Cố định | | Hỗn hợp | $A12 hoặc A$12 | Cố định cột hoặc hàng | - Vùng: **B1:H15**. Chọn nhiều vùng: giữ **Ctrl**. Ctrl+A chọn toàn bộ. - Công thức **bắt đầu bằng `=`**. - Ví dụ: tại B5: `=A1+$B$2+C$3` copy tới D8 → `=C4+$B$2+E$3`. - Tại D2: `=B1+C1` copy sang E2 → `=C1+D1`. - Fill chuỗi số trong chữ: `1Angiang2` → kéo tới E2 có thể thành `1Angiang6` (số cuối tăng). Chuỗi có khoảng trắng kiểu khác có thể tăng số đầu. ### 4.1.3. Dữ liệu & lỗi thường gặp - Mặc định: **số / ngày** căn phải; **chữ** căn trái. - Kiểu: chuỗi, số, logic, ngày tháng, công thức. - `#####`: cột hẹp. `#DIV/0!`: chia 0. `#VALUE!`: sai kiểu. `#NAME?`: sai tên hàm. `#REF!`: mất tham chiếu. - Nối chuỗi: `&` hoặc `=\"VU LOC\"&\" \"&\"AN\"`. - `=\"123\"-\"23\"` → thường `#VALUE!` (chuỗi không trừ được như số trực tiếp tùy phiên bản/context đề → đáp án `#VALUE!`). - `=24*2+5*2+(20-10)/2` = **47**. ### 4.1.4. Hàm quan trọng | Hàm | Công dụng / Ví dụ | |-----|-------------------| | SUM | Tổng; tối đa 255 đối số | | MIN / MAX | Nhỏ nhất / lớn nhất | | AVERAGE | Trung bình (`EVERAGE` viết sai → `#NAME?`) | | COUNT | Đếm ô số | | COUNTA | Đếm ô không rỗng | | COUNTIF | Đếm theo điều kiện | | SUMIF | `=SUMIF(range,criteria,[sum_range])` | | PRODUCT | Tích | | ROUND | `ROUND(7475.47,-2)=7500` | | MOD | `MOD(26,7)=5` | | VALUE | Chuỗi → số | | MID | `MID(\"m1234\",2,3)=\"123\"` | | IF | `IF(đk, đúng, sai)`; khác: `<>` | | AND / OR / NOT | Logic | | TODAY / NOW | Ngày giờ hệ thống | | YEAR / MONTH / DAY | Lấy thành phần ngày | | VLOOKUP / HLOOKUP | Dò tìm | **Lưu ý IF lồng:** điều kiện đúng trả ngay → với `=If(DTB>=5,\"TB\",If(DTB>=6.5,...))` khi DTB=9 vẫn ra **\"TB\"** (vì ≥5 đúng trước). ### 4.1.5. Trang tính, định dạng, biểu đồ, in - Sort / AutoFilter (Data). Freeze Panes (View). Hide cột. Đổi tên sheet: chuột phải → Rename. Sheet mới chèn **trước** sheet đang mở (theo đề). - Định dạng: Ctrl+B/I/U; Wrap Text; Orientation; Merge; Fill Color; Border; Conditional Formatting; Format Painter. - Biểu đồ: Insert → Charts; **Pie** phù hợp %; Column = cột. - In: Ctrl+P; Page Layout → Margins / Orientation Landscape; Print Titles; Header & Footer. - Mật khẩu: File → Save → Tools → **General Options**. --- ## 4.2. THỰC HÀNH MODULE 4 ### Bài EX1 – Bảng điểm 1. Nhập danh sách HS: Họ tên, Toán, Văn, Anh. 2. Cột ĐTB = AVERAGE; xếp loại bằng IF lồng (Giỏi/Khá/TB/Yếu) — sắp xếp điều kiện từ cao xuống thấp. 3. COUNTIF số HS Giỏi; SUMIF tổng điểm theo lớp. 4. Sort giảm dần ĐTB; AutoFilter theo xếp loại; Freeze hàng tiêu đề. ### Bài EX2 – Lương 1. Lương = ROUND(Mức cơ bản * Hệ số, -3) với hệ số ô tuyệt đối `$K$11`. 2. VLOOKUP phụ cấp theo chức vụ; biểu đồ cột tổng lương theo phòng. ### Bài EX3 – Ngày tháng & lỗi 1. Dùng TODAY, YEAR tính tuổi; định dạng `mmm-dd-yyyy`. 2. Cố ý tạo lỗi #####, #DIV/0!, #NAME? rồi sửa. ---"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Times New Roman --- <a id=\"module-4\"></a> # MODULE 4: SỬ DỤNG BẢNG TÍNH CƠ BẢN (EXCEL) ## 4.1. LÝ THUYẾT ### 4.1.1. Khái niệm & giao diện - Excel dùng để **tính toán**. File mặc…». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Theo quy định thể thức văn bản hành chính phổ biến trong đề thi, font Times New Roman được yêu cầu khi trình bày văn bản. Giúp thống nhất hình thức công văn."
         }
       ]
     },
@@ -4356,7 +4356,7 @@ window.QUIZ_DATA = {
             "D": "Tính toán"
           },
           "answer": "D",
-          "explain": "«Tính toán» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Excel là phần mềm bảng tính dùng nhập liệu, tính toán, phân tích và biểu đồ hóa dữ liệu. File mặc định Excel 2007+ là .xlsx; .xls là định dạng cũ hơn, thường nặng hơn."
         },
         {
           "id": 2,
@@ -4368,7 +4368,7 @@ window.QUIZ_DATA = {
             "D": "XLXS"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «XLSX». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Excel là phần mềm bảng tính dùng nhập liệu, tính toán, phân tích và biểu đồ hóa dữ liệu. File mặc định Excel 2007+ là .xlsx; .xls là định dạng cũ hơn, thường nặng hơn."
         },
         {
           "id": 3,
@@ -4380,7 +4380,7 @@ window.QUIZ_DATA = {
             "D": "F3"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «F1». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là F1: dùng để mở trợ giúp Help. Tra cứu lệnh ngay trong phần mềm."
         },
         {
           "id": 4,
@@ -4392,7 +4392,7 @@ window.QUIZ_DATA = {
             "D": "Tệp có phần mở rộng xls có kích thước nhỏ hơn so với tệp có phần mở rộng xlsx"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Tệp có phần mở rộng xls có kích thước lớn hơn so với tệp có phần mở rộng xlsx». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phần mở rộng/định dạng đúng là Tệp có phần mở rộng xls có kích thước lớn hơn so với tệp có phần mở rộng xlsx. Đuôi file cho biết kiểu dữ liệu và chương trình phù hợp để mở. Chọn sai định dạng dễ khiến file mở lỗi hoặc mất tương thích."
         },
         {
           "id": 5,
@@ -4404,7 +4404,7 @@ window.QUIZ_DATA = {
             "D": "WorkBook"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Workdocument» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Cách đúng là: Workdocument. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 6,
@@ -4416,7 +4416,7 @@ window.QUIZ_DATA = {
             "D": "256 – 16284"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «16384 – 1048576». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Một worksheet Excel 2007/2010 có tới 16 384 cột và 1 048 576 hàng. Giới hạn này lớn hơn nhiều so với phiên bản .xls cũ."
         },
         {
           "id": 7,
@@ -4428,7 +4428,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl + W"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Ctrl+O». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là Ctrl+O: dùng để mở file đã có trên máy. Hộp thoại Open cho chọn đường dẫn và kiểu file."
         },
         {
           "id": 8,
@@ -4440,7 +4440,7 @@ window.QUIZ_DATA = {
             "D": "Shift+F4"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Ctrl+F4». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là Ctrl+F4. Đây là phím tắt thực hiện đúng thao tác được nêu trong câu hỏi; thuộc nhóm phím cần thuộc khi thao tác Windows/Office/trình duyệt."
         },
         {
           "id": 9,
@@ -4452,7 +4452,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl + M"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Ctrl+N». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là Ctrl+N: dùng để tạo tài liệu/workbook/presentation mới. Nhanh hơn vào menu File → New."
         },
         {
           "id": 10,
@@ -4464,7 +4464,7 @@ window.QUIZ_DATA = {
             "D": "F12"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «F12». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là F12: dùng để Save As — lưu thành tên hoặc định dạng mới. Giữ được bản gốc nếu đổi tên/đường dẫn."
         },
         {
           "id": 11,
@@ -4476,7 +4476,7 @@ window.QUIZ_DATA = {
             "D": "A12"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «$12$A» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "$12$A. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 12,
@@ -4488,7 +4488,7 @@ window.QUIZ_DATA = {
             "D": "$12$A"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «$A$12». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Địa chỉ tuyệt đối dạng $Cột$Hàng (ví dụ $A$12) không đổi khi sao chép công thức. Phím F4 xoay vòng tương đối/tuyệt đối/hỗn hợp khi đang sửa tham chiếu."
         },
         {
           "id": 13,
@@ -4500,7 +4500,7 @@ window.QUIZ_DATA = {
             "D": "A12$ 59"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «$A12». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Địa chỉ hỗn hợp khóa một phần: $A12 cố định cột A, A$12 cố định hàng 12. Khi fill công thức, phần không có $ sẽ dịch chuyển."
         },
         {
           "id": 14,
@@ -4512,7 +4512,7 @@ window.QUIZ_DATA = {
             "D": "F4"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «F4». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là F4: dùng để đổi kiểu tham chiếu ô khi sửa công thức Excel. Xoay vòng tương đối / tuyệt đối / hỗn hợp."
         },
         {
           "id": 15,
@@ -4524,7 +4524,7 @@ window.QUIZ_DATA = {
             "D": "B1:H15"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «B1:H15». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Vùng (range) là khối ô chữ nhật, địa chỉ viết dạng ÔĐầu:ÔCuối (ví dụ B1:H15). Dùng làm đối số cho nhiều hàm Excel."
         },
         {
           "id": 16,
@@ -4536,7 +4536,7 @@ window.QUIZ_DATA = {
             "D": "= C4 + $B$2 + E$3"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «= C4 + $B$2 + E$3». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Mọi công thức Excel bắt đầu bằng dấu =. Sau đó nhập biểu thức, hàm và tham chiếu ô cần tính."
         },
         {
           "id": 17,
@@ -4548,7 +4548,7 @@ window.QUIZ_DATA = {
             "D": "Canh bên phải ô"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Canh bên phải ô». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Theo mặc định Excel căn trái dữ liệu kiểu chữ và căn phải số/ngày tháng. Cách hiển thị này giúp nhận biết nhanh kiểu dữ liệu."
         },
         {
           "id": 18,
@@ -4560,7 +4560,7 @@ window.QUIZ_DATA = {
             "D": "Dữ liệu kiểu thời gian sẽ mặc định căn lề trái"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Dữ liệu kiểu ký tự sẽ mặc định căn lề trái». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Theo mặc định Excel căn trái dữ liệu kiểu chữ và căn phải số/ngày tháng. Cách hiển thị này giúp nhận biết nhanh kiểu dữ liệu."
         },
         {
           "id": 19,
@@ -4572,7 +4572,7 @@ window.QUIZ_DATA = {
             "D": "Kiểu chuỗi, kiểu số, kiểu lôgic, kiểu ngày tháng, kiểu công thức"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Kiểu chuỗi, kiểu số, kiểu lôgic, kiểu ngày tháng, kiểu công thức». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kiểu chuỗi, kiểu số, kiểu lôgic, kiểu ngày tháng, kiểu công thức. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 20,
@@ -4584,7 +4584,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl + Alt"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Ctrl + A». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl + A: dùng để chọn tất cả đối tượng trong vùng đang active. Áp dụng cho chữ, ô, file trong cửa sổ hiện hành."
         },
         {
           "id": 21,
@@ -4596,7 +4596,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Ctrl». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Ctrl. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 22,
@@ -4608,7 +4608,7 @@ window.QUIZ_DATA = {
             "D": "Di chuyển con trỏ"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Bôi đen (Chọn)». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Đáp án đúng là «Bôi đen (Chọn)». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 23,
@@ -4620,7 +4620,7 @@ window.QUIZ_DATA = {
             "D": "Redo"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Undo». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Undo. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 24,
@@ -4632,7 +4632,7 @@ window.QUIZ_DATA = {
             "D": "F5"
           },
           "answer": "B",
-          "explain": "Phương án đúng là «F2» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Tổ hợp/phím đúng là F2: dùng để đổi tên file/thư mục hoặc sửa nội dung ô Excel. Tùy ngữ cảnh Explorer hay bảng tính."
         },
         {
           "id": 25,
@@ -4644,7 +4644,7 @@ window.QUIZ_DATA = {
             "D": "Vào menu Tools, chọn Quick view, chọn mức \"xuất sắc\""
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Vào menu Data, chọn Filter - Autofilter». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Sort sắp xếp; Filter/AutoFilter lọc hiện các dòng thỏa điều kiện (ví dụ xếp loại “xuất sắc”). Cả hai nằm tab Data, rất hay dùng khi phân tích danh sách."
         },
         {
           "id": 26,
@@ -4656,7 +4656,7 @@ window.QUIZ_DATA = {
             "D": "Data --> Filter…"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Data --> Sort…». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Sort sắp xếp; Filter/AutoFilter lọc hiện các dòng thỏa điều kiện (ví dụ xếp loại “xuất sắc”). Cả hai nằm tab Data, rất hay dùng khi phân tích danh sách."
         },
         {
           "id": 27,
@@ -4668,7 +4668,7 @@ window.QUIZ_DATA = {
             "D": "=C1+D2"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «=C1+D1». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Mọi công thức Excel bắt đầu bằng dấu =. Sau đó nhập biểu thức, hàm và tham chiếu ô cần tính."
         },
         {
           "id": 28,
@@ -4680,7 +4680,7 @@ window.QUIZ_DATA = {
             "D": "1Angiang2"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «1Angiang6». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: 1Angiang6. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 29,
@@ -4692,7 +4692,7 @@ window.QUIZ_DATA = {
             "D": "5 Angiang 2"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «5 Angiang 2». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: 5 Angiang. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 30,
@@ -4704,7 +4704,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl + c"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Ctrl + x». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là Ctrl + x: dùng để cắt (Cut) nội dung vào Clipboard. Dùng khi muốn di chuyển chứ không nhân bản."
         },
         {
           "id": 31,
@@ -4716,7 +4716,7 @@ window.QUIZ_DATA = {
             "D": "Insert\\Delete\\Delete Sheet Rows"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Home\\Delete\\Delete Sheet Columns». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Biểu đồ cột so sánh giá trị; biểu đồ tròn (Pie) phù hợp thể hiện tỷ lệ phần trăm tổng thể. Chèn qua Insert → Charts."
         },
         {
           "id": 32,
@@ -4728,7 +4728,7 @@ window.QUIZ_DATA = {
             "D": "Home\\Delete\\Delete Sheet Rows"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Home\\Delete\\Delete Sheet Rows». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Home\\Delete\\Delete Sheet Rows. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 33,
@@ -4740,7 +4740,7 @@ window.QUIZ_DATA = {
             "D": "Vào thực đơn Insert, chọn Object"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Vào thực đơn Insert, chọn Rows». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Vào thực đơn Insert, chọn Rows. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 34,
@@ -4752,7 +4752,7 @@ window.QUIZ_DATA = {
             "D": "Home\\Format\\AutoFit Column Width"
           },
           "answer": "A",
-          "explain": "«Home\\Format\\Column Width» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Biểu đồ cột so sánh giá trị; biểu đồ tròn (Pie) phù hợp thể hiện tỷ lệ phần trăm tổng thể. Chèn qua Insert → Charts."
         },
         {
           "id": 35,
@@ -4764,7 +4764,7 @@ window.QUIZ_DATA = {
             "D": "Thẻ Page Layout – Freeze Panes"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Thẻ View – Freeze Panes». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Freeze Panes giữ cố định hàng/cột tiêu đề khi cuộn trang tính. Giúp luôn nhìn thấy nhãn cột/hàng trong bảng dài."
         },
         {
           "id": 36,
@@ -4776,7 +4776,7 @@ window.QUIZ_DATA = {
             "D": "Data\\format\\Hide & Unhide\\Hide columns"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Home\\format\\Hide & Unhide\\Hide columns». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Biểu đồ cột so sánh giá trị; biểu đồ tròn (Pie) phù hợp thể hiện tỷ lệ phần trăm tổng thể. Chèn qua Insert → Charts."
         },
         {
           "id": 37,
@@ -4788,7 +4788,7 @@ window.QUIZ_DATA = {
             "D": "Review\\Freeze Panes"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «View\\Freeze Panes». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Freeze Panes giữ cố định hàng/cột tiêu đề khi cuộn trang tính. Giúp luôn nhìn thấy nhãn cột/hàng trong bảng dài."
         },
         {
           "id": 38,
@@ -4800,7 +4800,7 @@ window.QUIZ_DATA = {
             "D": "Chuột phải lên sheet\\Rename"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Chuột phải lên sheet\\Rename». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Chuột phải lên sheet\\Rename. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 39,
@@ -4812,7 +4812,7 @@ window.QUIZ_DATA = {
             "D": "Trước sheet đang mở"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Trước sheet đang mở». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Trước sheet đang mở». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 40,
@@ -4824,7 +4824,7 @@ window.QUIZ_DATA = {
             "D": "Nhấn chuột lên tên sheet cần di chuyển đến hoặc nhấn tổ hợp phím Ctrl + PgUp hoặc Ctrl + PgUp"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Nhấn chuột lên tên sheet cần di chuyển đến hoặc nhấn tổ hợp phím Ctrl + PgUp hoặc Ctrl + PgUp». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là chuột lên tên sheet cần di chuyển đến hoặc nhấn tổ hợp phím Ctrl + PgUp hoặc Ctrl + PgUp. Đây là phím tắt thực hiện đúng thao tác được nêu trong câu hỏi; thuộc nhóm phím cần thuộc khi thao tác Windows/Office/trình duyệt."
         },
         {
           "id": 41,
@@ -4836,7 +4836,7 @@ window.QUIZ_DATA = {
             "D": "Format > Sheet > Move, chọn đúng đến vị trí mong muốn"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Chọn Sheet2 và kéo đến vị trí mong muốn». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Sheet2 và kéo đến vị trí mong muốn. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 42,
@@ -4848,7 +4848,7 @@ window.QUIZ_DATA = {
             "D": "Dấu: $"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Dấu: =». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Mọi công thức Excel bắt đầu bằng dấu =. Sau đó nhập biểu thức, hàm và tham chiếu ô cần tính."
         },
         {
           "id": 43,
@@ -4860,7 +4860,7 @@ window.QUIZ_DATA = {
             "D": "=\"VU LOC\" AND \"AN\""
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «=\"VU LOC\"&\" \"&\"AN\"». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Mọi công thức Excel bắt đầu bằng dấu =. Sau đó nhập biểu thức, hàm và tham chiếu ô cần tính."
         },
         {
           "id": 44,
@@ -4872,7 +4872,7 @@ window.QUIZ_DATA = {
             "D": "138"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «47». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 47. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 45,
@@ -4884,7 +4884,7 @@ window.QUIZ_DATA = {
             "D": "#VALUE!"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «23». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 23. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 46,
@@ -4896,7 +4896,7 @@ window.QUIZ_DATA = {
             "D": "= A5 + B5"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «= A5 &“ “& B5 64». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Mọi công thức Excel bắt đầu bằng dấu =. Sau đó nhập biểu thức, hàm và tham chiếu ô cần tính."
         },
         {
           "id": 47,
@@ -4908,7 +4908,7 @@ window.QUIZ_DATA = {
             "D": "#REF"
           },
           "answer": "D",
-          "explain": "Phương án đúng là «#REF» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Excel báo lỗi theo mã: ##### thường do cột hẹp với số; #DIV/0! chia cho 0; #NAME? sai tên hàm/chưa có tên; #REF! tham chiếu hỏng; #VALUE!"
         },
         {
           "id": 48,
@@ -4920,7 +4920,7 @@ window.QUIZ_DATA = {
             "D": "Công thức nhập sai và Excel thông báo lỗi"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Cột chứa ô đó có độ rộng quá hẹp nên không hiển thị hết chữ số». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Cột chứa ô đó có độ rộng quá hẹp nên không hiển thị hết chữ số. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 49,
@@ -4932,7 +4932,7 @@ window.QUIZ_DATA = {
             "D": "0"
           },
           "answer": "B",
-          "explain": "Phương án đúng là «#DIV/0!» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Excel báo lỗi theo mã: ##### thường do cột hẹp với số; #DIV/0! chia cho 0; #NAME? sai tên hàm/chưa có tên; #REF! tham chiếu hỏng; #VALUE!"
         },
         {
           "id": 50,
@@ -4944,7 +4944,7 @@ window.QUIZ_DATA = {
             "D": "#"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «#». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Khi số quá dài so với độ rộng cột, Excel thường hiện # (chuỗi dấu #). Hãy kéo rộng cột hoặc giảm cỡ chữ/định dạng số để nhìn đủ giá trị — đây không phải mã lỗi công thức như #DIV/0!."
         },
         {
           "id": 51,
@@ -4956,7 +4956,7 @@ window.QUIZ_DATA = {
             "D": "#N/A!"
           },
           "answer": "A",
-          "explain": "Phương án đúng là «#NAME?» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Excel báo lỗi theo mã: ##### thường do cột hẹp với số; #DIV/0! chia cho 0; #NAME? sai tên hàm/chưa có tên; #REF! tham chiếu hỏng; #VALUE!"
         },
         {
           "id": 52,
@@ -4968,7 +4968,7 @@ window.QUIZ_DATA = {
             "D": "Tìm giá trị nhỏ nhất trong các giá trị được chọn"
           },
           "answer": "A",
-          "explain": "«Tính tổng các giá trị số trong vùng được chọn» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "SUM cộng các giá trị số trong đối số/vùng chọn. Là hàm thống kê cơ bản nhất trên bảng tính."
         },
         {
           "id": 53,
@@ -4980,7 +4980,7 @@ window.QUIZ_DATA = {
             "D": "MINUTE"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «MIN». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "MIN trả về giá trị nhỏ nhất trong danh sách/vùng. Ngược lại MAX trả về giá trị lớn nhất."
         },
         {
           "id": 54,
@@ -4992,7 +4992,7 @@ window.QUIZ_DATA = {
             "D": "AVERAGE"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «AVERAGE». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "AVERAGE tính trung bình cộng các giá trị số. Lưu ý gõ đúng tên hàm; sai chính tả sẽ ra #NAME?."
         },
         {
           "id": 55,
@@ -5004,7 +5004,7 @@ window.QUIZ_DATA = {
             "D": "SUM"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «COUNTIF». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "COUNTIF đếm ô thỏa điều kiện; SUMIF cộng theo điều kiện trên một vùng tiêu chí. Cú pháp điển hình: =SUMIF(range,criteria,[sum_range])."
         },
         {
           "id": 56,
@@ -5016,7 +5016,7 @@ window.QUIZ_DATA = {
             "D": "SUM(TOTAL)/TOTAL()"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Average()». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "AVERAGE tính trung bình cộng các giá trị số. Lưu ý gõ đúng tên hàm; sai chính tả sẽ ra #NAME?."
         },
         {
           "id": 57,
@@ -5028,7 +5028,7 @@ window.QUIZ_DATA = {
             "D": "Mid(chuỗi, m, n)"
           },
           "answer": "A",
-          "explain": "«Value(số)» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Value(số). Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 58,
@@ -5040,7 +5040,7 @@ window.QUIZ_DATA = {
             "D": "Sử dụng tối đa là 255 tham số"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Sử dụng tối đa là 255 tham số». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Sử dụng tối đa là 255 tham số». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 59,
@@ -5052,7 +5052,7 @@ window.QUIZ_DATA = {
             "D": "135"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «65 66». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "MAX chọn giá trị lớn nhất trong các đối số. Ví dụ =MAX(30,10,65,5) cho 65."
         },
         {
           "id": 60,
@@ -5064,7 +5064,7 @@ window.QUIZ_DATA = {
             "D": "9"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «5». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 5. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 61,
@@ -5076,7 +5076,7 @@ window.QUIZ_DATA = {
             "D": "0"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «3». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 3. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 62,
@@ -5088,7 +5088,7 @@ window.QUIZ_DATA = {
             "D": "0"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «4». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 4. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 63,
@@ -5100,7 +5100,7 @@ window.QUIZ_DATA = {
             "D": "7475.47"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «7500». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 7500. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 64,
@@ -5112,7 +5112,7 @@ window.QUIZ_DATA = {
             "D": "50"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «50». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 50. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 65,
@@ -5124,7 +5124,7 @@ window.QUIZ_DATA = {
             "D": "-25"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «14». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "MAX chọn giá trị lớn nhất trong các đối số. Ví dụ =MAX(30,10,65,5) cho 65."
         },
         {
           "id": 66,
@@ -5136,7 +5136,7 @@ window.QUIZ_DATA = {
             "D": "6"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «5». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 5. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 67,
@@ -5148,7 +5148,7 @@ window.QUIZ_DATA = {
             "D": "5"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «5». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 5. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 68,
@@ -5160,7 +5160,7 @@ window.QUIZ_DATA = {
             "D": "1Hanoi6"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «1Hanoi6». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: 1Hanoi6. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 69,
@@ -5172,7 +5172,7 @@ window.QUIZ_DATA = {
             "D": "Số 23"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Chuỗi “123”». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "MID(chuỗi, vị_trí, số_ký_tự) lấy chuỗi con. Ví dụ =MID(\"m1234\",2,3) → \"123\"."
         },
         {
           "id": 70,
@@ -5184,7 +5184,7 @@ window.QUIZ_DATA = {
             "D": "7"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «6». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 6. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 71,
@@ -5196,7 +5196,7 @@ window.QUIZ_DATA = {
             "D": "=SUMIF(A2:A8,E2:E8,\"Máy tính\")"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «=SUMIF(A2:A8,\"Máy tính\",E2:E8)». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "COUNTIF đếm ô thỏa điều kiện; SUMIF cộng theo điều kiện trên một vùng tiêu chí. Cú pháp điển hình: =SUMIF(range,criteria,[sum_range])."
         },
         {
           "id": 72,
@@ -5208,7 +5208,7 @@ window.QUIZ_DATA = {
             "D": "=Countif(B2:B10,'Nhân viên')"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «=Countif(B2:B10,\"Nhân viên\")». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "COUNTIF đếm ô thỏa điều kiện; SUMIF cộng theo điều kiện trên một vùng tiêu chí. Cú pháp điển hình: =SUMIF(range,criteria,[sum_range])."
         },
         {
           "id": 73,
@@ -5220,7 +5220,7 @@ window.QUIZ_DATA = {
             "D": "=SUMIF(criteria,range,[sum_range])"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «=SUMIF(range,criteria,[sum_range])». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "COUNTIF đếm ô thỏa điều kiện; SUMIF cộng theo điều kiện trên một vùng tiêu chí. Cú pháp điển hình: =SUMIF(range,criteria,[sum_range])."
         },
         {
           "id": 74,
@@ -5232,7 +5232,7 @@ window.QUIZ_DATA = {
             "D": "15"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «17». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 17. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 75,
@@ -5244,7 +5244,7 @@ window.QUIZ_DATA = {
             "D": "3B"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «23». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 23. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 76,
@@ -5256,7 +5256,7 @@ window.QUIZ_DATA = {
             "D": "20"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «15». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 15. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 77,
@@ -5268,7 +5268,7 @@ window.QUIZ_DATA = {
             "D": "Tinhoc"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «#VALUE!». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Excel báo lỗi theo mã: ##### thường do cột hẹp với số; #DIV/0! chia cho 0; #NAME? sai tên hàm/chưa có tên; #REF! tham chiếu hỏng; #VALUE!"
         },
         {
           "id": 78,
@@ -5280,7 +5280,7 @@ window.QUIZ_DATA = {
             "D": "IF(BT logic, Giá trị đúng) 69"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «IF(BT logic, Giá trị đúng, Giá trị sai)». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "IF(điều_kiện, giá_trị_đúng, giá_trị_sai) rẽ nhánh theo phép so sánh. Toán tử <> nghĩa là khác; có thể lồng nhiều IF hoặc kết hợp AND/OR."
         },
         {
           "id": 79,
@@ -5292,7 +5292,7 @@ window.QUIZ_DATA = {
             "D": "Not, And, Or, Vlookup"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «IF, Not, And, Or». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cụm đúng là «IF, Not, And, Or». Đây là dạng viết đầy đủ/ý nghĩa chuẩn của thuật ngữ viết tắt trong câu hỏi. Tránh nhầm các cụm gần giống nhưng không đúng quy ước tin học."
         },
         {
           "id": 80,
@@ -5304,7 +5304,7 @@ window.QUIZ_DATA = {
             "D": "#"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «<>». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "IF(điều_kiện, giá_trị_đúng, giá_trị_sai) rẽ nhánh theo phép so sánh. Toán tử <> nghĩa là khác; có thể lồng nhiều IF hoặc kết hợp AND/OR."
         },
         {
           "id": 81,
@@ -5316,7 +5316,7 @@ window.QUIZ_DATA = {
             "D": "True"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Không được tuyển dụng» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Đáp án đúng là «Không được tuyển dụng». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 82,
@@ -5328,7 +5328,7 @@ window.QUIZ_DATA = {
             "D": "1300"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «1000». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 1000. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 83,
@@ -5340,7 +5340,7 @@ window.QUIZ_DATA = {
             "D": "false"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «200». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 200. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 84,
@@ -5352,7 +5352,7 @@ window.QUIZ_DATA = {
             "D": "=IF(G6>=5,\"Đạt\") ELSE (\"Không đạt\")"
           },
           "answer": "A",
-          "explain": "Phương án đúng là «=IF(G6<5,\"Không đạt\",\"Đạt\")» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Mọi công thức Excel bắt đầu bằng dấu =. Sau đó nhập biểu thức, hàm và tham chiếu ô cần tính."
         },
         {
           "id": 85,
@@ -5364,7 +5364,7 @@ window.QUIZ_DATA = {
             "D": "1000"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «1000». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 1000. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 86,
@@ -5376,7 +5376,7 @@ window.QUIZ_DATA = {
             "D": "#Name?"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «#Name?». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Excel báo lỗi theo mã: ##### thường do cột hẹp với số; #DIV/0! chia cho 0; #NAME? sai tên hàm/chưa có tên; #REF! tham chiếu hỏng; #VALUE!"
         },
         {
           "id": 87,
@@ -5388,7 +5388,7 @@ window.QUIZ_DATA = {
             "D": "Gioi"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «TB». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "TB. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 88,
@@ -5400,7 +5400,7 @@ window.QUIZ_DATA = {
             "D": "Cả ba phương án đều sai"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Lấy ra tháng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "TODAY()/NOW() lấy ngày (và giờ) hệ thống; MONTH/YEAR tách thành phần tháng/năm từ một giá trị ngày. Rất hữu ích tính tuổi, hạn, báo cáo theo thời gian."
         },
         {
           "id": 89,
@@ -5412,7 +5412,7 @@ window.QUIZ_DATA = {
             "D": "Số năm của biến ngày tháng date"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Ngày tháng hiện tại của hệ thống». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "TODAY()/NOW() lấy ngày (và giờ) hệ thống; MONTH/YEAR tách thành phần tháng/năm từ một giá trị ngày. Rất hữu ích tính tuổi, hạn, báo cáo theo thời gian."
         },
         {
           "id": 90,
@@ -5424,7 +5424,7 @@ window.QUIZ_DATA = {
             "D": "#VALUE!"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «10». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 10. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 91,
@@ -5436,7 +5436,7 @@ window.QUIZ_DATA = {
             "D": "0"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «8/17/2008 71». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: 8/17/2008. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 92,
@@ -5448,7 +5448,7 @@ window.QUIZ_DATA = {
             "D": "3"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «5». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 5. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 93,
@@ -5460,7 +5460,7 @@ window.QUIZ_DATA = {
             "D": "Product"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Vlookup». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "VLOOKUP/HLOOKUP dò giá trị trong bảng và trả về dữ liệu ở cột/hàng chỉ định. Tham số range_lookup quyết định khớp gần đúng (1) hay khớp Exact (0)."
         },
         {
           "id": 94,
@@ -5472,7 +5472,7 @@ window.QUIZ_DATA = {
             "D": "Range_lookup có giá trị là 0 hoặc 1"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Range_lookup có giá trị là 0 hoặc 1». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "VLOOKUP/HLOOKUP dò giá trị trong bảng và trả về dữ liệu ở cột/hàng chỉ định. Tham số range_lookup quyết định khớp gần đúng (1) hay khớp Exact (0)."
         },
         {
           "id": 95,
@@ -5484,7 +5484,7 @@ window.QUIZ_DATA = {
             "D": "=vlookup([range_lookup], lookup_value, table_array, row_index_num )"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «=vlookup(lookup_value, table_array, row_index_num, [range_lookup])». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "VLOOKUP/HLOOKUP dò giá trị trong bảng và trả về dữ liệu ở cột/hàng chỉ định. Tham số range_lookup quyết định khớp gần đúng (1) hay khớp Exact (0)."
         },
         {
           "id": 96,
@@ -5496,7 +5496,7 @@ window.QUIZ_DATA = {
             "D": "mmm-dd-yyyy"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «mmm-dd-yyyy». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: mmm-dd-yyyy. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 97,
@@ -5508,7 +5508,7 @@ window.QUIZ_DATA = {
             "D": "=MOD(J6*K$11;3)"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «=ROUND(J6*$K$11;-3)». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "ROUND làm tròn số theo số chữ số chỉ định; số âm làm tròn về hàng chục/trăm… Ví dụ ROUND(7475.47,-2) → 7500."
         },
         {
           "id": 98,
@@ -5520,7 +5520,7 @@ window.QUIZ_DATA = {
             "D": "Cả 3 ý trên đều sai"
           },
           "answer": "A",
-          "explain": "«Hiển thị tỷ lệ phần trăm 72» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Đáp án đúng là «Hiển thị tỷ lệ phần trăm». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 99,
@@ -5532,7 +5532,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl+B, Ctrl+I"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Ctrl+U, Ctrl+I». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl+U, Ctrl+I: dùng để bật/tắt gạch chân (Underline). Áp dụng cho vùng đang chọn."
         },
         {
           "id": 100,
@@ -5544,7 +5544,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl + U"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Ctrl + B». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl + B: dùng để bật/tắt chữ đậm (Bold). Áp dụng cho vùng đang chọn."
         },
         {
           "id": 101,
@@ -5556,7 +5556,7 @@ window.QUIZ_DATA = {
             "D": "Conditional Formatting"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Conditional Formatting». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Conditional Formatting đổi màu/chữ tự động theo điều kiện dữ liệu. Giúp nhận biết nhanh giá trị nổi bật mà không format thủ công từng ô."
         },
         {
           "id": 102,
@@ -5568,7 +5568,7 @@ window.QUIZ_DATA = {
             "D": "Data\\Clipboard\\Format Paint"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Home\\Clipboard\\Format Paint». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Sau khi điền form web, chọn Submit (hoặc tương đương) để gửi dữ liệu lên máy chủ xử lý. Không bấm gửi thì dữ liệu thường chưa được chuyển."
         },
         {
           "id": 103,
@@ -5580,7 +5580,7 @@ window.QUIZ_DATA = {
             "D": "E7*F7/100"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «E6*F6/100». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là E6*F6/100. Đây là phím tắt thực hiện đúng thao tác được nêu trong câu hỏi; thuộc nhóm phím cần thuộc khi thao tác Windows/Office/trình duyệt."
         },
         {
           "id": 104,
@@ -5592,7 +5592,7 @@ window.QUIZ_DATA = {
             "D": "Data\\Alignment\\Wrap Text 73"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Home\\Alignment\\Wrap Text». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Wrap Text cho phép nội dung dài xuống dòng trong một ô thay vì tràn sang ô bên. Kết hợp chỉnh cao hàng để nhìn đủ chữ."
         },
         {
           "id": 105,
@@ -5604,7 +5604,7 @@ window.QUIZ_DATA = {
             "D": "View\\Alignment\\ Orientation\\chọn hướng"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Home\\Alignment\\ Orientation\\chọn hướng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Orientation Portrait là hướng dọc (mặc định), Landscape là ngang. Đổi trong Page Layout → Orientation tùy khổ trình bày."
         },
         {
           "id": 106,
@@ -5616,7 +5616,7 @@ window.QUIZ_DATA = {
             "D": "Home\\Format Cells:Alignment\\Merge Cells"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Home\\Format Cells:Alignment\\Merge Cells». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Bảng (Table) tổ chức dữ liệu theo hàng–cột; kích thước m×n nghĩa là m cột n hàng (theo cách đề nêu). Tab di chuyển giữa các ô; Merge Cells gộp ô."
         },
         {
           "id": 107,
@@ -5628,7 +5628,7 @@ window.QUIZ_DATA = {
             "D": "Công cụ Line Color trên thanh định dạng"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Công cụ Fill Color trên thanh định dạng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Công cụ Fill Color trên thanh định dạng». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 108,
@@ -5640,7 +5640,7 @@ window.QUIZ_DATA = {
             "D": "Home\\Format\\Format Cells\\Border"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Home\\Format\\Format Cells\\Border». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Sau khi điền form web, chọn Submit (hoặc tương đương) để gửi dữ liệu lên máy chủ xử lý. Không bấm gửi thì dữ liệu thường chưa được chuyển."
         },
         {
           "id": 109,
@@ -5652,7 +5652,7 @@ window.QUIZ_DATA = {
             "D": "Column"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Pie». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Biểu đồ cột so sánh giá trị; biểu đồ tròn (Pie) phù hợp thể hiện tỷ lệ phần trăm tổng thể. Chèn qua Insert → Charts."
         },
         {
           "id": 110,
@@ -5664,7 +5664,7 @@ window.QUIZ_DATA = {
             "D": "Insert\\Charts\\Pie"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Insert\\Charts\\Column». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Biểu đồ cột so sánh giá trị; biểu đồ tròn (Pie) phù hợp thể hiện tỷ lệ phần trăm tổng thể. Chèn qua Insert → Charts."
         },
         {
           "id": 111,
@@ -5676,7 +5676,7 @@ window.QUIZ_DATA = {
             "D": "Thay đổi vùng dữ liệu vẽ biểu đồ"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Thay đổi vùng dữ liệu vẽ biểu đồ». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Thay đổi vùng dữ liệu vẽ biểu đồ». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 112,
@@ -5688,7 +5688,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl + Print Screen"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Ctrl + P». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là Ctrl + P: dùng để mở lệnh in (Print). Có thể chọn máy in và tùy chọn trước khi in."
         },
         {
           "id": 113,
@@ -5700,7 +5700,7 @@ window.QUIZ_DATA = {
             "D": "Data\\Margins\\Custom Margins\\..."
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Page Layout\\Margins\\Custom Margins\\». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Lề (Margins) là khoảng trống giữa mép giấy và vùng chữ. Chỉnh lề giúp văn bản cân đối và tránh bị máy in cắt chữ."
         },
         {
           "id": 114,
@@ -5712,7 +5712,7 @@ window.QUIZ_DATA = {
             "D": "Page Layout\\ Orientation\\landscape"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Page Layout\\ Orientation\\landscape». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Orientation Portrait là hướng dọc (mặc định), Landscape là ngang. Đổi trong Page Layout → Orientation tùy khổ trình bày."
         },
         {
           "id": 115,
@@ -5724,7 +5724,7 @@ window.QUIZ_DATA = {
             "D": "Page Layout -> Textbox"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Insert -> Header & Footer». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Page Number/Header/Footer gắn thông tin lặp trên các trang; Page Break ngắt sang trang mới đúng vị trí. Các lệnh nằm chủ yếu ở Insert và Page Layout."
         },
         {
           "id": 116,
@@ -5736,7 +5736,7 @@ window.QUIZ_DATA = {
             "D": "F10"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «F9» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Tổ hợp/phím đúng là F9: dùng để tính toán/gỡ rối công thức đang chọn trong Excel. Hữu ích khi kiểm tra từng phần biểu thức."
         },
         {
           "id": 117,
@@ -5748,7 +5748,7 @@ window.QUIZ_DATA = {
             "D": "View\\Print Titles"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Page Layout\\Print Titles». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Print Titles in lặp hàng/cột tiêu đề trên mọi trang in. Khi bảng nhiều trang, tiêu đề vẫn xuất hiện để dễ đọc."
         },
         {
           "id": 118,
@@ -5760,7 +5760,7 @@ window.QUIZ_DATA = {
             "D": "Shift+P"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Ctrl+P 75». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là Ctrl+P: dùng để mở lệnh in (Print). Có thể chọn máy in và tùy chọn trước khi in."
         },
         {
           "id": 119,
@@ -5772,7 +5772,7 @@ window.QUIZ_DATA = {
             "D": "File Of Type"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Save As Type». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Chuột phải ảnh → Save picture as lưu riêng file ảnh; File → Save As lưu cả trang (có tùy chọn HTML only nếu không cần kèm ảnh). Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 120,
@@ -5784,7 +5784,7 @@ window.QUIZ_DATA = {
             "D": "File\\Save\\Tools\\Web Option --- <a id=\"module-5\"></a> # MODULE 5: SỬ DỤNG TRÌNH CHIẾU CƠ BẢN (POWERPOINT) ## 5.1. LÝ THUYẾT ### 5.1.1. Nguyên tắc thuyết trình & file - Ưu tiên đầu tiên: **nắm vững nội dung**. Cấu trúc bài: **3 phần** (mở – thân – kết). - File PowerPoint 2010: **`.pptx`**. Mỗi trang = **Slide**. - Mở: đúp icon / Start → Office → PowerPoint. Thoát: File/Exit, Close, Alt+F4. - Quick Access Toolbar; Help **F1**; tùy Ribbon: File → Options → Customize Ribbon. - New: Blank / Themes / Sample templates. Save; Save As → Video (WMV), PDF… - Mật khẩu: File → Info → Protect Presentation → Encrypt with Password. - Default folder: File → Options → Save → Default file location. ### 5.1.2. Chế độ xem & bố cục | Chế độ | Công dụng | |--------|-----------| | Normal | Soạn thảo | | Slide Sorter | Sắp xếp slide | | Reading View | Đọc | | Outline | Chủ yếu chữ | | Notes Page | Ghi chú | | Slide Master | Định dạng chung toàn bộ | - Gridlines: **Shift+F9**; thước: **Shift+Alt+F9**. - Layout: Home → Layout (Title and Content; Two Content ≈ **3** placeholder; Comparison ≈ **5**; Picture with Caption: **2** chỗ nhập chữ). - Theme: Design → Themes; Save Current Theme. Background: Format Background → Fill → Close (1 slide) / Apply to All. - Slide Master: không giới hạn số lượng theo đề (“Không giới hạn”). ### 5.1.3. Thao tác slide & đối tượng - New / Duplicate / Copy-Paste / Delete Slide; chọn không liền: **Ctrl**. - Ctrl+Z Undo; Ctrl+C/V; Ctrl+A chọn bảng; Ctrl+H Replace; Ctrl+E giữa; Ctrl+R phải; Ctrl+B đậm (ALT, H, 1). - Clear All Formatting; Text Shadow; Bullets/Numbering; Line Spacing / Paragraph. - Insert: Table, Chart, SmartArt (Hierarchy), Picture, Shapes (Smiley Face), Screenshot, Equation, WordArt, Header/Footer, Slide Number. - Shape Outline / Fill / Effects; Arrange: Bring Forward…; Group vẫn sửa từng đối tượng được (theo đề). - Lock Aspect Ratio: đổi kích thước giữ tỉ lệ. Flip Horizontal: lật ngang. - Animation: hiệu ứng đối tượng (Entrance, Emphasis, Exit, Motion Path). Start: **With Previous** = đồng thời. - Transitions: hiệu ứng chuyển trang; Preview trên tab Transitions. - Hide Slide; Hyperlink → First Slide = về đầu. - Trình chiếu: **F5** từ đầu; **Shift+F5** từ slide hiện tại; **Esc** dừng; chuột phải → End Show; Go to Slide để nhảy. ### 5.1.4. In ấn - Ctrl+P; Settings → 1 Slide / trang; Orientation Notes/Handouts Portrait qua Design → Page Setup. - On-screen Show: kích cỡ phù hợp màn hình trình chiếu. --- ## 5.2. THỰC HÀNH MODULE 5 ### Bài PP1 – Bài thuyết trình 8–10 slide 1. Chủ đề tự chọn; cấu trúc 3 phần; Theme thống nhất; Slide Master số trang + logo. 2. Layout đa dạng; bảng + biểu đồ + SmartArt quy trình; 1 ảnh Lock Aspect Ratio. 3. Animation With Previous cho nhóm icon; Transition thống nhất; Hide 1 slide phụ lục. 4. Thêm Notes; trình bày F5; xuất PDF và đặt mật khẩu. ### Bài PP2 – Hyperlink điều hướng Tạo mục lục slide 1 liên kết tới từng phần; nút “Về đầu” = First Slide. ---"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «File\\Save\\Tools\\General Options». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: File\\Save\\Tools\\General Options. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         }
       ]
     },
@@ -5803,7 +5803,7 @@ window.QUIZ_DATA = {
             "D": "Phương pháp thuyết trình"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Nắm vững nội dung cần thuyết trình». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Bài thuyết trình hiệu quả bắt đầu từ nắm vững nội dung cần nói; kỹ thuật chỉ là phương tiện hỗ trợ. Hình ảnh/hiệu ứng đẹp không thay được việc hiểu rõ thông điệp."
         },
         {
           "id": 2,
@@ -5815,7 +5815,7 @@ window.QUIZ_DATA = {
             "D": "2"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «3». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 3. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 3,
@@ -5827,7 +5827,7 @@ window.QUIZ_DATA = {
             "D": "pptx"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «pptx». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "File PowerPoint 2007/2010 trở đi thường có đuôi .pptx. Mỗi trang trình bày gọi là một slide."
         },
         {
           "id": 4,
@@ -5839,7 +5839,7 @@ window.QUIZ_DATA = {
             "D": "Nhấn nút Close"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Nhấn nút Close». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Nhấn nút Close». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 5,
@@ -5851,7 +5851,7 @@ window.QUIZ_DATA = {
             "D": "Kích đúp chuột trái vào biểu tượng Powerpoint 2010 trên màn hình desktop"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Tất cả các đáp án đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Để mở chương trình Powerpoint 2010, ta làm thế nào, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 6,
@@ -5863,7 +5863,7 @@ window.QUIZ_DATA = {
             "D": "Quick Toolbar Access"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Quick Access Toolbar». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Quick Access Toolbar. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 7,
@@ -5875,7 +5875,7 @@ window.QUIZ_DATA = {
             "D": "Vào File/Options/Customize Ribbon"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Vào File/Options/Customize Ribbon». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Vào File/Options/Customize Ribbon. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 8,
@@ -5887,7 +5887,7 @@ window.QUIZ_DATA = {
             "D": "ESC"
           },
           "answer": "B",
-          "explain": "Tổ hợp/phím đúng là «F1». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là F1: dùng để mở trợ giúp Help. Tra cứu lệnh ngay trong phần mềm."
         },
         {
           "id": 9,
@@ -5899,7 +5899,7 @@ window.QUIZ_DATA = {
             "D": "File/Close"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «File/Open». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: File/Open. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 10,
@@ -5911,7 +5911,7 @@ window.QUIZ_DATA = {
             "D": "Đóng 1 bản trình bày (Presentation) có sẵn trong máy tính"
           },
           "answer": "A",
-          "explain": "«Mở 1 bản trình bày (Presentation) có sẵn trong máy tính» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Cách đúng là: Mở 1 bản trình bày (Presentation) có sẵn trong máy tính. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 11,
@@ -5923,7 +5923,7 @@ window.QUIZ_DATA = {
             "D": "File/Exit"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «File/Exit». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: File/Exit. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 12,
@@ -5935,7 +5935,7 @@ window.QUIZ_DATA = {
             "D": "Sao chép file hiện tại"
           },
           "answer": "A",
-          "explain": "«Đóng file hiện tại» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "File → Close đóng tài liệu hiện tại nhưng thường không thoát hẳn ứng dụng. Muốn thoát chương trình dùng Exit/Close cửa sổ chính."
         },
         {
           "id": 13,
@@ -5947,7 +5947,7 @@ window.QUIZ_DATA = {
             "D": "Thoát khỏi Powerpoint"
           },
           "answer": "C",
-          "explain": "«Đóng file hiện tại» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "File → Close đóng tài liệu hiện tại nhưng thường không thoát hẳn ứng dụng. Muốn thoát chương trình dùng Exit/Close cửa sổ chính."
         },
         {
           "id": 14,
@@ -5959,7 +5959,7 @@ window.QUIZ_DATA = {
             "D": "File/New Presentation/Create"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «File/New/Blank Presentation/Create 78». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: File/New/Blank Presentation/Create. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 15,
@@ -5971,7 +5971,7 @@ window.QUIZ_DATA = {
             "D": "Vào Home / New / Themes / Chọn mẫu / Create"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Vào File / New / Themes / Chọn mẫu / Create». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Themes áp bộ màu–font–hiệu ứng thống nhất cho slide. Giúp bài nhìn chuyên nghiệp và nhất quán hơn chỉnh từng phần rời."
         },
         {
           "id": 16,
@@ -5983,7 +5983,7 @@ window.QUIZ_DATA = {
             "D": "Vào Insert / New / Sample templates / Chọn mẫu / Create"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Vào File / New / Sample templates / Chọn mẫu / Create». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Vào File / New / Sample templates / Chọn mẫu / Create. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 17,
@@ -5995,7 +5995,7 @@ window.QUIZ_DATA = {
             "D": "View/ Reading View"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «View/ Slide Sorter». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Slide Sorter hiển thị nhiều slide dạng thu nhỏ để kéo thả đổi thứ tự nhanh. Phù hợp chỉnh cấu trúc bài trước khi trình chiếu."
         },
         {
           "id": 18,
@@ -6007,7 +6007,7 @@ window.QUIZ_DATA = {
             "D": "Vào Review, chọn Reading View"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Vào View, chọn Reading View». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Reading View xem bài gần như trình chiếu nhưng vẫn trong cửa sổ ứng dụng. Tiện duyệt nội dung mà chưa cần fullscreen Slide Show."
         },
         {
           "id": 19,
@@ -6019,7 +6019,7 @@ window.QUIZ_DATA = {
             "D": "Bật chế độ khung lưới khi soạn thảo"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Bật, hoặc Tắt chế độ khung lưới khi soạn thảo». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Đáp án đúng là «Bật, hoặc Tắt chế độ khung lưới khi soạn thảo». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 20,
@@ -6031,7 +6031,7 @@ window.QUIZ_DATA = {
             "D": "Tất cả đều sai 79"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Bật hoặc Tắt thanh thước kẻ». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Đáp án đúng là «Bật hoặc Tắt thanh thước kẻ». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 21,
@@ -6043,7 +6043,7 @@ window.QUIZ_DATA = {
             "D": "Vào View chọn Gridlines"
           },
           "answer": "A",
-          "explain": "«Tất cả đều đúng» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Về 2010, thao tác nào sau đây dùng để bật, tắt khung lưới Gridlines, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 22,
@@ -6055,7 +6055,7 @@ window.QUIZ_DATA = {
             "D": "File/Open"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «File/Save». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: File/Save. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 23,
@@ -6067,7 +6067,7 @@ window.QUIZ_DATA = {
             "D": "Xóa file hiện tại"
           },
           "answer": "A",
-          "explain": "«Lưu file hiện tại» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "File → Save hoặc Ctrl + S lưu thay đổi vào file hiện có. Lưu thường xuyên giảm mất dữ liệu khi sự cố."
         },
         {
           "id": 24,
@@ -6079,7 +6079,7 @@ window.QUIZ_DATA = {
             "D": "Lưu file hiện tại"
           },
           "answer": "D",
-          "explain": "«Lưu file hiện tại» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "File → Save hoặc Ctrl + S lưu thay đổi vào file hiện có. Lưu thường xuyên giảm mất dữ liệu khi sự cố."
         },
         {
           "id": 25,
@@ -6091,7 +6091,7 @@ window.QUIZ_DATA = {
             "D": "File / Save As/ Save As Type/ Windows Media Video"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «File / Save As/ Save As Type/ Windows Media Video». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Chuột phải ảnh → Save picture as lưu riêng file ảnh; File → Save As lưu cả trang (có tùy chọn HTML only nếu không cần kèm ảnh). Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 26,
@@ -6103,7 +6103,7 @@ window.QUIZ_DATA = {
             "D": "Vào Home / Info / Protect Presentation / Encrypt with Password."
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Vào File/ Info/ Protect Presentation/ Encrypt with Password». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Encrypt with Password khóa file bằng mật khẩu; không có mật khẩu đúng thì khó mở nội dung. Cần nhớ mật khẩu vì mất có thể không mở lại được."
         },
         {
           "id": 27,
@@ -6115,7 +6115,7 @@ window.QUIZ_DATA = {
             "D": "Lệnh Rehearse Timings dùng để xóa 1 Slide 80"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Cho phép lưu các Slide thành tập tin định dạng văn bản điện tử PDF». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng hướng tới «Cho phép lưu các Slide thành tập tin định dạng văn bản điện tử PDF». PDF là định dạng tài liệu điện tử giữ bố cục ổn định khi xem/in trên nhiều máy."
         },
         {
           "id": 28,
@@ -6127,7 +6127,7 @@ window.QUIZ_DATA = {
             "D": "File / Save / Default file location"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «File / Option / Save / Default file location». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: File / Option / Save / Default file location. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 29,
@@ -6139,7 +6139,7 @@ window.QUIZ_DATA = {
             "D": "Thiết lập thông số cho toàn bộ Slide"
           },
           "answer": "B",
-          "explain": "«Thiết lập thư mục lưu trữ mặc định» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Cách đúng là: Thiết lập thư mục lưu trữ mặc định. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 30,
@@ -6151,7 +6151,7 @@ window.QUIZ_DATA = {
             "D": "Vào Data/New Windows"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Vào View/New Windows». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Vào View/New Windows. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng. Windows là hệ điều hành phổ biến; thường được cài trước để máy có môi trường chạy phần mềm ứng dụng."
         },
         {
           "id": 31,
@@ -6163,7 +6163,7 @@ window.QUIZ_DATA = {
             "D": "Một Cơ sở dữ liệu"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Một Slide». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Mỗi trang trình diễn trong PowerPoint được gọi là một slide. Tập hợp nhiều slide tạo thành một presentation."
         },
         {
           "id": 32,
@@ -6175,7 +6175,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl + Z"
           },
           "answer": "D",
-          "explain": "Tổ hợp/phím đúng là «Ctrl + Z». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl + Z: dùng để hoàn tác (Undo) thao tác vừa thực hiện. Giúp sửa nhanh sai sót gần nhất."
         },
         {
           "id": 33,
@@ -6187,7 +6187,7 @@ window.QUIZ_DATA = {
             "D": "Định đạng hiệu ứng cho các đối tượng trên slide"
           },
           "answer": "B",
-          "explain": "«Định dạng giao diện của slide» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Themes áp bộ màu–font–hiệu ứng thống nhất cho slide. Giúp bài nhìn chuyên nghiệp và nhất quán hơn chỉnh từng phần rời."
         },
         {
           "id": 34,
@@ -6199,7 +6199,7 @@ window.QUIZ_DATA = {
             "D": "Home/New Slide"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Home/Layout». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Layout quy định bố cục placeholder (ô chứa tiêu đề/nội dung/ảnh…). Ví dụ Title and Content có tiêu đề + vùng nội dung; số placeholder tùy mẫu (Two Content, Comparison…)."
         },
         {
           "id": 35,
@@ -6211,7 +6211,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải vào Slide/Delete"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Kích chuột phải vào Slide/New Slide». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: chuột phải vào Slide/New Slide. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 36,
@@ -6223,7 +6223,7 @@ window.QUIZ_DATA = {
             "D": "View/Slide Sorter"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «View/Slide Master». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Slide Master đặt định dạng/chỗ đặt chung cho nhiều slide (font, logo, chỗ tiêu đề…). Sửa Master giúp đồng bộ giao diện cả bài."
         },
         {
           "id": 37,
@@ -6235,7 +6235,7 @@ window.QUIZ_DATA = {
             "D": "Home/Slide Design"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Home/Layout/Title and Content». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Layout quy định bố cục placeholder (ô chứa tiêu đề/nội dung/ảnh…). Ví dụ Title and Content có tiêu đề + vùng nội dung; số placeholder tùy mẫu (Two Content, Comparison…)."
         },
         {
           "id": 38,
@@ -6247,7 +6247,7 @@ window.QUIZ_DATA = {
             "D": "2"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «3». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 3. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 39,
@@ -6259,7 +6259,7 @@ window.QUIZ_DATA = {
             "D": "4"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «5». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 5. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 40,
@@ -6271,7 +6271,7 @@ window.QUIZ_DATA = {
             "D": "3"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «2». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 2. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 41,
@@ -6283,7 +6283,7 @@ window.QUIZ_DATA = {
             "D": "Mẫu bố cục (Layout) Two Content có 03 placeholder"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Mẫu bố cục (Layout) Two Content có 03 placeholder». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Layout quy định bố cục placeholder (ô chứa tiêu đề/nội dung/ảnh…). Ví dụ Title and Content có tiêu đề + vùng nội dung; số placeholder tùy mẫu (Two Content, Comparison…)."
         },
         {
           "id": 42,
@@ -6295,7 +6295,7 @@ window.QUIZ_DATA = {
             "D": "Vào Home / More / Save Current Theme ."
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Vào Design / More / Save Current Theme». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Vào Design / More / Save Current Theme. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 43,
@@ -6307,7 +6307,7 @@ window.QUIZ_DATA = {
             "D": "Định dạng chung cho toàn bộ các Slide"
           },
           "answer": "D",
-          "explain": "«Định dạng chung cho toàn bộ các Slide» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Slide Master đặt định dạng/chỗ đặt chung cho nhiều slide (font, logo, chỗ tiêu đề…). Sửa Master giúp đồng bộ giao diện cả bài."
         },
         {
           "id": 44,
@@ -6319,7 +6319,7 @@ window.QUIZ_DATA = {
             "D": "Tất cả ý trên đều sai."
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Trong chương trình MS PowerPoint, chúng ta có thể thiết lập các tùy chọn cho một slide hay một tập slide cùng một lúc». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng khẳng định: Trong chương trình MS PowerPoint, chúng ta có thể thiết lập các tùy chọn cho một slide hay một tập slide cùng một lúc. Hiểu vì sao nội dung này đúng với tình huống đề (định nghĩa, điều kiện dùng hoặc kết quả thao tác) sẽ giúp làm các câu tương tự."
         },
         {
           "id": 45,
@@ -6331,7 +6331,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải vào Slide/Format Background/ chọn màu trong Fill/ Apply"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Kích chuột phải vào Slide/Format Background/ chọn màu trong Fill/ Close». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Format Background đổi màu/ảnh nền; Apply to All áp cho mọi slide, còn Close sau khi chọn màu thường chỉ ảnh hưởng slide hiện hành (theo thao tác đề nêu). Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 46,
@@ -6343,7 +6343,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải vào Slide/Format Background/ chọn màu trong Fill/ Close 83"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Kích chuột phải vào Slide/Format Background/ chọn màu trong Fill/ Apply to All/ Close». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Format Background đổi màu/ảnh nền; Apply to All áp cho mọi slide, còn Close sau khi chọn màu thường chỉ ảnh hưởng slide hiện hành (theo thao tác đề nêu). Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 47,
@@ -6355,7 +6355,7 @@ window.QUIZ_DATA = {
             "D": "1"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Không giới hạn». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Không giới hạn. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 48,
@@ -6367,7 +6367,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải vào Slide/Add Section"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Kích chuột phải vào Slide/Duplicate Slide». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Duplicate Slide tạo bản sao slide đã chọn (kể cả nội dung/định dạng). Nhanh hơn tạo mới rồi copy từng đối tượng."
         },
         {
           "id": 49,
@@ -6379,7 +6379,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải vào Slide/Delete"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Kích chuột phải vào Slide/Copy». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: chuột phải vào Slide/Copy. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 50,
@@ -6391,7 +6391,7 @@ window.QUIZ_DATA = {
             "D": "Cắt và sao chép một đoạn văn bản"
           },
           "answer": "B",
-          "explain": "Tổ hợp/phím đúng là «Dán một đoạn văn bản từ Clipboard». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Ctrl + V dán nội dung từ Clipboard vào vị trí hiện tại. Cần Copy/Cut trước thì Clipboard mới có dữ liệu để dán."
         },
         {
           "id": 51,
@@ -6403,7 +6403,7 @@ window.QUIZ_DATA = {
             "D": "Cắt và sao chép một đoạn văn bản"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Sao chép một đoạn văn bản». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Ctrl + C sao chép nội dung đã chọn vào Clipboard mà không xóa bản gốc. Sau đó dùng Ctrl + V để dán ở vị trí mới."
         },
         {
           "id": 52,
@@ -6415,7 +6415,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải tại Slide đã chọn/ Delete Slide"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Kích chuột phải tại Slide đã chọn/ Delete Slide». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: chuột phải tại Slide đã chọn/ Delete Slide. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 53,
@@ -6427,7 +6427,7 @@ window.QUIZ_DATA = {
             "D": "4"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «2». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 2. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 54,
@@ -6439,7 +6439,7 @@ window.QUIZ_DATA = {
             "D": "Kích chọn vào 1 Slide , giữ phím Ctrl + Shift và thực hiện việc kích chọn các Slide tiếp theo"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Kích chọn vào 1 Slide , giữ phím Ctrl và thực hiện việc kích chọn các Slide tiếp theo» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Thao tác đúng đi theo đường lệnh: chọn vào 1 Slide , giữ phím Ctrl và thực hiện việc kích chọn các Slide tiếp theo. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 55,
@@ -6451,7 +6451,7 @@ window.QUIZ_DATA = {
             "D": "ALT + H + D + I"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «ALT + H + I + D». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là ALT + H + I + D. Đây là phím tắt thực hiện đúng thao tác được nêu trong câu hỏi; thuộc nhóm phím cần thuộc khi thao tác Windows/Office/trình duyệt."
         },
         {
           "id": 56,
@@ -6463,7 +6463,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải vào Slide muốn xóa/Add Section"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Kích chuột phải vào Slide muốn xóa/Delete Slide». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phím Delete xóa ký tự bên phải con trỏ khi soạn thảo, hoặc đưa file/thư mục vào Recycle Bin khi quản lý đĩa cứng. Shift + Delete thì xóa vĩnh viễn."
         },
         {
           "id": 57,
@@ -6475,7 +6475,7 @@ window.QUIZ_DATA = {
             "D": "Cho phép hiển thị để soạn thảo từng slide riêng biệt"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Cho phép chỉ nhìn thấy chữ, không nhìn thấy hình ảnh». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cho phép chỉ nhìn thấy chữ, không nhìn thấy hình ảnh. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 58,
@@ -6487,7 +6487,7 @@ window.QUIZ_DATA = {
             "D": "Di chuyển chuột đến vị trí một trong 8 nốt tròn xung quanh placeholder đang chọn, sau đó điều chỉnh kích thước placeholder"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Di chuyển chuột đến vị trí một trong 8 nốt tròn xung quanh placeholder đang chọn, sau đó điều chỉnh kích thước placeholder». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Layout quy định bố cục placeholder (ô chứa tiêu đề/nội dung/ảnh…). Ví dụ Title and Content có tiêu đề + vùng nội dung; số placeholder tùy mẫu (Two Content, Comparison…)."
         },
         {
           "id": 59,
@@ -6499,7 +6499,7 @@ window.QUIZ_DATA = {
             "D": "View/ Normal"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «View/ Normal». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: View/ Normal. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 60,
@@ -6511,7 +6511,7 @@ window.QUIZ_DATA = {
             "D": "Vào Insert/Picture"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Vào Home/Replace». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Thao tác đúng đi theo đường lệnh: Vào Home/Replace. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 61,
@@ -6523,7 +6523,7 @@ window.QUIZ_DATA = {
             "D": "Kích chuột phải vào khung văn bản cần xóa/Delete"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Kích chuột trái vào khung văn bản cần xóa/Delete». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Phím Delete xóa ký tự bên phải con trỏ khi soạn thảo, hoặc đưa file/thư mục vào Recycle Bin khi quản lý đĩa cứng. Shift + Delete thì xóa vĩnh viễn."
         },
         {
           "id": 62,
@@ -6535,7 +6535,7 @@ window.QUIZ_DATA = {
             "D": "Tất cả đều sai"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Để quy định khoảng cách giữa các dòng, đoạn». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Để quy định khoảng cách giữa các dòng, đoạn». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 63,
@@ -6547,7 +6547,7 @@ window.QUIZ_DATA = {
             "D": "Vào Home / Clear All Formatting"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Vào Home / Clear All Formatting». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Sau khi điền form web, chọn Submit (hoặc tương đương) để gửi dữ liệu lên máy chủ xử lý. Không bấm gửi thì dữ liệu thường chưa được chuyển."
         },
         {
           "id": 64,
@@ -6559,7 +6559,7 @@ window.QUIZ_DATA = {
             "D": "Vào View/Text Shadow"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Vào Format/Text Effects/Shadow». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Sau khi điền form web, chọn Submit (hoặc tương đương) để gửi dữ liệu lên máy chủ xử lý. Không bấm gửi thì dữ liệu thường chưa được chuyển."
         },
         {
           "id": 65,
@@ -6571,7 +6571,7 @@ window.QUIZ_DATA = {
             "D": "CTRL + Z"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «CTRL + B». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là CTRL + B: dùng để bật/tắt chữ đậm (Bold). Áp dụng cho vùng đang chọn."
         },
         {
           "id": 66,
@@ -6583,7 +6583,7 @@ window.QUIZ_DATA = {
             "D": "Format/Shape Styles"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Format/Shape Fill». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Sau khi điền form web, chọn Submit (hoặc tương đương) để gửi dữ liệu lên máy chủ xử lý. Không bấm gửi thì dữ liệu thường chưa được chuyển."
         },
         {
           "id": 67,
@@ -6595,7 +6595,7 @@ window.QUIZ_DATA = {
             "D": "Xóa đoạn văn được chọn"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Canh giữa đoạn văn được chọn». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Trong Word/PowerPoint, Ctrl + E căn giữa đoạn đang chọn. Căn giữa thường dùng cho tiêu đề."
         },
         {
           "id": 68,
@@ -6607,7 +6607,7 @@ window.QUIZ_DATA = {
             "D": "Canh giữa đoạn văn được chọn"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Canh phải đoạn văn được chọn». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Đáp án đúng là «Canh phải đoạn văn được chọn». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 69,
@@ -6619,7 +6619,7 @@ window.QUIZ_DATA = {
             "D": "Insert/ Symbol"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Home/Bullet». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Home/Bullet. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 70,
@@ -6631,7 +6631,7 @@ window.QUIZ_DATA = {
             "D": "Insert/Numbering"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Home/Numbering». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Bullets tạo danh sách ký hiệu; Numbering tạo danh sách đánh số. Cả hai nằm nhóm Paragraph tab Home, giúp cấu trúc ý rõ ràng."
         },
         {
           "id": 71,
@@ -6643,7 +6643,7 @@ window.QUIZ_DATA = {
             "D": "Home/Paragraph"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Home/Paragraph». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Home/Paragraph. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 72,
@@ -6655,7 +6655,7 @@ window.QUIZ_DATA = {
             "D": "Alt + A"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Ctrl + A». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl + A: dùng để chọn tất cả đối tượng trong vùng đang active. Áp dụng cho chữ, ô, file trong cửa sổ hiện hành."
         },
         {
           "id": 73,
@@ -6667,7 +6667,7 @@ window.QUIZ_DATA = {
             "D": "Vào Insert /Table"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Vào Insert /Table». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Bảng (Table) tổ chức dữ liệu theo hàng–cột; kích thước m×n nghĩa là m cột n hàng (theo cách đề nêu). Tab di chuyển giữa các ô; Merge Cells gộp ô."
         },
         {
           "id": 74,
@@ -6679,7 +6679,7 @@ window.QUIZ_DATA = {
             "D": "Home/ Table"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Insert/ Table». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Bảng (Table) tổ chức dữ liệu theo hàng–cột; kích thước m×n nghĩa là m cột n hàng (theo cách đề nêu). Tab di chuyển giữa các ô; Merge Cells gộp ô."
         },
         {
           "id": 75,
@@ -6691,7 +6691,7 @@ window.QUIZ_DATA = {
             "D": "Nhấn chuột trái và chọn Split Cells."
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Nhấn chuột phải và chọn Split Cells». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: chuột phải và chọn Split Cells. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 76,
@@ -6703,7 +6703,7 @@ window.QUIZ_DATA = {
             "D": "Dạng thanh, đường"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Dạng cột, thanh, đường, bánh tròn». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Dạng cột, thanh, đường, bánh tròn». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 77,
@@ -6715,7 +6715,7 @@ window.QUIZ_DATA = {
             "D": "Design/Edit Data"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Design/Edit Data». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Design/Edit Data. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 78,
@@ -6727,7 +6727,7 @@ window.QUIZ_DATA = {
             "D": "Insert/ Diagram"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Insert/ Chart 88». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Biểu đồ cột so sánh giá trị; biểu đồ tròn (Pie) phù hợp thể hiện tỷ lệ phần trăm tổng thể. Chèn qua Insert → Charts."
         },
         {
           "id": 79,
@@ -6739,7 +6739,7 @@ window.QUIZ_DATA = {
             "D": "Chèn công thức toán học vào Slide"
           },
           "answer": "C",
-          "explain": "«Chèn biểu đồ vào Slide» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Cách đúng là: Chèn biểu đồ vào Slide. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 80,
@@ -6751,7 +6751,7 @@ window.QUIZ_DATA = {
             "D": "Chèn sơ đồ tổ chức vào Slide"
           },
           "answer": "B",
-          "explain": "«Chèn biểu đồ vào Slide» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Đáp án đúng là «Chèn biểu đồ vào Slide». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 81,
@@ -6763,7 +6763,7 @@ window.QUIZ_DATA = {
             "D": "Format/Shape Styles"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Format/Shape Fill». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Sau khi điền form web, chọn Submit (hoặc tương đương) để gửi dữ liệu lên máy chủ xử lý. Không bấm gửi thì dữ liệu thường chưa được chuyển."
         },
         {
           "id": 82,
@@ -6775,7 +6775,7 @@ window.QUIZ_DATA = {
             "D": "Tab Insert\\SmartArt\\ Hierarchy, chọn một dạng sơ đồ tổ chức phù hợp"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Tab Insert\\SmartArt\\ Hierarchy, chọn một dạng sơ đồ tổ chức phù hợp». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Tab Insert\\SmartArt\\ Hierarchy, chọn một dạng sơ đồ tổ chức phù hợp. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 83,
@@ -6787,7 +6787,7 @@ window.QUIZ_DATA = {
             "D": "Right to Left"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Right to Left». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Right to Left. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 84,
@@ -6799,7 +6799,7 @@ window.QUIZ_DATA = {
             "D": "Insert/ Picture"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Insert/ Picture». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Nhóm Illustrations/Insert cho phép chèn Shape, Chart, Picture, Text Box… để minh họa nội dung. Sau khi chèn có thể định dạng viền, màu, kích thước."
         },
         {
           "id": 85,
@@ -6811,7 +6811,7 @@ window.QUIZ_DATA = {
             "D": "Insert/Shapes 89"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Insert/Shapes 89». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Nhóm Illustrations/Insert cho phép chèn Shape, Chart, Picture, Text Box… để minh họa nội dung. Sau khi chèn có thể định dạng viền, màu, kích thước."
         },
         {
           "id": 86,
@@ -6823,7 +6823,7 @@ window.QUIZ_DATA = {
             "D": "Chèn video vào Slide"
           },
           "answer": "C",
-          "explain": "«Chèn hình vẽ vào Slide» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Cách đúng là: Chèn hình vẽ vào Slide. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 87,
@@ -6835,7 +6835,7 @@ window.QUIZ_DATA = {
             "D": "Chụp ảnh màn hình để chèn vào Slide"
           },
           "answer": "D",
-          "explain": "«Chụp ảnh màn hình để chèn vào Slide» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Đáp án đúng là «Chụp ảnh màn hình để chèn vào Slide». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 88,
@@ -6847,7 +6847,7 @@ window.QUIZ_DATA = {
             "D": "Vào Insert / Shapes / Smiley Face"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Vào Insert / Shapes / Smiley Face». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Nhóm Illustrations/Insert cho phép chèn Shape, Chart, Picture, Text Box… để minh họa nội dung. Sau khi chèn có thể định dạng viền, màu, kích thước."
         },
         {
           "id": 89,
@@ -6859,7 +6859,7 @@ window.QUIZ_DATA = {
             "D": "Paste Painter"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Paste Special». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Paste Special. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 90,
@@ -6871,7 +6871,7 @@ window.QUIZ_DATA = {
             "D": "Thay đổi tỉ lệ xoay 90 độ so với ban đầu"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Thay đổi kích thước ảnh nhưng giữ nguyên tỉ lệ ảnh gốc». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng khẳng định: Thay đổi kích thước ảnh nhưng giữ nguyên tỉ lệ ảnh gốc. Hiểu vì sao nội dung này đúng với tình huống đề (định nghĩa, điều kiện dùng hoặc kết quả thao tác) sẽ giúp làm các câu tương tự."
         },
         {
           "id": 91,
@@ -6883,7 +6883,7 @@ window.QUIZ_DATA = {
             "D": "Flip Horizontal"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Flip Horizontal». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Flip Horizontal. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 92,
@@ -6895,7 +6895,7 @@ window.QUIZ_DATA = {
             "D": "Insert/Chart"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Insert/ Equation». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Insert/ Equation. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 93,
@@ -6907,7 +6907,7 @@ window.QUIZ_DATA = {
             "D": "Chèn biểu đồ vào Slide"
           },
           "answer": "C",
-          "explain": "«Chèn công thức toán học vào Slide» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Cách đúng là: Chèn công thức toán học vào Slide. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 94,
@@ -6919,7 +6919,7 @@ window.QUIZ_DATA = {
             "D": "Insert/ Slide Number"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Insert/ Slide Number». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Insert/ Slide Number. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 95,
@@ -6931,7 +6931,7 @@ window.QUIZ_DATA = {
             "D": "Vào Home / Insert WordArt"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Vào Insert / WordArt». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Vào Insert / WordArt. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 96,
@@ -6943,7 +6943,7 @@ window.QUIZ_DATA = {
             "D": "Insert/ Footer and Header/ Chọn Slide Number/ Nhập nội dung"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Insert/ Footer and Header/ Chọn Footer/ Nhập nội dung». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Page Number/Header/Footer gắn thông tin lặp trên các trang; Page Break ngắt sang trang mới đúng vị trí. Các lệnh nằm chủ yếu ở Insert và Page Layout."
         },
         {
           "id": 97,
@@ -6955,7 +6955,7 @@ window.QUIZ_DATA = {
             "D": "Shape Effects"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Shape Outline». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Shape Outline. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 98,
@@ -6967,7 +6967,7 @@ window.QUIZ_DATA = {
             "D": "Có thể chỉnh sửa từng đối tượng sau khi gom nhóm chúng"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Có thể chỉnh sửa từng đối tượng sau khi gom nhóm chúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng khẳng định: Có thể chỉnh sửa từng đối tượng sau khi gom nhóm chúng. Hiểu vì sao nội dung này đúng với tình huống đề (định nghĩa, điều kiện dùng hoặc kết quả thao tác) sẽ giúp làm các câu tương tự."
         },
         {
           "id": 99,
@@ -6979,7 +6979,7 @@ window.QUIZ_DATA = {
             "D": "Vào Home/Arrange/Send Backward"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Vào Home/Arrange/Bring Forward». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Forward chuyển tiếp thư (và thường cả đính kèm) tới người khác. Khác Reply vốn gửi phản hồi về người gửi gốc."
         },
         {
           "id": 100,
@@ -6991,7 +6991,7 @@ window.QUIZ_DATA = {
             "D": "Home/ chọn hiệu ứng"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Animation/ chọn hiệu ứng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Animation gắn hiệu ứng xuất hiện/chuyển động cho đối tượng trên slide (chữ, ảnh…). Chọn hiệu ứng trong tab Animations; Start = With Previous cho chạy đồng thời với hiệu ứng trước."
         },
         {
           "id": 101,
@@ -7003,7 +7003,7 @@ window.QUIZ_DATA = {
             "D": "Định dạng kiểu chữ cho slide"
           },
           "answer": "B",
-          "explain": "«Định dạng hiệu ứng cho các đối tượng trên slide» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Animation gắn hiệu ứng xuất hiện/chuyển động cho đối tượng trên slide (chữ, ảnh…). Chọn hiệu ứng trong tab Animations; Start = With Previous cho chạy đồng thời với hiệu ứng trước."
         },
         {
           "id": 102,
@@ -7015,7 +7015,7 @@ window.QUIZ_DATA = {
             "D": "On Click"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «With Previous». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Animation gắn hiệu ứng xuất hiện/chuyển động cho đối tượng trên slide (chữ, ảnh…). Chọn hiệu ứng trong tab Animations; Start = With Previous cho chạy đồng thời với hiệu ứng trước."
         },
         {
           "id": 103,
@@ -7027,7 +7027,7 @@ window.QUIZ_DATA = {
             "D": "Motion path, Exit, Entrange"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Tất cả đều sai». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Tất cả đều sai». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 104,
@@ -7039,7 +7039,7 @@ window.QUIZ_DATA = {
             "D": "6"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «4». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Kết quả đúng là 4. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
         },
         {
           "id": 105,
@@ -7051,7 +7051,7 @@ window.QUIZ_DATA = {
             "D": "Biểu tượng mặt cười Smiley Face thuộc nhóm Basic Shapes"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Hiệu ứng chuyển đổi các trang ORBIT thuộc nhóm Subtle» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «Hiệu ứng chuyển đổi các trang ORBIT thuộc nhóm Subtle». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 106,
@@ -7063,7 +7063,7 @@ window.QUIZ_DATA = {
             "D": "Vào Home / Preview"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Vào Transitions / Preview». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Transitions là hiệu ứng chuyển trang giữa các slide. Preview trong tab Transitions để xem thử trước khi trình chiếu thật."
         },
         {
           "id": 107,
@@ -7075,7 +7075,7 @@ window.QUIZ_DATA = {
             "D": "Notes Page và Slide Sorter"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Notes Page và Normal». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Notes Page và Normal. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 108,
@@ -7087,7 +7087,7 @@ window.QUIZ_DATA = {
             "D": "Vào Design/Page Setup/Orientation/Notes, Handouts and Outline/ Portrait"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Vào Design/Page Setup/Orientation/Notes, Handouts and Outline/ Portrait». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Orientation Portrait là hướng dọc (mặc định), Landscape là ngang. Đổi trong Page Layout → Orientation tùy khổ trình bày."
         },
         {
           "id": 109,
@@ -7099,7 +7099,7 @@ window.QUIZ_DATA = {
             "D": "Insert/ Hide Slide"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Slide Show/ Hide Slide». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Hide Slide ẩn slide khỏi trình chiếu nhưng vẫn giữ trong file để dùng sau. Hữu ích khi có nội dung dự phòng không muốn chiếu lần này."
         },
         {
           "id": 110,
@@ -7111,7 +7111,7 @@ window.QUIZ_DATA = {
             "D": "Vào Review/Spelling/Options/Check spelling as you type"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Vào Review/Spelling/Options/Check spelling as you type». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: Vào Review/Spelling/Options/Check spelling as you type. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 111,
@@ -7123,7 +7123,7 @@ window.QUIZ_DATA = {
             "D": "Di chuyển về Slide tiếp theo"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Di chuyển về Slide đầu tiên». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Di chuyển về Slide đầu tiên». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 112,
@@ -7135,7 +7135,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl + P"
           },
           "answer": "D",
-          "explain": "Tổ hợp/phím đúng là «Ctrl + P». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl + P: dùng để mở lệnh in (Print). Có thể chọn máy in và tùy chọn trước khi in."
         },
         {
           "id": 113,
@@ -7147,7 +7147,7 @@ window.QUIZ_DATA = {
             "D": "35mm Slides"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «On-screen Show». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: On-screen Show. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 114,
@@ -7159,7 +7159,7 @@ window.QUIZ_DATA = {
             "D": "File/ Print/ Settings/ 1 Slide"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «File/ Print/ Settings/ 1 Slide». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thao tác đúng đi theo đường lệnh: File/ Print/ Settings/ 1 Slide. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 115,
@@ -7171,7 +7171,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl + F5"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «F5». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tổ hợp/phím đúng là F5: dùng để bắt đầu trình chiếu từ đầu trong PowerPoint. Tương đương Slide Show → From Beginning."
         },
         {
           "id": 116,
@@ -7183,7 +7183,7 @@ window.QUIZ_DATA = {
             "D": "Alt"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Esc». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Esc. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 117,
@@ -7195,7 +7195,7 @@ window.QUIZ_DATA = {
             "D": "Insert/ From Beginning"
           },
           "answer": "A",
-          "explain": "«Slide Show/ From Beginning» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Thao tác đúng đi theo đường lệnh: Slide Show/ From Beginning. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 118,
@@ -7207,7 +7207,7 @@ window.QUIZ_DATA = {
             "D": "F5"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Shift + F5». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Shift + F5: dùng để trình chiếu từ slide hiện tại trong PowerPoint. Khác F5 chiếu từ đầu bài."
         },
         {
           "id": 119,
@@ -7219,7 +7219,7 @@ window.QUIZ_DATA = {
             "D": "Nháy phải chuột, rồi chọn End Show"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Nháy phải chuột, rồi chọn End Show». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Nháy phải chuột, rồi chọn End Show. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 120,
@@ -7231,7 +7231,7 @@ window.QUIZ_DATA = {
             "D": "Kích đúp chuột trái tại Slide hiện hành/ chọn Go to Slide --- <a id=\"module-6\"></a> # MODULE 6: SỬ DỤNG INTERNET CƠ BẢN ## 6.1. LÝ THUYẾT ### 6.1.1. Internet, Web, địa chỉ - **Internet:** hệ thống thông tin toàn cầu, các **mạng** máy tính liên kết, truy cập công cộng. **Không** phải dịch vụ do một công ty Mỹ độc quyền thu phí. - **WWW** = World Wide Web. **HTTP** = giao thức truyền siêu văn bản. - **URL** = Uniform Resource Locator. **IP** gắn với thiết bị trong mạng. - **Trang Web:** siêu văn bản (chữ, ảnh, âm thanh, video + liên kết). - **Hyperlink / Link:** liên kết tới vị trí/trang khác. - Tên miền phân cách bằng dấu **`.`**. Email có `@` — **không** phải địa chỉ web (vd `ninhbinh@yahoo.com`). - Kết nối Dial-up: **Máy tính – modem – điện thoại – ISP**. ISP = Internet Service Provider. ### 6.1.2. Trình duyệt Trình duyệt: IE, Firefox, Chrome, Opera, Chromium… (**FireBug không** phải trình duyệt). | Phím / Nút | Chức năng | |------------|-----------| | Ctrl+T | Tab mới | | Ctrl+W | Đóng tab | | Ctrl+Tab | Tab bên phải | | Ctrl+Shift+Tab | Tab bên trái | | Ctrl+H | History (IE) | | Back / Backspace | Trang trước | | Forward | Trang sau | | Refresh | Tải lại | | Stop | Ngừng tải | | Home | Trang chủ | | Search | Tìm trên WWW | - Favorites / Bookmark: trang ưa thích. Clear History (Firefox: History → Clear Recent History). - Lưu trang: File → Save As; ảnh: chuột phải → Save picture as. In: Ctrl+P; Headers and Footers điều chỉnh thông tin đầu/cuối trang in. - Lưu HTML only: trang không kèm ảnh đầy đủ như “complete”. - Pop-up: gây khó chịu; có thể mở khóa khi cần. Website an toàn: dùng giao thức bảo mật (**https**). - Tường lửa: chống xâm nhập trái phép từ Internet. - Form web: Text box, List box, Check box… (**không** có “Access box”). Gửi form: **Submit**. ### 6.1.3. Tìm kiếm - Công cụ: Google, Bing, Cốc Cốc… - Đặt cụm từ trong dấu `\"\"` để tìm chính xác. Tìm trong site: `từ_khóa SITE:tenmien`. - Google trả kết quả: web, ảnh, video… ### 6.1.4. Email - Cấu trúc: `<user>@<domain>`. Hai người **không** trùng địa chỉ; mật khẩu/tên đăng nhập khác nhau. - Email **không** tuyệt đối an toàn. File đính kèm có thể chứa virus → quét trước khi mở. - Thư mục: Inbox, Sent, Draft (thư nháp), Spam… (**MyEmail** không có sẵn). - Compose = soạn mới; Reply / Reply to all; Forward; Attachment; Spam để chặn. - **RE:** thường là thư trả lời. Thư chưa đọc thường **in đậm**. - **BCC:** người nhận không thấy ai khác cùng nhận. Bắt buộc trong sổ địa chỉ: **địa chỉ Email**. - Tìm theo người gửi: `from:diachi@...` ### 6.1.5. Dịch vụ khác & an toàn giao dịch | Dịch vụ | Ý nghĩa | |---------|---------| | IM | Instant Messaging – tin nhắn tức thời | | Chat | Trao đổi trực tuyến | | Forum | Cộng đồng thảo luận | | Blog | Trang tin cá nhân đa phương tiện | | Facebook/Myspace | Mạng xã hội | | Dịch vụ công trực tuyến | Hành chính công trên môi trường mạng | - Chat trong mạng cơ quan: dữ liệu qua **máy chủ dịch vụ hội thoại** của cơ quan. - Thương mại điện tử **không** hoàn toàn độc lập thương mại truyền thống. Thanh toán phổ biến: **thẻ tín dụng**. - Mua online: ưu tiên site **https**; không gửi thông tin thẻ qua email tùy tiện. - Mật khẩu giao dịch: không ngắn, không chứa tên user, không dùng từ điển. --- ## 6.2. THỰC HÀNH MODULE 6 ### Bài NET1 – Trình duyệt 1. Mở 3 tab; luyện Ctrl+T/W/Tab; Bookmark 2 trang; xóa History. 2. Lưu một trang HTML only và một ảnh; in Preview chỉnh Header/Footer. ### Bài NET2 – Tìm kiếm 1. Tìm `\"cách trồng hoa phong lan\"`; tìm `Công chức SITE:một_cổng_gov.vn`. 2. So sánh kết quả có/không dấu ngoặc kép. ### Bài NET3 – Email 1. Tạo/gửi thư có Subject, CC, BCC, Attachment (file sạch). 2. Reply, Forward; chuyển 1 thư vào Spam; lưu nháp Draft. 3. Thực hành quy tắc: không mở file lạ chưa quét virus. ### Bài NET4 – An toàn 1. Kiểm tra một trang mua hàng có https hay không; liệt kê 5 dấu hiệu site đáng ngờ. 2. Viết checklist mật khẩu & phòng chống virus qua email. ---"
           },
           "answer": "A",
-          "explain": "Phương án đúng là «Kích chuột phải tại Slide hiện hành/ chọn Go to Slide» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Trong lúc chiếu, chuột phải → Go to Slide nhảy tới slide không liền kề. Tránh phải bấm Next liên tục khi cần quay lại mục cụ thể."
         }
       ]
     },
@@ -7250,7 +7250,7 @@ window.QUIZ_DATA = {
             "D": "Hệ thống thông tin toàn cầu có thể được truy nhập công cộng gồm các mạng máy tính được liên kết với nhau"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Hệ thống thông tin toàn cầu có thể được truy nhập công cộng gồm các mạng máy tính được liên kết với nhau». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Internet là hệ thống mạng máy tính toàn cầu liên kết với nhau, cho phép truy cập công cộng nhiều dịch vụ (Web, email…). Không phải dịch vụ chỉ do một công ty Mỹ độc quyền điều hành."
         },
         {
           "id": 2,
@@ -7262,7 +7262,7 @@ window.QUIZ_DATA = {
             "D": "Thư điện tử là nền tảng cho việc xây dựng văn phòng không giấy tờ"
           },
           "answer": "A",
-          "explain": "Phương án đúng là «Internet là dịch vụ do công ty Internet tại Mỹ điều hành và thu phí» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «Internet là dịch vụ do công ty Internet tại Mỹ điều hành và thu phí». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 3,
@@ -7274,7 +7274,7 @@ window.QUIZ_DATA = {
             "D": "Máy tính - điện thoại - modem - ISP (Internet Service Provider)"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Máy tính - modem - điện thoại - ISP». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "MOD(số, số_chia) trả về phần dư phép chia. Ví dụ =MOD(26,7) = 5."
         },
         {
           "id": 4,
@@ -7286,7 +7286,7 @@ window.QUIZ_DATA = {
             "D": "Không có phương án đúng"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Internet Service Provider». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "ISP (Internet Service Provider) là nhà cung cấp dịch vụ kết nối Internet. Máy tính thường kết nối qua modem/hạ tầng rồi tới ISP để vào mạng toàn cầu."
         },
         {
           "id": 5,
@@ -7298,7 +7298,7 @@ window.QUIZ_DATA = {
             "D": "World Wide Web"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «World Wide Web». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "WWW (World Wide Web) là dịch vụ Web trên Internet gồm các trang siêu văn bản liên kết với nhau. Truy cập bằng trình duyệt qua địa chỉ URL."
         },
         {
           "id": 6,
@@ -7310,7 +7310,7 @@ window.QUIZ_DATA = {
             "D": "Mã sản phẩm"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Địa chỉ IP». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Địa chỉ IP định danh thiết bị trong mạng để gửi/nhận gói tin. Không có địa chỉ hợp lệ thì thiết bị khó tham gia giao tiếp mạng."
         },
         {
           "id": 7,
@@ -7322,7 +7322,7 @@ window.QUIZ_DATA = {
             "D": "Là địa chỉ của trang Web"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Là giao thức truyền tải siêu văn bản». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "HTTP là giao thức truyền tải siêu văn bản giữa trình duyệt và máy chủ Web. HTTPS là biến thể mã hóa an toàn hơn khi truyền dữ liệu nhạy cảm."
         },
         {
           "id": 8,
@@ -7334,7 +7334,7 @@ window.QUIZ_DATA = {
             "D": "www.laodong.com.vn"
           },
           "answer": "B",
-          "explain": "Phương án đúng là «ninhbinh@yahoo.com» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Ninhbinh@yahoo.com. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 9,
@@ -7346,7 +7346,7 @@ window.QUIZ_DATA = {
             "D": "Là trang văn bản thông thường"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Là trang siêu văn bản phối hợp giữa văn bản thông thường với hình ảnh, âm thanh, video và cả các mối liên kết đến các trang siêu văn bản khác». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Là trang siêu văn bản phối hợp giữa văn bản thông thường với hình ảnh, âm thanh…. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 10,
@@ -7358,7 +7358,7 @@ window.QUIZ_DATA = {
             "D": "Liên kết"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Liên kết». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Hyperlink (link) là liên kết đưa tới vị trí khác trên trang, trang khác hoặc tài nguyên khác khi người dùng kích chuột. Đây là nền tảng điều hướng của Web."
         },
         {
           "id": 11,
@@ -7370,7 +7370,7 @@ window.QUIZ_DATA = {
             "D": "URL (Uniform Resource Locator)"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «URL (Uniform Resource Locator)». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "URL (Uniform Resource Locator) là địa chỉ định danh tài nguyên trên Internet (thường bắt đầu bằng http/https). Gõ URL vào thanh địa chỉ để mở đúng trang."
         },
         {
           "id": 12,
@@ -7382,7 +7382,7 @@ window.QUIZ_DATA = {
             "D": "Dùng liên kết với các tài liệu trên Internet"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Dùng liên kết các tài nguyên trên Internet qua các đường link trên trang Web». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Hyperlink (link) là liên kết đưa tới vị trí khác trên trang, trang khác hoặc tài nguyên khác khi người dùng kích chuột. Đây là nền tảng điều hướng của Web."
         },
         {
           "id": 13,
@@ -7394,7 +7394,7 @@ window.QUIZ_DATA = {
             "D": "Tên miền .net"
           },
           "answer": "A",
-          "explain": "«Website» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Cách đúng là: Website. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 14,
@@ -7406,7 +7406,7 @@ window.QUIZ_DATA = {
             "D": "Thiết bị kết nối các mạng trên Internet"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Trình duyệt web». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
         },
         {
           "id": 15,
@@ -7418,7 +7418,7 @@ window.QUIZ_DATA = {
             "D": "Bộ giao thức"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Trình duyệt web». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
         },
         {
           "id": 16,
@@ -7430,7 +7430,7 @@ window.QUIZ_DATA = {
             "D": "Thiết bị kết nối các mạng trên Internet"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Trình duyệt web». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
         },
         {
           "id": 17,
@@ -7442,7 +7442,7 @@ window.QUIZ_DATA = {
             "D": "Trình duyệt web"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Trình duyệt web». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
         },
         {
           "id": 18,
@@ -7454,7 +7454,7 @@ window.QUIZ_DATA = {
             "D": "Chương trình xem Web"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Trình duyệt Web». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
         },
         {
           "id": 19,
@@ -7466,7 +7466,7 @@ window.QUIZ_DATA = {
             "D": "Thanh địa chỉ của trình duyệt"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Thanh địa chỉ của trình duyệt». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thanh địa chỉ (address bar) nơi nhập URL để mở trang. Khác ô tìm kiếm của công cụ search dù một số trình duyệt tích hợp cả hai."
         },
         {
           "id": 20,
@@ -7478,7 +7478,7 @@ window.QUIZ_DATA = {
             "D": "Outlook Express"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Một chương trình duyệt web». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
         },
         {
           "id": 21,
@@ -7490,7 +7490,7 @@ window.QUIZ_DATA = {
             "D": "Internet Explorer"
           },
           "answer": "B",
-          "explain": "Phương án đúng là «FireBug» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "FireBug. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 22,
@@ -7502,7 +7502,7 @@ window.QUIZ_DATA = {
             "D": "Mozilla Firefox và Chromium là các trình duyệt web"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Mozilla Firefox và Chromium là các trình duyệt web». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
         },
         {
           "id": 23,
@@ -7514,7 +7514,7 @@ window.QUIZ_DATA = {
             "D": "Next"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Search». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Search». Tên/đối tượng này đúng với vai trò được hỏi; hãy gắn với chức năng thực tế để khỏi nhầm nhóm tương tự."
         },
         {
           "id": 24,
@@ -7526,7 +7526,7 @@ window.QUIZ_DATA = {
             "D": "Một hệ thống báo cháy"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Tường lửa là một thiết bị phần cứng và/hoặc một phần mềm hoạt động trong một môi trường máy tính nối mạng có mục đích chống lại sự xâm nhập trái phép từ Internet». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Tường lửa (firewall) lọc kết nối mạng theo chính sách bảo mật, chặn truy cập không được phép từ ngoài vào hoặc ra. Có thể là phần mềm, phần cứng, hoặc kết hợp cả hai."
         },
         {
           "id": 25,
@@ -7538,7 +7538,7 @@ window.QUIZ_DATA = {
             "D": "Sử dụng giao thức bảo mật để truyền tải nội dung"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Sử dụng giao thức bảo mật để truyền tải nội dung». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Sử dụng giao thức bảo mật để truyền tải nội dung». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 26,
@@ -7550,7 +7550,7 @@ window.QUIZ_DATA = {
             "D": "Địa chỉ truy cập là một trang web cá nhân"
           },
           "answer": "A",
-          "explain": "Phương án đúng là «Địa chỉ truy cập không tồn tại hoặc địa chỉ truy cập bị nhà quản trị mạng ngăn không cho truy cập» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Đáp án đúng khẳng định: Địa chỉ truy cập không tồn tại hoặc địa chỉ truy cập bị nhà quản trị mạng ngăn không cho truy cập. Hiểu vì sao nội dung này đúng với tình huống đề (định nghĩa, điều kiện dùng hoặc kết quả thao tác) sẽ giúp làm các câu tương tự."
         },
         {
           "id": 27,
@@ -7562,7 +7562,7 @@ window.QUIZ_DATA = {
             "D": "Vừa mở cửa sổ duyệt web, vừa chơi game trong lúc chờ trang web xuất hiện đầy đủ nội dung."
           },
           "answer": "B",
-          "explain": "Phương án đúng là «Nhấn nút BACK để đóng cửa sổ duyệt Web» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «nút BACK để đóng cửa sổ duyệt Web». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 28,
@@ -7574,7 +7574,7 @@ window.QUIZ_DATA = {
             "D": "Dấu “.”"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Dấu “.”». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Dấu “.”». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 29,
@@ -7586,7 +7586,7 @@ window.QUIZ_DATA = {
             "D": "Hệ điều hành đang sử dụng"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Địa chỉ của trang web». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Địa chỉ của trang web. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 30,
@@ -7598,7 +7598,7 @@ window.QUIZ_DATA = {
             "D": "Website đó được đặt tại máy chủ nào"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Tên miền của Website đó». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Tên miền của Website đó. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 31,
@@ -7610,7 +7610,7 @@ window.QUIZ_DATA = {
             "D": "ninhbinh@yahoo.com"
           },
           "answer": "D",
-          "explain": "Phương án đúng là «ninhbinh@yahoo.com» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Ninhbinh@yahoo.com. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 32,
@@ -7622,7 +7622,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl+T"
           },
           "answer": "D",
-          "explain": "Tổ hợp/phím đúng là «Ctrl+T». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl+T: dùng để mở tab mới trong trình duyệt. Giữ nhiều trang trong cùng một cửa sổ."
         },
         {
           "id": 33,
@@ -7634,7 +7634,7 @@ window.QUIZ_DATA = {
             "D": "Alt+Tab"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Ctrl+Shift+Tab». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl+Shift+Tab: dùng để chuyển sang tab liền kề bên trái. Duyệt ngược giữa các tab đang mở."
         },
         {
           "id": 34,
@@ -7646,7 +7646,7 @@ window.QUIZ_DATA = {
             "D": "Alt+Tab"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Ctrl+Tab». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl+Tab: dùng để chuyển sang tab liền kề bên phải. Dùng trong trình duyệt nhiều tab."
         },
         {
           "id": 35,
@@ -7658,7 +7658,7 @@ window.QUIZ_DATA = {
             "D": "Chuyển đến Tab liền kề bên phải 100"
           },
           "answer": "D",
-          "explain": "Tổ hợp/phím đúng là «Chuyển đến Tab liền kề bên phải 100». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Trong trình duyệt kiểu IE/Chrome: Ctrl + T mở tab mới, Ctrl + W đóng tab, Ctrl + Tab/Ctrl + Shift + Tab chuyển tab. Làm việc nhiều trang trong một cửa sổ."
         },
         {
           "id": 36,
@@ -7670,7 +7670,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl+F4"
           },
           "answer": "B",
-          "explain": "Tổ hợp/phím đúng là «Ctrl+W». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl+W: dùng để đóng tab hiện tại. Không nhất thiết đóng cả cửa sổ trình duyệt."
         },
         {
           "id": 37,
@@ -7682,7 +7682,7 @@ window.QUIZ_DATA = {
             "D": "Trở về trang chủ"
           },
           "answer": "A",
-          "explain": "Tổ hợp/phím đúng là «Xóa 1 tab». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Cách đúng là: Xóa 1 tab. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 38,
@@ -7694,7 +7694,7 @@ window.QUIZ_DATA = {
             "D": "Home"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Refresh». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Refresh/Reload tải lại trang từ máy chủ (hoặc cache) để cập nhật nội dung mới. Dùng khi trang lỗi tạm thời hoặc dữ liệu đã thay đổi."
         },
         {
           "id": 39,
@@ -7706,7 +7706,7 @@ window.QUIZ_DATA = {
             "D": "Trở về trang chủ"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Tải lại một trang web». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Refresh/Reload tải lại trang từ máy chủ (hoặc cache) để cập nhật nội dung mới. Dùng khi trang lỗi tạm thời hoặc dữ liệu đã thay đổi."
         },
         {
           "id": 40,
@@ -7718,7 +7718,7 @@ window.QUIZ_DATA = {
             "D": "Disconnect"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Stop». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Nút Stop dừng tải trang đang mở dở. Hữu ích khi trang nặng/treo hoặc mở nhầm."
         },
         {
           "id": 41,
@@ -7730,7 +7730,7 @@ window.QUIZ_DATA = {
             "D": "Về ttrang chủ"
           },
           "answer": "A",
-          "explain": "«Ngừng tải nội dung trang Web» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Nút Stop dừng tải trang đang mở dở. Hữu ích khi trang nặng/treo hoặc mở nhầm."
         },
         {
           "id": 42,
@@ -7742,7 +7742,7 @@ window.QUIZ_DATA = {
             "D": "Next"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Refresh». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Refresh/Reload tải lại trang từ máy chủ (hoặc cache) để cập nhật nội dung mới. Dùng khi trang lỗi tạm thời hoặc dữ liệu đã thay đổi."
         },
         {
           "id": 43,
@@ -7754,7 +7754,7 @@ window.QUIZ_DATA = {
             "D": "Thoát khỏi trình duyệt web"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Tải lại một trang web». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Refresh/Reload tải lại trang từ máy chủ (hoặc cache) để cập nhật nội dung mới. Dùng khi trang lỗi tạm thời hoặc dữ liệu đã thay đổi."
         },
         {
           "id": 44,
@@ -7766,7 +7766,7 @@ window.QUIZ_DATA = {
             "D": "Không có ý nghĩa gì, chỉ để trang trí"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Đi đến trang chủ». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đi đến trang chủ. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 45,
@@ -7778,7 +7778,7 @@ window.QUIZ_DATA = {
             "D": "Vào History chọn Restore Closed Tab"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Vào History chọn Clear Recent History». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Ctrl + H thường mở History — danh sách trang đã thăm. Có thể xóa lịch sử (Clear Recent History) để bảo mật/riêng tư trên máy dùng chung."
         },
         {
           "id": 46,
@@ -7790,7 +7790,7 @@ window.QUIZ_DATA = {
             "D": "Không gây nguy hiểm cho hệ thống nhưng gây khó chịu cho người dùng"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Không gây nguy hiểm cho hệ thống nhưng gây khó chịu cho người dùng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cửa sổ pop-up thường là quảng cáo/thông báo chồng lên trang; ít khi phá hệ thống nhưng gây khó chịu. Có thể chặn và mở lại ngoại lệ khi cần."
         },
         {
           "id": 47,
@@ -7802,7 +7802,7 @@ window.QUIZ_DATA = {
             "D": "Bạn phải gửi thông báo tới quản trị trang web nếu muốn hiển thị lại"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Bạn có thể tự thiết lập mở khóa trong trường hợp cần thiết». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng khẳng định: Bạn có thể tự thiết lập mở khóa trong trường hợp cần thiết. Hiểu vì sao nội dung này đúng với tình huống đề (định nghĩa, điều kiện dùng hoặc kết quả thao tác) sẽ giúp làm các câu tương tự."
         },
         {
           "id": 48,
@@ -7814,7 +7814,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl + P"
           },
           "answer": "C",
-          "explain": "Tổ hợp/phím đúng là «Ctrl + H». Ghi nhớ phím tắt này giúp thao tác nhanh hơn khi làm bài thực hành."
+          "explain": "Tổ hợp/phím đúng là Ctrl + H: dùng để tìm và thay thế (Office) hoặc mở History (trình duyệt). Tùy phần mềm đang dùng mà chức năng khác nhau."
         },
         {
           "id": 49,
@@ -7826,7 +7826,7 @@ window.QUIZ_DATA = {
             "D": "Là một thành phần trong một trang Web liên kết đến vị trí khác trên cùng trang Web đó hoặc liên kết đến một trang Web khác"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Là một thành phần trong một trang Web liên kết đến vị trí khác trên cùng trang Web đó hoặc liên kết đến một trang Web khác». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Hyperlink (link) là liên kết đưa tới vị trí khác trên trang, trang khác hoặc tài nguyên khác khi người dùng kích chuột. Đây là nền tảng điều hướng của Web."
         },
         {
           "id": 50,
@@ -7838,7 +7838,7 @@ window.QUIZ_DATA = {
             "D": "Quay trở lại màn hình trước đó"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Quay trở lại trang Web trước đó». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Back về trang trước trong lịch sử phiên; Forward đi tới lại nếu đã Back. Backspace thường cũng Back; Back không phải lệnh đóng cửa sổ trình duyệt."
         },
         {
           "id": 51,
@@ -7850,7 +7850,7 @@ window.QUIZ_DATA = {
             "D": "Đi đến cửa sổ trước đó"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Đi đến trang Web tiếp theo». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Back về trang trước trong lịch sử phiên; Forward đi tới lại nếu đã Back. Backspace thường cũng Back; Back không phải lệnh đóng cửa sổ trình duyệt."
         },
         {
           "id": 52,
@@ -7862,7 +7862,7 @@ window.QUIZ_DATA = {
             "D": "Ctrl + T"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Backspace». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Back về trang trước trong lịch sử phiên; Forward đi tới lại nếu đã Back. Backspace thường cũng Back; Back không phải lệnh đóng cửa sổ trình duyệt."
         },
         {
           "id": 53,
@@ -7874,7 +7874,7 @@ window.QUIZ_DATA = {
             "D": "Đi đến trang Web tiếp theo"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Quay trở lại trang Web trước đó». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Back về trang trước trong lịch sử phiên; Forward đi tới lại nếu đã Back. Backspace thường cũng Back; Back không phải lệnh đóng cửa sổ trình duyệt."
         },
         {
           "id": 54,
@@ -7886,7 +7886,7 @@ window.QUIZ_DATA = {
             "D": "Mở nhiều cửa sổ duyệt web cho nhiều địa chỉ web khác nhau"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Nhấn nút Back để đóng cửa sổ duyệt Web» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «nút Back để đóng cửa sổ duyệt Web». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 55,
@@ -7898,7 +7898,7 @@ window.QUIZ_DATA = {
             "D": "Edit/Favorites"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Favorites/Add to Favorites 103». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Favorites/Bookmarks lưu địa chỉ trang hay dùng để mở lại nhanh. Add to Favorites (IE) hoặc Bookmark tương đương trên trình duyệt khác."
         },
         {
           "id": 56,
@@ -7910,7 +7910,7 @@ window.QUIZ_DATA = {
             "D": "Mục Bookmark"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Mục Bookmark». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Favorites/Bookmarks lưu địa chỉ trang hay dùng để mở lại nhanh. Add to Favorites (IE) hoặc Bookmark tương đương trên trình duyệt khác."
         },
         {
           "id": 57,
@@ -7922,7 +7922,7 @@ window.QUIZ_DATA = {
             "D": "File/Save to Favorites"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Favorites/Add to Favorites». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Favorites/Bookmarks lưu địa chỉ trang hay dùng để mở lại nhanh. Add to Favorites (IE) hoặc Bookmark tương đương trên trình duyệt khác."
         },
         {
           "id": 58,
@@ -7934,7 +7934,7 @@ window.QUIZ_DATA = {
             "D": "Chọn Web page/ Home"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Chọn Web page/ Html only». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Thao tác đúng đi theo đường lệnh: Web page/ Html only. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 59,
@@ -7946,7 +7946,7 @@ window.QUIZ_DATA = {
             "D": "Hộp truy cập (Asscess box)"
           },
           "answer": "D",
-          "explain": "Phương án đúng là «Hộp truy cập (Asscess box)» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Hộp truy cập (Asscess box). Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 60,
@@ -7958,7 +7958,7 @@ window.QUIZ_DATA = {
             "D": "Chọn Next"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Chọn Submit». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Sau khi điền form web, chọn Submit (hoặc tương đương) để gửi dữ liệu lên máy chủ xử lý. Không bấm gửi thì dữ liệu thường chưa được chuyển."
         },
         {
           "id": 61,
@@ -7970,7 +7970,7 @@ window.QUIZ_DATA = {
             "D": "Là dịch vụ hành chính công và các dịch vụ khác của cơ quan nhà nước được cung cấp cho doanh nghiệp trên môi trường mạng 104"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Là dịch vụ hành chính công và các dịch vụ khác của cơ quan nhà nước được cung cấp cho các tổ chức, cá nhân trên môi trường mạng». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Là dịch vụ hành chính công và các dịch vụ khác của cơ quan nhà nước được cung cấp cho các tổ chức, cá nhân trên môi trường mạng. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 62,
@@ -7982,7 +7982,7 @@ window.QUIZ_DATA = {
             "D": "Google"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Tất cả đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Công cụ tìm kiếm thông tin trên Internet hiện nay, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 63,
@@ -7994,7 +7994,7 @@ window.QUIZ_DATA = {
             "D": "Yahoo Mail"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Trang web có hỗ trợ tìm kiếm thông tin Internet miễn phí như www.google.com». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Công cụ tìm kiếm (Google…) giúp tìm URL/nội dung nhanh bằng từ khóa. Đặt cụm trong dấu nháy để khớp cụm từ; toán tử site: giới hạn kết quả trong một tên miền."
         },
         {
           "id": 64,
@@ -8006,7 +8006,7 @@ window.QUIZ_DATA = {
             "D": "phong+lan"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «\" trồng hoa phong lan\"». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Công cụ tìm kiếm (Google…) giúp tìm URL/nội dung nhanh bằng từ khóa. Đặt cụm trong dấu nháy để khớp cụm từ; toán tử site: giới hạn kết quả trong một tên miền."
         },
         {
           "id": 65,
@@ -8018,7 +8018,7 @@ window.QUIZ_DATA = {
             "D": "Chúng ta mở trình duyệt Web"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Chúng ta mở trang web địa chỉ www.google.com/Nhập nội dung \"cách thức nuôi cá Basa\" vào ô tìm kiếm». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Công cụ tìm kiếm (Google…) giúp tìm URL/nội dung nhanh bằng từ khóa. Đặt cụm trong dấu nháy để khớp cụm từ; toán tử site: giới hạn kết quả trong một tên miền."
         },
         {
           "id": 66,
@@ -8030,7 +8030,7 @@ window.QUIZ_DATA = {
             "D": "Hỏi bạn của mình"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Sử dụng công cụ tìm kiếm trên Web». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Sử dụng công cụ tìm kiếm trên Web. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 67,
@@ -8042,7 +8042,7 @@ window.QUIZ_DATA = {
             "D": "Công chức FROM:lamdong.gov.vn"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Công chức SITE:lamdong.gov.vn 105» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Công cụ tìm kiếm (Google…) giúp tìm URL/nội dung nhanh bằng từ khóa. Đặt cụm trong dấu nháy để khớp cụm từ; toán tử site: giới hạn kết quả trong một tên miền."
         },
         {
           "id": 68,
@@ -8054,7 +8054,7 @@ window.QUIZ_DATA = {
             "D": "Tất cả các đáp án trên"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Tất cả các đáp án trên». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Trang tìm kiếm Google có thể cho ra kết quả tìm kiếm theo, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 69,
@@ -8066,7 +8066,7 @@ window.QUIZ_DATA = {
             "D": "File/ Exit"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «File/ Save As». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Chuột phải ảnh → Save picture as lưu riêng file ảnh; File → Save As lưu cả trang (có tùy chọn HTML only nếu không cần kèm ảnh). Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 70,
@@ -8078,7 +8078,7 @@ window.QUIZ_DATA = {
             "D": "Hai cách a và c đều đúng"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Nhấn chuột phải vào ảnh, chọn Save picture as». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Chuột phải ảnh → Save picture as lưu riêng file ảnh; File → Save As lưu cả trang (có tùy chọn HTML only nếu không cần kèm ảnh). Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
         },
         {
           "id": 71,
@@ -8090,7 +8090,7 @@ window.QUIZ_DATA = {
             "D": "Nhấn tổ hợp phím Ctrl+P"
           },
           "answer": "B",
-          "explain": "Phương án đúng là «Trên thanh lệnh (Command bar), nhấn nút Print Preview» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Cách đúng là: Trên thanh lệnh (Command bar), nhấn nút Print Preview. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Print Preview xem trước bố cục in để phát hiện lỗi trước khi in giấy."
         },
         {
           "id": 72,
@@ -8102,7 +8102,7 @@ window.QUIZ_DATA = {
             "D": "Margin"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Headers and Footers». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Page Number/Header/Footer gắn thông tin lặp trên các trang; Page Break ngắt sang trang mới đúng vị trí. Các lệnh nằm chủ yếu ở Insert và Page Layout."
         },
         {
           "id": 73,
@@ -8114,7 +8114,7 @@ window.QUIZ_DATA = {
             "D": "Hội thoại trực tuyến"
           },
           "answer": "A",
-          "explain": "«Trao đổi thư thông qua môi trường Internet» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Cách đúng là: Trao đổi thư thông qua môi trường Internet. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 74,
@@ -8126,7 +8126,7 @@ window.QUIZ_DATA = {
             "D": "<Tên người dùng>@<Tên miền>"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «<Tên người dùng>@<Tên miền>». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Email (Electronic mail) là dịch vụ gửi/nhận thư qua mạng. Địa chỉ chuẩn dạng tên_người_dùng@tên_miền; ký hiệu @ bắt buộc có trong địa chỉ email."
         },
         {
           "id": 75,
@@ -8138,7 +8138,7 @@ window.QUIZ_DATA = {
             "D": "Có thể chuyển được lượng văn bản lớn hơn nhờ chức năng gắn kèm"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Tốc độ chuyển thư nhanh». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Tốc độ chuyển thư nhanh. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 76,
@@ -8150,7 +8150,7 @@ window.QUIZ_DATA = {
             "D": "Kí hiệu $"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Kí hiệu @». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Email (Electronic mail) là dịch vụ gửi/nhận thư qua mạng. Địa chỉ chuẩn dạng tên_người_dùng@tên_miền; ký hiệu @ bắt buộc có trong địa chỉ email."
         },
         {
           "id": 77,
@@ -8162,7 +8162,7 @@ window.QUIZ_DATA = {
             "D": "Hộp thư của cả hai đều nằm trên máy Mail Server của công ty Yahoo"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Mật khẩu mở hộp thư của hai người này phải khác nhau» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «Mật khẩu mở hộp thư của hai người này phải khác nhau». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 78,
@@ -8174,7 +8174,7 @@ window.QUIZ_DATA = {
             "D": "Người sử dụng có thể tự tạo cho mình 1 tài khoản sử dụng thư điện tử miễn phí qua trang Web"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Thư điện tử luôn có độ tin cậy, an toàn tuyệt đối» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «Thư điện tử luôn có độ tin cậy, an toàn tuyệt đối». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 79,
@@ -8186,7 +8186,7 @@ window.QUIZ_DATA = {
             "D": "1 người có thể gửi thư cho chính mình, nhiều lần"
           },
           "answer": "A",
-          "explain": "Phương án đúng là «Hai người có thể có địa chỉ thư giống nhau, ví dụ hoahong@yahoo.com» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «Hai người có thể có địa chỉ thư giống nhau, ví dụ hoahong@yahoo.com». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 80,
@@ -8198,7 +8198,7 @@ window.QUIZ_DATA = {
             "D": "ninhbinh@yahoo.com 107"
           },
           "answer": "A",
-          "explain": "Phương án đúng là «vnexpress.net» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Vnexpress.net. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 81,
@@ -8210,7 +8210,7 @@ window.QUIZ_DATA = {
             "D": "google.com"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «ninhbinh@yahoo.com». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Email (Electronic mail) là dịch vụ gửi/nhận thư qua mạng. Địa chỉ chuẩn dạng tên_người_dùng@tên_miền; ký hiệu @ bắt buộc có trong địa chỉ email."
         },
         {
           "id": 82,
@@ -8222,7 +8222,7 @@ window.QUIZ_DATA = {
             "D": "alpha2005@yahoo"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «alpha2005@yahoo.com». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Email (Electronic mail) là dịch vụ gửi/nhận thư qua mạng. Địa chỉ chuẩn dạng tên_người_dùng@tên_miền; ký hiệu @ bắt buộc có trong địa chỉ email."
         },
         {
           "id": 83,
@@ -8234,7 +8234,7 @@ window.QUIZ_DATA = {
             "D": "Kí hiệu @"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Kí hiệu @». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Email (Electronic mail) là dịch vụ gửi/nhận thư qua mạng. Địa chỉ chuẩn dạng tên_người_dùng@tên_miền; ký hiệu @ bắt buộc có trong địa chỉ email."
         },
         {
           "id": 84,
@@ -8246,7 +8246,7 @@ window.QUIZ_DATA = {
             "D": "Kích nút Spam"
           },
           "answer": "D",
-          "explain": "Phương án đúng là «Kích nút Spam» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Thư rác/không mong muốn thường vào thư mục Spam; có thể đánh dấu Spam để bộ lọc học và chặn tương tự. Không mở link/file đáng ngờ trong thư rác."
         },
         {
           "id": 85,
@@ -8258,7 +8258,7 @@ window.QUIZ_DATA = {
             "D": "Inbox"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Spam». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thư rác/không mong muốn thường vào thư mục Spam; có thể đánh dấu Spam để bộ lọc học và chặn tương tự. Không mở link/file đáng ngờ trong thư rác."
         },
         {
           "id": 86,
@@ -8270,7 +8270,7 @@ window.QUIZ_DATA = {
             "D": "Tất cả đáp án (1), (2) và (3) đều đúng"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Tất cả đáp án (1), (2) và (3) đều đúng». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Về Để tránh lây lan virus qua email, người dùng nên làm gì, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
         },
         {
           "id": 87,
@@ -8282,7 +8282,7 @@ window.QUIZ_DATA = {
             "D": "Notepad"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Outlook Express». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Outlook Express. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 88,
@@ -8294,7 +8294,7 @@ window.QUIZ_DATA = {
             "D": "Trong thư mục Inbox"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Trong thư mục Draft». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thư soạn dở chưa Send thường nằm trong Drafts (Thư nháp). Có thể mở lại để sửa và gửi sau."
         },
         {
           "id": 89,
@@ -8306,7 +8306,7 @@ window.QUIZ_DATA = {
             "D": "Forward"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Forward». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Forward chuyển tiếp thư (và thường cả đính kèm) tới người khác. Khác Reply vốn gửi phản hồi về người gửi gốc."
         },
         {
           "id": 90,
@@ -8318,7 +8318,7 @@ window.QUIZ_DATA = {
             "D": "Reply"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Compose». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Compose mở cửa sổ soạn thư mới. Cần điền người nhận, Subject và nội dung trước khi Send."
         },
         {
           "id": 91,
@@ -8330,7 +8330,7 @@ window.QUIZ_DATA = {
             "D": "Attachment"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Reply». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Reply trả lời người gửi; Reply to all trả lời cả người gửi và các người nhận khác trong thư. RE: trên Subject thường báo đây là thư trả lời."
         },
         {
           "id": 92,
@@ -8342,7 +8342,7 @@ window.QUIZ_DATA = {
             "D": "Để cung cấp cho người nhận nội dung ngắn gọn của thư"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Để cung cấp cho người nhận nội dung ngắn gọn của thư». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng khẳng định: Để cung cấp cho người nhận nội dung ngắn gọn của thư. Hiểu vì sao nội dung này đúng với tình huống đề (định nghĩa, điều kiện dùng hoặc kết quả thao tác) sẽ giúp làm các câu tương tự."
         },
         {
           "id": 93,
@@ -8354,7 +8354,7 @@ window.QUIZ_DATA = {
             "D": "Thư đã gửi (Sent)"
           },
           "answer": "B",
-          "explain": "«Soạn thư (compose)» mô tả đúng chức năng/cách dùng liên quan đến câu hỏi. Các phương án khác không khớp với thao tác hoặc khái niệm được hỏi."
+          "explain": "Compose mở cửa sổ soạn thư mới. Cần điền người nhận, Subject và nội dung trước khi Send."
         },
         {
           "id": 94,
@@ -8366,7 +8366,7 @@ window.QUIZ_DATA = {
             "D": "Reply"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Attachment». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Attachment đính kèm file gửi cùng email. Nên quét virus file lạ trước khi mở để giảm rủi ro mã độc."
         },
         {
           "id": 95,
@@ -8378,7 +8378,7 @@ window.QUIZ_DATA = {
             "D": "copy"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «attachment». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Attachment đính kèm file gửi cùng email. Nên quét virus file lạ trước khi mở để giảm rủi ro mã độc."
         },
         {
           "id": 96,
@@ -8390,7 +8390,7 @@ window.QUIZ_DATA = {
             "D": "Sent"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Draft». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thư soạn dở chưa Send thường nằm trong Drafts (Thư nháp). Có thể mở lại để sửa và gửi sau."
         },
         {
           "id": 97,
@@ -8402,7 +8402,7 @@ window.QUIZ_DATA = {
             "D": "Cung cấp tài khoản sử dụng Internet"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Cung cấp chính xác User và Password đã đăng ký cho máy chủ thư điện tử». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Cung cấp chính xác User và Password đã đăng ký cho máy chủ thư điện tử. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 98,
@@ -8414,7 +8414,7 @@ window.QUIZ_DATA = {
             "D": "Compose"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Reply». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Reply trả lời người gửi; Reply to all trả lời cả người gửi và các người nhận khác trong thư. RE: trên Subject thường báo đây là thư trả lời."
         },
         {
           "id": 99,
@@ -8426,7 +8426,7 @@ window.QUIZ_DATA = {
             "D": "Reply"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Forward». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Forward chuyển tiếp thư (và thường cả đính kèm) tới người khác. Khác Reply vốn gửi phản hồi về người gửi gốc."
         },
         {
           "id": 100,
@@ -8438,7 +8438,7 @@ window.QUIZ_DATA = {
             "D": "Compose"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Reply to all». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Reply trả lời người gửi; Reply to all trả lời cả người gửi và các người nhận khác trong thư. RE: trên Subject thường báo đây là thư trả lời."
         },
         {
           "id": 101,
@@ -8450,7 +8450,7 @@ window.QUIZ_DATA = {
             "D": "Sắp xếp thư theo người gửi"
           },
           "answer": "A",
-          "explain": "Phương án đúng là «Sắp xếp thư theo dung lượng file đính kèm» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Đáp án đúng là «Sắp xếp thư theo dung lượng file đính kèm». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 102,
@@ -8462,7 +8462,7 @@ window.QUIZ_DATA = {
             "D": "Thư mới"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Thư trả lời cho thư mà bạn đã gửi cho người đó». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thư trả lời cho thư mà bạn đã gửi cho người đó. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 103,
@@ -8474,7 +8474,7 @@ window.QUIZ_DATA = {
             "D": "Thư đã đọc in thường, thư chưa đọc in đậm"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Thư đã đọc in thường, thư chưa đọc in đậm». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Trong Inbox, thư chưa đọc thường in đậm; thư đã đọc chuyển về kiểu thường. Giúp nhận biết nhanh thư mới."
         },
         {
           "id": 104,
@@ -8486,7 +8486,7 @@ window.QUIZ_DATA = {
             "D": "\"send:home@hanoi-itct.edu.vn\""
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «\"from:home@hanoi-itct.edu.vn\"». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Công cụ tìm kiếm (Google…) giúp tìm URL/nội dung nhanh bằng từ khóa. Đặt cụm trong dấu nháy để khớp cụm từ; toán tử site: giới hạn kết quả trong một tên miền."
         },
         {
           "id": 105,
@@ -8498,7 +8498,7 @@ window.QUIZ_DATA = {
             "D": "Spam"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «MyEmail». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "MyEmail. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 106,
@@ -8510,7 +8510,7 @@ window.QUIZ_DATA = {
             "D": "Spam"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Draft». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Thư soạn dở chưa Send thường nằm trong Drafts (Thư nháp). Có thể mở lại để sửa và gửi sau."
         },
         {
           "id": 107,
@@ -8522,7 +8522,7 @@ window.QUIZ_DATA = {
             "D": "Số điện thoại"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «Địa chỉ Email». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Địa chỉ Email». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 108,
@@ -8534,7 +8534,7 @@ window.QUIZ_DATA = {
             "D": "BCC 111"
           },
           "answer": "D",
-          "explain": "Phương án đúng là «BCC 111» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "BCC (Blind Carbon Copy) gửi ẩn danh sách người nhận phụ: mỗi người không thấy địa chỉ BCC khác. Dùng khi cần bảo mật danh sách người nhận."
         },
         {
           "id": 109,
@@ -8546,7 +8546,7 @@ window.QUIZ_DATA = {
             "D": "IM (Instant Messaging)"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «IM (Instant Messaging)». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "IM (Instant Messaging) trao đổi tin nhắn gần như thời gian thực. Phù hợp hỏi đáp nhanh hơn email, nhưng không phải kho lưu trữ lớn như dịch vụ lưu file."
         },
         {
           "id": 110,
@@ -8558,7 +8558,7 @@ window.QUIZ_DATA = {
             "D": "Gửi dữ liệu nhanh chóng"
           },
           "answer": "C",
-          "explain": "Phương án đúng là «Kho lưu trữ dữ liệu lớn» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Kho lưu trữ dữ liệu lớn. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 111,
@@ -8570,7 +8570,7 @@ window.QUIZ_DATA = {
             "D": "Email khẩn"
           },
           "answer": "B",
-          "explain": "Đáp án đúng là «IM». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "IM (Instant Messaging) trao đổi tin nhắn gần như thời gian thực. Phù hợp hỏi đáp nhanh hơn email, nhưng không phải kho lưu trữ lớn như dịch vụ lưu file."
         },
         {
           "id": 112,
@@ -8582,7 +8582,7 @@ window.QUIZ_DATA = {
             "D": "Dữ liệu truyền từ máy đang hội thoại lên máy chủ có dịch vụ hội thoại của cơ quan và quay về máy bên kia"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Dữ liệu truyền từ máy đang hội thoại lên máy chủ có dịch vụ hội thoại của cơ quan và quay về máy bên kia». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Dữ liệu truyền từ máy đang hội thoại lên máy chủ có dịch vụ hội thoại của cơ quan và quay về máy bên kia. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 113,
@@ -8594,7 +8594,7 @@ window.QUIZ_DATA = {
             "D": "Tán gẫu (Chat)"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Tán gẫu (Chat)». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Cách đúng là: Tán gẫu (Chat). Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
         },
         {
           "id": 114,
@@ -8606,7 +8606,7 @@ window.QUIZ_DATA = {
             "D": "Trang mạng xã hội"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Trang mạng xã hội». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Trang mạng xã hội». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 115,
@@ -8618,7 +8618,7 @@ window.QUIZ_DATA = {
             "D": "Blog"
           },
           "answer": "A",
-          "explain": "Đáp án đúng là «Forum». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Forum. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 116,
@@ -8630,7 +8630,7 @@ window.QUIZ_DATA = {
             "D": "Chỉ chứa hình ảnh"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Đa phương tiện». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Đáp án đúng là «Đa phương tiện». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
         },
         {
           "id": 117,
@@ -8642,7 +8642,7 @@ window.QUIZ_DATA = {
             "D": "Thương mại điện tử hoàn toàn độc lập với các hoạt động thương mại truyền thống"
           },
           "answer": "D",
-          "explain": "Phương án đúng là «Thương mại điện tử hoàn toàn độc lập với các hoạt động thương mại truyền thống» vì các lựa chọn còn lại không khớp với yêu cầu của câu hỏi (tìm trường hợp không đúng / ngoại lệ)."
+          "explain": "Phải chọn phát biểu SAI: «Thương mại điện tử hoàn toàn độc lập với các hoạt động thương mại truyền thống». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
         },
         {
           "id": 118,
@@ -8654,7 +8654,7 @@ window.QUIZ_DATA = {
             "D": "Thẻ thông minh"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Thẻ tín dụng». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Thẻ tín dụng. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 119,
@@ -8666,7 +8666,7 @@ window.QUIZ_DATA = {
             "D": "Không dùng mật khẩu quá ngắn, mật khẩu có chứa tên người dùng, mật khẩu là những từ có nghĩa trong từ điển"
           },
           "answer": "D",
-          "explain": "Đáp án đúng là «Không dùng mật khẩu quá ngắn, mật khẩu có chứa tên người dùng, mật khẩu là những từ có nghĩa trong từ điển». Đây là định nghĩa/khái niệm phù hợp với nội dung câu hỏi trong module."
+          "explain": "Không dùng mật khẩu quá ngắn, mật khẩu có chứa tên người dùng, mật khẩu là những từ có nghĩa trong từ điển. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
         },
         {
           "id": 120,
@@ -8678,7 +8678,7 @@ window.QUIZ_DATA = {
             "D": "Chỉ mua hàng trong giờ làm việc --- <a id=\"phu-luc-word\"></a> # PHỤ LỤC: BÀI THỰC HÀNH WORD (TỪ FILE ĐÍNH KÈM) ## A. Bài thực hành Word số 2 ### A1. Bài số 2 – Equation Dùng **Insert → Equation** soạn đúng các công thức trong file `Bai thuc hanh word so 2.pdf` (các công thức dạng ảnh trong đề). **Gợi ý kỹ thuật:** - Phân số: Fraction - Chỉ số: Superscript / Subscript - Căn: Radical - Tổng/tích phân: Large Operator - Sau khi chèn: căn giữa; giữ nguyên ký hiệu toán học Unicode ### A2. Bài số 3 – Hóa đơn bán hàng (Tab + Leader) Soạn mẫu hóa đơn theo đề, bắt buộc dùng **Tab stop** tạo dòng chấm. **Tóm tắt thao tác (đã nêu ở Module 3):** Paragraph → Tabs → Tab stop position + Alignment + Leader → Set → OK → gõ chữ rồi nhấn Tab. | Thành phần Tab | Ý nghĩa | |----------------|---------| | Tab stop position | Vị trí dừng dòng chấm | | Default tab stops | Khoảng cách mặc định | | Alignment Left/Center/Right | Canh nội dung tại điểm Tab | | Leader | Kiểu chấm / gạch dưới | ## B. Bài TH Word số 3 File `Bài TH word số 3.pdf` yêu cầu **soạn thảo các văn bản mẫu (1), (2), (3)** (dạng ảnh scan trong PDF). **Yêu cầu chung khi làm:** 1. Bám sát bố cục mẫu (căn lề, bảng, khoảng cách dòng). 2. Font Times New Roman (hoặc đúng mẫu đề). 3. Dùng Table khi mẫu là bảng; dùng Tab/Leader khi mẫu có dòng chấm. 4. Header/Footer, số trang nếu mẫu có. 5. Nộp file `.docx` đúng tên quy định giảng viên. ---"
           },
           "answer": "C",
-          "explain": "Đáp án đúng là «Hãy chắc chắn rằng trang web này là an toàn và địa chỉ URL hiển thị https». Nội dung này khớp với kiến thức chuẩn của bài; các lựa chọn khác không chính xác hoặc thiếu đầy đủ."
+          "explain": "Khi thanh toán/mua hàng online nên kiểm tra trang dùng HTTPS và đáng tin. HTTPS mã hóa đường truyền, giảm rủi ro bị nghe lén thông tin thẻ/mật khẩu."
         }
       ]
     }

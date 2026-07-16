@@ -24,7 +24,7 @@
   $("module-title").textContent = mod.title;
 
   const questions = mod.questions;
-  const answers = Object.create(null); // id -> "A"|"B"|"C"|"D"
+  const answers = Object.create(null);
   let index = 0;
 
   quizView.classList.remove("hidden");
@@ -47,14 +47,12 @@
     const answered = Object.keys(answers).length;
     const msg =
       answered < questions.length
-        ? `Bạn mới trả lời ${answered}/${questions.length} câu. Nộp bài và xem kết quả ngay?`
-        : "Nộp bài và xem kết quả?";
+        ? `Bạn mới trả lời ${answered}/${questions.length} câu. Xem tổng kết ngay?`
+        : "Xem tổng kết toàn module?";
     if (confirm(msg)) showResults();
   });
 
-  $("btn-retry").addEventListener("click", () => {
-    location.reload();
-  });
+  $("btn-retry").addEventListener("click", () => location.reload());
 
   $("btn-review").addEventListener("click", () => {
     $("review-wrap").classList.remove("hidden");
@@ -62,7 +60,6 @@
   });
 
   renderQuestion();
-  buildJump();
 
   function showError(msg) {
     errorEl.classList.remove("hidden");
@@ -71,6 +68,9 @@
 
   function renderQuestion() {
     const q = questions[index];
+    const selected = answers[q.id] || null;
+    const revealed = Boolean(selected);
+
     $("q-label").textContent = `Câu ${q.id}`;
     $("q-text").textContent = q.text;
     $("progress-text").textContent = `Câu ${index + 1} / ${questions.length}`;
@@ -79,40 +79,90 @@
     $("btn-prev").disabled = index === 0;
     $("btn-next").disabled = index === questions.length - 1;
 
-    const selected = answers[q.id];
     $("options").innerHTML = ["A", "B", "C", "D"]
       .map((key) => {
-        const active = selected === key ? " selected" : "";
-        return `<button type="button" class="option${active}" data-key="${key}">
+        let cls = "option";
+        if (revealed) {
+          if (key === q.answer) cls += " is-correct";
+          if (selected === key && key !== q.answer) cls += " is-wrong";
+          if (selected === key) cls += " selected";
+        }
+        return `<button type="button" class="${cls}" data-key="${key}" ${revealed ? "disabled" : ""}>
           <span class="key">${key}</span>
           <span>${escapeHtml(q.options[key])}</span>
         </button>`;
       })
       .join("");
 
-    $("options").querySelectorAll(".option").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        answers[q.id] = btn.dataset.key;
-        renderQuestion();
-        buildJump();
+    if (!revealed) {
+      $("options").querySelectorAll(".option").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          answers[q.id] = btn.dataset.key;
+          renderQuestion();
+        });
       });
-    });
+    }
 
+    renderFeedback(q, selected);
     buildJump();
+  }
+
+  function renderFeedback(q, selected) {
+    const box = $("instant-feedback");
+    if (!selected) {
+      box.classList.add("hidden");
+      box.innerHTML = "";
+      return;
+    }
+
+    const ok = selected === q.answer;
+    const knowledge = (q.explain || "").trim();
+
+    box.classList.remove("hidden");
+    box.className = `instant-feedback ${ok ? "ok" : "bad"}`;
+    box.innerHTML = `
+      <div class="fb-head">${ok ? "Chính xác" : "Chưa đúng"}</div>
+      <p class="fb-line"><strong>Bạn chọn:</strong> ${selected}. ${escapeHtml(q.options[selected])}</p>
+      <p class="fb-line"><strong>Đáp án đúng:</strong> ${q.answer}. ${escapeHtml(q.options[q.answer])}</p>
+      <div class="knowledge">
+        <b>Giải thích / kiến thức</b>
+        ${escapeHtml(knowledge)}
+      </div>
+      <div class="fb-actions">
+        ${
+          index < questions.length - 1
+            ? `<button type="button" class="btn btn-primary" id="btn-go-next">Câu tiếp theo →</button>`
+            : `<button type="button" class="btn btn-primary" id="btn-go-summary">Xem tổng kết module</button>`
+        }
+      </div>
+    `;
+
+    const nextBtn = $("btn-go-next");
+    if (nextBtn) {
+      nextBtn.addEventListener("click", () => {
+        index += 1;
+        renderQuestion();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    }
+    const sumBtn = $("btn-go-summary");
+    if (sumBtn) sumBtn.addEventListener("click", showResults);
   }
 
   function buildJump() {
     const jump = $("jump");
     jump.innerHTML = questions
       .map((q, i) => {
-        const cls = [
-          "dot",
-          answers[q.id] ? "answered" : "",
-          i === index ? "current" : "",
-        ]
+        const cls = ["dot", answers[q.id] ? "answered" : "", i === index ? "current" : ""]
           .filter(Boolean)
           .join(" ");
-        return `<button type="button" class="${cls}" data-i="${i}" title="Câu ${q.id}">${q.id}</button>`;
+        const mark =
+          answers[q.id] && answers[q.id] === q.answer
+            ? " ok-dot"
+            : answers[q.id]
+              ? " bad-dot"
+              : "";
+        return `<button type="button" class="${cls}${mark}" data-i="${i}" title="Câu ${q.id}">${q.id}</button>`;
       })
       .join("");
 
@@ -151,6 +201,7 @@
     $("stat-wrong").textContent = String(wrong);
     $("stat-skip").textContent = String(skip);
 
+    $("review-wrap").classList.remove("hidden");
     $("review-list").innerHTML = rows
       .map(({ q, user, ok }) => {
         const status = !user ? "wrong" : ok ? "correct" : "wrong";
@@ -166,8 +217,8 @@
           <p class="choice-line">Bạn chọn: <strong>${user ? user + ". " + escapeHtml(q.options[user]) : "—"}</strong></p>
           <p class="choice-line">Đáp án đúng: <strong>${q.answer}. ${escapeHtml(q.options[q.answer])}</strong></p>
           <div class="knowledge">
-            <b>Kiến thức</b>
-            ${escapeHtml(q.explain || "Xem lại phần lý thuyết của module.")}
+            <b>Giải thích / kiến thức</b>
+            ${escapeHtml((q.explain || "").trim())}
           </div>
         </article>`;
       })

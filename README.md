@@ -3,9 +3,10 @@
 ## Cách mở
 
 1. Mở file **`index.html`** bằng Chrome hoặc Edge (double-click).
-2. Chọn module → làm lần lượt 120 câu (có thể nhảy câu bằng lưới số bên dưới).
-3. Bấm **Nộp bài & xem kết quả** → xem điểm, số đúng/sai.
-4. Bấm **Xem đáp án & kiến thức** → từng câu có đáp án đúng và phần giải thích.
+2. Chọn module → làm lần lượt 120 câu.
+3. **Chỉ cần chọn đáp án** là hiện ngay: đúng/sai, đáp án chuẩn, giải thích kiến thức.
+4. Bấm **Câu tiếp theo** hoặc lưới số để chuyển câu.
+5. **Xem tổng kết module** để xem điểm tổng và ôn lại toàn bộ.
 
 ## Cấu trúc
 

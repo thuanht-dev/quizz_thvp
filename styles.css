@@ -283,6 +283,86 @@ h2 {
   background: var(--accent-soft);
 }
 
+.option.is-correct {
+  border-color: var(--ok);
+  background: var(--ok-soft);
+}
+
+.option.is-correct .key {
+  background: var(--ok);
+  border-color: var(--ok);
+  color: #fff;
+}
+
+.option.is-wrong {
+  border-color: var(--danger);
+  background: var(--danger-soft);
+}
+
+.option.is-wrong .key {
+  background: var(--danger);
+  border-color: var(--danger);
+  color: #fff;
+}
+
+.option:disabled {
+  cursor: default;
+  opacity: 1;
+}
+
+.instant-feedback {
+  margin-top: 1.1rem;
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  border: 1.5px solid var(--line);
+}
+
+.instant-feedback.ok {
+  background: var(--ok-soft);
+  border-color: #9dcbb5;
+}
+
+.instant-feedback.bad {
+  background: #fff5f5;
+  border-color: #e0b0b0;
+}
+
+.instant-feedback .fb-head {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 0.45rem;
+}
+
+.instant-feedback.ok .fb-head {
+  color: var(--ok);
+}
+
+.instant-feedback.bad .fb-head {
+  color: var(--danger);
+}
+
+.instant-feedback .fb-line {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.instant-feedback .fb-actions {
+  margin-top: 0.9rem;
+}
+
+.dot.ok-dot {
+  background: var(--ok-soft);
+  border-color: var(--ok);
+  color: var(--ok);
+}
+
+.dot.bad-dot {
+  background: var(--danger-soft);
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
 .option .key {
   width: 1.7rem;
   height: 1.7rem;
