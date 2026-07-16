@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>THVP Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <a class="brand" href="index.html">THVP <span>Quiz</span></a>
+      <a class="btn btn-ghost" href="index.html">Tất cả module</a>
+    </header>
+
+    <div id="error" class="panel hidden"></div>
+
+    <!-- QUIZ VIEW -->
+    <section id="quiz-view" class="hidden">
+      <p class="eyebrow" id="module-eyebrow">Module</p>
+      <h1 id="module-title">Quiz</h1>
+
+      <div class="progress-wrap">
+        <div class="progress-meta">
+          <span id="progress-text">Câu 1 / 120</span>
+          <span id="answered-text">Đã trả lời: 0</span>
+        </div>
+        <div class="progress-bar"><i id="progress-fill"></i></div>
+      </div>
+
+      <div class="panel">
+        <div class="q-num" id="q-label">Câu 1</div>
+        <p class="q-text" id="q-text"></p>
+        <div class="options" id="options"></div>
+
+        <div class="nav-row">
+          <button type="button" class="btn btn-ghost" id="btn-prev">← Trước</button>
+          <div class="right">
+            <button type="button" class="btn btn-ghost" id="btn-next">Sau →</button>
+            <button type="button" class="btn btn-primary" id="btn-submit">Nộp bài & xem kết quả</button>
+          </div>
+        </div>
+
+        <div class="jump" id="jump"></div>
+      </div>
+    </section>
+
+    <!-- RESULT VIEW -->
+    <section id="result-view" class="hidden">
+      <p class="eyebrow">Kết quả</p>
+      <h1 id="result-title">Hoàn thành</h1>
+
+      <div class="panel">
+        <div class="score-hero">
+          <div class="score-ring" id="score-ring" style="--pct: 0">
+            <div id="score-pct">0%</div>
+          </div>
+          <p class="lede" id="score-summary" style="margin: 0 auto"></p>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><b id="stat-correct">0</b><span>Đúng</span></div>
+          <div class="stat"><b id="stat-wrong">0</b><span>Sai</span></div>
+          <div class="stat"><b id="stat-skip">0</b><span>Chưa trả lời</span></div>
+        </div>
+
+        <div class="nav-row">
+          <button type="button" class="btn btn-ghost" id="btn-retry">Làm lại module</button>
+          <div class="right">
+            <a class="btn btn-soft" href="index.html">Chọn module khác</a>
+            <button type="button" class="btn btn-primary" id="btn-review">Xem đáp án & kiến thức</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="review-wrap" class="hidden">
+        <h2 style="margin-top: 2rem">Chi tiết đáp án & kiến thức</h2>
+        <p class="lede">Xanh = đúng · Đỏ = sai / bỏ trống. Mỗi câu kèm giải thích kiến thức.</p>
+        <div class="review-list" id="review-list"></div>
+      </div>
+    </section>
+  </div>
+
+  <script src="quiz-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

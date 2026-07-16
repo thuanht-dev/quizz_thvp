@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>THVP Quiz – Chọn module</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <div class="brand">THVP <span>Quiz</span></div>
+      <span style="color:var(--muted);font-size:0.9rem">6 module · 720 câu</span>
+    </header>
+
+    <p class="eyebrow">Tin học văn phòng</p>
+    <h1>Ôn trắc nghiệm theo từng module</h1>
+    <p class="lede">
+      Mỗi module có đủ 120 câu. Làm xong bạn xem điểm, đáp án đúng/sai và kiến thức giải thích ngay trên trang.
+    </p>
+
+    <div class="module-grid" id="modules"></div>
+
+    <p class="footer-note">Nguồn: Module 01–06 · Mở file này bằng trình duyệt (Chrome / Edge)</p>
+  </div>
+
+  <script src="quiz-data.js"></script>
+  <script>
+    const root = document.getElementById("modules");
+    const data = window.QUIZ_DATA;
+    if (!data?.modules?.length) {
+      root.innerHTML = "<p>Không tải được dữ liệu quiz.</p>";
+    } else {
+      root.innerHTML = data.modules
+        .map(
+          (m) => `
+        <a class="module-card" href="quiz.html?module=${m.id}">
+          <div class="num">${m.id}</div>
+          <h2>${m.title}</h2>
+          <p>${m.short} · Luyện toàn bộ câu hỏi, xem kết quả và kiến thức sau khi nộp bài.</p>
+          <div class="meta">${m.questions.length} câu hỏi</div>
+        </a>`
+        )
+        .join("");
+    }
+  </script>
+</body>
+</html>
