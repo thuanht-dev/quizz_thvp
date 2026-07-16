@@ -1634,7 +1634,7 @@ window.QUIZ_DATA = {
         },
         {
           "id": 16,
-          "text": "Phím tắt được sử dụng để hiển thị thực đơn Start?",
+          "text": "Phím tắt được sử dụng để hiển thị Menu Start?",
           "options": {
             "A": "Alt+Tab",
             "B": "Alt+F4",
@@ -2054,7 +2054,7 @@ window.QUIZ_DATA = {
         },
         {
           "id": 51,
-          "text": "Thực đơn dùng trong một chương trình ứng dụng còn được gọi là gì?",
+          "text": "Menu dùng trong một chương trình ứng dụng còn được gọi là gì?",
           "options": {
             "A": "Menu bar",
             "B": "Menu options",
@@ -4734,13 +4734,13 @@ window.QUIZ_DATA = {
           "id": 33,
           "text": "Giả sử đã bôi đen một hàng trong Excel. Lệnh nào trong số các lệnh sau cho phép chèn thêm một hàng vào vị trí phía trên hàng đang chọn. 62",
           "options": {
-            "A": "Vào thực đơn Insert, chọn Columns",
-            "B": "Vào thực đơn Insert, chọn Rows.",
-            "C": "Vào thực đơn Insert, chọn Cells",
-            "D": "Vào thực đơn Insert, chọn Object"
+            "A": "Vào Menu Insert, chọn Columns",
+            "B": "Vào Menu Insert, chọn Rows.",
+            "C": "Vào Menu Insert, chọn Cells",
+            "D": "Vào Menu Insert, chọn Object"
           },
           "answer": "B",
-          "explain": "Thao tác đúng đi theo đường lệnh: Vào thực đơn Insert, chọn Rows. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
+          "explain": "Thao tác đúng đi theo đường lệnh: Vào Menu Insert, chọn Rows. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
         },
         {
           "id": 34,
@@ -8084,7 +8084,7 @@ window.QUIZ_DATA = {
           "id": 71,
           "text": "Phương án nào không dùng để in trang web",
           "options": {
-            "A": "Trên thanh thực đơn nhấn File, chọn Print",
+            "A": "Trên thanh Menu nhấn File, chọn Print",
             "B": "Trên thanh lệnh (Command bar), nhấn nút Print Preview",
             "C": "Trên thanh lệnh (Command Bar), nhấn nút Print",
             "D": "Nhấn tổ hợp phím Ctrl+P"
