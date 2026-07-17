@@ -9,11 +9,16 @@
 <body>
   <div class="wrap">
     <header class="topbar">
-      <a class="brand" href="index.html">THVP <span>Quiz</span></a>
-      <a class="btn btn-ghost" href="index.html">Tất cả module</a>
+      <a class="brand" href="home.html">THVP <span>Quiz</span></a>
+      <nav class="top-nav">
+        <a class="btn btn-ghost" href="home.html">Trang chủ</a>
+        <a class="btn btn-ghost" href="index.html">Tất cả quiz</a>
+      </nav>
     </header>
 
     <div id="error" class="panel hidden"></div>
+
+    <div id="slide-banner" class="slide-banner hidden"></div>
 
     <!-- QUIZ VIEW -->
     <section id="quiz-view" class="hidden">
@@ -83,6 +88,7 @@
     </section>
   </div>
 
+  <script src="learn-path.js"></script>
   <script src="quiz-data.js"></script>
   <script src="app.js"></script>
 </body>

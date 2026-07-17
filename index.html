@@ -9,40 +9,38 @@
 <body>
   <div class="wrap">
     <header class="topbar">
-      <div class="brand">THVP <span>Quiz</span></div>
-      <span style="color:var(--muted);font-size:0.9rem">6 module · 720 câu</span>
+      <a class="brand" href="home.html">THVP <span>Quiz</span></a>
+      <nav class="top-nav">
+        <a class="btn btn-ghost" href="home.html">Trang chủ</a>
+        <a class="btn btn-soft" href="index.html">Quiz</a>
+      </nav>
     </header>
 
-    <p class="eyebrow">Tin học văn phòng</p>
-    <h1>Ôn trắc nghiệm</h1>
-    <!-- <p class="lede">
-      Mỗi module có đủ 120 câu. Chọn đáp án xong là xem ngay đúng/sai, đáp án chuẩn và giải thích kiến thức.
-    </p> -->
-
+    <p class="eyebrow">Ôn trắc nghiệm</p>
+    <h1>Chọn module để làm quiz</h1>
+    <p class="lede">
+      Nên xem <a href="home.html"><strong>slides lý thuyết</strong></a> trước.
+      Chọn đáp án là xem ngay kết quả + giải thích.
+    </p>
     <div class="module-grid" id="modules"></div>
-
-    <p class="footer-note">Nguồn: Module 01–06 · Mở file này bằng trình duyệt (Chrome / Edge)</p>
+    <p class="footer-note">720 câu · 6 module</p>
   </div>
 
   <script src="quiz-data.js"></script>
   <script>
     const root = document.getElementById("modules");
     const data = window.QUIZ_DATA;
-    if (!data?.modules?.length) {
-      root.innerHTML = "<p>Không tải được dữ liệu quiz.</p>";
-    } else {
-      root.innerHTML = data.modules
-        .map(
-          (m) => `
-        <a class="module-card" href="quiz.html?module=${m.id}">
-          <div class="num">${m.id}</div>
-          <h2>${m.title}</h2>
-          <p>${m.short} · Chọn đáp án là xem ngay kết quả, đáp án đúng và giải thích.</p>
-          <div class="meta">${m.questions.length} câu hỏi</div>
-        </a>`
-        )
-        .join("");
-    }
+    root.innerHTML = data.modules
+      .map(
+        (m) => `
+      <a class="module-card" href="quiz.html?module=${m.id}">
+        <div class="num">${m.id}</div>
+        <h2>${m.title}</h2>
+        <p>Chọn đáp án → xem ngay đúng/sai và kiến thức.</p>
+        <div class="meta">${m.questions.length} câu hỏi</div>
+      </a>`
+      )
+      .join("");
   </script>
 </body>
 </html>

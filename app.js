@@ -22,6 +22,7 @@
   document.title = `THVP Quiz – ${mod.short}`;
   $("module-eyebrow").textContent = mod.short;
   $("module-title").textContent = mod.title;
+  fillSlideBanner(moduleId);
 
   const questions = mod.questions;
   const answers = Object.create(null);
@@ -233,5 +234,19 @@
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+  function fillSlideBanner(mid) {
+    const banner = $("slide-banner");
+    if (!banner || !window.LEARN_PATH) return;
+    const unit = window.LEARN_PATH.units.find((u) =>
+      u.modules.some((m) => m.id === mid)
+    );
+    if (!unit?.slides) return;
+    banner.classList.remove("hidden");
+    banner.innerHTML = `
+      <p><strong>Bước 1:</strong> Xem slides lý thuyết trước — ${escapeHtml(unit.slides.label)}</p>
+      <a class="btn btn-primary" href="${unit.slides.url}" target="_blank" rel="noopener">Mở slides</a>
+    `;
   }
 })();
