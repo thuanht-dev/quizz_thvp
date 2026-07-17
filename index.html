@@ -12,16 +12,12 @@
       <a class="brand" href="home.html">THVP <span>Quiz</span></a>
       <nav class="top-nav">
         <a class="btn btn-ghost" href="home.html">Trang chủ</a>
-        <a class="btn btn-soft" href="index.html">Quiz</a>
       </nav>
     </header>
 
     <p class="eyebrow">Ôn trắc nghiệm</p>
-    <h1>Chọn module để làm quiz</h1>
-    <p class="lede">
-      Nên xem <a href="home.html"><strong>slides lý thuyết</strong></a> trước.
-      Chọn đáp án là xem ngay kết quả + giải thích.
-    </p>
+    <h1>Chọn module</h1>
+    <p class="lede">Chọn đáp án → xem ngay đúng/sai + giải thích. Nên xem slides trên trang chủ trước.</p>
     <div class="module-grid" id="modules"></div>
     <p class="footer-note">720 câu · 6 module</p>
   </div>
@@ -30,16 +26,32 @@
   <script>
     const root = document.getElementById("modules");
     const data = window.QUIZ_DATA;
+
+    function progressFor(id) {
+      try {
+        const raw = localStorage.getItem(`thvp-quiz-m${id}`);
+        if (!raw) return 0;
+        return Object.keys(JSON.parse(raw)?.answers || {}).length;
+      } catch {
+        return 0;
+      }
+    }
+
     root.innerHTML = data.modules
-      .map(
-        (m) => `
+      .map((m) => {
+        const done = progressFor(m.id);
+        const meta =
+          done > 0
+            ? `Đã làm ${done}/${m.questions.length} · Tiếp tục`
+            : `${m.questions.length} câu hỏi`;
+        return `
       <a class="module-card" href="quiz.html?module=${m.id}">
         <div class="num">${m.id}</div>
         <h2>${m.title}</h2>
         <p>Chọn đáp án → xem ngay đúng/sai và kiến thức.</p>
-        <div class="meta">${m.questions.length} câu hỏi</div>
-      </a>`
-      )
+        <div class="meta">${meta}</div>
+      </a>`;
+      })
       .join("");
   </script>
 </body>

@@ -5,72 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>THVP – Cổng học tập</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="home.css" />
 </head>
 <body>
   <div class="wrap home-wrap">
     <header class="topbar">
       <div class="brand">THVP <span>Học tập</span></div>
       <nav class="top-nav">
-        <a class="btn btn-soft" href="home.html">Trang chủ</a>
-        <a class="btn btn-ghost" href="index.html">Quiz</a>
+        <a class="btn btn-soft" href="index.html">Tất cả quiz</a>
       </nav>
     </header>
 
-    <p class="eyebrow">Dành cho sinh viên</p>
-    <h1>Tin học văn phòng — học &amp; ôn</h1>
-    <p class="lede">
-      Mỗi phần chỉ cần: <strong>Xem slides lý thuyết → Làm quiz</strong>.
-      Chọn đáp án là xem ngay đúng/sai và giải thích.
+    <p class="eyebrow">Tin học văn phòng</p>
+    <h1>Học theo phần · ôn bằng quiz</h1>
+    <p class="lede home-lede">
+      Mỗi phần: xem slides → làm 120 câu. Chọn đáp án là thấy ngay đúng/sai và giải thích.
     </p>
-
-    <div class="flow-strip" id="flow"></div>
-
-    <div class="home-hint panel">
-      <strong>Gợi ý ôn nhanh (1 phần / buổi):</strong>
-      <ol class="step-list">
-        <li>Xem hết slides của phần đó.</li>
-        <li>Làm quiz đủ 120 câu; câu sai đọc giải thích rồi làm lại.</li>
-      </ol>
-    </div>
 
     <div id="units" class="units"></div>
 
-    <p class="footer-note">
-      Slides Genspark · Quiz 720 câu (6 module × 120)
-    </p>
+    <p class="footer-note">Slides Genspark · 720 câu (6 module × 120)</p>
   </div>
 
   <script src="learn-path.js"></script>
   <script>
     const path = window.LEARN_PATH;
-    document.getElementById("flow").innerHTML = path.flow
-      .map(
-        (f) => `
-      <div class="flow-item">
-        <div class="flow-n">${f.n}</div>
-        <div>
-          <strong>${f.label}</strong>
-          <span>${f.desc}</span>
-        </div>
-      </div>`
-      )
-      .join("");
+
+    function progressFor(moduleId) {
+      try {
+        const raw = localStorage.getItem(`thvp-quiz-m${moduleId}`);
+        if (!raw) return null;
+        const saved = JSON.parse(raw);
+        const n = saved?.answers ? Object.keys(saved.answers).length : 0;
+        return n > 0 ? n : null;
+      } catch {
+        return null;
+      }
+    }
 
     document.getElementById("units").innerHTML = path.units
       .map((u) => {
         const mods = u.modules
-          .map(
-            (m) => `
+          .map((m) => {
+            const done = progressFor(m.id);
+            const status = done
+              ? `<span class="mod-progress">Đã làm ${done}/${m.quizCount}</span>`
+              : `<span class="mod-progress muted">Chưa bắt đầu</span>`;
+            return `
           <div class="unit-mod">
             <div class="unit-mod-info">
               <b>Module ${m.id}</b>
               <span>${m.title}</span>
+              ${status}
             </div>
-            <div class="unit-actions">
-              <a class="btn btn-primary" href="quiz.html?module=${m.id}">Làm quiz (${m.quizCount} câu)</a>
-            </div>
-          </div>`
-          )
+            <a class="btn btn-primary" href="quiz.html?module=${m.id}">
+              ${done ? "Tiếp tục" : "Làm quiz"}
+            </a>
+          </div>`;
+          })
           .join("");
 
         return `
@@ -82,15 +74,16 @@
               <p class="unit-sub">${u.subtitle}</p>
             </div>
           </div>
-          <a class="slide-link" href="${u.slides.url}" target="_blank" rel="noopener">
-            <span class="slide-icon">▶</span>
-            <span>
-              <strong>${u.slides.label}</strong>
-              <small>Mở slides lý thuyết (tab mới)</small>
-            </span>
-            <span class="slide-cta">Xem slides</span>
-          </a>
-          <div class="unit-path-label">Sau khi xem slides → làm quiz:</div>
+          <div class="unit-actions-row">
+            <a class="slide-link" href="${u.slides.url}" target="_blank" rel="noopener">
+              <span class="slide-icon">▶</span>
+              <span>
+                <strong>${u.slides.label}</strong>
+                <small>Lý thuyết trước khi quiz</small>
+              </span>
+            </a>
+          </div>
+          <div class="unit-path-label">Quiz module</div>
           ${mods}
         </section>`;
       })

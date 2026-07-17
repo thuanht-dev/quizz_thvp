@@ -1,0 +1,1446 @@
+{
+ "id": 4,
+ "title": "Sử dụng bảng tính cơ bản (Excel)",
+ "questions": [
+  {
+   "id": 1,
+   "text": "Microsoft Excel là công cụ dùng để:",
+   "options": {
+    "A": "Trình chiếu",
+    "B": "Gửi thư",
+    "C": "Soạn thảo",
+    "D": "Tính toán"
+   },
+   "answer": "D",
+   "old_explain": "Excel là phần mềm bảng tính dùng nhập liệu, tính toán, phân tích và biểu đồ hóa dữ liệu. File mặc định Excel 2007+ là .xlsx; .xls là định dạng cũ hơn, thường nặng hơn."
+  },
+  {
+   "id": 2,
+   "text": "Phần mở rộng mặc định của tệp được tạo bằng Microsoft Excel 2010 là gì?",
+   "options": {
+    "A": "XLSX",
+    "B": "XSLX",
+    "C": "XXLS",
+    "D": "XLXS"
+   },
+   "answer": "A",
+   "old_explain": "Excel là phần mềm bảng tính dùng nhập liệu, tính toán, phân tích và biểu đồ hóa dữ liệu. File mặc định Excel 2007+ là .xlsx; .xls là định dạng cũ hơn, thường nặng hơn."
+  },
+  {
+   "id": 3,
+   "text": "Trong MS Excel, muốn nhờ chương trình giúp đỡ về một vấn đề gì đó, ta nhấn phím:",
+   "options": {
+    "A": "F2",
+    "B": "F4",
+    "C": "F1",
+    "D": "F3"
+   },
+   "answer": "C",
+   "old_explain": "Tổ hợp/phím đúng là F1: dùng để mở trợ giúp Help. Tra cứu lệnh ngay trong phần mềm."
+  },
+  {
+   "id": 4,
+   "text": "Với cùng một nội dung, kích thước của tệp có phần mở rộng xls so với tệp có phần mở rộng xlsx như thế nào?",
+   "options": {
+    "A": "Kích thước 2 tệp bằng nhau",
+    "B": "Tệp có phần mở rộng xls có kích thước lớn hơn so với tệp có phần mở rộng xlsx",
+    "C": "Tệp có phần mở rộng xls có kích thước lớn hơn so với tệp có phần mở rộng xlsx 10 lần",
+    "D": "Tệp có phần mở rộng xls có kích thước nhỏ hơn so với tệp có phần mở rộng xlsx"
+   },
+   "answer": "B",
+   "old_explain": "Phần mở rộng/định dạng đúng là Tệp có phần mở rộng xls có kích thước lớn hơn so với tệp có phần mở rộng xlsx. Đuôi file cho biết kiểu dữ liệu và chương trình phù hợp để mở. Chọn sai định dạng dễ khiến file mở lỗi hoặc mất tương thích."
+  },
+  {
+   "id": 5,
+   "text": "Một trong những thuật ngữ sau không phải dùng để chỉ một thành phần của Excel?",
+   "options": {
+    "A": "WorkSheet",
+    "B": "WorkSpace",
+    "C": "Workdocument",
+    "D": "WorkBook"
+   },
+   "answer": "C",
+   "old_explain": "Cách đúng là: Workdocument. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 6,
+   "text": "Trong một Worksheet có số cột - số hàng như sau :",
+   "options": {
+    "A": "256 – 32368 58",
+    "B": "16384 – 1048576",
+    "C": "255 – 65536",
+    "D": "256 – 16284"
+   },
+   "answer": "B",
+   "old_explain": "Một worksheet Excel 2007/2010 có tới 16 384 cột và 1 048 576 hàng. Giới hạn này lớn hơn nhiều so với phiên bản .xls cũ."
+  },
+  {
+   "id": 7,
+   "text": "Trong Microsoft Excel, cách nào để mở một tệp Excel đã có trên máy tính?",
+   "options": {
+    "A": "Ctrl+N",
+    "B": "Ctrl+O",
+    "C": "Ctrl + M",
+    "D": "Ctrl + W"
+   },
+   "answer": "B",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl+O: dùng để mở file đã có trên máy. Hộp thoại Open cho chọn đường dẫn và kiểu file."
+  },
+  {
+   "id": 8,
+   "text": "Trong Microsoft Excel, cách nào để đóng một tệp?",
+   "options": {
+    "A": "Alt+F4",
+    "B": "F4",
+    "C": "Ctrl+F4",
+    "D": "Shift+F4"
+   },
+   "answer": "C",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl+F4. Đây là phím tắt thực hiện đúng thao tác được nêu trong câu hỏi; thuộc nhóm phím cần thuộc khi thao tác Windows/Office/trình duyệt."
+  },
+  {
+   "id": 9,
+   "text": "Trong Microsoft Excel, cách nào để tạo mới một tệp?",
+   "options": {
+    "A": "Ctrl+N",
+    "B": "Ctrl + O",
+    "C": "Ctrl + W",
+    "D": "Ctrl + M"
+   },
+   "answer": "A",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl+N: dùng để tạo tài liệu/workbook/presentation mới. Nhanh hơn vào menu File → New."
+  },
+  {
+   "id": 10,
+   "text": "Trong Microsoft Excel, cách nào để lưu tệp hiện thời với tên mới?",
+   "options": {
+    "A": "F10",
+    "B": "F9",
+    "C": "F11",
+    "D": "F12"
+   },
+   "answer": "D",
+   "old_explain": "Tổ hợp/phím đúng là F12: dùng để Save As — lưu thành tên hoặc định dạng mới. Giữ được bản gốc nếu đổi tên/đường dẫn."
+  },
+  {
+   "id": 11,
+   "text": "Trong Microsoft Excel, phương án nào dưới đây không phải là địa chỉ ô?",
+   "options": {
+    "A": "A$12",
+    "B": "$A$12",
+    "C": "$12$A",
+    "D": "A12"
+   },
+   "answer": "C",
+   "old_explain": "$12$A. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 12,
+   "text": "Trong Microsoft Excel, phương án nào dưới đây là địa chỉ tuyệt đối?",
+   "options": {
+    "A": "$A$12",
+    "B": "A12",
+    "C": "A$12$",
+    "D": "$12$A"
+   },
+   "answer": "A",
+   "old_explain": "Địa chỉ tuyệt đối dạng $Cột$Hàng (ví dụ $A$12) không đổi khi sao chép công thức. Phím F4 xoay vòng tương đối/tuyệt đối/hỗn hợp khi đang sửa tham chiếu."
+  },
+  {
+   "id": 13,
+   "text": "Trong Microsoft Excel, phương án nào dưới đây là địa chỉ hỗn hợp?",
+   "options": {
+    "A": "$A$12",
+    "B": "A12",
+    "C": "$A12",
+    "D": "A12$ 59"
+   },
+   "answer": "C",
+   "old_explain": "Địa chỉ hỗn hợp khóa một phần: $A12 cố định cột A, A$12 cố định hàng 12. Khi fill công thức, phần không có $ sẽ dịch chuyển."
+  },
+  {
+   "id": 14,
+   "text": "Trong công thức của Microsoft Excel, sử dụng phím nào để chuyển đổi địa chỉ tuyệt đối sang địa chỉ tương đối hoặc ngược lại cho ô hoặc vùng đã chọn?",
+   "options": {
+    "A": "F3",
+    "B": "F2",
+    "C": "F5",
+    "D": "F4"
+   },
+   "answer": "D",
+   "old_explain": "Tổ hợp/phím đúng là F4: dùng để đổi kiểu tham chiếu ô khi sửa công thức Excel. Xoay vòng tương đối / tuyệt đối / hỗn hợp."
+  },
+  {
+   "id": 15,
+   "text": "Trong bảng tính Excel, vùng là tập hợp nhiều ô kế cận tạo thành hình chữ nhật, địa chỉ vùng được thể hiện như câu nào sau đây là đúng?",
+   "options": {
+    "A": "B1...H15",
+    "B": "B1..H15",
+    "C": "B1-H15",
+    "D": "B1:H15"
+   },
+   "answer": "D",
+   "old_explain": "Vùng (range) là khối ô chữ nhật, địa chỉ viết dạng ÔĐầu:ÔCuối (ví dụ B1:H15). Dùng làm đối số cho nhiều hàm Excel."
+  },
+  {
+   "id": 16,
+   "text": "Trong MS Excel 2010, giả sử tại ô B5 có công thức = A1+$B$2+C$3. Sau khi sao chép công thức đó từ ô B5 đến ô D8 sẽ có công thức:",
+   "options": {
+    "A": "= C1 + $B$2 + E$3",
+    "B": "Báo lỗi",
+    "C": "= A4 + $B$2 + C$3",
+    "D": "= C4 + $B$2 + E$3"
+   },
+   "answer": "D",
+   "old_explain": "Mọi công thức Excel bắt đầu bằng dấu =. Sau đó nhập biểu thức, hàm và tham chiếu ô cần tính."
+  },
+  {
+   "id": 17,
+   "text": "Theo mặc định ký tự dạng ngày tháng sẽ được:",
+   "options": {
+    "A": "Canh bên trái ô",
+    "B": "Canh giữa ô",
+    "C": "Canh đều hai bên",
+    "D": "Canh bên phải ô"
+   },
+   "answer": "D",
+   "old_explain": "Theo mặc định Excel căn trái dữ liệu kiểu chữ và căn phải số/ngày tháng. Cách hiển thị này giúp nhận biết nhanh kiểu dữ liệu."
+  },
+  {
+   "id": 18,
+   "text": "Đáp án nào sau đây đúng? Khi nhập dữ liệu vào bảng tính Excel thì:",
+   "options": {
+    "A": "Dữ liệu kiểu ký tự sẽ mặc định căn lề trái",
+    "B": "Dữ liệu kiểu ngày tháng sẽ mặc định căn lề trái",
+    "C": "Dữ liệu kiểu số sẽ mặc định căn lề trái",
+    "D": "Dữ liệu kiểu thời gian sẽ mặc định căn lề trái"
+   },
+   "answer": "A",
+   "old_explain": "Theo mặc định Excel căn trái dữ liệu kiểu chữ và căn phải số/ngày tháng. Cách hiển thị này giúp nhận biết nhanh kiểu dữ liệu."
+  },
+  {
+   "id": 19,
+   "text": "Các kiểu dữ liệu thông dụng của Excel là :",
+   "options": {
+    "A": "Kiểu số, kiểu lôgic, kiểu ngày tháng",
+    "B": "Kiểu công thức, kiểu hàm, kiểu số, kiểu ngày tháng",
+    "C": "Kiểu chuỗi, kiểu văn bản, kiểu ngày tháng",
+    "D": "Kiểu chuỗi, kiểu số, kiểu lôgic, kiểu ngày tháng, kiểu công thức"
+   },
+   "answer": "D",
+   "old_explain": "Kiểu chuỗi, kiểu số, kiểu lôgic, kiểu ngày tháng, kiểu công thức. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 20,
+   "text": "Để chọn toàn bộ các ô trên bảng tính bằng tổ hợp phím ta nhấn: 60",
+   "options": {
+    "A": "Ctrl + Alt +Space",
+    "B": "Ctrl + Alt + Shift",
+    "C": "Ctrl + A",
+    "D": "Ctrl + Alt"
+   },
+   "answer": "C",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl + A: dùng để chọn tất cả đối tượng trong vùng đang active. Áp dụng cho chữ, ô, file trong cửa sổ hiện hành."
+  },
+  {
+   "id": 21,
+   "text": "Để chọn nhiều vùng trong MS Excel 2010, khi chọn ta nhấn phím:",
+   "options": {
+    "A": "Alt",
+    "B": "Esc",
+    "C": "Shift",
+    "D": "Ctrl"
+   },
+   "answer": "D",
+   "old_explain": "Cách đúng là: Ctrl. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 22,
+   "text": "Tổ hợp phím Shift + một trong bốn phím mũi tên thực hiện chức năng gì?",
+   "options": {
+    "A": "Không thực hiện chức năng nào",
+    "B": "Xóa dữ liệu",
+    "C": "Bôi đen (Chọn)",
+    "D": "Di chuyển con trỏ"
+   },
+   "answer": "C",
+   "old_explain": "Đáp án đúng là «Bôi đen (Chọn)». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
+  },
+  {
+   "id": 23,
+   "text": "Để hủy kết quả vừa làm ta chọn:",
+   "options": {
+    "A": "Undo",
+    "B": "Back",
+    "C": "Delete",
+    "D": "Redo"
+   },
+   "answer": "A",
+   "old_explain": "Cách đúng là: Undo. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 24,
+   "text": "Trong bảng tính Excel, để sửa dữ liệu trong một ô tính mà không cần nhập lại, ta thực hiện:",
+   "options": {
+    "A": "F4",
+    "B": "F2",
+    "C": "F3",
+    "D": "F5"
+   },
+   "answer": "B",
+   "old_explain": "Tổ hợp/phím đúng là F2: dùng để đổi tên file/thư mục hoặc sửa nội dung ô Excel. Tùy ngữ cảnh Explorer hay bảng tính."
+  },
+  {
+   "id": 25,
+   "text": "Để nhanh chóng xem các thí sinh xếp loại \"xuất sắc\", ta bôi đen toàn bộ vùng có chứa dữ liệu cần xem rồi sử dụng công cụ gì trong số các công cụ sau",
+   "options": {
+    "A": "Vào menu View, chọn mức \"xuất sắc\"",
+    "B": "Vào menu Data, chọn Validation",
+    "C": "Vào menu Data, chọn Filter - Autofilter",
+    "D": "Vào menu Tools, chọn Quick view, chọn mức \"xuất sắc\""
+   },
+   "answer": "C",
+   "old_explain": "Sort sắp xếp; Filter/AutoFilter lọc hiện các dòng thỏa điều kiện (ví dụ xếp loại “xuất sắc”). Cả hai nằm tab Data, rất hay dùng khi phân tích danh sách."
+  },
+  {
+   "id": 26,
+   "text": "Trong Excel muốn sắp xếp dữ liệu sau khi quét khối phần dữ liệu muốn sắp xếp ta chọn?",
+   "options": {
+    "A": "Data --> Sort…",
+    "B": "Data --> Form…",
+    "C": "Data --> Index… 61",
+    "D": "Data --> Filter…"
+   },
+   "answer": "A",
+   "old_explain": "Sort sắp xếp; Filter/AutoFilter lọc hiện các dòng thỏa điều kiện (ví dụ xếp loại “xuất sắc”). Cả hai nằm tab Data, rất hay dùng khi phân tích danh sách."
+  },
+  {
+   "id": 27,
+   "text": "Tại D2 có công thức \"=B1+C1\", khi sao chép sang ô E2 thì E2 có công thức là:",
+   "options": {
+    "A": "=B1+D1",
+    "B": "=C1+D1",
+    "C": "=C2+D2",
+    "D": "=C1+D2"
+   },
+   "answer": "B",
+   "old_explain": "Mọi công thức Excel bắt đầu bằng dấu =. Sau đó nhập biểu thức, hàm và tham chiếu ô cần tính."
+  },
+  {
+   "id": 28,
+   "text": "Trong bảng tính Excel, tại ô A2 có sẵn dãy kí tự \"1Angiang2\". Nếu sử dụng sao chép công thức để điền dữ liệu đến các cột B2, C2, D2, E2; thì kết quả nhận được tại ô E2 là:",
+   "options": {
+    "A": "5Angiang2",
+    "B": "5Angiang6",
+    "C": "1Angiang6",
+    "D": "1Angiang2"
+   },
+   "answer": "C",
+   "old_explain": "Cách đúng là: 1Angiang6. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 29,
+   "text": "Trong bảng tính Excel, tại ô A2 có sẵn giá trị dãy kí tự \"1 Angiang 2\". Nếu sử dụng sao chép công thức để điền dữ liệu đến các ô B2, C2, D2, E2 ; thì kết quả nhận được tại ô E2 là:",
+   "options": {
+    "A": "1 Angiang 6",
+    "B": "2 Angiang 2",
+    "C": "1 Angiang 2",
+    "D": "5 Angiang 2"
+   },
+   "answer": "D",
+   "old_explain": "Cách đúng là: 5 Angiang. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 30,
+   "text": "Để di chuyển vùng dữ liệu từ nơi này sang nơi khác ta nhấn:",
+   "options": {
+    "A": "Ctrl + v",
+    "B": "Ctrl + x",
+    "C": "Ctrl + p",
+    "D": "Ctrl + c"
+   },
+   "answer": "B",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl + x: dùng để cắt (Cut) nội dung vào Clipboard. Dùng khi muốn di chuyển chứ không nhân bản."
+  },
+  {
+   "id": 31,
+   "text": "Để xoá một cột, bôi đen cột và chọn?",
+   "options": {
+    "A": "Home\\Delete\\Clear",
+    "B": "Home\\Delete\\Delete Sheet Columns",
+    "C": "Insert\\Delete\\Worksheet",
+    "D": "Insert\\Delete\\Delete Sheet Rows"
+   },
+   "answer": "B",
+   "old_explain": "Biểu đồ cột so sánh giá trị; biểu đồ tròn (Pie) phù hợp thể hiện tỷ lệ phần trăm tổng thể. Chèn qua Insert → Charts."
+  },
+  {
+   "id": 32,
+   "text": "Để xoá một hàng, bôi đen hàng và chọn?",
+   "options": {
+    "A": "Home\\Delete\\Delete Sheet Columns",
+    "B": "Home\\Delete\\Clear",
+    "C": "Insert\\Delete\\Worksheet",
+    "D": "Home\\Delete\\Delete Sheet Rows"
+   },
+   "answer": "D",
+   "old_explain": "Thao tác đúng đi theo đường lệnh: Home\\Delete\\Delete Sheet Rows. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
+  },
+  {
+   "id": 33,
+   "text": "Giả sử đã bôi đen một hàng trong Excel. Lệnh nào trong số các lệnh sau cho phép chèn thêm một hàng vào vị trí phía trên hàng đang chọn. 62",
+   "options": {
+    "A": "Vào thực đơn Insert, chọn Columns",
+    "B": "Vào thực đơn Insert, chọn Rows.",
+    "C": "Vào thực đơn Insert, chọn Cells",
+    "D": "Vào thực đơn Insert, chọn Object"
+   },
+   "answer": "B",
+   "old_explain": "Thao tác đúng đi theo đường lệnh: Vào thực đơn Insert, chọn Rows. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
+  },
+  {
+   "id": 34,
+   "text": "Để thay đổi độ rộng của cột, ta thực hiện chức năng nào?",
+   "options": {
+    "A": "Home\\Format\\Column Width",
+    "B": "Home\\Format\\AutoFit Row Height",
+    "C": "Home\\Format\\Row Height",
+    "D": "Home\\Format\\AutoFit Column Width"
+   },
+   "answer": "A",
+   "old_explain": "Biểu đồ cột so sánh giá trị; biểu đồ tròn (Pie) phù hợp thể hiện tỷ lệ phần trăm tổng thể. Chèn qua Insert → Charts."
+  },
+  {
+   "id": 35,
+   "text": "Trong bảng tính MS Excel 2010, để giữ cố định hàng hoặc cột trong cửa sổ soạn thảo, ta đánh dấu hàng hoặc cột, chọn:",
+   "options": {
+    "A": "Thẻ Review – Freeze Panes",
+    "B": "Thẻ Home – Freeze Panes",
+    "C": "Thẻ View – Freeze Panes",
+    "D": "Thẻ Page Layout – Freeze Panes"
+   },
+   "answer": "C",
+   "old_explain": "Freeze Panes giữ cố định hàng/cột tiêu đề khi cuộn trang tính. Giúp luôn nhìn thấy nhãn cột/hàng trong bảng dài."
+  },
+  {
+   "id": 36,
+   "text": "Trong MS Excel 2010, để ẩn cột ta thực hiện:",
+   "options": {
+    "A": "Home\\format\\Hide & Unhide\\Hide columns",
+    "B": "View\\format\\Hide & Unhide\\Hide columns",
+    "C": "Fomulas\\format\\Hide & Unhide\\Hide columns",
+    "D": "Data\\format\\Hide & Unhide\\Hide columns"
+   },
+   "answer": "A",
+   "old_explain": "Biểu đồ cột so sánh giá trị; biểu đồ tròn (Pie) phù hợp thể hiện tỷ lệ phần trăm tổng thể. Chèn qua Insert → Charts."
+  },
+  {
+   "id": 37,
+   "text": "Để giữ cố định hàng được lặp lại qua các trang, ta chọn hàng bên dưới hàng đó và thực hiện:",
+   "options": {
+    "A": "Page Layout\\Freeze Panes",
+    "B": "View\\Freeze Panes",
+    "C": "Data\\Freeze Panes",
+    "D": "Review\\Freeze Panes"
+   },
+   "answer": "B",
+   "old_explain": "Freeze Panes giữ cố định hàng/cột tiêu đề khi cuộn trang tính. Giúp luôn nhìn thấy nhãn cột/hàng trong bảng dài."
+  },
+  {
+   "id": 38,
+   "text": "Để đổi tên một sheet ta chọn:",
+   "options": {
+    "A": "Chuột trái lên tên sheet\\Delete",
+    "B": "Cả ba cách đều sai",
+    "C": "Chuột phải lên sheet\\Insert",
+    "D": "Chuột phải lên sheet\\Rename"
+   },
+   "answer": "D",
+   "old_explain": "Thao tác đúng đi theo đường lệnh: Chuột phải lên sheet\\Rename. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
+  },
+  {
+   "id": 39,
+   "text": "Sheet được chèn thêm vào bảng tính sẽ nằm ở vị trí:",
+   "options": {
+    "A": "Phía sau tất cả các sheet",
+    "B": "Trước tất cả các sheet",
+    "C": "Sau sheet đang mở",
+    "D": "Trước sheet đang mở"
+   },
+   "answer": "D",
+   "old_explain": "Đáp án đúng là «Trước sheet đang mở». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
+  },
+  {
+   "id": 40,
+   "text": "Thao tác để di chuyển đến một sheet khác trong cùng một tập tin? 63",
+   "options": {
+    "A": "Nhấn phím F5 và số thứ tự của các sheet",
+    "B": "Nhấn phím F2 và số thứ tự của các sheet",
+    "C": "Nhấn phím F3 và số thứ tự của các sheet",
+    "D": "Nhấn chuột lên tên sheet cần di chuyển đến hoặc nhấn tổ hợp phím Ctrl + PgUp hoặc Ctrl + PgUp"
+   },
+   "answer": "D",
+   "old_explain": "Tổ hợp/phím đúng là chuột lên tên sheet cần di chuyển đến hoặc nhấn tổ hợp phím Ctrl + PgUp hoặc Ctrl + PgUp. Đây là phím tắt thực hiện đúng thao tác được nêu trong câu hỏi; thuộc nhóm phím cần thuộc khi thao tác Windows/Office/trình duyệt."
+  },
+  {
+   "id": 41,
+   "text": "Làm cách nào để di chuyển Sheet2 ra trước Sheet1",
+   "options": {
+    "A": "Chọn Tools > Sheet > Move, và chọn đúng đến vị trí mong muốn",
+    "B": "Double tab Sheet2 và kéo đến vị trí mong muốn",
+    "C": "Chọn Sheet2 và kéo đến vị trí mong muốn",
+    "D": "Format > Sheet > Move, chọn đúng đến vị trí mong muốn"
+   },
+   "answer": "C",
+   "old_explain": "Cách đúng là: Sheet2 và kéo đến vị trí mong muốn. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 42,
+   "text": "Trong khi làm việc với Excel, để nhập vào công thức tính toán cho một ô, trước hết ta phải gõ:",
+   "options": {
+    "A": "Dấu: :",
+    "B": "Dấu: ?",
+    "C": "Dấu: =",
+    "D": "Dấu: $"
+   },
+   "answer": "C",
+   "old_explain": "Mọi công thức Excel bắt đầu bằng dấu =. Sau đó nhập biểu thức, hàm và tham chiếu ô cần tính."
+  },
+  {
+   "id": 43,
+   "text": "Trong MS Excel 2010, để ghép 2 xâu ký tự \"VU LOC\" và \"AN\" thành xâu ký tự mới là \"VU LOC AN\", ta sử dụng công thức:",
+   "options": {
+    "A": "=\"VU LOC\"&\" \"&\"AN\"",
+    "B": "=\"VU LOC\" + \"AN\"",
+    "C": "Không ghép được",
+    "D": "=\"VU LOC\" AND \"AN\""
+   },
+   "answer": "A",
+   "old_explain": "Mọi công thức Excel bắt đầu bằng dấu =. Sau đó nhập biểu thức, hàm và tham chiếu ô cần tính."
+  },
+  {
+   "id": 44,
+   "text": "Trong Excel biểu thức =24*2+5*2+(20-10)/2 sẽ trả về kết quả là bao nhiêu?",
+   "options": {
+    "A": "Không thể thực hiện được biểu thức trên",
+    "B": "47",
+    "C": "271",
+    "D": "138"
+   },
+   "answer": "B",
+   "old_explain": "Kết quả đúng là 47. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 45,
+   "text": "Trong Excel sau khi nhập công thức sau: =\"123\"-\"23\" ta có kết quả?",
+   "options": {
+    "A": "23",
+    "B": "123",
+    "C": "100",
+    "D": "#VALUE!"
+   },
+   "answer": "A",
+   "old_explain": "Kết quả đúng là 23. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 46,
+   "text": "Trong bảng tính Excel, ô A5 chứa “TRAN” và ô B5 chứa “ANH”. Để ổ D5 cho kết quả là “TRAN ANH” (có 1 khoảng trắng ở giữa), ta thực hiện công thức như sau:",
+   "options": {
+    "A": "= A5 & B5",
+    "B": "= A5 &“ “& B5 64",
+    "C": "= A5 + “ “ + B5",
+    "D": "= A5 + B5"
+   },
+   "answer": "B",
+   "old_explain": "Mọi công thức Excel bắt đầu bằng dấu =. Sau đó nhập biểu thức, hàm và tham chiếu ô cần tính."
+  },
+  {
+   "id": 47,
+   "text": "Khi không tham chiếu được Excel báo lỗi:",
+   "options": {
+    "A": "#NA",
+    "B": "#NUM",
+    "C": "#VALUE",
+    "D": "#REF"
+   },
+   "answer": "D",
+   "old_explain": "Excel báo lỗi theo mã: ##### thường do cột hẹp với số; #DIV/0! chia cho 0; #NAME? sai tên hàm/chưa có tên; #REF! tham chiếu hỏng; #VALUE!"
+  },
+  {
+   "id": 48,
+   "text": "Trong bảng tính Excel, nếu trong một ô tính có các kí hiệu #####, điều đó có nghĩa là gì?",
+   "options": {
+    "A": "Hàng chứa ô đó có độ cao quá thấp nên không hiển thị hết chữ số",
+    "B": "Chương trình bảng tính bị nhiễm virus",
+    "C": "Cột chứa ô đó có độ rộng quá hẹp nên không hiển thị hết chữ số",
+    "D": "Công thức nhập sai và Excel thông báo lỗi"
+   },
+   "answer": "C",
+   "old_explain": "Cột chứa ô đó có độ rộng quá hẹp nên không hiển thị hết chữ số. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 49,
+   "text": "Trong Microsoft Excel, tại ô A2 có giá trị là số không (0); Tại ô B2 gõ vào công thức =5/A2 nhận được kết quả nào?",
+   "options": {
+    "A": "#VALUE!",
+    "B": "#DIV/0!",
+    "C": "#NAME?",
+    "D": "0"
+   },
+   "answer": "B",
+   "old_explain": "Excel báo lỗi theo mã: ##### thường do cột hẹp với số; #DIV/0! chia cho 0; #NAME? sai tên hàm/chưa có tên; #REF! tham chiếu hỏng; #VALUE!"
+  },
+  {
+   "id": 50,
+   "text": "Trong bảng tính Excel, khi chiều dài dữ liệu kiểu số lớn hơn chiều rộng của ô thì sẽ hiển thị trong ô các kí tự:",
+   "options": {
+    "A": "&",
+    "B": "$",
+    "C": "*",
+    "D": "#"
+   },
+   "answer": "D",
+   "old_explain": "Khi số quá dài so với độ rộng cột, Excel thường hiện # (chuỗi dấu #). Hãy kéo rộng cột hoặc giảm cỡ chữ/định dạng số để nhìn đủ giá trị — đây không phải mã lỗi công thức như #DIV/0!."
+  },
+  {
+   "id": 51,
+   "text": "Trong Excel, khi viết sai tên hàm trong tính toán, chương trình thông báo lỗi?",
+   "options": {
+    "A": "#NAME?",
+    "B": "#DIV/0!",
+    "C": "#VALUE!",
+    "D": "#N/A!"
+   },
+   "answer": "A",
+   "old_explain": "Excel báo lỗi theo mã: ##### thường do cột hẹp với số; #DIV/0! chia cho 0; #NAME? sai tên hàm/chưa có tên; #REF! tham chiếu hỏng; #VALUE!"
+  },
+  {
+   "id": 52,
+   "text": "Trong Microsoft Excel, hàm SUM dùng để làm gì?",
+   "options": {
+    "A": "Tính tổng các giá trị số trong vùng được chọn",
+    "B": "Tìm giá trị lớn nhất trong các giá trị được chọn",
+    "C": "Tính giá trị trung bình trong các vùng được chọn 65",
+    "D": "Tìm giá trị nhỏ nhất trong các giá trị được chọn"
+   },
+   "answer": "A",
+   "old_explain": "SUM cộng các giá trị số trong đối số/vùng chọn. Là hàm thống kê cơ bản nhất trên bảng tính."
+  },
+  {
+   "id": 53,
+   "text": "Trong Microsoft Excel, hàm nào để tìm số nhỏ nhất trong các giá trị được chọn?",
+   "options": {
+    "A": "MINIMUM",
+    "B": "MIN",
+    "C": "MINUM",
+    "D": "MINUTE"
+   },
+   "answer": "B",
+   "old_explain": "MIN trả về giá trị nhỏ nhất trong danh sách/vùng. Ngược lại MAX trả về giá trị lớn nhất."
+  },
+  {
+   "id": 54,
+   "text": "Trong Microsoft Excel, hàm nào để tìm giá trị trung bình của các giá trị được chọn?",
+   "options": {
+    "A": "ERVERAGE",
+    "B": "AVERGE",
+    "C": "EVERAGE",
+    "D": "AVERAGE"
+   },
+   "answer": "D",
+   "old_explain": "AVERAGE tính trung bình cộng các giá trị số. Lưu ý gõ đúng tên hàm; sai chính tả sẽ ra #NAME?."
+  },
+  {
+   "id": 55,
+   "text": "Trong bảng tính MS Excel, hàm nào sau đây cho phép đếm các giá trị thỏa mãn một điều kiện cho trước:",
+   "options": {
+    "A": "SUMIF",
+    "B": "COUNTIF",
+    "C": "COUNT",
+    "D": "SUM"
+   },
+   "answer": "B",
+   "old_explain": "COUNTIF đếm ô thỏa điều kiện; SUMIF cộng theo điều kiện trên một vùng tiêu chí. Cú pháp điển hình: =SUMIF(range,criteria,[sum_range])."
+  },
+  {
+   "id": 56,
+   "text": "Muốn tính trung bình của hàng hay cột, ta sử dụng hàm nào sau đây:",
+   "options": {
+    "A": "TOTAL(SUM)/SUM()",
+    "B": "Average()",
+    "C": "Medium()",
+    "D": "SUM(TOTAL)/TOTAL()"
+   },
+   "answer": "B",
+   "old_explain": "AVERAGE tính trung bình cộng các giá trị số. Lưu ý gõ đúng tên hàm; sai chính tả sẽ ra #NAME?."
+  },
+  {
+   "id": 57,
+   "text": "Trong Excel hàm dùng để chuyển chuỗi số sang số là hàm nào trong các hàm sau?",
+   "options": {
+    "A": "Value(số)",
+    "B": "Right(chuỗi, n)",
+    "C": "Left(chuỗi, n)",
+    "D": "Mid(chuỗi, m, n)"
+   },
+   "answer": "A",
+   "old_explain": "Value(số). Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 58,
+   "text": "Khi sử dung hàm SUM ta có thể:",
+   "options": {
+    "A": "Sử dụng tối đa là 2 tham số",
+    "B": "Không sử dụng tham số nào",
+    "C": "Sử dụng tối đa là 1 tham số",
+    "D": "Sử dụng tối đa là 255 tham số"
+   },
+   "answer": "D",
+   "old_explain": "Đáp án đúng là «Sử dụng tối đa là 255 tham số». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
+  },
+  {
+   "id": 59,
+   "text": "Trong Microsoft Excel, công thức =MAX(30,10,65,5) nhận được kết quả là bao nhiêu?",
+   "options": {
+    "A": "120",
+    "B": "110",
+    "C": "65 66",
+    "D": "135"
+   },
+   "answer": "C",
+   "old_explain": "MAX chọn giá trị lớn nhất trong các đối số. Ví dụ =MAX(30,10,65,5) cho 65."
+  },
+  {
+   "id": 60,
+   "text": "Trong Microsoft Excel, công thức =EVERAGE(5,7,9) cho kết quả thế nào?",
+   "options": {
+    "A": "5",
+    "B": "7",
+    "C": "#NAME?",
+    "D": "9"
+   },
+   "answer": "A",
+   "old_explain": "Kết quả đúng là 5. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 61,
+   "text": "Trong Microsoft Excel, công thức =COUNT(19,11,4) sẽ trả về kết quả là bao nhiêu?",
+   "options": {
+    "A": "19",
+    "B": "3",
+    "C": "34",
+    "D": "0"
+   },
+   "answer": "B",
+   "old_explain": "Kết quả đúng là 3. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 62,
+   "text": "Trong bảng tính Excel, công thức =COUNTA(19,\"S\",\"n01\",\"n02\") sẽ trả về kết quả là bao nhiêu?",
+   "options": {
+    "A": "19",
+    "B": "3",
+    "C": "4",
+    "D": "0"
+   },
+   "answer": "C",
+   "old_explain": "Kết quả đúng là 4. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 63,
+   "text": "Công thức Round(7475.47,-2) trả về kết quả bao nhiêu?",
+   "options": {
+    "A": "7480",
+    "B": "7500",
+    "C": "7475",
+    "D": "7475.47"
+   },
+   "answer": "B",
+   "old_explain": "Kết quả đúng là 7500. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 64,
+   "text": "Trong bảng tính MS Excel, tại ô A2 có giá trị số 10, tại ô B2 gõ công thức =PRODUCT(A2,5) cho kết quả:",
+   "options": {
+    "A": "15",
+    "B": "#VALUE!",
+    "C": "2",
+    "D": "50"
+   },
+   "answer": "D",
+   "old_explain": "Kết quả đúng là 50. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 65,
+   "text": "Trong bảng tính MS Excel 2010, tại ô A2 gõ vào công thức =MAX(3,14,-25,5) cho kết quả:",
+   "options": {
+    "A": "5",
+    "B": "3 67",
+    "C": "14",
+    "D": "-25"
+   },
+   "answer": "C",
+   "old_explain": "MAX chọn giá trị lớn nhất trong các đối số. Ví dụ =MAX(30,10,65,5) cho 65."
+  },
+  {
+   "id": 66,
+   "text": "Trong bảng tính MS Excel 2010, công thức =Mod(26,7) cho kết quả:",
+   "options": {
+    "A": "4",
+    "B": "5",
+    "C": "3",
+    "D": "6"
+   },
+   "answer": "B",
+   "old_explain": "Kết quả đúng là 5. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 67,
+   "text": "Trong Microsoft Excel, công thức = AVERAGE(4,5,MIN(8,6,7)) cho kết quả nào?",
+   "options": {
+    "A": "4",
+    "B": "8",
+    "C": "0",
+    "D": "5"
+   },
+   "answer": "D",
+   "old_explain": "Kết quả đúng là 5. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 68,
+   "text": "Trong Microsoft Excel, tại ô A2 có dữ liệu \"1Hanoi2\". Sử dụng Fill hand để điền dữ liệu đến các ô B2, C2, D2, E2; tại ô E2 nhận được kết quả nào?",
+   "options": {
+    "A": "1Hanoi4",
+    "B": "1Hanoi5",
+    "C": "#VALUE!",
+    "D": "1Hanoi6"
+   },
+   "answer": "D",
+   "old_explain": "Cách đúng là: 1Hanoi6. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 69,
+   "text": "Trong bảng tính MS Excel, công thức =Mid(“m1234”,2,3) cho kết quả:",
+   "options": {
+    "A": "Số 123",
+    "B": "Chuỗi “123”",
+    "C": "Số 12",
+    "D": "Số 23"
+   },
+   "answer": "B",
+   "old_explain": "MID(chuỗi, vị_trí, số_ký_tự) lấy chuỗi con. Ví dụ =MID(\"m1234\",2,3) → \"123\"."
+  },
+  {
+   "id": 70,
+   "text": "Kết quả của công thức =COUNT(“a”,”b”,2,3) + COUNTA(“a”,”b”,0,1) là?",
+   "options": {
+    "A": "6",
+    "B": "8",
+    "C": "5",
+    "D": "7"
+   },
+   "answer": "A",
+   "old_explain": "Kết quả đúng là 6. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 71,
+   "text": "Muốn tính tổng của vùng E2:E8 với điều kiện là \"Máy tính\" trong vùng dữ liệu A2:A8, ta có công thức:",
+   "options": {
+    "A": "=SUMIF(A2:A8,\"Máy tính\",E2:E8)",
+    "B": "=SUMIF(A2:A8,\"Máy tính\")",
+    "C": "=SUMIF(\"Máy tính\",A2:A8,E2:E8) 68",
+    "D": "=SUMIF(A2:A8,E2:E8,\"Máy tính\")"
+   },
+   "answer": "A",
+   "old_explain": "COUNTIF đếm ô thỏa điều kiện; SUMIF cộng theo điều kiện trên một vùng tiêu chí. Cú pháp điển hình: =SUMIF(range,criteria,[sum_range])."
+  },
+  {
+   "id": 72,
+   "text": "Biết vùng dữ liệu từ B2:B10 chứa Tên chức vụ, muốn xem có bao nhiêu Nhân viên trong vùng dữ liệu ta thực hiện công thức:",
+   "options": {
+    "A": "=Countif(B2:B10,\"Nhân viên\")",
+    "B": "=Countif(B2:B10,\"'Nhân viên'\")",
+    "C": "=Countif(B2:B10,Nhân viên)",
+    "D": "=Countif(B2:B10,'Nhân viên')"
+   },
+   "answer": "A",
+   "old_explain": "COUNTIF đếm ô thỏa điều kiện; SUMIF cộng theo điều kiện trên một vùng tiêu chí. Cú pháp điển hình: =SUMIF(range,criteria,[sum_range])."
+  },
+  {
+   "id": 73,
+   "text": "Cú pháp hàm Sumif là?",
+   "options": {
+    "A": "=SUMIF(criteria,[sum_range],range)",
+    "B": "=SUMIF(range,criteria,[sum_range])",
+    "C": "Không đáp án nào đúng",
+    "D": "=SUMIF(criteria,range,[sum_range])"
+   },
+   "answer": "B",
+   "old_explain": "COUNTIF đếm ô thỏa điều kiện; SUMIF cộng theo điều kiện trên một vùng tiêu chí. Cú pháp điển hình: =SUMIF(range,criteria,[sum_range])."
+  },
+  {
+   "id": 74,
+   "text": "Trong Excel biểu thức =SUM(9,1,MAX(3,5,7)) sẽ trả về kết quả là bao nhiêu?",
+   "options": {
+    "A": "19",
+    "B": "17",
+    "C": "13",
+    "D": "15"
+   },
+   "answer": "B",
+   "old_explain": "Kết quả đúng là 17. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 75,
+   "text": "Trong Excel biểu thức =MID(\"A123B\",3,2) sẽ trả về kết quả là bao nhiêu?",
+   "options": {
+    "A": "A1",
+    "B": "23",
+    "C": "A123B",
+    "D": "3B"
+   },
+   "answer": "B",
+   "old_explain": "Kết quả đúng là 23. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 76,
+   "text": "Kết quả của công thức SUM(13,7,-10)+AVERAGE(12,0,3) là?",
+   "options": {
+    "A": "15",
+    "B": "16",
+    "C": "10",
+    "D": "20"
+   },
+   "answer": "A",
+   "old_explain": "Kết quả đúng là 15. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 77,
+   "text": "Trong bảng tính Excel, tại ô A2 có sẵn dãy ký tự “TINHOC” ; Tại ô B2 gõ vào công thức =VALUE(A2) thì nhận được kết quả:",
+   "options": {
+    "A": "6",
+    "B": "TINHOC",
+    "C": "#VALUE!",
+    "D": "Tinhoc"
+   },
+   "answer": "C",
+   "old_explain": "Excel báo lỗi theo mã: ##### thường do cột hẹp với số; #DIV/0! chia cho 0; #NAME? sai tên hàm/chưa có tên; #REF! tham chiếu hỏng; #VALUE!"
+  },
+  {
+   "id": 78,
+   "text": "Cú pháp hàm IF là?",
+   "options": {
+    "A": "IF(BT logic, Giá trị đúng, Giá trị sai)",
+    "B": "IF(BT logic, Giá trị sai, Giá trị đúng)",
+    "C": "IF(Giá trị đúng, BT logic, Giá trị sai)",
+    "D": "IF(BT logic, Giá trị đúng) 69"
+   },
+   "answer": "A",
+   "old_explain": "IF(điều_kiện, giá_trị_đúng, giá_trị_sai) rẽ nhánh theo phép so sánh. Toán tử <> nghĩa là khác; có thể lồng nhiều IF hoặc kết hợp AND/OR."
+  },
+  {
+   "id": 79,
+   "text": "Nhóm hàm logic gồm có:",
+   "options": {
+    "A": "Date, If, And, Or",
+    "B": "IF, Not, And, Or",
+    "C": "Date, And, Or Hlookup",
+    "D": "Not, And, Or, Vlookup"
+   },
+   "answer": "B",
+   "old_explain": "Cụm đúng là «IF, Not, And, Or». Đây là dạng viết đầy đủ/ý nghĩa chuẩn của thuật ngữ viết tắt trong câu hỏi. Tránh nhầm các cụm gần giống nhưng không đúng quy ước tin học."
+  },
+  {
+   "id": 80,
+   "text": "Trong bảng tính Excel, điều kiện trong hàm IF được phát biểu dưới dạng một phép so sánh. Khi cần so sánh khác nhau thì sử dụng kí hiệu nào?",
+   "options": {
+    "A": "<>",
+    "B": "><",
+    "C": "&",
+    "D": "#"
+   },
+   "answer": "A",
+   "old_explain": "IF(điều_kiện, giá_trị_đúng, giá_trị_sai) rẽ nhánh theo phép so sánh. Toán tử <> nghĩa là khác; có thể lồng nhiều IF hoặc kết hợp AND/OR."
+  },
+  {
+   "id": 81,
+   "text": "Trong MS Excel 2010, công thức sau trả về giá trị nào: = IF(5 >= 5, \"Không được tuyển dụng\")",
+   "options": {
+    "A": "Công thức sai vì trong Excel không có phép toán =>",
+    "B": "Công thức sai vì thiếu đối số trong hàm IF",
+    "C": "Không được tuyển dụng",
+    "D": "True"
+   },
+   "answer": "C",
+   "old_explain": "Đáp án đúng là «Không được tuyển dụng». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
+  },
+  {
+   "id": 82,
+   "text": "Biểu thức sau cho kết quả là bao nhiêu nếu trong ô B2 là 10 và dữ liệu trong D2 là D: = IF(OR(B2>=8,D2=\"A\"),1000,300)",
+   "options": {
+    "A": "FALSE",
+    "B": "1000",
+    "C": "300",
+    "D": "1300"
+   },
+   "answer": "B",
+   "old_explain": "Kết quả đúng là 1000. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 83,
+   "text": "Trong bảng tính Excel, tại ô A2 gõ vào công thức =IF(3>5,100,IF(5<6,200,300)) thì kết quả nhận được tại ô A2 là:",
+   "options": {
+    "A": "100",
+    "B": "200",
+    "C": "true",
+    "D": "false"
+   },
+   "answer": "B",
+   "old_explain": "Kết quả đúng là 200. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 84,
+   "text": "Nếu thí sinh đạt từ 5 điểm trở lên, thí sinh đó được xếp loại Đạt, ngược lại nếu dưới 5 điểm, thì xếp loại Không đạt. Công thức nào dưới đây thể hiện đúng điều này (Giả sử ô G6 đang chứa điểm thi)",
+   "options": {
+    "A": "=IF(G6<5,\"Không đạt\",\"Đạt\")",
+    "B": "REF! 70",
+    "C": "=IF(G6=<5,\"Đạt\", \"Không đạt\")",
+    "D": "=IF(G6>=5,\"Đạt\") ELSE (\"Không đạt\")"
+   },
+   "answer": "A",
+   "old_explain": "Mọi công thức Excel bắt đầu bằng dấu =. Sau đó nhập biểu thức, hàm và tham chiếu ô cần tính."
+  },
+  {
+   "id": 85,
+   "text": "Biểu thức sau cho kết quả là bao nhiêu nếu DTB = 9 và HK loại C trong đó DTB: Điểm trung bình. HK: Hạnh kiểm =If(AND(DTB>=8, HK= \"A\"),300,1000)",
+   "options": {
+    "A": "300",
+    "B": "FALSE",
+    "C": "TRUE",
+    "D": "1000"
+   },
+   "answer": "D",
+   "old_explain": "Kết quả đúng là 1000. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 86,
+   "text": "Biểu thức sau cho kết quả là bao nhiêu nếu DTB = 6? =If(DTB>=5, Dau, Truot)",
+   "options": {
+    "A": "#VALUE!",
+    "B": "Dau",
+    "C": "Truot",
+    "D": "#Name?"
+   },
+   "answer": "D",
+   "old_explain": "Excel báo lỗi theo mã: ##### thường do cột hẹp với số; #DIV/0! chia cho 0; #NAME? sai tên hàm/chưa có tên; #REF! tham chiếu hỏng; #VALUE!"
+  },
+  {
+   "id": 87,
+   "text": "Biểu thức sau cho kết quả là bao nhiêu nếu DTB = 9? =If(DTB>=5, \"TB\",If(DTB>=6.5, \"Kha\",If(DTB>= 8, \"Gioi\", \"Yeu\")))",
+   "options": {
+    "A": "Yeu",
+    "B": "TB",
+    "C": "Kha",
+    "D": "Gioi"
+   },
+   "answer": "B",
+   "old_explain": "TB. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 88,
+   "text": "Hàm Month có nghĩa là?",
+   "options": {
+    "A": "Lấy ra tháng",
+    "B": "Lấy ra năm",
+    "C": "Lấy ra ngày",
+    "D": "Cả ba phương án đều sai"
+   },
+   "answer": "A",
+   "old_explain": "TODAY()/NOW() lấy ngày (và giờ) hệ thống; MONTH/YEAR tách thành phần tháng/năm từ một giá trị ngày. Rất hữu ích tính tuổi, hạn, báo cáo theo thời gian."
+  },
+  {
+   "id": 89,
+   "text": "Trong Excel hàm TODAY() trả về:",
+   "options": {
+    "A": "Số ngày trong tháng của biến ngày tháng date",
+    "B": "Ngày tháng hiện tại của hệ thống",
+    "C": "Số tháng trong năm của biến ngày tháng date",
+    "D": "Số năm của biến ngày tháng date"
+   },
+   "answer": "B",
+   "old_explain": "TODAY()/NOW() lấy ngày (và giờ) hệ thống; MONTH/YEAR tách thành phần tháng/năm từ một giá trị ngày. Rất hữu ích tính tuổi, hạn, báo cáo theo thời gian."
+  },
+  {
+   "id": 90,
+   "text": "Trong Excel, giả sử ô A1 của bảng tính lưu trị ngày 15/10/1970. Kết quả hàm =MONTH(A1) là bao nhiêu?",
+   "options": {
+    "A": "15",
+    "B": "1970",
+    "C": "10",
+    "D": "#VALUE!"
+   },
+   "answer": "C",
+   "old_explain": "Kết quả đúng là 10. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 91,
+   "text": "Giả sử ngày hệ thống của máy tính là: 8/18/2008; Khi đó tại ô A2 gõ vào công thức =Today()-1 thì nhận được kết quả là:",
+   "options": {
+    "A": "#VALUE!",
+    "B": "8/17/2008 71",
+    "C": "#NAME!",
+    "D": "0"
+   },
+   "answer": "B",
+   "old_explain": "Thao tác đúng đi theo đường lệnh: 8/17/2008. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
+  },
+  {
+   "id": 92,
+   "text": "Giả sử ô E6 có giá trị là 28/11/2011, tại ô G6 gõ công thức =YEAR(now())-YEAR(E6), kết quả là?",
+   "options": {
+    "A": "4",
+    "B": "2",
+    "C": "5",
+    "D": "3"
+   },
+   "answer": "C",
+   "old_explain": "Kết quả đúng là 5. Áp dụng đúng công thức/hàm, thứ tự ưu tiên toán tử và kiểu dữ liệu của từng đối số. Các mã như #DIV/0!, #NAME?, #REF!, ##### báo lỗi chia 0, sai tên hàm, tham chiếu hỏng hoặc cột quá hẹp."
+  },
+  {
+   "id": 93,
+   "text": "Hãy cho biết hàm dò tìm là hàm nào?",
+   "options": {
+    "A": "Counta",
+    "B": "Sumif",
+    "C": "Vlookup",
+    "D": "Product"
+   },
+   "answer": "C",
+   "old_explain": "VLOOKUP/HLOOKUP dò giá trị trong bảng và trả về dữ liệu ở cột/hàng chỉ định. Tham số range_lookup quyết định khớp gần đúng (1) hay khớp Exact (0)."
+  },
+  {
+   "id": 94,
+   "text": "Range_lookup trong hàm HLOOKUP có giá trị mặc định bằng?",
+   "options": {
+    "A": "Tất cả sai",
+    "B": "Range_lookup có giá trị là 0",
+    "C": "Range_lookup có giá trị là 1",
+    "D": "Range_lookup có giá trị là 0 hoặc 1"
+   },
+   "answer": "D",
+   "old_explain": "VLOOKUP/HLOOKUP dò giá trị trong bảng và trả về dữ liệu ở cột/hàng chỉ định. Tham số range_lookup quyết định khớp gần đúng (1) hay khớp Exact (0)."
+  },
+  {
+   "id": 95,
+   "text": "Cấu trúc của hàm HLOOKUP?",
+   "options": {
+    "A": "=vlookup(table_array, lookup_value, row_index_num, [range_lookup])",
+    "B": "=vlookup(lookup_value, row_index_num, table_array, [range_lookup])",
+    "C": "=vlookup(lookup_value, table_array, row_index_num, [range_lookup])",
+    "D": "=vlookup([range_lookup], lookup_value, table_array, row_index_num )"
+   },
+   "answer": "C",
+   "old_explain": "VLOOKUP/HLOOKUP dò giá trị trong bảng và trả về dữ liệu ở cột/hàng chỉ định. Tham số range_lookup quyết định khớp gần đúng (1) hay khớp Exact (0)."
+  },
+  {
+   "id": 96,
+   "text": "Để dữ liệu ngày tháng năm được hiển thị dưới dạng Nov-23-2004, trong thẻ number, hộp Type, nhập vào chuỗi ký tự:",
+   "options": {
+    "A": "mmm-dd-yy",
+    "B": "mm-dd-yyyy",
+    "C": "mm-dd-yy",
+    "D": "mmm-dd-yyyy"
+   },
+   "answer": "D",
+   "old_explain": "Cách đúng là: mmm-dd-yyyy. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 97,
+   "text": "Tinh lương tại ô K6 = mức lương cơ bản * hệ số lương , làm tròn đơn vị nghìn",
+   "options": {
+    "A": "=J6*$k11",
+    "B": "=ROUND(J6*K11;0)",
+    "C": "=ROUND(J6*$K$11;-3)",
+    "D": "=MOD(J6*K$11;3)"
+   },
+   "answer": "C",
+   "old_explain": "ROUND làm tròn số theo số chữ số chỉ định; số âm làm tròn về hàng chục/trăm… Ví dụ ROUND(7475.47,-2) → 7500."
+  },
+  {
+   "id": 98,
+   "text": "Trong MS excel 2010, biểu tượng % trên thanh công cụ dùng để:",
+   "options": {
+    "A": "Hiển thị tỷ lệ phần trăm 72",
+    "B": "Chia cho 100",
+    "C": "Nhân cho 100",
+    "D": "Cả 3 ý trên đều sai"
+   },
+   "answer": "A",
+   "old_explain": "Đáp án đúng là «Hiển thị tỷ lệ phần trăm». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
+  },
+  {
+   "id": 99,
+   "text": "Để văn bản trong ô được chọn có kiều chữ nghiêng và gạch chân ta chọn tổ hợp phím nào sau:",
+   "options": {
+    "A": "Ctrl+U, Ctrl+I",
+    "B": "Ctrl+H, Ctrl+I",
+    "C": "Ctrl+F, Ctrl+I",
+    "D": "Ctrl+B, Ctrl+I"
+   },
+   "answer": "A",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl+U, Ctrl+I: dùng để bật/tắt gạch chân (Underline). Áp dụng cho vùng đang chọn."
+  },
+  {
+   "id": 100,
+   "text": "Hãy cho biết tổ hợp phím tắt để định dạng chữ đậm trong Microsoft Excel?",
+   "options": {
+    "A": "Ctrl + X",
+    "B": "Ctrl + C",
+    "C": "Ctrl + B",
+    "D": "Ctrl + U"
+   },
+   "answer": "C",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl + B: dùng để bật/tắt chữ đậm (Bold). Áp dụng cho vùng đang chọn."
+  },
+  {
+   "id": 101,
+   "text": "Để định dạng được màu khác nhau đối với nội dung ô, nền của ô ta chọn công cụ nào sau đây:",
+   "options": {
+    "A": "Format as Table",
+    "B": "Cell Style",
+    "C": "Format Cell",
+    "D": "Conditional Formatting"
+   },
+   "answer": "D",
+   "old_explain": "Conditional Formatting đổi màu/chữ tự động theo điều kiện dữ liệu. Giúp nhận biết nhanh giá trị nổi bật mà không format thủ công từng ô."
+  },
+  {
+   "id": 102,
+   "text": "Để sao chép định dạng từ một ô/ dãy ô tới một ô khác/dãy ô khác ta thực hiện:",
+   "options": {
+    "A": "Page Layout\\Clipboard\\Format Paint",
+    "B": "Home\\Clipboard\\Format Paint",
+    "C": "Insert\\Clipboard\\Format Paint",
+    "D": "Data\\Clipboard\\Format Paint"
+   },
+   "answer": "B",
+   "old_explain": "Sau khi điền form web, chọn Submit (hoặc tương đương) để gửi dữ liệu lên máy chủ xử lý. Không bấm gửi thì dữ liệu thường chưa được chuyển."
+  },
+  {
+   "id": 103,
+   "text": "Giả sử tại ô D2 có công thức =B2*C2/100. Nếu sao chép công thức đến ô G6 sẽ có công thức là?",
+   "options": {
+    "A": "E6*F6/100",
+    "B": "B6*C6/100",
+    "C": "E2*C2/100",
+    "D": "E7*F7/100"
+   },
+   "answer": "A",
+   "old_explain": "Tổ hợp/phím đúng là E6*F6/100. Đây là phím tắt thực hiện đúng thao tác được nêu trong câu hỏi; thuộc nhóm phím cần thuộc khi thao tác Windows/Office/trình duyệt."
+  },
+  {
+   "id": 104,
+   "text": "Để văn bản được cuộn trên một ô ta thực hiện?",
+   "options": {
+    "A": "Insert\\Alignment\\Wrap Text",
+    "B": "Home\\Alignment\\Wrap Text",
+    "C": "Page Layout\\ Alignment\\Wrap Text",
+    "D": "Data\\Alignment\\Wrap Text 73"
+   },
+   "answer": "B",
+   "old_explain": "Wrap Text cho phép nội dung dài xuống dòng trong một ô thay vì tràn sang ô bên. Kết hợp chỉnh cao hàng để nhìn đủ chữ."
+  },
+  {
+   "id": 105,
+   "text": "Để quay được hướng văn bản trong ô, ta chọn ô sau đó thực hiện:",
+   "options": {
+    "A": "Home\\Alignment\\ Orientation\\chọn hướng",
+    "B": "Insert\\Alignment\\ Orientation\\chọn hướng",
+    "C": "Page Layout\\Alignment\\ Orientation\\chọn hướng",
+    "D": "View\\Alignment\\ Orientation\\chọn hướng"
+   },
+   "answer": "A",
+   "old_explain": "Orientation Portrait là hướng dọc (mặc định), Landscape là ngang. Đổi trong Page Layout → Orientation tùy khổ trình bày."
+  },
+  {
+   "id": 106,
+   "text": "Để gộp (trộn) nhiều ô thành 1 ô ta thực hiện?",
+   "options": {
+    "A": "Home\\Format Cells:Border\\Merge Cells",
+    "B": "Home\\Format Cells:Font\\Merge Cells",
+    "C": "Home\\Format Cells:Number\\Merge Cells",
+    "D": "Home\\Format Cells:Alignment\\Merge Cells"
+   },
+   "answer": "D",
+   "old_explain": "Bảng (Table) tổ chức dữ liệu theo hàng–cột; kích thước m×n nghĩa là m cột n hàng (theo cách đề nêu). Tab di chuyển giữa các ô; Merge Cells gộp ô."
+  },
+  {
+   "id": 107,
+   "text": "Trong Microsoft Excel, công cụ nào cho phép thay đổi màu sắc cho vùng được chọn?",
+   "options": {
+    "A": "Công cụ Fill Color trên thanh định dạng",
+    "B": "Công cụ Font Color trên thanh định dạng",
+    "C": "Công cụ Format Color trên thanh định dạng",
+    "D": "Công cụ Line Color trên thanh định dạng"
+   },
+   "answer": "A",
+   "old_explain": "Đáp án đúng là «Công cụ Fill Color trên thanh định dạng». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
+  },
+  {
+   "id": 108,
+   "text": "Để kẻ khung viền cho bảng ta thực hiện?",
+   "options": {
+    "A": "Home\\Format\\Format Cells\\Alignment",
+    "B": "Home\\Format\\Format Cells\\Fill",
+    "C": "Home\\Format\\Format Cells\\Number",
+    "D": "Home\\Format\\Format Cells\\Border"
+   },
+   "answer": "D",
+   "old_explain": "Sau khi điền form web, chọn Submit (hoặc tương đương) để gửi dữ liệu lên máy chủ xử lý. Không bấm gửi thì dữ liệu thường chưa được chuyển."
+  },
+  {
+   "id": 109,
+   "text": "Trong Microsoft Excel, biểu đồ loại nào thích hợp cho việc hiển thị giá trị dưới dạng % (percentage)?",
+   "options": {
+    "A": "Pie",
+    "B": "Line",
+    "C": "Percentage",
+    "D": "Column"
+   },
+   "answer": "A",
+   "old_explain": "Biểu đồ cột so sánh giá trị; biểu đồ tròn (Pie) phù hợp thể hiện tỷ lệ phần trăm tổng thể. Chèn qua Insert → Charts."
+  },
+  {
+   "id": 110,
+   "text": "Trong bảng tính MS Excel, để chèn biểu đồ dạng hình cột ta thực hiện:",
+   "options": {
+    "A": "Insert\\Charts\\Line",
+    "B": "Insert\\Charts\\Bar",
+    "C": "Insert\\Charts\\Column",
+    "D": "Insert\\Charts\\Pie"
+   },
+   "answer": "C",
+   "old_explain": "Biểu đồ cột so sánh giá trị; biểu đồ tròn (Pie) phù hợp thể hiện tỷ lệ phần trăm tổng thể. Chèn qua Insert → Charts."
+  },
+  {
+   "id": 111,
+   "text": "Trong Microsoft Excel, khi vẽ biểu đồ bằng công cụ Chart Wizard, thẻ Data Range cho phép làm gì?",
+   "options": {
+    "A": "Xóa dữ liệu 74",
+    "B": "Gán nhãn cho vùng dữ liệu",
+    "C": "Thêm 1 vùng dữ liệu",
+    "D": "Thay đổi vùng dữ liệu vẽ biểu đồ"
+   },
+   "answer": "D",
+   "old_explain": "Đáp án đúng là «Thay đổi vùng dữ liệu vẽ biểu đồ». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
+  },
+  {
+   "id": 112,
+   "text": "Trong Microsoft Excel, cách nào để mở hộp thoại thiết lập các thông số in bảng tính?",
+   "options": {
+    "A": "Ctrl + P",
+    "B": "Print Screen",
+    "C": "Atl + P",
+    "D": "Ctrl + Print Screen"
+   },
+   "answer": "A",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl + P: dùng để mở lệnh in (Print). Có thể chọn máy in và tùy chọn trước khi in."
+  },
+  {
+   "id": 113,
+   "text": "Để thiết lập được lề trang in ta thực hiện:",
+   "options": {
+    "A": "Page Layout\\Margins\\Custom Margins\\...",
+    "B": "Home\\Margins\\Custom Margins\\...",
+    "C": "Insert\\Margins\\Custom Margins\\...",
+    "D": "Data\\Margins\\Custom Margins\\..."
+   },
+   "answer": "A",
+   "old_explain": "Lề (Margins) là khoảng trống giữa mép giấy và vùng chữ. Chỉnh lề giúp văn bản cân đối và tránh bị máy in cắt chữ."
+  },
+  {
+   "id": 114,
+   "text": "Muốn định dạng trang in theo hướng chiều ngang trang giấy ta chọn:",
+   "options": {
+    "A": "Tất cả đều sai",
+    "B": "Page Layout\\Landscape",
+    "C": "Page Layout\\ Orientation\\Portrait",
+    "D": "Page Layout\\ Orientation\\landscape"
+   },
+   "answer": "D",
+   "old_explain": "Orientation Portrait là hướng dọc (mặc định), Landscape là ngang. Đổi trong Page Layout → Orientation tùy khổ trình bày."
+  },
+  {
+   "id": 115,
+   "text": "Để nhập nội dung vào Header và Footer của Microsoft Excel, thực hiện:",
+   "options": {
+    "A": "Page Layout -> Orientation -> Landscape",
+    "B": "Insert -> WordArt",
+    "C": "Insert -> Header & Footer",
+    "D": "Page Layout -> Textbox"
+   },
+   "answer": "C",
+   "old_explain": "Page Number/Header/Footer gắn thông tin lặp trên các trang; Page Break ngắt sang trang mới đúng vị trí. Các lệnh nằm chủ yếu ở Insert và Page Layout."
+  },
+  {
+   "id": 116,
+   "text": "Khi công thức bị sai, ta có thể gỡ rối đoạn công thức đó bằng phím nào ?",
+   "options": {
+    "A": "F12",
+    "B": "F11",
+    "C": "F9",
+    "D": "F10"
+   },
+   "answer": "C",
+   "old_explain": "Tổ hợp/phím đúng là F9: dùng để tính toán/gỡ rối công thức đang chọn trong Excel. Hữu ích khi kiểm tra từng phần biểu thức."
+  },
+  {
+   "id": 117,
+   "text": "Trong MS Excel 2010, để thiết lập được in tiêu đề dòng tự động trên mọi trang ta thực hiện:",
+   "options": {
+    "A": "Home\\Print Titles",
+    "B": "Insert\\Print Titles",
+    "C": "Page Layout\\Print Titles",
+    "D": "View\\Print Titles"
+   },
+   "answer": "C",
+   "old_explain": "Print Titles in lặp hàng/cột tiêu đề trên mọi trang in. Khi bảng nhiều trang, tiêu đề vẫn xuất hiện để dễ đọc."
+  },
+  {
+   "id": 118,
+   "text": "Trước khi in, để xem trước trang bảng tính ta nhấn:",
+   "options": {
+    "A": "Alt+P",
+    "B": "ESC+P",
+    "C": "Ctrl+P 75",
+    "D": "Shift+P"
+   },
+   "answer": "C",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl+P: dùng để mở lệnh in (Print). Có thể chọn máy in và tùy chọn trước khi in."
+  },
+  {
+   "id": 119,
+   "text": "Để lưu một file Excel dưới định dạng khác, ta chọn?",
+   "options": {
+    "A": "Type",
+    "B": "Type Of File",
+    "C": "Save As Type",
+    "D": "File Of Type"
+   },
+   "answer": "C",
+   "old_explain": "Chuột phải ảnh → Save picture as lưu riêng file ảnh; File → Save As lưu cả trang (có tùy chọn HTML only nếu không cần kèm ảnh). Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
+  },
+  {
+   "id": 120,
+   "text": "Cách đặt mật khẩu cho file Excel 2010?",
+   "options": {
+    "A": "File\\Save\\Tools\\Properties",
+    "B": "File\\Save\\Tools\\General Options",
+    "C": "Không có đáp án đúng",
+    "D": "File\\Save\\Tools\\Web Option --- <a id=\"module-5\"></a> # MODULE 5: SỬ DỤNG TRÌNH CHIẾU CƠ BẢN (POWERPOINT) ## 5.1. LÝ THUYẾT ### 5.1.1. Nguyên tắc thuyết trình & file - Ưu tiên đầu tiên: **nắm vững nội dung**. Cấu trúc bài: **3 phần** (mở – thân – kết). - File PowerPoint 2010: **`.pptx`**. Mỗi trang = **Slide**. - Mở: đúp icon / Start → Office → PowerPoint. Thoát: File/Exit, Close, Alt+F4. - Quick Access Toolbar; Help **F1**; tùy Ribbon: File → Options → Customize Ribbon. - New: Blank / Themes / Sample templates. Save; Save As → Video (WMV), PDF… - Mật khẩu: File → Info → Protect Presentation → Encrypt with Password. - Default folder: File → Options → Save → Default file location. ### 5.1.2. Chế độ xem & bố cục | Chế độ | Công dụng | |--------|-----------| | Normal | Soạn thảo | | Slide Sorter | Sắp xếp slide | | Reading View | Đọc | | Outline | Chủ yếu chữ | | Notes Page | Ghi chú | | Slide Master | Định dạng chung toàn bộ | - Gridlines: **Shift+F9**; thước: **Shift+Alt+F9**. - Layout: Home → Layout (Title and Content; Two Content ≈ **3** placeholder; Comparison ≈ **5**; Picture with Caption: **2** chỗ nhập chữ). - Theme: Design → Themes; Save Current Theme. Background: Format Background → Fill → Close (1 slide) / Apply to All. - Slide Master: không giới hạn số lượng theo đề (“Không giới hạn”). ### 5.1.3. Thao tác slide & đối tượng - New / Duplicate / Copy-Paste / Delete Slide; chọn không liền: **Ctrl**. - Ctrl+Z Undo; Ctrl+C/V; Ctrl+A chọn bảng; Ctrl+H Replace; Ctrl+E giữa; Ctrl+R phải; Ctrl+B đậm (ALT, H, 1). - Clear All Formatting; Text Shadow; Bullets/Numbering; Line Spacing / Paragraph. - Insert: Table, Chart, SmartArt (Hierarchy), Picture, Shapes (Smiley Face), Screenshot, Equation, WordArt, Header/Footer, Slide Number. - Shape Outline / Fill / Effects; Arrange: Bring Forward…; Group vẫn sửa từng đối tượng được (theo đề). - Lock Aspect Ratio: đổi kích thước giữ tỉ lệ. Flip Horizontal: lật ngang. - Animation: hiệu ứng đối tượng (Entrance, Emphasis, Exit, Motion Path). Start: **With Previous** = đồng thời. - Transitions: hiệu ứng chuyển trang; Preview trên tab Transitions. - Hide Slide; Hyperlink → First Slide = về đầu. - Trình chiếu: **F5** từ đầu; **Shift+F5** từ slide hiện tại; **Esc** dừng; chuột phải → End Show; Go to Slide để nhảy. ### 5.1.4. In ấn - Ctrl+P; Settings → 1 Slide / trang; Orientation Notes/Handouts Portrait qua Design → Page Setup. - On-screen Show: kích cỡ phù hợp màn hình trình chiếu. --- ## 5.2. THỰC HÀNH MODULE 5 ### Bài PP1 – Bài thuyết trình 8–10 slide 1. Chủ đề tự chọn; cấu trúc 3 phần; Theme thống nhất; Slide Master số trang + logo. 2. Layout đa dạng; bảng + biểu đồ + SmartArt quy trình; 1 ảnh Lock Aspect Ratio. 3. Animation With Previous cho nhóm icon; Transition thống nhất; Hide 1 slide phụ lục. 4. Thêm Notes; trình bày F5; xuất PDF và đặt mật khẩu. ### Bài PP2 – Hyperlink điều hướng Tạo mục lục slide 1 liên kết tới từng phần; nút “Về đầu” = First Slide. ---"
+   },
+   "answer": "B",
+   "old_explain": "Thao tác đúng đi theo đường lệnh: File\\Save\\Tools\\General Options. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
+  }
+ ]
+}

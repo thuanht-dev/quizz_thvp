@@ -1,0 +1,1446 @@
+{
+ "id": 6,
+ "title": "Sử dụng Internet cơ bản",
+ "questions": [
+  {
+   "id": 1,
+   "text": "Internet có nghĩa là?",
+   "options": {
+    "A": "Hệ thống thông tin toàn cầu có thể được truy nhập công cộng gồm các mạng máy tính trong một quốc gia được liên kết với nhau",
+    "B": "Hệ thống thông tin toàn cầu có thể được truy nhập công cộng gồm các máy tính được liên kết với nhau",
+    "C": "Hệ thống thông tin toàn cầu có thể được truy nhập công cộng gồm các mạng máy tính trong một cơ quan được liên kết với nhau",
+    "D": "Hệ thống thông tin toàn cầu có thể được truy nhập công cộng gồm các mạng máy tính được liên kết với nhau"
+   },
+   "answer": "D",
+   "old_explain": "Internet là hệ thống mạng máy tính toàn cầu liên kết với nhau, cho phép truy cập công cộng nhiều dịch vụ (Web, email…). Không phải dịch vụ chỉ do một công ty Mỹ độc quyền điều hành."
+  },
+  {
+   "id": 2,
+   "text": "Phát biểu nào sau đây là sai?",
+   "options": {
+    "A": "Internet là dịch vụ do công ty Internet tại Mỹ điều hành và thu phí",
+    "B": "Chúng ta có thể đăng ký để sử dụng thư miễn phí tại địa chỉ MAIL.YAHOO.COM",
+    "C": "WWW là từ viết tắt của World Wide Web",
+    "D": "Thư điện tử là nền tảng cho việc xây dựng văn phòng không giấy tờ"
+   },
+   "answer": "A",
+   "old_explain": "Phải chọn phát biểu SAI: «Internet là dịch vụ do công ty Internet tại Mỹ điều hành và thu phí». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
+  },
+  {
+   "id": 3,
+   "text": "Thứ tự kết nối Internet theo đường quay số theo bạn là?",
+   "options": {
+    "A": "Máy tính - điện thoại - ISP - modem",
+    "B": "Máy tính - ISP - điện thoại - modem",
+    "C": "Máy tính - modem - điện thoại - ISP",
+    "D": "Máy tính - điện thoại - modem - ISP (Internet Service Provider)"
+   },
+   "answer": "C",
+   "old_explain": "MOD(số, số_chia) trả về phần dư phép chia. Ví dụ =MOD(26,7) = 5."
+  },
+  {
+   "id": 4,
+   "text": "ISP là viết tắt của",
+   "options": {
+    "A": "Internet Server Provider",
+    "B": "Internet Service Provider",
+    "C": "Internet Super Provider",
+    "D": "Không có phương án đúng"
+   },
+   "answer": "B",
+   "old_explain": "ISP (Internet Service Provider) là nhà cung cấp dịch vụ kết nối Internet. Máy tính thường kết nối qua modem/hạ tầng rồi tới ISP để vào mạng toàn cầu."
+  },
+  {
+   "id": 5,
+   "text": "WWW là viết tắt của?",
+   "options": {
+    "A": "Word Wild Web",
+    "B": "Word Wide Wed",
+    "C": "Word Wide Website",
+    "D": "World Wide Web"
+   },
+   "answer": "D",
+   "old_explain": "WWW (World Wide Web) là dịch vụ Web trên Internet gồm các trang siêu văn bản liên kết với nhau. Truy cập bằng trình duyệt qua địa chỉ URL."
+  },
+  {
+   "id": 6,
+   "text": "Mỗi thiết bị khi tham gia vào một mạng máy tính nào đó cũng đều có",
+   "options": {
+    "A": "Địa chỉ IP",
+    "B": "GPS",
+    "C": "Địa chỉ nhà",
+    "D": "Mã sản phẩm"
+   },
+   "answer": "A",
+   "old_explain": "Địa chỉ IP định danh thiết bị trong mạng để gửi/nhận gói tin. Không có địa chỉ hợp lệ thì thiết bị khó tham gia giao tiếp mạng."
+  },
+  {
+   "id": 7,
+   "text": "HTTP là gì? 96",
+   "options": {
+    "A": "Là giao thức truyền tải siêu văn bản",
+    "B": "Là tên của trang web",
+    "C": "Là ngôn ngữ để soạn thảo nội dung các trang Web",
+    "D": "Là địa chỉ của trang Web"
+   },
+   "answer": "A",
+   "old_explain": "HTTP là giao thức truyền tải siêu văn bản giữa trình duyệt và máy chủ Web. HTTPS là biến thể mã hóa an toàn hơn khi truyền dữ liệu nhạy cảm."
+  },
+  {
+   "id": 8,
+   "text": "Địa chỉ nào không phải là địa chỉ trang web?",
+   "options": {
+    "A": "ngoisao.net",
+    "B": "ninhbinh@yahoo.com",
+    "C": "mail.yahoo.com",
+    "D": "www.laodong.com.vn"
+   },
+   "answer": "B",
+   "old_explain": "Ninhbinh@yahoo.com. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 9,
+   "text": "Đâu là định nghĩa đúng nhất về trang Web?",
+   "options": {
+    "A": "Là trang văn bản chứa các liên kết cơ sở dữ liệu ở bên trong nó",
+    "B": "Là trang siêu văn bản phối hợp giữa văn bản thông thường với hình ảnh, âm thanh, video và cả các mối liên kết đến các trang siêu văn bản khác",
+    "C": "Là trang văn bản chứa văn bản, hình ảnh",
+    "D": "Là trang văn bản thông thường"
+   },
+   "answer": "B",
+   "old_explain": "Là trang siêu văn bản phối hợp giữa văn bản thông thường với hình ảnh, âm thanh…. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 10,
+   "text": "\"Link\" trên trang web có nghĩa là?",
+   "options": {
+    "A": "Liên kết đến 1 trang web khác",
+    "B": "Liên kết đến 1 liên kết khác",
+    "C": "Tất cả đều đúng",
+    "D": "Liên kết"
+   },
+   "answer": "D",
+   "old_explain": "Hyperlink (link) là liên kết đưa tới vị trí khác trên trang, trang khác hoặc tài nguyên khác khi người dùng kích chuột. Đây là nền tảng điều hướng của Web."
+  },
+  {
+   "id": 11,
+   "text": "Đây là cụm từ viết tắt của địa chỉ tài nguyên trên Internet?",
+   "options": {
+    "A": "URL (Uniform Resource Location)",
+    "B": "URL (Universe Resource Internet)",
+    "C": "Tất cả các đáp án đều đúng",
+    "D": "URL (Uniform Resource Locator)"
+   },
+   "answer": "D",
+   "old_explain": "URL (Uniform Resource Locator) là địa chỉ định danh tài nguyên trên Internet (thường bắt đầu bằng http/https). Gõ URL vào thanh địa chỉ để mở đúng trang."
+  },
+  {
+   "id": 12,
+   "text": "Đâu là định nghĩa siêu liên kết?",
+   "options": {
+    "A": "Dùng liên kết các đường dẫn trong một website",
+    "B": "Dùng liên kết các tài nguyên trên Internet qua các đường link trên trang Web",
+    "C": "Dùng tải các ứng dụng trên Internet xuống",
+    "D": "Dùng liên kết với các tài liệu trên Internet"
+   },
+   "answer": "B",
+   "old_explain": "Hyperlink (link) là liên kết đưa tới vị trí khác trên trang, trang khác hoặc tài nguyên khác khi người dùng kích chuột. Đây là nền tảng điều hướng của Web."
+  },
+  {
+   "id": 13,
+   "text": "Thuật ngữ nào dùng để chỉ các trang tin tức trên mạng?",
+   "options": {
+    "A": "Website",
+    "B": "Trình duyệt Web",
+    "C": "Webserver",
+    "D": "Tên miền .net"
+   },
+   "answer": "A",
+   "old_explain": "Cách đúng là: Website. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 14,
+   "text": "Internet Explorer là gì?",
+   "options": {
+    "A": "Bộ giao thức",
+    "B": "1 chuẩn mạng cục bộ 97",
+    "C": "Trình duyệt web",
+    "D": "Thiết bị kết nối các mạng trên Internet"
+   },
+   "answer": "C",
+   "old_explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
+  },
+  {
+   "id": 15,
+   "text": "Mozilla Firefox là gì?",
+   "options": {
+    "A": "Thiết bị kết nối các mạng trên Internet",
+    "B": "Trình duyệt web",
+    "C": "1 chuẩn mạng cục bộ",
+    "D": "Bộ giao thức"
+   },
+   "answer": "B",
+   "old_explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
+  },
+  {
+   "id": 16,
+   "text": "Google Chrome là gì?",
+   "options": {
+    "A": "1 chuẩn mạng cục bộ",
+    "B": "Trình duyệt web",
+    "C": "Bộ giao thức",
+    "D": "Thiết bị kết nối các mạng trên Internet"
+   },
+   "answer": "B",
+   "old_explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
+  },
+  {
+   "id": 17,
+   "text": "Opera là gì?",
+   "options": {
+    "A": "Thiết bị kết nối các mạng trên Internet",
+    "B": "Bộ giao thức",
+    "C": "1 chuẩn mạng cục bộ",
+    "D": "Trình duyệt web"
+   },
+   "answer": "D",
+   "old_explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
+  },
+  {
+   "id": 18,
+   "text": "Chương trình được sử dụng để xem các trang Web được gọi là gì?",
+   "options": {
+    "A": "Bộ duyệt Web",
+    "B": "Phần mềm xem Web",
+    "C": "Trình duyệt Web",
+    "D": "Chương trình xem Web"
+   },
+   "answer": "C",
+   "old_explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
+  },
+  {
+   "id": 19,
+   "text": "Để xem một trang Web, ta cần gõ địa chỉ của trang đó vào đâu?",
+   "options": {
+    "A": "Thanh trạng thái của trình duyệt",
+    "B": "Thanh liên kết của trình duyệt",
+    "C": "Thanh công cụ chuẩn của trình duyệt",
+    "D": "Thanh địa chỉ của trình duyệt"
+   },
+   "answer": "D",
+   "old_explain": "Thanh địa chỉ (address bar) nơi nhập URL để mở trang. Khác ô tìm kiếm của công cụ search dù một số trình duyệt tích hợp cả hai."
+  },
+  {
+   "id": 20,
+   "text": "Muốn xem được trang web, máy tính của bạn cần phải cài đặt",
+   "options": {
+    "A": "Một chương trình duyệt web",
+    "B": "MS-Word",
+    "C": "MS-FronPage",
+    "D": "Outlook Express"
+   },
+   "answer": "A",
+   "old_explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
+  },
+  {
+   "id": 21,
+   "text": "Phần mềm nào sau đây không phải là trình duyệt Web",
+   "options": {
+    "A": "Firefox",
+    "B": "FireBug",
+    "C": "Chromium",
+    "D": "Internet Explorer"
+   },
+   "answer": "B",
+   "old_explain": "FireBug. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 22,
+   "text": "Phát biểu nào sau là đúng về Mozilla Firefox và Chromium 98",
+   "options": {
+    "A": "Chỉ có Chromium là trình duyệt web",
+    "B": "Chỉ có Mozilla Firefox là trình duyệt web",
+    "C": "Mozila Firefox là trình duyệt web còn Chromium là phần mềm tìm kiếm",
+    "D": "Mozilla Firefox và Chromium là các trình duyệt web"
+   },
+   "answer": "D",
+   "old_explain": "Trình duyệt Web (Chrome, Firefox, Edge/IE, Opera…) hiển thị trang Web và chạy liên kết/script phía khách. Cần cài trình duyệt và có kết nối mạng để xem website."
+  },
+  {
+   "id": 23,
+   "text": "Nút nào trên thanh công cụ của trình duyệt web cho phép bạn tìm kiếm thông tin trên WWW?",
+   "options": {
+    "A": "Refresh",
+    "B": "Search",
+    "C": "Home",
+    "D": "Next"
+   },
+   "answer": "B",
+   "old_explain": "Đáp án đúng là «Search». Tên/đối tượng này đúng với vai trò được hỏi; hãy gắn với chức năng thực tế để khỏi nhầm nhóm tương tự."
+  },
+  {
+   "id": 24,
+   "text": "Tường lửa là gì?",
+   "options": {
+    "A": "Một hệ thống được xây dựng để đảm bảo an ninh cho công ty",
+    "B": "Tường lửa là một thiết bị phần cứng và/hoặc một phần mềm hoạt động trong một môi trường máy tính nối mạng có mục đích chống lại sự xâm nhập trái phép từ Internet",
+    "C": "Một hệ thống bảo mật thông tin",
+    "D": "Một hệ thống báo cháy"
+   },
+   "answer": "B",
+   "old_explain": "Tường lửa (firewall) lọc kết nối mạng theo chính sách bảo mật, chặn truy cập không được phép từ ngoài vào hoặc ra. Có thể là phần mềm, phần cứng, hoặc kết hợp cả hai."
+  },
+  {
+   "id": 25,
+   "text": "Dấu hiệu nhận biết một website an toàn?",
+   "options": {
+    "A": "Có logo chứng nhận bảo mật trên website",
+    "B": "Giao diện đẹp, chức năng và menu có sắp thứ tự",
+    "C": "Có địa chỉ công ty xây dựng website",
+    "D": "Sử dụng giao thức bảo mật để truyền tải nội dung"
+   },
+   "answer": "D",
+   "old_explain": "Đáp án đúng là «Sử dụng giao thức bảo mật để truyền tải nội dung». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
+  },
+  {
+   "id": 26,
+   "text": "Trình duyệt web không thể hiển thị trang web yêu cầu, có thể do:",
+   "options": {
+    "A": "Địa chỉ truy cập không tồn tại hoặc địa chỉ truy cập bị nhà quản trị mạng ngăn không cho truy cập",
+    "B": "Địa chỉ truy cập không nằm trên máy chủ của Việt Nam",
+    "C": "Địa chỉ truy cập không được lưu vào bộ nhớ đệm của trình duyệt",
+    "D": "Địa chỉ truy cập là một trang web cá nhân"
+   },
+   "answer": "A",
+   "old_explain": "Đáp án đúng khẳng định: Địa chỉ truy cập không tồn tại hoặc địa chỉ truy cập bị nhà quản trị mạng ngăn không cho truy cập. Hiểu vì sao nội dung này đúng với tình huống đề (định nghĩa, điều kiện dùng hoặc kết quả thao tác) sẽ giúp làm các câu tương tự."
+  },
+  {
+   "id": 27,
+   "text": "Phát biểu nào dưới đây là sai?",
+   "options": {
+    "A": "Mở nhiều cửa sổ duyệt web cho nhiều địa chỉ web khác nhau.",
+    "B": "Nhấn nút BACK để đóng cửa sổ duyệt Web.",
+    "C": "Nhấn nút REFRESH là để bắt đầu lại quá trình tải trang web từ máy phục vụ về máy cá nhân của người dùng.",
+    "D": "Vừa mở cửa sổ duyệt web, vừa chơi game trong lúc chờ trang web xuất hiện đầy đủ nội dung."
+   },
+   "answer": "B",
+   "old_explain": "Phải chọn phát biểu SAI: «nút BACK để đóng cửa sổ duyệt Web». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
+  },
+  {
+   "id": 28,
+   "text": "Các thành phần của tên miền được phân cách bằng ký tự gì?",
+   "options": {
+    "A": "Dấu \";\"",
+    "B": "Dấu “,” 99",
+    "C": "Dấu “#”",
+    "D": "Dấu “.”"
+   },
+   "answer": "D",
+   "old_explain": "Đáp án đúng là «Dấu “.”». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
+  },
+  {
+   "id": 29,
+   "text": "Để truy cập vào một trang Web chúng ta cần phải biết:",
+   "options": {
+    "A": "Tất cả đều sai",
+    "B": "Trang web đó của nước nào",
+    "C": "Địa chỉ của trang web",
+    "D": "Hệ điều hành đang sử dụng"
+   },
+   "answer": "C",
+   "old_explain": "Cách đúng là: Địa chỉ của trang web. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 30,
+   "text": "Để truy cập vào một Website ta phải biết",
+   "options": {
+    "A": "IP của của máy tính",
+    "B": "Tên miền của Website đó",
+    "C": "Tất cả đều sai",
+    "D": "Website đó được đặt tại máy chủ nào"
+   },
+   "answer": "B",
+   "old_explain": "Cách đúng là: Tên miền của Website đó. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 31,
+   "text": "Địa chỉ nào không phải là địa chỉ trang web?",
+   "options": {
+    "A": "ngoisao.net",
+    "B": "mail.yahoo.com",
+    "C": "www.laodong.com.vn",
+    "D": "ninhbinh@yahoo.com"
+   },
+   "answer": "D",
+   "old_explain": "Ninhbinh@yahoo.com. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 32,
+   "text": "Trong Internet Explorer phiên bản 7 hoặc mới hơn, phím tắt để thêm một Tab?",
+   "options": {
+    "A": "Alt+H",
+    "B": "Alt+N",
+    "C": "Ctrl+N",
+    "D": "Ctrl+T"
+   },
+   "answer": "D",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl+T: dùng để mở tab mới trong trình duyệt. Giữ nhiều trang trong cùng một cửa sổ."
+  },
+  {
+   "id": 33,
+   "text": "Trong Internet Explorer phiên bản 7 hoặc mới hơn, phím tắt chuyển đến Tab liền kề bên trái?",
+   "options": {
+    "A": "Alt+Shift+Tab",
+    "B": "Ctrl+Tab",
+    "C": "Ctrl+Shift+Tab",
+    "D": "Alt+Tab"
+   },
+   "answer": "C",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl+Shift+Tab: dùng để chuyển sang tab liền kề bên trái. Duyệt ngược giữa các tab đang mở."
+  },
+  {
+   "id": 34,
+   "text": "Trong Internet Explorer phiên bản 7 hoặc mới hơn, phím tắt chuyển đến Tab liền kề bên phải?",
+   "options": {
+    "A": "Alt+Shift+Tab",
+    "B": "Ctrl+Shift+Tab",
+    "C": "Ctrl+Tab",
+    "D": "Alt+Tab"
+   },
+   "answer": "C",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl+Tab: dùng để chuyển sang tab liền kề bên phải. Dùng trong trình duyệt nhiều tab."
+  },
+  {
+   "id": 35,
+   "text": "Trong Internet Explorer phiên bản 7 hoặc mới hơn, phím tắt Ctrl + Tab dùng để làm gì?",
+   "options": {
+    "A": "Thoát khỏi trình duyệt web",
+    "B": "Thêm 1 tab mới",
+    "C": "Trở về trang chủ",
+    "D": "Chuyển đến Tab liền kề bên phải 100"
+   },
+   "answer": "D",
+   "old_explain": "Trong trình duyệt kiểu IE/Chrome: Ctrl + T mở tab mới, Ctrl + W đóng tab, Ctrl + Tab/Ctrl + Shift + Tab chuyển tab. Làm việc nhiều trang trong một cửa sổ."
+  },
+  {
+   "id": 36,
+   "text": "Trong Internet Explorer phiên bản 7 hoặc mới hơn, phím tắt để đóng một Tab?",
+   "options": {
+    "A": "Ctrl+C",
+    "B": "Ctrl+W",
+    "C": "Ctrl+Q",
+    "D": "Ctrl+F4"
+   },
+   "answer": "B",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl+W: dùng để đóng tab hiện tại. Không nhất thiết đóng cả cửa sổ trình duyệt."
+  },
+  {
+   "id": 37,
+   "text": "Trong Internet Explorer phiên bản 7 hoặc mới hơn, phím tắt Ctrl + W dùng để làm gì?",
+   "options": {
+    "A": "Xóa 1 tab",
+    "B": "Thêm 1 tab mới",
+    "C": "Thoát khỏi trình duyệt web",
+    "D": "Trở về trang chủ"
+   },
+   "answer": "A",
+   "old_explain": "Cách đúng là: Xóa 1 tab. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 38,
+   "text": "Nút nào trên thanh công cụ của trình duyệt web cho phép tải lại một trang web?",
+   "options": {
+    "A": "Next",
+    "B": "Back",
+    "C": "Refresh",
+    "D": "Home"
+   },
+   "answer": "C",
+   "old_explain": "Refresh/Reload tải lại trang từ máy chủ (hoặc cache) để cập nhật nội dung mới. Dùng khi trang lỗi tạm thời hoặc dữ liệu đã thay đổi."
+  },
+  {
+   "id": 39,
+   "text": "Nút Refresh trên thanh công cụ của trình duyệt Web cho phép?",
+   "options": {
+    "A": "Tải lại một trang web",
+    "B": "Đi đến một trang web khác",
+    "C": "Thoát khỏi trình duyệt web",
+    "D": "Trở về trang chủ"
+   },
+   "answer": "A",
+   "old_explain": "Refresh/Reload tải lại trang từ máy chủ (hoặc cache) để cập nhật nội dung mới. Dùng khi trang lỗi tạm thời hoặc dữ liệu đã thay đổi."
+  },
+  {
+   "id": 40,
+   "text": "Để ngừng tải nội dung một trang Web từ máy chủ, kích chuột tại nút nào sau đây trong cửa sổ trình duyệt?",
+   "options": {
+    "A": "End",
+    "B": "Start",
+    "C": "Stop",
+    "D": "Disconnect"
+   },
+   "answer": "C",
+   "old_explain": "Nút Stop dừng tải trang đang mở dở. Hữu ích khi trang nặng/treo hoặc mở nhầm."
+  },
+  {
+   "id": 41,
+   "text": "Nút Stop trên cửa số trình duyệt web dùng để làm gì?",
+   "options": {
+    "A": "Ngừng tải nội dung trang Web",
+    "B": "Chuyển đến một liên kết khác",
+    "C": "Đóng trình duyệt Web 101",
+    "D": "Về ttrang chủ"
+   },
+   "answer": "A",
+   "old_explain": "Nút Stop dừng tải trang đang mở dở. Hữu ích khi trang nặng/treo hoặc mở nhầm."
+  },
+  {
+   "id": 42,
+   "text": "Nút nào trên thanh công cụ của trình duyệt web cho phép tải lại một trang web?",
+   "options": {
+    "A": "Home",
+    "B": "Back",
+    "C": "Refresh",
+    "D": "Next"
+   },
+   "answer": "C",
+   "old_explain": "Refresh/Reload tải lại trang từ máy chủ (hoặc cache) để cập nhật nội dung mới. Dùng khi trang lỗi tạm thời hoặc dữ liệu đã thay đổi."
+  },
+  {
+   "id": 43,
+   "text": "Nút Refresh trên thanh công cụ của trình duyệt Web cho phép?",
+   "options": {
+    "A": "Trở về trang chủ",
+    "B": "Đi đến một trang web khác",
+    "C": "Tải lại một trang web",
+    "D": "Thoát khỏi trình duyệt web"
+   },
+   "answer": "C",
+   "old_explain": "Refresh/Reload tải lại trang từ máy chủ (hoặc cache) để cập nhật nội dung mới. Dùng khi trang lỗi tạm thời hoặc dữ liệu đã thay đổi."
+  },
+  {
+   "id": 44,
+   "text": "Nút “Home” trên trang web có nghĩa là",
+   "options": {
+    "A": "Đi đến trang trước",
+    "B": "Đi đến trang chủ",
+    "C": "Đi đến nhà",
+    "D": "Không có ý nghĩa gì, chỉ để trang trí"
+   },
+   "answer": "B",
+   "old_explain": "Đi đến trang chủ. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 45,
+   "text": "Trong quá trình sử dụng trình duyệt Firefox, muốn xóa toàn bộ lịch sử duyệt web, người dùng có thể thao tác như thế nào?",
+   "options": {
+    "A": "Vào View chon Restore Tabs",
+    "B": "Vào History chọn Clear Recent History",
+    "C": "Vào History chọn Recently Closed Tab",
+    "D": "Vào History chọn Restore Closed Tab"
+   },
+   "answer": "B",
+   "old_explain": "Ctrl + H thường mở History — danh sách trang đã thăm. Có thể xóa lịch sử (Clear Recent History) để bảo mật/riêng tư trên máy dùng chung."
+  },
+  {
+   "id": 46,
+   "text": "Tin nhắn dạng pop-up có tác động",
+   "options": {
+    "A": "Gây nguy hiểm cho hệ thống",
+    "B": "Vừa gây nguy hiểm cho hệ thống vừa gây khó chịu cho người dùng",
+    "C": "Hoàn toàn không gây nguy hiểm và khó chịu cho người dùng",
+    "D": "Không gây nguy hiểm cho hệ thống nhưng gây khó chịu cho người dùng"
+   },
+   "answer": "D",
+   "old_explain": "Cửa sổ pop-up thường là quảng cáo/thông báo chồng lên trang; ít khi phá hệ thống nhưng gây khó chịu. Có thể chặn và mở lại ngoại lệ khi cần."
+  },
+  {
+   "id": 47,
+   "text": "Khi đã thiết lập khóa cửa sổ pop-up của 1 trang web:",
+   "options": {
+    "A": "Bạn phải cài đặt lại trình duyệt mới hiển thị được cửa sổ pop-up",
+    "B": "Bạn có thể tự thiết lập mở khóa trong trường hợp cần thiết",
+    "C": "Toàn bộ pop-up của tất cả các trang web không được hiển thị",
+    "D": "Bạn phải gửi thông báo tới quản trị trang web nếu muốn hiển thị lại"
+   },
+   "answer": "B",
+   "old_explain": "Đáp án đúng khẳng định: Bạn có thể tự thiết lập mở khóa trong trường hợp cần thiết. Hiểu vì sao nội dung này đúng với tình huống đề (định nghĩa, điều kiện dùng hoặc kết quả thao tác) sẽ giúp làm các câu tương tự."
+  },
+  {
+   "id": 48,
+   "text": "Để xem lại lịch sử duyệt web ta dùng tổ hợp phím trên trình duyệt Internet Explorer",
+   "options": {
+    "A": "Ctrl + M 102",
+    "B": "Ctrl + L",
+    "C": "Ctrl + H",
+    "D": "Ctrl + P"
+   },
+   "answer": "C",
+   "old_explain": "Tổ hợp/phím đúng là Ctrl + H: dùng để tìm và thay thế (Office) hoặc mở History (trình duyệt). Tùy phần mềm đang dùng mà chức năng khác nhau."
+  },
+  {
+   "id": 49,
+   "text": "Trong một trang web, Hyperlink là gì?",
+   "options": {
+    "A": "Là địa chỉ của 1 trang Web",
+    "B": "Tất cả đều sai",
+    "C": "Là nội dụng được thể hiện trên Web Browser (văn bản, âm thanh, hình ảnh)",
+    "D": "Là một thành phần trong một trang Web liên kết đến vị trí khác trên cùng trang Web đó hoặc liên kết đến một trang Web khác"
+   },
+   "answer": "D",
+   "old_explain": "Hyperlink (link) là liên kết đưa tới vị trí khác trên trang, trang khác hoặc tài nguyên khác khi người dùng kích chuột. Đây là nền tảng điều hướng của Web."
+  },
+  {
+   "id": 50,
+   "text": "Nút Back trên thanh công cụ của trình duyệt Web có tác dụng gì?",
+   "options": {
+    "A": "Quay trở lại trang Web trước đó",
+    "B": "Đi đến trang Web tiếp theo",
+    "C": "Quay trở lại cửa sổ trước đó",
+    "D": "Quay trở lại màn hình trước đó"
+   },
+   "answer": "A",
+   "old_explain": "Back về trang trước trong lịch sử phiên; Forward đi tới lại nếu đã Back. Backspace thường cũng Back; Back không phải lệnh đóng cửa sổ trình duyệt."
+  },
+  {
+   "id": 51,
+   "text": "Nút Forward trên thanh công cụ của trình duyệt Web có tác dụng gì?",
+   "options": {
+    "A": "Đi đến màn hình trước đó",
+    "B": "Quay lại trang Web trước đó",
+    "C": "Đi đến trang Web tiếp theo",
+    "D": "Đi đến cửa sổ trước đó"
+   },
+   "answer": "C",
+   "old_explain": "Back về trang trước trong lịch sử phiên; Forward đi tới lại nếu đã Back. Backspace thường cũng Back; Back không phải lệnh đóng cửa sổ trình duyệt."
+  },
+  {
+   "id": 52,
+   "text": "Để quay lại trang web trước đó, ngoài nút “Back”, ta có thể dùng phím nào?",
+   "options": {
+    "A": "Alt + T",
+    "B": "Alt + F3",
+    "C": "Backspace",
+    "D": "Ctrl + T"
+   },
+   "answer": "C",
+   "old_explain": "Back về trang trước trong lịch sử phiên; Forward đi tới lại nếu đã Back. Backspace thường cũng Back; Back không phải lệnh đóng cửa sổ trình duyệt."
+  },
+  {
+   "id": 53,
+   "text": "Nút Back trên thanh công cụ của trình duyệt Web có tác dụng gì?",
+   "options": {
+    "A": "Quay trở lại trang Web trước đó",
+    "B": "Quay trở lại cửa sổ trước đó",
+    "C": "Quay trở lại màn hình trước đó",
+    "D": "Đi đến trang Web tiếp theo"
+   },
+   "answer": "A",
+   "old_explain": "Back về trang trước trong lịch sử phiên; Forward đi tới lại nếu đã Back. Backspace thường cũng Back; Back không phải lệnh đóng cửa sổ trình duyệt."
+  },
+  {
+   "id": 54,
+   "text": "Phát biểu nào sau đây là sai?",
+   "options": {
+    "A": "Vừa mở cửa sổ duyệt web, vừa chơi game trong lúc chờ trang web xuất hiện đầy đủ nội dung",
+    "B": "Nhấn nút Refresh là để bắt đầu lại quá trình tải trang web từ máy phục vụ về máy cá nhân của người dùng",
+    "C": "Nhấn nút Back để đóng cửa sổ duyệt Web",
+    "D": "Mở nhiều cửa sổ duyệt web cho nhiều địa chỉ web khác nhau"
+   },
+   "answer": "C",
+   "old_explain": "Phải chọn phát biểu SAI: «nút Back để đóng cửa sổ duyệt Web». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
+  },
+  {
+   "id": 55,
+   "text": "Trong trình duyệt Internet Explorer, để lưu lại địa chỉ của trang web ưa thích, ta thực hiện thao chọn?",
+   "options": {
+    "A": "Favorites/Add to Favorites 103",
+    "B": "File/Save to Favorites",
+    "C": "View/Favorites",
+    "D": "Edit/Favorites"
+   },
+   "answer": "A",
+   "old_explain": "Favorites/Bookmarks lưu địa chỉ trang hay dùng để mở lại nhanh. Add to Favorites (IE) hoặc Bookmark tương đương trên trình duyệt khác."
+  },
+  {
+   "id": 56,
+   "text": "Xem các trang web đã đánh dấu trong trình duyệt web tại đâu?",
+   "options": {
+    "A": "Mục Favourite",
+    "B": "Mục All Windows",
+    "C": "Mục History",
+    "D": "Mục Bookmark"
+   },
+   "answer": "D",
+   "old_explain": "Favorites/Bookmarks lưu địa chỉ trang hay dùng để mở lại nhanh. Add to Favorites (IE) hoặc Bookmark tương đương trên trình duyệt khác."
+  },
+  {
+   "id": 57,
+   "text": "Trong trình duyệt Internet Explorer, để lưu lại địa chỉ của trang web ưa thích, ta thực hiện thao chọn?",
+   "options": {
+    "A": "Edit/Favorites",
+    "B": "View/Favorites",
+    "C": "Favorites/Add to Favorites",
+    "D": "File/Save to Favorites"
+   },
+   "answer": "C",
+   "old_explain": "Favorites/Bookmarks lưu địa chỉ trang hay dùng để mở lại nhanh. Add to Favorites (IE) hoặc Bookmark tương đương trên trình duyệt khác."
+  },
+  {
+   "id": 58,
+   "text": "Đâu là tùy chọn cho phép lưu trang web mà không có ảnh?",
+   "options": {
+    "A": "Chọn Text file",
+    "B": "Chọn Web page/ Html only",
+    "C": "Chọn Web page/ complete",
+    "D": "Chọn Web page/ Home"
+   },
+   "answer": "B",
+   "old_explain": "Thao tác đúng đi theo đường lệnh: Web page/ Html only. Mỗi tab/menu (File, Home, Insert, Data, View, Design…) nhóm một nhóm chức năng; đi đúng chuỗi sẽ mở đúng công cụ cần dùng."
+  },
+  {
+   "id": 59,
+   "text": "Đâu không phải là một thành phần của biểu mẫu (form) trên web?",
+   "options": {
+    "A": "Hộp văn bản (Text box)",
+    "B": "Hộp danh sách (List box)",
+    "C": "Hộp kiểm tra (Check box)",
+    "D": "Hộp truy cập (Asscess box)"
+   },
+   "answer": "D",
+   "old_explain": "Hộp truy cập (Asscess box). Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 60,
+   "text": "Sau khi hoàn thành một biểu mẫu trên web, cần thao tác thế nào để gửi biểu mẫu lên máy chủ?",
+   "options": {
+    "A": "Chọn Submit",
+    "B": "Chọn Clear",
+    "C": "Chọn Back",
+    "D": "Chọn Next"
+   },
+   "answer": "A",
+   "old_explain": "Sau khi điền form web, chọn Submit (hoặc tương đương) để gửi dữ liệu lên máy chủ xử lý. Không bấm gửi thì dữ liệu thường chưa được chuyển."
+  },
+  {
+   "id": 61,
+   "text": "Dịch vụ công trực tuyến là gì?",
+   "options": {
+    "A": "Là dịch vụ hành chính công và các dịch vụ khác của cơ quan nhà nước được cung cấp cho các tổ chức, cá nhân trong mạng nội bộ của đơn vị",
+    "B": "Là dịch vụ hành chính công và các dịch vụ khác của cơ quan nhà nước được cung cấp cho các tổ chức, cá nhân trên môi trường mạng",
+    "C": "Là dịch vụ hành chính công và các dịch vụ khác của cơ quan nhà nước được cung cấp cho công dân trên môi trường mạng",
+    "D": "Là dịch vụ hành chính công và các dịch vụ khác của cơ quan nhà nước được cung cấp cho doanh nghiệp trên môi trường mạng 104"
+   },
+   "answer": "B",
+   "old_explain": "Là dịch vụ hành chính công và các dịch vụ khác của cơ quan nhà nước được cung cấp cho các tổ chức, cá nhân trên môi trường mạng. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 62,
+   "text": "Công cụ tìm kiếm thông tin trên Internet hiện nay",
+   "options": {
+    "A": "Bing",
+    "B": "Coccoc",
+    "C": "Tất cả đều đúng",
+    "D": "Google"
+   },
+   "answer": "C",
+   "old_explain": "Về Công cụ tìm kiếm thông tin trên Internet hiện nay, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
+  },
+  {
+   "id": 63,
+   "text": "Khách nước ngoài muốn biết được thông tin về các khách sạn tại thành phố Hà nội. Dịch vụ nào dưới đây được sử dụng:",
+   "options": {
+    "A": "Mobiphone",
+    "B": "Fax",
+    "C": "Trang web có hỗ trợ tìm kiếm thông tin Internet miễn phí như www.google.com",
+    "D": "Yahoo Mail"
+   },
+   "answer": "C",
+   "old_explain": "Công cụ tìm kiếm (Google…) giúp tìm URL/nội dung nhanh bằng từ khóa. Đặt cụm trong dấu nháy để khớp cụm từ; toán tử site: giới hạn kết quả trong một tên miền."
+  },
+  {
+   "id": 64,
+   "text": "Trên trang Web Google, để tìm các trang Web nói về cách trồng hoa Phong Lan, chúng ta nên gõ cụm từ nào là tốt nhất:",
+   "options": {
+    "A": "\" trồng hoa phong lan\"",
+    "B": "\"phonglan\"",
+    "C": "phong lan",
+    "D": "phong+lan"
+   },
+   "answer": "A",
+   "old_explain": "Công cụ tìm kiếm (Google…) giúp tìm URL/nội dung nhanh bằng từ khóa. Đặt cụm trong dấu nháy để khớp cụm từ; toán tử site: giới hạn kết quả trong một tên miền."
+  },
+  {
+   "id": 65,
+   "text": "Để tìm kiếm nhanh trang web nói về cách thức nuôi cá Basa, ta thực hiện:",
+   "options": {
+    "A": "Chúng ta mở trang web địa chỉ www.google.com/Nhập nội dung \"cách thức nuôi cá Basa\" vào ô tìm kiếm",
+    "B": "Chúng ta sử dụng trang vàng Internet có trên trang web tại địa chỉ www.vnn.vn",
+    "C": "Chúng ta mở trang web địa chỉ mail.yahoo.com",
+    "D": "Chúng ta mở trình duyệt Web"
+   },
+   "answer": "A",
+   "old_explain": "Công cụ tìm kiếm (Google…) giúp tìm URL/nội dung nhanh bằng từ khóa. Đặt cụm trong dấu nháy để khớp cụm từ; toán tử site: giới hạn kết quả trong một tên miền."
+  },
+  {
+   "id": 66,
+   "text": "Bạn làm thế nào để tìm ra địa chỉ của trang Web một cách nhanh nhất",
+   "options": {
+    "A": "Mở các liên kết tham khảo",
+    "B": "Sử dụng công cụ tìm kiếm trên Web",
+    "C": "Tìm trong các tập tài liệu, sách vở liên quan",
+    "D": "Hỏi bạn của mình"
+   },
+   "answer": "B",
+   "old_explain": "Cách đúng là: Sử dụng công cụ tìm kiếm trên Web. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 67,
+   "text": "Để tìm thông tin \"Công chức\" trên trang web “www.lamdong.gov.vn” ta vào google gõ từ khóa tìm kiếm nào để google trả về kết quả không có kết quả từ các trang web khác",
+   "options": {
+    "A": "Công chức ON: lamdong.gov.vn",
+    "B": "Công chức IN: lamdong.gov.vn",
+    "C": "Công chức SITE:lamdong.gov.vn 105",
+    "D": "Công chức FROM:lamdong.gov.vn"
+   },
+   "answer": "C",
+   "old_explain": "Công cụ tìm kiếm (Google…) giúp tìm URL/nội dung nhanh bằng từ khóa. Đặt cụm trong dấu nháy để khớp cụm từ; toán tử site: giới hạn kết quả trong một tên miền."
+  },
+  {
+   "id": 68,
+   "text": "Trang tìm kiếm Google có thể cho ra kết quả tìm kiếm theo?",
+   "options": {
+    "A": "Website",
+    "B": "Hình ảnh",
+    "C": "Video",
+    "D": "Tất cả các đáp án trên"
+   },
+   "answer": "D",
+   "old_explain": "Về Trang tìm kiếm Google có thể cho ra kết quả tìm kiếm theo, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
+  },
+  {
+   "id": 69,
+   "text": "Khi muốn lưu lại trang Web đang duyệt lên máy tính, bạn phải làm thế nào trên trình duyệt Internet Explorer?",
+   "options": {
+    "A": "File/ Save As",
+    "B": "File/ Download",
+    "C": "File/ Edit",
+    "D": "File/ Exit"
+   },
+   "answer": "A",
+   "old_explain": "Chuột phải ảnh → Save picture as lưu riêng file ảnh; File → Save As lưu cả trang (có tùy chọn HTML only nếu không cần kèm ảnh). Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
+  },
+  {
+   "id": 70,
+   "text": "Trong trình duyệt Internet Explorer, để lưu một bức ảnh về máy tính, ta làm như thế nào?",
+   "options": {
+    "A": "Chọn Tools/ Save picture as",
+    "B": "Nhấn chuột phải vào ảnh, chọn Save picture as",
+    "C": "Kích đúp vào ảnh rồi chọn Download",
+    "D": "Hai cách a và c đều đúng"
+   },
+   "answer": "B",
+   "old_explain": "Chuột phải ảnh → Save picture as lưu riêng file ảnh; File → Save As lưu cả trang (có tùy chọn HTML only nếu không cần kèm ảnh). Ghi nhớ đúng thao tác/khái niệm này giúp tránh nhầm với chức năng gần nghĩa trong cùng phần mềm."
+  },
+  {
+   "id": 71,
+   "text": "Phương án nào không dùng để in trang web",
+   "options": {
+    "A": "Trên thanh thực đơn nhấn File, chọn Print",
+    "B": "Trên thanh lệnh (Command bar), nhấn nút Print Preview",
+    "C": "Trên thanh lệnh (Command Bar), nhấn nút Print",
+    "D": "Nhấn tổ hợp phím Ctrl+P"
+   },
+   "answer": "B",
+   "old_explain": "Cách đúng là: Trên thanh lệnh (Command bar), nhấn nút Print Preview. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Print Preview xem trước bố cục in để phát hiện lỗi trước khi in giấy."
+  },
+  {
+   "id": 72,
+   "text": "Khi nhấp lệnh in 1 trang web các thông tin hiển thị như tên trang web, số trang hiện tại, địa chỉ trang web, ngày tháng được điều chỉnh tại mục nào của hộp thoại?",
+   "options": {
+    "A": "Headers and Footers",
+    "B": "Orientation",
+    "C": "Paper",
+    "D": "Margin"
+   },
+   "answer": "A",
+   "old_explain": "Page Number/Header/Footer gắn thông tin lặp trên các trang; Page Break ngắt sang trang mới đúng vị trí. Các lệnh nằm chủ yếu ở Insert và Page Layout."
+  },
+  {
+   "id": 73,
+   "text": "Dịch vụ thư điện tử được dùng để làm gì?",
+   "options": {
+    "A": "Trao đổi thư thông qua môi trường Internet",
+    "B": "Trao đổi thông tin trực tuyến",
+    "C": "Tìm kiếm thông tin",
+    "D": "Hội thoại trực tuyến"
+   },
+   "answer": "A",
+   "old_explain": "Cách đúng là: Trao đổi thư thông qua môi trường Internet. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 74,
+   "text": "Cấu trúc một địa chỉ thư điện tử? 106",
+   "options": {
+    "A": "<Tên miền>.<Tên người dùng>",
+    "B": "Tất cả đều sai",
+    "C": "<Tên miền>@<Tên người dùng>",
+    "D": "<Tên người dùng>@<Tên miền>"
+   },
+   "answer": "D",
+   "old_explain": "Email (Electronic mail) là dịch vụ gửi/nhận thư qua mạng. Địa chỉ chuẩn dạng tên_người_dùng@tên_miền; ký hiệu @ bắt buộc có trong địa chỉ email."
+  },
+  {
+   "id": 75,
+   "text": "Điều nào sau đây là lợi thế của thư điện tử so với thư tín gửi qua đường bưu điện",
+   "options": {
+    "A": "Thư điện tử luôn có độ an ninh cao hơn",
+    "B": "Tốc độ chuyển thư nhanh",
+    "C": "Thư điện tử luôn luôn được phân phát",
+    "D": "Có thể chuyển được lượng văn bản lớn hơn nhờ chức năng gắn kèm"
+   },
+   "answer": "B",
+   "old_explain": "Tốc độ chuyển thư nhanh. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 76,
+   "text": "Kí hiệu nào sau đây có thể tồn tại trong một địa chỉ Email?",
+   "options": {
+    "A": "Kí hiệu %",
+    "B": "Kí hiệu @",
+    "C": "Kí hiệu &",
+    "D": "Kí hiệu $"
+   },
+   "answer": "B",
+   "old_explain": "Email (Electronic mail) là dịch vụ gửi/nhận thư qua mạng. Địa chỉ chuẩn dạng tên_người_dùng@tên_miền; ký hiệu @ bắt buộc có trong địa chỉ email."
+  },
+  {
+   "id": 77,
+   "text": "Hai người đã tạo được tài khoản thư miễn phí tại địa chỉ MAIL.YAHOO.COM. Phát biểu nào dưới đây là sai?",
+   "options": {
+    "A": "Người này có thể mở được hộp thư của người kia và ngược lại nếu như 2 người biết tên đăng nhập và mật khẩu của nhau",
+    "B": "Hai người này buộc phải lựa chọn hai tên đăng nhập khác nhau",
+    "C": "Mật khẩu mở hộp thư của hai người này phải khác nhau.",
+    "D": "Hộp thư của cả hai đều nằm trên máy Mail Server của công ty Yahoo"
+   },
+   "answer": "C",
+   "old_explain": "Phải chọn phát biểu SAI: «Mật khẩu mở hộp thư của hai người này phải khác nhau». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
+  },
+  {
+   "id": 78,
+   "text": "Phát biểu nào dưới đây là sai?",
+   "options": {
+    "A": "Có thể đính kèm tệp văn bản theo thư điện tử",
+    "B": "Các thư từ máy gửi đến máy nhận qua Internet luôn chuyển tiếp qua máy Server của nhà cung cấp dịch vụ",
+    "C": "Thư điện tử luôn có độ tin cậy, an toàn tuyệt đối",
+    "D": "Người sử dụng có thể tự tạo cho mình 1 tài khoản sử dụng thư điện tử miễn phí qua trang Web"
+   },
+   "answer": "C",
+   "old_explain": "Phải chọn phát biểu SAI: «Thư điện tử luôn có độ tin cậy, an toàn tuyệt đối». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
+  },
+  {
+   "id": 79,
+   "text": "Với thư điện tử, phát biểu nào sau đây là sai?",
+   "options": {
+    "A": "Hai người có thể có địa chỉ thư giống nhau, ví dụ hoahong@yahoo.com",
+    "B": "Có thể gửi 1 thư đến 10 địa chỉ khác nhau",
+    "C": "Tệp tin đính kèm theo thư có thể chứa virút, vậy nên cần kiểm tra virút trước khi sử dụng",
+    "D": "1 người có thể gửi thư cho chính mình, nhiều lần"
+   },
+   "answer": "A",
+   "old_explain": "Phải chọn phát biểu SAI: «Hai người có thể có địa chỉ thư giống nhau, ví dụ hoahong@yahoo.com». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
+  },
+  {
+   "id": 80,
+   "text": "Địa chỉ nào không phải là địa chỉ email?",
+   "options": {
+    "A": "vnexpress.net",
+    "B": "nguyenvanb@hanoi.gov.vn",
+    "C": "tranvana@gmail.com",
+    "D": "ninhbinh@yahoo.com 107"
+   },
+   "answer": "A",
+   "old_explain": "Vnexpress.net. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 81,
+   "text": "Địa chỉ nào là địa chỉ email?",
+   "options": {
+    "A": "hanoi.edu.vn",
+    "B": "ninhbinh@yahoo.com",
+    "C": "vnexpress.net",
+    "D": "google.com"
+   },
+   "answer": "B",
+   "old_explain": "Email (Electronic mail) là dịch vụ gửi/nhận thư qua mạng. Địa chỉ chuẩn dạng tên_người_dùng@tên_miền; ký hiệu @ bắt buộc có trong địa chỉ email."
+  },
+  {
+   "id": 82,
+   "text": "Một người đang sử dụng dịch vụ thư điện tử miễn phí của Yahoo. Địa chỉ nào dưới đây được viết đúng?",
+   "options": {
+    "A": "yahoo.com@alpha2005",
+    "B": "Alpha",
+    "C": "alpha2005@yahoo.com",
+    "D": "alpha2005@yahoo"
+   },
+   "answer": "C",
+   "old_explain": "Email (Electronic mail) là dịch vụ gửi/nhận thư qua mạng. Địa chỉ chuẩn dạng tên_người_dùng@tên_miền; ký hiệu @ bắt buộc có trong địa chỉ email."
+  },
+  {
+   "id": 83,
+   "text": "Kí hiệu nào sau đây cần có trong một địa chỉ Email?",
+   "options": {
+    "A": "Kí hiệu $",
+    "B": "Kí hiệu &",
+    "C": "Kí hiệu %",
+    "D": "Kí hiệu @"
+   },
+   "answer": "D",
+   "old_explain": "Email (Electronic mail) là dịch vụ gửi/nhận thư qua mạng. Địa chỉ chuẩn dạng tên_người_dùng@tên_miền; ký hiệu @ bắt buộc có trong địa chỉ email."
+  },
+  {
+   "id": 84,
+   "text": "Để chặn các Email không mong muốn, thực hiện thao tác chọn Email, sau đó?",
+   "options": {
+    "A": "Kích nút Reply",
+    "B": "Kích nút Forward",
+    "C": "Kích nút Delete",
+    "D": "Kích nút Spam"
+   },
+   "answer": "D",
+   "old_explain": "Thư rác/không mong muốn thường vào thư mục Spam; có thể đánh dấu Spam để bộ lọc học và chặn tương tự. Không mở link/file đáng ngờ trong thư rác."
+  },
+  {
+   "id": 85,
+   "text": "Các Email rác được lưu trong thư mục nào?",
+   "options": {
+    "A": "Sent",
+    "B": "Spam",
+    "C": "Draft",
+    "D": "Inbox"
+   },
+   "answer": "B",
+   "old_explain": "Thư rác/không mong muốn thường vào thư mục Spam; có thể đánh dấu Spam để bộ lọc học và chặn tương tự. Không mở link/file đáng ngờ trong thư rác."
+  },
+  {
+   "id": 86,
+   "text": "Để tránh lây lan virus qua email, người dùng nên làm gì?",
+   "options": {
+    "A": "Không tải tập tin từ email khi không cần thiết (3)",
+    "B": "Không mở email của người lạ (2)",
+    "C": "Quét virus trước khi mở file gắn kèm trong email (1)",
+    "D": "Tất cả đáp án (1), (2) và (3) đều đúng"
+   },
+   "answer": "D",
+   "old_explain": "Về Để tránh lây lan virus qua email, người dùng nên làm gì, các ý được liệt kê đều đúng và bổ sung lẫn nhau. Khi đề cho phương án “tất cả đều đúng/cả (1)(2)(3)”, hãy kiểm tra từng ý thành phần thay vì chọn một ví dụ đơn lẻ."
+  },
+  {
+   "id": 87,
+   "text": "Để soạn thảo email cần mở phần mềm nào?",
+   "options": {
+    "A": "Outlook Express",
+    "B": "Microsoft Word",
+    "C": "Microsoft Excel 108",
+    "D": "Notepad"
+   },
+   "answer": "A",
+   "old_explain": "Cách đúng là: Outlook Express. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 88,
+   "text": "Email đang soạn thảo dở chưa được gửi đi sẽ được lưu tại đâu?",
+   "options": {
+    "A": "Trong thư mục Bulk",
+    "B": "Trong thư mục Sent",
+    "C": "Trong thư mục Draft",
+    "D": "Trong thư mục Inbox"
+   },
+   "answer": "C",
+   "old_explain": "Thư soạn dở chưa Send thường nằm trong Drafts (Thư nháp). Có thể mở lại để sửa và gửi sau."
+  },
+  {
+   "id": 89,
+   "text": "Để chuyển tiếp thư tới người khác, bạn sử dụng nút nào?",
+   "options": {
+    "A": "Attactment",
+    "B": "Reply",
+    "C": "Compose",
+    "D": "Forward"
+   },
+   "answer": "D",
+   "old_explain": "Forward chuyển tiếp thư (và thường cả đính kèm) tới người khác. Khác Reply vốn gửi phản hồi về người gửi gốc."
+  },
+  {
+   "id": 90,
+   "text": "Để soạn một thư điện tử mới, bạn chọn nút nào?",
+   "options": {
+    "A": "Attachment",
+    "B": "Compose",
+    "C": "Check Mail",
+    "D": "Reply"
+   },
+   "answer": "B",
+   "old_explain": "Compose mở cửa sổ soạn thư mới. Cần điền người nhận, Subject và nội dung trước khi Send."
+  },
+  {
+   "id": 91,
+   "text": "Để trả lời ngay thư điện tử khi đang xem thư, bạn chọn nút nào?",
+   "options": {
+    "A": "Check Mail",
+    "B": "Reply",
+    "C": "Compose",
+    "D": "Attachment"
+   },
+   "answer": "B",
+   "old_explain": "Reply trả lời người gửi; Reply to all trả lời cả người gửi và các người nhận khác trong thư. RE: trên Subject thường báo đây là thư trả lời."
+  },
+  {
+   "id": 92,
+   "text": "Tại sao cần thiết phải điền vào dòng chủ đề khi gửi thư?",
+   "options": {
+    "A": "Vì bạn bắt buộc phải điền vào phần đó thì mới gửi thư được",
+    "B": "Để thư của bạn không bị nhầm địa chỉ người nhận",
+    "C": "Để người nhận có thể nhận được thư",
+    "D": "Để cung cấp cho người nhận nội dung ngắn gọn của thư"
+   },
+   "answer": "D",
+   "old_explain": "Đáp án đúng khẳng định: Để cung cấp cho người nhận nội dung ngắn gọn của thư. Hiểu vì sao nội dung này đúng với tình huống đề (định nghĩa, điều kiện dùng hoặc kết quả thao tác) sẽ giúp làm các câu tương tự."
+  },
+  {
+   "id": 93,
+   "text": "Chức năng kiểm tra chính tả và sửa lỗi chính tả của thư điện tử nằm ở phần nào?",
+   "options": {
+    "A": "Thư nháp (Draf)",
+    "B": "Soạn thư (compose)",
+    "C": "Hộp thư đến (Inbox)",
+    "D": "Thư đã gửi (Sent)"
+   },
+   "answer": "B",
+   "old_explain": "Compose mở cửa sổ soạn thư mới. Cần điền người nhận, Subject và nội dung trước khi Send."
+  },
+  {
+   "id": 94,
+   "text": "Để gửi kèm một tệp với thư điện tử, bạn chọn nút nào?",
+   "options": {
+    "A": "Check Mail",
+    "B": "Compose 109",
+    "C": "Attachment",
+    "D": "Reply"
+   },
+   "answer": "C",
+   "old_explain": "Attachment đính kèm file gửi cùng email. Nên quét virus file lạ trước khi mở để giảm rủi ro mã độc."
+  },
+  {
+   "id": 95,
+   "text": "Trong khi soạn thảo email nếu muốn gởi kèm file chúng ta Nhấn vào nút?",
+   "options": {
+    "A": "send",
+    "B": "attachment",
+    "C": "save",
+    "D": "copy"
+   },
+   "answer": "B",
+   "old_explain": "Attachment đính kèm file gửi cùng email. Nên quét virus file lạ trước khi mở để giảm rủi ro mã độc."
+  },
+  {
+   "id": 96,
+   "text": "Email đã soạn thảo sẽ được lưu trữ trong mục nào sau đây nếu người dùng chưa bấm nút gửi thư?",
+   "options": {
+    "A": "Spam",
+    "B": "Outbox",
+    "C": "Draft",
+    "D": "Sent"
+   },
+   "answer": "C",
+   "old_explain": "Thư soạn dở chưa Send thường nằm trong Drafts (Thư nháp). Có thể mở lại để sửa và gửi sau."
+  },
+  {
+   "id": 97,
+   "text": "Muốn mở hộp thư đã lập bạn phải làm gì?",
+   "options": {
+    "A": "Cung cấp chính xác User và Password đã đăng ký cho máy chủ thư điện tử",
+    "B": "Đăng ký một tài khoản thư điện tử",
+    "C": "Có chương trình nhận/gửi thư điện tử",
+    "D": "Cung cấp tài khoản sử dụng Internet"
+   },
+   "answer": "A",
+   "old_explain": "Cách đúng là: Cung cấp chính xác User và Password đã đăng ký cho máy chủ thư điện tử. Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 98,
+   "text": "Để trả lời thư cho người gửi, bạn sử dụng nút nào?",
+   "options": {
+    "A": "Reply",
+    "B": "Forward",
+    "C": "Attactment",
+    "D": "Compose"
+   },
+   "answer": "A",
+   "old_explain": "Reply trả lời người gửi; Reply to all trả lời cả người gửi và các người nhận khác trong thư. RE: trên Subject thường báo đây là thư trả lời."
+  },
+  {
+   "id": 99,
+   "text": "Để chuyển tiếp thư tới người khác, bạn sử dụng nút nào?",
+   "options": {
+    "A": "Forward",
+    "B": "Attactment",
+    "C": "Compose",
+    "D": "Reply"
+   },
+   "answer": "A",
+   "old_explain": "Forward chuyển tiếp thư (và thường cả đính kèm) tới người khác. Khác Reply vốn gửi phản hồi về người gửi gốc."
+  },
+  {
+   "id": 100,
+   "text": "Để trả lời thư cho nhiều người, bạn sử dụng nút nào?",
+   "options": {
+    "A": "Reply to all",
+    "B": "Attactment",
+    "C": "Forward",
+    "D": "Compose"
+   },
+   "answer": "A",
+   "old_explain": "Reply trả lời người gửi; Reply to all trả lời cả người gửi và các người nhận khác trong thư. RE: trên Subject thường báo đây là thư trả lời."
+  },
+  {
+   "id": 101,
+   "text": "Chức năng lọc trong hộp thư đến không thể sắp xếp thư theo trình tự nào?",
+   "options": {
+    "A": "Sắp xếp thư theo dung lượng file đính kèm",
+    "B": "Sắp xếp thư theo ngày nhận 110",
+    "C": "Sắp xếp thư theo chủ đề",
+    "D": "Sắp xếp thư theo người gửi"
+   },
+   "answer": "A",
+   "old_explain": "Đáp án đúng là «Sắp xếp thư theo dung lượng file đính kèm». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
+  },
+  {
+   "id": 102,
+   "text": "Khi dòng chủ đề trong thư bạn nhận được bắt đầu bằng chữ \"RE:\", thì thông thường thư đó là thư gì?",
+   "options": {
+    "A": "Thư trả lời cho thư mà bạn đã gửi cho người đó",
+    "B": "Thư của nhà cung cấp dịch vụ Email mà bạn đang sử dụng",
+    "C": "Thư rác, thư quảng cáo",
+    "D": "Thư mới"
+   },
+   "answer": "A",
+   "old_explain": "Thư trả lời cho thư mà bạn đã gửi cho người đó. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 103,
+   "text": "Cách nhận thư điện tử đã đọc và thư điện tử chưa đọc trong hộp thư đến (Inbox) là gì?",
+   "options": {
+    "A": "Thư đã đọc in đậm, thư chưa đọc in nghiêng",
+    "B": "Thư đã đọc in nghiêng, thư chưa đọc in đậm",
+    "C": "Thư đã đọc in đậm, thư chưa đọc in thường",
+    "D": "Thư đã đọc in thường, thư chưa đọc in đậm"
+   },
+   "answer": "D",
+   "old_explain": "Trong Inbox, thư chưa đọc thường in đậm; thư đã đọc chuyển về kiểu thường. Giúp nhận biết nhanh thư mới."
+  },
+  {
+   "id": 104,
+   "text": "Muốn tìm kiếm email có nguồn gốc từ địa chỉ home@hanoiitct.edu.vn. Ta dùng cú pháp nào sau đây?",
+   "options": {
+    "A": "\"from:home@hanoi-itct.edu.vn\"",
+    "B": "\"to:home@hanoi-itct.edu.vn\"",
+    "C": "\"source:home@hanoi-itct.edu.vn\"",
+    "D": "\"send:home@hanoi-itct.edu.vn\""
+   },
+   "answer": "A",
+   "old_explain": "Công cụ tìm kiếm (Google…) giúp tìm URL/nội dung nhanh bằng từ khóa. Đặt cụm trong dấu nháy để khớp cụm từ; toán tử site: giới hạn kết quả trong một tên miền."
+  },
+  {
+   "id": 105,
+   "text": "Đâu là thư mục không có sẵn trong tài khoản Email",
+   "options": {
+    "A": "Draft",
+    "B": "Sent",
+    "C": "MyEmail",
+    "D": "Spam"
+   },
+   "answer": "C",
+   "old_explain": "MyEmail. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 106,
+   "text": "Email đã soạn thảo sẽ được lưu trữ trong mục nào sau đây nếu người dùng chưa bấm nút gửi thư?",
+   "options": {
+    "A": "Outbox",
+    "B": "Sent",
+    "C": "Draft",
+    "D": "Spam"
+   },
+   "answer": "C",
+   "old_explain": "Thư soạn dở chưa Send thường nằm trong Drafts (Thư nháp). Có thể mở lại để sửa và gửi sau."
+  },
+  {
+   "id": 107,
+   "text": "Thông tin nào bắt buộc phải có trong sổ địa chỉ Email",
+   "options": {
+    "A": "Địa chỉ",
+    "B": "Địa chỉ Email",
+    "C": "Họ và tên",
+    "D": "Số điện thoại"
+   },
+   "answer": "B",
+   "old_explain": "Đáp án đúng là «Địa chỉ Email». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
+  },
+  {
+   "id": 108,
+   "text": "Trong khi gửi Email, để người nhận không thể biết những ai cùng nhận thư với mình ta cần điền địa chỉ email của người đó vào mục nào sau đây?",
+   "options": {
+    "A": "TO",
+    "B": "SEND",
+    "C": "CC",
+    "D": "BCC 111"
+   },
+   "answer": "D",
+   "old_explain": "BCC (Blind Carbon Copy) gửi ẩn danh sách người nhận phụ: mỗi người không thấy địa chỉ BCC khác. Dùng khi cần bảo mật danh sách người nhận."
+  },
+  {
+   "id": 109,
+   "text": "Đâu là thuật ngữ chỉ dịch vụ tin nhắn tức thời?",
+   "options": {
+    "A": "IM (Internet Message)",
+    "B": "IM (Instant Message)",
+    "C": "IM (Internet Messaging)",
+    "D": "IM (Instant Messaging)"
+   },
+   "answer": "D",
+   "old_explain": "IM (Instant Messaging) trao đổi tin nhắn gần như thời gian thực. Phù hợp hỏi đáp nhanh hơn email, nhưng không phải kho lưu trữ lớn như dịch vụ lưu file."
+  },
+  {
+   "id": 110,
+   "text": "Đâu không phải là lợi ích chủ yếu của dịch vụ tin nhắn tức thời?",
+   "options": {
+    "A": "Biết rõ người liên hệ đang trực tuyến hay không",
+    "B": "Truyền thông thời gian thực",
+    "C": "Kho lưu trữ dữ liệu lớn",
+    "D": "Gửi dữ liệu nhanh chóng"
+   },
+   "answer": "C",
+   "old_explain": "Kho lưu trữ dữ liệu lớn. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 111,
+   "text": "Khi cần trao đổi thông tin theo thời gian thực, người dùng sử dụng dịch vụ nào?",
+   "options": {
+    "A": "Blog",
+    "B": "IM",
+    "C": "SMS",
+    "D": "Email khẩn"
+   },
+   "answer": "B",
+   "old_explain": "IM (Instant Messaging) trao đổi tin nhắn gần như thời gian thực. Phù hợp hỏi đáp nhanh hơn email, nhưng không phải kho lưu trữ lớn như dịch vụ lưu file."
+  },
+  {
+   "id": 112,
+   "text": "Hai người trao đổi thông tin với nhau qua ứng dụng hội thoại trong cùng một mạng cơ quan. Phát biểu nào sau đây là đúng?",
+   "options": {
+    "A": "Dữ liệu đi trực tiếp giữa hai máy",
+    "B": "Dữ liệu truyền về máy chủ internet Việt Nam và quay về máy đang chat",
+    "C": "Dữ liệu truyền không được",
+    "D": "Dữ liệu truyền từ máy đang hội thoại lên máy chủ có dịch vụ hội thoại của cơ quan và quay về máy bên kia"
+   },
+   "answer": "D",
+   "old_explain": "Dữ liệu truyền từ máy đang hội thoại lên máy chủ có dịch vụ hội thoại của cơ quan và quay về máy bên kia. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 113,
+   "text": "Muốn trao đổi trực tuyến với người dùng khác trên mạng, bạn sử dụng dịch vụ gì?",
+   "options": {
+    "A": "Tải tệp tin (FTP)",
+    "B": "Thư điện tử (e-mail)",
+    "C": "Tìm kiếm (search)",
+    "D": "Tán gẫu (Chat)"
+   },
+   "answer": "D",
+   "old_explain": "Cách đúng là: Tán gẫu (Chat). Thực hiện đúng thao tác/đúng công cụ sẽ ra kết quả đề yêu cầu. Ghi nhớ vị trí lệnh và điều kiện áp dụng để làm bài thực hành nhanh hơn."
+  },
+  {
+   "id": 114,
+   "text": "Facebook hay Myspace là…?",
+   "options": {
+    "A": "Trang viết cá nhân",
+    "B": "Trang chuyên cung cấp thông tin thời sự",
+    "C": "Trang web của chính phủ",
+    "D": "Trang mạng xã hội"
+   },
+   "answer": "D",
+   "old_explain": "Đáp án đúng là «Trang mạng xã hội». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
+  },
+  {
+   "id": 115,
+   "text": "Nơi cộng đồng mạng thường trao đổi gọi là gì? 112",
+   "options": {
+    "A": "Forum",
+    "B": "Portal",
+    "C": "Community",
+    "D": "Blog"
+   },
+   "answer": "A",
+   "old_explain": "Forum. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 116,
+   "text": "Nội dung các trang tin cá nhân (blog) bao gồm những loại dữ liệu gì?",
+   "options": {
+    "A": "Chỉ chứa video, ảnh động",
+    "B": "Chỉ chứa văn bản",
+    "C": "Đa phương tiện",
+    "D": "Chỉ chứa hình ảnh"
+   },
+   "answer": "C",
+   "old_explain": "Đáp án đúng là «Đa phương tiện». Hãy gắn thuật ngữ/thao tác này với chức năng thực tế trong máy tính để phân biệt các phương án gần nghĩa."
+  },
+  {
+   "id": 117,
+   "text": "Trong các câu sau đây, câu nào sai?",
+   "options": {
+    "A": "Thương mại điện tử là một khái niệm mới mẻ ở Việt Nam",
+    "B": "Thương mại điện tử giúp doanh nghiệp vươn ra thị trường thế giới",
+    "C": "Thương mại điện tử giúp doanh nghiệp giảm chi phí và tăng hiệu quả trong quảng cáo",
+    "D": "Thương mại điện tử hoàn toàn độc lập với các hoạt động thương mại truyền thống"
+   },
+   "answer": "D",
+   "old_explain": "Phải chọn phát biểu SAI: «Thương mại điện tử hoàn toàn độc lập với các hoạt động thương mại truyền thống». Dạng câu này yêu cầu nhận diện nội dung không đúng kiến thức tin học. So sánh với thực tế thao tác/định nghĩa chuẩn để loại trừ các ý đúng."
+  },
+  {
+   "id": 118,
+   "text": "Phương tiện điện tử được dùng phổ biến nhất là gì?",
+   "options": {
+    "A": "Tiền điện tử",
+    "B": "Thẻ ghi nợ",
+    "C": "Thẻ tín dụng",
+    "D": "Thẻ thông minh"
+   },
+   "answer": "C",
+   "old_explain": "Thẻ tín dụng. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 119,
+   "text": "Nguyên tắc đảm bảo an toàn cho mật khẩu đối với người sử dụng khi điền thông tin, các biểu mẫu để thực hiện thanh toán khi giao dịch thương mại điện tử là gì?",
+   "options": {
+    "A": "Đặt mật khẩu trùng với địa chỉ email giao dịch",
+    "B": "Mã hóa mật khẩu khi lưu trữ",
+    "C": "Quy định thời gian sử dụng tối đa của mật khẩu",
+    "D": "Không dùng mật khẩu quá ngắn, mật khẩu có chứa tên người dùng, mật khẩu là những từ có nghĩa trong từ điển"
+   },
+   "answer": "D",
+   "old_explain": "Không dùng mật khẩu quá ngắn, mật khẩu có chứa tên người dùng, mật khẩu là những từ có nghĩa trong từ điển. Hãy nắm đặc điểm cốt lõi trong định nghĩa này để phân biệt với các khái niệm gần nghĩa trong cùng chủ đề."
+  },
+  {
+   "id": 120,
+   "text": "Lựa chọn góp phần giảm thiểu rủi ro khi mua hàng trực tuyến?",
+   "options": {
+    "A": "Đảm bảo cung cấp thông tin thẻ tín dụng của bạn qua điện thoại",
+    "B": "Gửi thông tin thẻ tín dụng chỉ bằng e-mail",
+    "C": "Hãy chắc chắn rằng trang web này là an toàn và địa chỉ URL hiển thị https",
+    "D": "Chỉ mua hàng trong giờ làm việc --- <a id=\"phu-luc-word\"></a> # PHỤ LỤC: BÀI THỰC HÀNH WORD (TỪ FILE ĐÍNH KÈM) ## A. Bài thực hành Word số 2 ### A1. Bài số 2 – Equation Dùng **Insert → Equation** soạn đúng các công thức trong file `Bai thuc hanh word so 2.pdf` (các công thức dạng ảnh trong đề). **Gợi ý kỹ thuật:** - Phân số: Fraction - Chỉ số: Superscript / Subscript - Căn: Radical - Tổng/tích phân: Large Operator - Sau khi chèn: căn giữa; giữ nguyên ký hiệu toán học Unicode ### A2. Bài số 3 – Hóa đơn bán hàng (Tab + Leader) Soạn mẫu hóa đơn theo đề, bắt buộc dùng **Tab stop** tạo dòng chấm. **Tóm tắt thao tác (đã nêu ở Module 3):** Paragraph → Tabs → Tab stop position + Alignment + Leader → Set → OK → gõ chữ rồi nhấn Tab. | Thành phần Tab | Ý nghĩa | |----------------|---------| | Tab stop position | Vị trí dừng dòng chấm | | Default tab stops | Khoảng cách mặc định | | Alignment Left/Center/Right | Canh nội dung tại điểm Tab | | Leader | Kiểu chấm / gạch dưới | ## B. Bài TH Word số 3 File `Bài TH word số 3.pdf` yêu cầu **soạn thảo các văn bản mẫu (1), (2), (3)** (dạng ảnh scan trong PDF). **Yêu cầu chung khi làm:** 1. Bám sát bố cục mẫu (căn lề, bảng, khoảng cách dòng). 2. Font Times New Roman (hoặc đúng mẫu đề). 3. Dùng Table khi mẫu là bảng; dùng Tab/Leader khi mẫu có dòng chấm. 4. Header/Footer, số trang nếu mẫu có. 5. Nộp file `.docx` đúng tên quy định giảng viên. ---"
+   },
+   "answer": "C",
+   "old_explain": "Khi thanh toán/mua hàng online nên kiểm tra trang dùng HTTPS và đáng tin. HTTPS mã hóa đường truyền, giảm rủi ro bị nghe lén thông tin thẻ/mật khẩu."
+  }
+ ]
+}

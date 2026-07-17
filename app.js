@@ -2,177 +2,310 @@
   const params = new URLSearchParams(location.search);
   const moduleId = Number(params.get("module") || "0");
   const data = window.QUIZ_DATA;
-
   const $ = (id) => document.getElementById(id);
-  const errorEl = $("error");
-  const quizView = $("quiz-view");
-  const resultView = $("result-view");
 
   if (!data?.modules?.length) {
-    showError("Không tải được dữ liệu quiz-data.js");
+    showError("Không tải được dữ liệu quiz.");
     return;
   }
 
   const mod = data.modules.find((m) => m.id === moduleId);
   if (!mod) {
-    showError("Không tìm thấy module. Quay lại trang chủ để chọn module.");
+    showError('Không tìm thấy module. <a href="home.html">Về trang chủ</a>');
     return;
   }
 
+  const storageKey = `thvp-quiz-m${moduleId}`;
+  const questions = mod.questions;
+  let answers = Object.create(null);
+  let index = 0;
+  let jumpFilter = "all";
+  let reviewRows = [];
+  let menuOpen = false;
+
   document.title = `THVP Quiz – ${mod.short}`;
   $("module-eyebrow").textContent = mod.short;
-  $("module-title").textContent = mod.title;
-  fillSlideBanner(moduleId);
+  setupSlides(moduleId);
+  restoreProgress();
+  $("quiz-view").classList.remove("hidden");
 
-  const questions = mod.questions;
-  const answers = Object.create(null);
-  let index = 0;
-
-  quizView.classList.remove("hidden");
-
-  $("btn-prev").addEventListener("click", () => {
-    if (index > 0) {
-      index -= 1;
-      renderQuestion();
-    }
-  });
-
+  $("btn-prev").addEventListener("click", () => go(-1));
   $("btn-next").addEventListener("click", () => {
-    if (index < questions.length - 1) {
-      index += 1;
-      renderQuestion();
-    }
+    if (index >= questions.length - 1) showResults();
+    else go(1);
   });
-
   $("btn-submit").addEventListener("click", () => {
-    const answered = Object.keys(answers).length;
-    const msg =
-      answered < questions.length
-        ? `Bạn mới trả lời ${answered}/${questions.length} câu. Xem tổng kết ngay?`
-        : "Xem tổng kết toàn module?";
-    if (confirm(msg)) showResults();
+    closeMenu();
+    const n = Object.keys(answers).length;
+    if (n < questions.length && !confirm(`Đã làm ${n}/${questions.length} câu. Xem tổng kết?`)) return;
+    showResults();
+  });
+  $("btn-retry").addEventListener("click", () => {
+    if (!confirm("Xóa tiến độ và làm lại?")) return;
+    clearProgress();
+    location.reload();
+  });
+  $("btn-reset").addEventListener("click", () => {
+    closeMenu();
+    if (!confirm("Xóa tiến độ module này?")) return;
+    clearProgress();
+    location.reload();
+  });
+  $("btn-menu").addEventListener("click", (e) => {
+    e.stopPropagation();
+    menuOpen = !menuOpen;
+    $("qz-menu").classList.toggle("hidden", !menuOpen);
+    $("btn-menu").setAttribute("aria-expanded", String(menuOpen));
+  });
+  document.addEventListener("click", () => closeMenu());
+  $("qz-menu").addEventListener("click", (e) => e.stopPropagation());
+
+  $("btn-map").addEventListener("click", () => openMap(true));
+  $("btn-close-map").addEventListener("click", () => openMap(false));
+  $("map-backdrop").addEventListener("click", () => openMap(false));
+
+  $("btn-filter-jump").addEventListener("click", () => {
+    jumpFilter = jumpFilter === "all" ? "wrong" : jumpFilter === "wrong" ? "todo" : "all";
+    $("btn-filter-jump").textContent =
+      { all: "Tất cả", wrong: "Chỉ sai", todo: "Chưa làm" }[jumpFilter];
+    buildJump();
   });
 
-  $("btn-retry").addEventListener("click", () => location.reload());
-
-  $("btn-review").addEventListener("click", () => {
-    $("review-wrap").classList.remove("hidden");
-    $("review-wrap").scrollIntoView({ behavior: "smooth", block: "start" });
+  $("btn-review-wrong").addEventListener("click", () => {
+    setReviewFilter("wrong");
+    $("review-wrap").scrollIntoView({ behavior: "smooth" });
   });
 
+  document.querySelectorAll(".review-filters .qz-chip").forEach((chip) => {
+    chip.addEventListener("click", () => setReviewFilter(chip.dataset.filter));
+  });
+
+  document.addEventListener("keydown", onKey);
   renderQuestion();
 
-  function showError(msg) {
-    errorEl.classList.remove("hidden");
-    errorEl.innerHTML = `<p>${msg}</p><p><a class="btn btn-primary" href="index.html">Về trang chủ</a></p>`;
+  function closeMenu() {
+    menuOpen = false;
+    $("qz-menu")?.classList.add("hidden");
+    $("btn-menu")?.setAttribute("aria-expanded", "false");
   }
 
-  function renderQuestion() {
+  function openMap(on) {
+    $("qz-map").classList.toggle("hidden", !on);
+    $("qz-map").setAttribute("aria-hidden", String(!on));
+    if (on) {
+      closeMenu();
+      buildJump();
+    }
+  }
+
+  function onKey(e) {
+    if (!$("result-view").classList.contains("hidden")) return;
+    if (e.target.matches("input, textarea, select")) return;
+    if (!$("qz-map").classList.contains("hidden") && e.key === "Escape") {
+      openMap(false);
+      return;
+    }
+    const key = e.key.toUpperCase();
+    const q = questions[index];
+    const revealed = Boolean(answers[q.id]);
+
+    if (!revealed && ["A", "B", "C", "D"].includes(key)) {
+      e.preventDefault();
+      selectAnswer(key);
+      return;
+    }
+    if (e.key === "ArrowLeft") {
+      e.preventDefault();
+      go(-1);
+    } else if (e.key === "ArrowRight" || (e.key === "Enter" && revealed)) {
+      e.preventDefault();
+      if (index >= questions.length - 1 && revealed) showResults();
+      else if (e.key === "ArrowRight" || revealed) go(1);
+    }
+  }
+
+  function go(delta) {
+    const next = index + delta;
+    if (next < 0 || next >= questions.length) return;
+    index = next;
+    saveProgress();
+    renderQuestion({ scrollTop: true });
+  }
+
+  function selectAnswer(key) {
+    const q = questions[index];
+    if (answers[q.id]) return;
+    answers[q.id] = key;
+    saveProgress();
+    renderQuestion({ focusFeedback: true });
+  }
+
+  function showError(msg) {
+    const el = $("error");
+    el.classList.remove("hidden");
+    el.innerHTML = msg;
+  }
+
+  function renderQuestion(opts = {}) {
     const q = questions[index];
     const selected = answers[q.id] || null;
     const revealed = Boolean(selected);
+    const { correct, wrong } = tally();
+    const done = Object.keys(answers).length;
+    const pct = Math.round((done / questions.length) * 100);
 
     $("q-label").textContent = `Câu ${q.id}`;
     $("q-text").textContent = q.text;
-    $("progress-text").textContent = `Câu ${index + 1} / ${questions.length}`;
-    $("answered-text").textContent = `Đã trả lời: ${Object.keys(answers).length}`;
-    $("progress-fill").style.width = `${((index + 1) / questions.length) * 100}%`;
+    $("progress-text").textContent = `${index + 1}/${questions.length}`;
+    $("score-live").textContent = `${correct} đúng · ${wrong} sai`;
+    $("progress-fill").style.width = `${pct}%`;
+    document.querySelector(".qz-bar")?.setAttribute("aria-valuenow", String(pct));
     $("btn-prev").disabled = index === 0;
-    $("btn-next").disabled = index === questions.length - 1;
+    $("btn-next").textContent = index >= questions.length - 1 ? "Tổng kết" : "Tiếp";
+    $("btn-next").classList.toggle("ready", revealed);
 
     $("options").innerHTML = ["A", "B", "C", "D"]
       .map((key) => {
-        let cls = "option";
+        let cls = "qz-choice";
         if (revealed) {
           if (key === q.answer) cls += " is-correct";
-          if (selected === key && key !== q.answer) cls += " is-wrong";
-          if (selected === key) cls += " selected";
+          else if (selected === key) cls += " is-wrong";
+          else cls += " is-dim";
         }
-        return `<button type="button" class="${cls}" data-key="${key}" ${revealed ? "disabled" : ""}>
-          <span class="key">${key}</span>
-          <span>${escapeHtml(q.options[key])}</span>
+        return `<button type="button" class="${cls}" data-key="${key}" role="option" ${revealed ? "disabled" : ""}>
+          <span class="letter">${key}</span>
+          <span class="body">${escapeHtml(q.options[key])}</span>
         </button>`;
       })
       .join("");
 
     if (!revealed) {
-      $("options").querySelectorAll(".option").forEach((btn) => {
-        btn.addEventListener("click", () => {
-          answers[q.id] = btn.dataset.key;
-          renderQuestion();
-        });
+      $("options").querySelectorAll(".qz-choice").forEach((btn) => {
+        btn.addEventListener("click", () => selectAnswer(btn.dataset.key));
       });
     }
 
     renderFeedback(q, selected);
-    buildJump();
+
+    if (opts.scrollTop) {
+      const sc = $("qz-scroll");
+      if (sc) sc.scrollTop = 0;
+    }
+    if (opts.focusFeedback) {
+      requestAnimationFrame(() => {
+        const fb = $("instant-feedback");
+        if (fb && !fb.classList.contains("hidden")) {
+          fb.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        }
+      });
+    }
+    if (!$("qz-map").classList.contains("hidden")) buildJump();
   }
 
   function renderFeedback(q, selected) {
     const box = $("instant-feedback");
     if (!selected) {
-      box.classList.add("hidden");
+      box.className = "qz-fb hidden";
       box.innerHTML = "";
       return;
     }
 
     const ok = selected === q.answer;
-    const knowledge = (q.explain || "").trim();
-
-    box.classList.remove("hidden");
-    box.className = `instant-feedback ${ok ? "ok" : "bad"}`;
+    box.className = `qz-fb ${ok ? "ok" : "bad"}`;
     box.innerHTML = `
-      <div class="fb-head">${ok ? "Chính xác" : "Chưa đúng"}</div>
-      <p class="fb-line"><strong>Bạn chọn:</strong> ${selected}. ${escapeHtml(q.options[selected])}</p>
-      <p class="fb-line"><strong>Đáp án đúng:</strong> ${q.answer}. ${escapeHtml(q.options[q.answer])}</p>
-      <div class="knowledge">
-        <b>Giải thích / kiến thức</b>
-        ${escapeHtml(knowledge)}
-      </div>
-      <div class="fb-actions">
-        ${
-          index < questions.length - 1
-            ? `<button type="button" class="btn btn-primary" id="btn-go-next">Câu tiếp theo →</button>`
-            : `<button type="button" class="btn btn-primary" id="btn-go-summary">Xem tổng kết module</button>`
-        }
+      <p class="fb-title">${ok ? "Chính xác" : "Chưa đúng"}</p>
+      ${
+        ok
+          ? ""
+          : `<p class="fb-line">Đáp án đúng: <strong>${q.answer}. ${escapeHtml(q.options[q.answer])}</strong></p>`
+      }
+      ${explainHtml(q)}
+    `;
+  }
+
+  function explainHtml(q) {
+    const icon = (q.icon || "💡").trim();
+    const summary = escapeHtml(
+      (q.explain || "").trim() || "Xem lại slides lý thuyết của module này."
+    );
+    const detail = (q.detail || "").trim();
+    return `
+      <div class="fb-explain">
+        <span class="fb-icon" aria-hidden="true">${escapeHtml(icon)}</span>
+        <div class="fb-explain-body">
+          <p class="fb-summary">${summary}</p>
+          ${
+            detail
+              ? `<details class="fb-detail">
+                  <summary>Chi tiết</summary>
+                  <p>${escapeHtml(detail)}</p>
+                </details>`
+              : ""
+          }
+        </div>
       </div>
     `;
-
-    const nextBtn = $("btn-go-next");
-    if (nextBtn) {
-      nextBtn.addEventListener("click", () => {
-        index += 1;
-        renderQuestion();
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      });
-    }
-    const sumBtn = $("btn-go-summary");
-    if (sumBtn) sumBtn.addEventListener("click", showResults);
   }
 
   function buildJump() {
     const jump = $("jump");
-    jump.innerHTML = questions
-      .map((q, i) => {
-        const cls = ["dot", answers[q.id] ? "answered" : "", i === index ? "current" : ""]
+    const items = questions
+      .map((q, i) => ({ q, i }))
+      .filter(({ q }) => {
+        const a = answers[q.id];
+        if (jumpFilter === "wrong") return a && a !== q.answer;
+        if (jumpFilter === "todo") return !a;
+        return true;
+      });
+
+    if (!items.length) {
+      jump.innerHTML = `<p class="empty">Không có câu trong bộ lọc này.</p>`;
+      return;
+    }
+
+    jump.innerHTML = items
+      .map(({ q, i }) => {
+        const a = answers[q.id];
+        const cls = [
+          "dot",
+          i === index ? "current" : "",
+          a && a === q.answer ? "ok" : "",
+          a && a !== q.answer ? "bad" : "",
+        ]
           .filter(Boolean)
           .join(" ");
-        const mark =
-          answers[q.id] && answers[q.id] === q.answer
-            ? " ok-dot"
-            : answers[q.id]
-              ? " bad-dot"
-              : "";
-        return `<button type="button" class="${cls}${mark}" data-i="${i}" title="Câu ${q.id}">${q.id}</button>`;
+        return `<button type="button" class="${cls}" data-i="${i}">${q.id}</button>`;
       })
       .join("");
 
     jump.querySelectorAll("button").forEach((btn) => {
       btn.addEventListener("click", () => {
         index = Number(btn.dataset.i);
-        renderQuestion();
+        openMap(false);
+        saveProgress();
+        renderQuestion({ scrollTop: true });
       });
     });
+  }
+
+  function tally() {
+    let correct = 0;
+    let wrong = 0;
+    for (const q of questions) {
+      const a = answers[q.id];
+      if (!a) continue;
+      if (a === q.answer) correct += 1;
+      else wrong += 1;
+    }
+    return { correct, wrong };
+  }
+
+  function gradeLabel(pct) {
+    if (pct >= 90) return "Xuất sắc";
+    if (pct >= 80) return "Giỏi";
+    if (pct >= 65) return "Khá";
+    if (pct >= 50) return "Trung bình";
+    return "Cần ôn thêm";
   }
 
   function showResults() {
@@ -180,52 +313,99 @@
     let wrong = 0;
     let skip = 0;
 
-    const rows = questions.map((q) => {
+    reviewRows = questions.map((q) => {
       const user = answers[q.id] || null;
       const ok = user === q.answer;
       if (!user) skip += 1;
       else if (ok) correct += 1;
       else wrong += 1;
-      return { q, user, ok };
+      return { q, user, ok, status: !user ? "skip" : ok ? "correct" : "wrong" };
     });
 
     const pct = Math.round((correct / questions.length) * 100);
-
-    quizView.classList.add("hidden");
-    resultView.classList.remove("hidden");
+    $("quiz-view").classList.add("hidden");
+    $("result-view").classList.remove("hidden");
+    document.body.classList.add("showing-result");
+    document.removeEventListener("keydown", onKey);
+    openMap(false);
+    closeMenu();
 
     $("result-title").textContent = `${mod.short}: ${mod.title}`;
     $("score-pct").textContent = `${pct}%`;
     $("score-ring").style.setProperty("--pct", String(pct));
-    $("score-summary").textContent = `Bạn đúng ${correct}/${questions.length} câu.`;
+    $("score-grade").textContent = gradeLabel(pct);
+    $("score-summary").textContent = `Đúng ${correct}/${questions.length} · Sai ${wrong} · Chưa làm ${skip}`;
     $("stat-correct").textContent = String(correct);
     $("stat-wrong").textContent = String(wrong);
     $("stat-skip").textContent = String(skip);
+    setReviewFilter("all");
+    window.scrollTo({ top: 0 });
+  }
 
-    $("review-wrap").classList.remove("hidden");
-    $("review-list").innerHTML = rows
-      .map(({ q, user, ok }) => {
-        const status = !user ? "wrong" : ok ? "correct" : "wrong";
-        const badge = !user
-          ? `<span class="badge bad">Chưa trả lời</span>`
-          : ok
-            ? `<span class="badge ok">Đúng</span>`
-            : `<span class="badge bad">Sai</span>`;
+  function setReviewFilter(filter) {
+    document.querySelectorAll(".review-filters .qz-chip").forEach((c) => {
+      c.classList.toggle("active", c.dataset.filter === filter);
+    });
 
-        return `<article class="review-item ${status}">
-          ${badge}
-          <h3>Câu ${q.id}. ${escapeHtml(q.text)}</h3>
-          <p class="choice-line">Bạn chọn: <strong>${user ? user + ". " + escapeHtml(q.options[user]) : "—"}</strong></p>
-          <p class="choice-line">Đáp án đúng: <strong>${q.answer}. ${escapeHtml(q.options[q.answer])}</strong></p>
-          <div class="knowledge">
-            <b>Giải thích / kiến thức</b>
-            ${escapeHtml((q.explain || "").trim())}
-          </div>
-        </article>`;
-      })
-      .join("");
+    const filtered = reviewRows.filter((r) => {
+      if (filter === "all") return true;
+      return r.status === filter;
+    });
 
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    $("review-list").innerHTML = filtered.length
+      ? filtered
+          .map(({ q, user, ok, status }) => {
+            const badge =
+              status === "skip"
+                ? `<span class="qz-badge bad">Chưa làm</span>`
+                : ok
+                  ? `<span class="qz-badge ok">Đúng</span>`
+                  : `<span class="qz-badge bad">Sai</span>`;
+            return `<article class="qz-review ${status === "correct" ? "correct" : "wrong"}">
+              ${badge}
+              <h3>Câu ${q.id}. ${escapeHtml(q.text)}</h3>
+              <p class="line">Bạn chọn: <strong>${user ? user + ". " + escapeHtml(q.options[user]) : "—"}</strong></p>
+              <p class="line">Đáp án đúng: <strong>${q.answer}. ${escapeHtml(q.options[q.answer])}</strong></p>
+              ${explainHtml(q)}
+            </article>`;
+          })
+          .join("")
+      : `<p class="empty">Không có câu nào trong bộ lọc này.</p>`;
+  }
+
+  function setupSlides(mid) {
+    const link = $("link-slides");
+    if (!link || !window.LEARN_PATH) return;
+    const unit = window.LEARN_PATH.units.find((u) => u.modules.some((m) => m.id === mid));
+    if (!unit?.slides) {
+      link.classList.add("hidden");
+      return;
+    }
+    link.href = unit.slides.url;
+  }
+
+  function saveProgress() {
+    try {
+      localStorage.setItem(storageKey, JSON.stringify({ answers, index, ts: Date.now() }));
+    } catch {}
+  }
+
+  function restoreProgress() {
+    try {
+      const raw = localStorage.getItem(storageKey);
+      if (!raw) return;
+      const saved = JSON.parse(raw);
+      if (saved?.answers) answers = saved.answers;
+      if (Number.isInteger(saved?.index) && saved.index >= 0 && saved.index < questions.length) {
+        index = saved.index;
+      }
+    } catch {}
+  }
+
+  function clearProgress() {
+    try {
+      localStorage.removeItem(storageKey);
+    } catch {}
   }
 
   function escapeHtml(str) {
@@ -234,19 +414,5 @@
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
-  }
-
-  function fillSlideBanner(mid) {
-    const banner = $("slide-banner");
-    if (!banner || !window.LEARN_PATH) return;
-    const unit = window.LEARN_PATH.units.find((u) =>
-      u.modules.some((m) => m.id === mid)
-    );
-    if (!unit?.slides) return;
-    banner.classList.remove("hidden");
-    banner.innerHTML = `
-      <p><strong>Bước 1:</strong> Xem slides lý thuyết trước — ${escapeHtml(unit.slides.label)}</p>
-      <a class="btn btn-primary" href="${unit.slides.url}" target="_blank" rel="noopener">Mở slides</a>
-    `;
   }
 })();

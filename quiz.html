@@ -2,91 +2,108 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>THVP Quiz</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="quiz.css" />
 </head>
-<body>
-  <div class="wrap">
-    <header class="topbar">
-      <a class="brand" href="home.html">THVP <span>Quiz</span></a>
-      <nav class="top-nav">
-        <a class="btn btn-ghost" href="home.html">Trang chủ</a>
-        <a class="btn btn-ghost" href="index.html">Tất cả quiz</a>
-      </nav>
+<body class="qz">
+  <div id="error" class="qz-error hidden"></div>
+
+  <div id="quiz-view" class="qz-shell hidden">
+    <header class="qz-header">
+      <a class="qz-btn-icon" href="home.html" title="Trang chủ" aria-label="Trang chủ">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+      </a>
+      <div class="qz-header-mid">
+        <div class="qz-progress-row">
+          <span id="module-eyebrow">Module</span>
+          <span id="progress-text">1/120</span>
+        </div>
+        <div class="qz-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <i id="progress-fill"></i>
+        </div>
+      </div>
+      <button type="button" class="qz-btn-icon" id="btn-map" title="Danh sách câu" aria-label="Danh sách câu hỏi">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      </button>
+      <button type="button" class="qz-btn-icon" id="btn-menu" title="Thêm" aria-label="Menu" aria-expanded="false" aria-controls="qz-menu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg>
+      </button>
     </header>
 
-    <div id="error" class="panel hidden"></div>
+    <div class="qz-menu hidden" id="qz-menu" role="menu">
+      <a id="link-slides" href="#" target="_blank" rel="noopener" role="menuitem">Xem slides lý thuyết</a>
+      <button type="button" id="btn-submit" role="menuitem">Xem tổng kết</button>
+      <button type="button" id="btn-reset" class="danger" role="menuitem">Xóa tiến độ / làm lại</button>
+    </div>
 
-    <div id="slide-banner" class="slide-banner hidden"></div>
+    <main class="qz-main" id="qz-scroll">
+      <p class="qz-kicker" id="q-label">Câu 1</p>
+      <h1 class="qz-prompt" id="q-text"></h1>
+      <div class="qz-choices" id="options" role="listbox" aria-label="Đáp án"></div>
+      <aside class="qz-fb hidden" id="instant-feedback" aria-live="polite"></aside>
+    </main>
 
-    <!-- QUIZ VIEW -->
-    <section id="quiz-view" class="hidden">
-      <p class="eyebrow" id="module-eyebrow">Module</p>
-      <h1 id="module-title">Quiz</h1>
+    <footer class="qz-footer">
+      <button type="button" class="qz-cta ghost" id="btn-prev">Trước</button>
+      <p class="qz-score" id="score-live">0 đúng · 0 sai</p>
+      <button type="button" class="qz-cta primary" id="btn-next">Tiếp</button>
+    </footer>
+  </div>
 
-      <div class="progress-wrap">
-        <div class="progress-meta">
-          <span id="progress-text">Câu 1 / 120</span>
-          <span id="answered-text">Đã trả lời: 0</span>
+  <div class="qz-sheet hidden" id="qz-map" aria-hidden="true">
+    <div class="qz-sheet-bg" id="map-backdrop"></div>
+    <div class="qz-sheet-panel" role="dialog" aria-label="Danh sách câu hỏi">
+      <div class="qz-sheet-head">
+        <strong>Danh sách câu</strong>
+        <div class="qz-sheet-tools">
+          <button type="button" class="qz-chip" id="btn-filter-jump">Tất cả</button>
+          <button type="button" class="qz-btn-icon sm" id="btn-close-map" aria-label="Đóng">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          </button>
         </div>
-        <div class="progress-bar"><i id="progress-fill"></i></div>
       </div>
+      <div class="qz-grid" id="jump"></div>
+    </div>
+  </div>
 
-      <div class="panel">
-        <div class="q-num" id="q-label">Câu 1</div>
-        <p class="q-text" id="q-text"></p>
-        <div class="options" id="options"></div>
-
-        <div id="instant-feedback" class="instant-feedback hidden"></div>
-
-        <div class="nav-row">
-          <button type="button" class="btn btn-ghost" id="btn-prev">← Trước</button>
-          <div class="right">
-            <button type="button" class="btn btn-ghost" id="btn-next">Sau →</button>
-            <button type="button" class="btn btn-primary" id="btn-submit">Xem tổng kết module</button>
-          </div>
-        </div>
-
-        <div class="jump" id="jump"></div>
-      </div>
-    </section>
-
-    <!-- RESULT VIEW -->
-    <section id="result-view" class="hidden">
-      <p class="eyebrow">Kết quả</p>
+  <section id="result-view" class="qz-result hidden">
+    <div class="qz-result-inner">
+      <a class="qz-back" href="home.html">← Trang chủ</a>
+      <p class="qz-eyebrow">Kết quả</p>
       <h1 id="result-title">Hoàn thành</h1>
 
-      <div class="panel">
-        <div class="score-hero">
-          <div class="score-ring" id="score-ring" style="--pct: 0">
-            <div id="score-pct">0%</div>
-          </div>
-          <p class="lede" id="score-summary" style="margin: 0 auto"></p>
+      <div class="qz-scorecard">
+        <div class="qz-ring" id="score-ring" style="--pct: 0">
+          <div id="score-pct">0%</div>
         </div>
-
-        <div class="stats">
-          <div class="stat"><b id="stat-correct">0</b><span>Đúng</span></div>
-          <div class="stat"><b id="stat-wrong">0</b><span>Sai</span></div>
-          <div class="stat"><b id="stat-skip">0</b><span>Chưa trả lời</span></div>
+        <p class="qz-grade" id="score-grade"></p>
+        <p class="qz-summary" id="score-summary"></p>
+        <div class="qz-stats">
+          <div class="qz-stat ok"><b id="stat-correct">0</b><span>Đúng</span></div>
+          <div class="qz-stat bad"><b id="stat-wrong">0</b><span>Sai</span></div>
+          <div class="qz-stat"><b id="stat-skip">0</b><span>Chưa làm</span></div>
         </div>
-
-        <div class="nav-row">
-          <button type="button" class="btn btn-ghost" id="btn-retry">Làm lại module</button>
-          <div class="right">
-            <a class="btn btn-soft" href="index.html">Chọn module khác</a>
-            <button type="button" class="btn btn-primary" id="btn-review">Xem đáp án & kiến thức</button>
-          </div>
+        <div class="qz-result-btns">
+          <button type="button" class="qz-cta ghost" id="btn-retry">Làm lại</button>
+          <button type="button" class="qz-cta primary" id="btn-review-wrong">Ôn câu sai</button>
         </div>
       </div>
 
-      <div id="review-wrap" class="hidden">
-        <h2 style="margin-top: 2rem">Chi tiết đáp án & kiến thức</h2>
-        <p class="lede">Xanh = đúng · Đỏ = sai / bỏ trống. Mỗi câu kèm giải thích kiến thức.</p>
-        <div class="review-list" id="review-list"></div>
+      <div id="review-wrap">
+        <div class="qz-review-bar">
+          <h2>Chi tiết</h2>
+          <div class="qz-filters review-filters">
+            <button type="button" class="qz-chip active" data-filter="all">Tất cả</button>
+            <button type="button" class="qz-chip" data-filter="wrong">Sai</button>
+            <button type="button" class="qz-chip" data-filter="correct">Đúng</button>
+            <button type="button" class="qz-chip" data-filter="skip">Chưa làm</button>
+          </div>
+        </div>
+        <div class="qz-review-list" id="review-list"></div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 
   <script src="learn-path.js"></script>
   <script src="quiz-data.js"></script>

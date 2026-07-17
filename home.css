@@ -1,0 +1,103 @@
+/* Home page polish — gọn hơn styles.css mặc định */
+
+.home-wrap {
+  width: min(920px, calc(100% - 2rem));
+  padding-top: 1.5rem;
+}
+
+.home-lede {
+  max-width: 36rem;
+  margin-bottom: 1.75rem;
+}
+
+.home-wrap .units {
+  gap: 1rem;
+}
+
+.home-wrap .unit-card {
+  padding: 1.15rem 1.2rem 1rem;
+}
+
+.home-wrap .unit-head {
+  margin-bottom: 0.85rem;
+}
+
+.home-wrap .unit-head h2 {
+  font-size: 1.25rem;
+}
+
+.home-wrap .slide-link {
+  grid-template-columns: auto 1fr;
+  margin-bottom: 0.85rem;
+}
+
+.home-wrap .slide-link small {
+  opacity: 0.75;
+}
+
+.home-wrap .unit-path-label {
+  margin: 0 0 0.55rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.home-wrap .unit-mod {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.85rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.home-wrap .unit-mod:first-of-type {
+  border-top: none;
+  padding-top: 0.15rem;
+}
+
+.home-wrap .unit-mod-info {
+  min-width: 0;
+  display: grid;
+  gap: 0.15rem;
+}
+
+.home-wrap .unit-mod-info b {
+  font-size: 0.82rem;
+  color: var(--accent-dark);
+}
+
+.home-wrap .unit-mod-info > span:not(.mod-progress) {
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+.home-wrap .mod-progress {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.home-wrap .mod-progress.muted {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.home-wrap .unit-mod .btn {
+  flex-shrink: 0;
+  padding: 0.65rem 1.1rem;
+  font-size: 0.88rem;
+}
+
+@media (max-width: 560px) {
+  .home-wrap .unit-mod {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .home-wrap .unit-mod .btn {
+    text-align: center;
+  }
+}
