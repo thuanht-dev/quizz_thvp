@@ -18,14 +18,28 @@
     <p class="eyebrow">Ôn trắc nghiệm</p>
     <h1>Chọn module</h1>
     <p class="lede">Chọn đáp án → xem ngay đúng/sai + giải thích. Nên xem slides trên trang chủ trước.</p>
+
+    <a class="module-card" href="quiz.html?mode=mixed" style="display:block;margin-bottom:1rem;border-color:#9dceb5;background:linear-gradient(135deg,#f3faf6,#fff)">
+      <div class="num">★</div>
+      <h2>Ôn trắc nghiệm tổng hợp</h2>
+      <p>50 câu ngẫu nhiên / lần — CNTT cơ bản, tệp thư mục, an toàn thông tin, tổng quan Office.</p>
+      <div class="meta" id="mixed-meta">Đề tổng hợp</div>
+    </a>
+
     <div class="module-grid" id="modules"></div>
-    <p class="footer-note">720 câu · 6 module</p>
+    <p class="footer-note">720 câu module · Đề tổng hợp 50 câu/lần</p>
   </div>
 
   <script src="quiz-data.js"></script>
   <script>
     const root = document.getElementById("modules");
     const data = window.QUIZ_DATA;
+    const mixed = data.mixed;
+
+    if (mixed) {
+      const el = document.getElementById("mixed-meta");
+      el.textContent = `Ngân hàng ${mixed.questions.length} câu · Mỗi lần ${mixed.drawCount} câu`;
+    }
 
     function progressFor(id) {
       try {

@@ -10122,5 +10122,2922 @@
     }
    ]
   }
- ]
+ ],
+ "mixed": {
+  "id": "mixed",
+  "title": "Ôn trắc nghiệm tổng hợp",
+  "short": "Tổng hợp",
+  "drawCount": 50,
+  "drawPlan": {
+   "basics": 18,
+   "files": 10,
+   "security": 8,
+   "office": 14
+  },
+  "description": "50 câu ngẫu nhiên mỗi lần: kiến thức CNTT cơ bản, quản lý tệp/thư mục, an toàn thông tin, tổng quan Word–Excel–PowerPoint.",
+  "topics": [
+   {
+    "id": "basics",
+    "label": "Kiến thức CNTT cơ bản",
+    "desc": "Phần cứng, phần mềm, mạng, đơn vị đo, Windows"
+   },
+   {
+    "id": "files",
+    "label": "Quản lý tệp & thư mục",
+    "desc": "Tạo, xóa, đổi tên, copy/move, tìm kiếm, Recycle Bin"
+   },
+   {
+    "id": "security",
+    "label": "An toàn thông tin",
+    "desc": "Virus, malware, phishing, bảo mật dữ liệu"
+   },
+   {
+    "id": "office",
+    "label": "Tổng quan Office",
+    "desc": "Chức năng & giao diện Word, Excel, PowerPoint"
+   }
+  ],
+  "questions": [
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "ROM thường dùng để:",
+    "options": {
+     "A": "Lưu file ảnh, video của người dùng",
+     "B": "Lưu chương trình khởi động/firmware cần thiết khi bật máy",
+     "C": "Thay thế hoàn toàn ổ cứng",
+     "D": "Kết nối máy in qua USB"
+    },
+    "answer": "B",
+    "explain": "ROM chứa chương trình “cứng” để máy khởi động, không phải nơi lưu tài liệu của bạn.",
+    "detail": "ROM (Read-Only Memory) thường chứa BIOS/UEFI. Người dùng hầu như không ghi đè như ghi file vào Documents. Tài liệu cá nhân lưu trên ổ cứng/SSD, USB, cloud.",
+    "icon": "📀",
+    "id": 1
+   },
+   {
+    "src": "m1-q5",
+    "topic": "basics",
+    "text": "Điện thoại thông minh (smartphone) là gì?",
+    "options": {
+     "A": "Hỗ trợ tất cả các kiểu hệ điều hành",
+     "B": "Bền hơn so với điện thoại di động khác",
+     "C": "Điện thoại tích hợp một nền tảng hệ điều hành di động với nhiều tính năng hỗ trợ tiên tiến",
+     "D": "Điện thoại chỉ có chức năng nghe và gọi"
+    },
+    "answer": "C",
+    "explain": "Smartphone là điện thoại chạy hệ điều hành di động và hỗ trợ nhiều chức năng nâng cao ngoài nghe gọi.",
+    "detail": "Hệ điều hành di động (mobile operating system) như Android hoặc iOS cho phép cài ứng dụng, truy cập Internet và dùng cảm biến. Smartphone không hỗ trợ mọi hệ điều hành và độ bền không phải tiêu chí định nghĩa.",
+    "icon": "📲",
+    "id": 2
+   },
+   {
+    "src": "m2-q30",
+    "topic": "basics",
+    "text": "Để gỡ bỏ một máy in đã cài đặt, ta thực hiện theo cách nào sau đây?",
+    "options": {
+     "A": "Chọn Add/Remove Hardware sau đó chọn biểu tượng máy in cần gỡ bỏ",
+     "B": "Gỡ bỏ máy tin trong Control Panenl",
+     "C": "Chọn Device Manager sau đó chọn biểu tượng máy in cần gỡ bỏ",
+     "D": "Tại cửa sổ Printers and Faxes, nhấp phải chuột vào máy in và chọn Remove Device"
+    },
+    "answer": "D",
+    "explain": "Gỡ máy in: mở Printers and Faxes → chuột phải máy in → Remove Device (hoặc Delete).",
+    "detail": "Không dùng Add/Remove Hardware cho việc này theo đề. Device Manager quản lý driver phần cứng chung; gỡ máy in đúng chỗ là cửa sổ máy in. Sau khi Remove, máy in biến khỏi danh sách in.",
+    "icon": "🖨️",
+    "id": 3
+   },
+   {
+    "src": "m1-q120",
+    "topic": "basics",
+    "text": "Để bảo vệ dữ liệu ta phải làm gì?",
+    "options": {
+     "A": "Sao lưu dữ liệu thường xuyên",
+     "B": "Không sao lưu dữ liệu để lưu trữ",
+     "C": "Không đặt mật khẩu bảo vệ tài liệu",
+     "D": "Chia sẻ dữ liệu cho nhiều người dùng --- <a id=\"module-2\"></a> # MODULE 2: SỬ DỤNG MÁY TÍNH CƠ BẢN ## 2.1. LÝ THUYẾT ### 2.1.1. Khởi động – tắt máy – chế độ nguồn - Khi khởi động, **hệ điều hành** chạy trước các ứng dụng. - Tắt máy đúng cách: lưu dữ liệu → đóng chương trình → **Start → Shutdown**. - **Hibernate:** lưu trạng thái vào ổ cứng, nhấn phím bất kỳ để tiếp tục. - **Sleep:** tiết kiệm điện nhưng vẫn tiêu thụ điện. - Khóa máy tạm: **Ctrl + Alt + Del → Lock This Computer**. - Gỡ USB an toàn: chuột phải biểu tượng USB → **Eject**. - Có khoảng **4 cách** thoát chương trình ứng dụng trên Windows 7. **Khởi động lại:** Start → Restart; Ctrl+Alt+Del → Restart; nút Reset. **Không** dùng nút Power như cách “đúng chuẩn” duy nhất khi nói về restart an toàn (câu hỏi loại trừ: bấm Power là phát biểu sai trong ngữ cảnh restart đúng quy trình). ### 2.1.2. Phím tắt Windows quan trọng | Phím | Chức năng | |------|-----------| | **Alt + F4** | Đóng cửa sổ hiện hành | | **Alt + Tab** | Chuyển cửa sổ | | **Ctrl + Esc** / phím Windows | Mở Start | | **Windows + D** | Hiện Desktop | | **Ctrl + C / X / V** | Copy / Cut / Paste | | **Ctrl + Z** | Undo | | **Alt + Print Screen** | Chụp cửa sổ hiện hành | | **Print Screen** | Chụp toàn màn hình | | **Ctrl + A** | Chọn tất cả | | **F2** | Đổi tên | | **Delete** | Xóa (vào Recycle Bin nếu từ ổ cứng) | | **Shift + Delete** | Xóa vĩnh viễn | | **Ctrl + P** | In | Soạn thảo: mũi tên = 1 ký tự; **Ctrl + ←** = sang trái một từ; **Delete** xóa ký tự sau con trỏ. ### 2.1.3. Desktop, Control Panel, tùy chỉnh **Control Panel:** thiết lập ngày giờ, gỡ chương trình, cài thiết bị, tài khoản… | Việc cần làm | Vào đâu | |--------------|---------| | Hình nền | Chuột phải Desktop → **Personalization → Desktop Background** | | Screen Saver | Control Panel → **Display** | | Ngày/giờ hệ thống | **Date and Time** | | Định dạng ngày/giờ, ngôn ngữ | **Region and Language** | | Gỡ phần mềm | **Programs and Features → Uninstall** | | Xem bản cập nhật đã cài | Programs and Features → **View Installed Updates** | | Tài khoản người dùng | **User Accounts** | | Cách đăng nhập/xuất | User Accounts → Change the way users log on or off | | Hiện Computer trên Desktop | Start → chuột phải Computer → **Show on Desktop** | **Computer:** xem dung lượng ổ cứng, CD/DVD, USB… **Shortcut:** truy cập nhanh đối tượng. Xóa Shortcut **không** xóa chương trình gốc. Có **2 loại** Shortcut trên Windows 7. Sao Shortcut sang máy khác thường **không mở được** file gốc (đường dẫn khác máy). Cách tạo Shortcut: Send to → Desktop (Create Shortcut); New → Shortcut; kéo biểu tượng ra Desktop. Cách **không** đúng: “Send to Desktop” thiếu Create Shortcut theo một số đề. ### 2.1.4. File, thư mục, Recycle Bin - Tổ chức dạng **cây**. Thư mục chứa file và thư mục con; **file không chứa** file/thư mục khác. - Tên file = **2 phần**: tên + phần mở rộng (ngăn bởi dấu **.**). Phần mở rộng quy định **kiểu file**. - Tên tối đa **255** ký tự, không chứa ký tự đặc biệt (`\\ / : * ? \" < > |`). Ví dụ lỗi: `http://vtv.vn`, `Hoc_phan_tin1?.doc`. - Thư mục biểu tượng thường **màu vàng**. - Trùng tên thư mục trên Desktop → thông báo đã tồn tại / hỏi gộp. - Chọn liền nhau: **Shift**; không liền: **Ctrl**. - **Recycle Bin:** chứa file xóa từ **ổ cứng** (không phải USB). USB xóa → mất ngay. **Restore** / **Restore all Items** để khôi phục. - **Windows Explorer:** quản lý file/thư mục. - Tìm kiếm: theo tên, ngày sửa, kích thước. Ký tự đại diện: `*` (nhiều ký tự), `?` (một ký tự). Cách **không** đúng để Search: chuột phải Desktop → Search. ### 2.1.5. Phần mở rộng & ứng dụng | Phần mở rộng | Loại / Mở bằng | |--------------|----------------| | JPG | Ảnh | | MP3, WMA | Âm thanh / Windows Media Player | | PDF | Foxit Reader… | | PPT, PPTX | PowerPoint | | TXT | Text Document / Notepad | | RAR, ZIP | File nén – WinRAR, WinZip | **Nén dữ liệu:** giảm dung lượng, không mất thông tin – tiện gửi email nhiều file lớn. ### 2.1.6. Gõ tiếng Việt, in ấn - Bộ gõ: **Unikey**. **Ctrl + Shift:** chuyển Anh ↔ Việt. Bỏ dấu: phím **Z** (kiểu Telex phổ biến trong đề). - Font theo TT03/2014/TT-BTTTT: **Times New Roman**. Đổi font TCVN3 ↔ Unicode: **Unikey**. - Xem máy in: **Printers and Faxes**. Đặt mặc định: chuột phải → **Set as Default Printer**. - Cài máy in cần: Driver + máy tính + máy in đã kết nối. **Bàn phím ảo:** On-Screen Keyboard khi bàn phím hỏng. --- ## 2.2. THỰC HÀNH MODULE 2 ### Bài 1 – Quản lý Desktop & tắt máy 1. Đổi hình nền, Screen Saver; khóa máy bằng Ctrl+Alt+Del. 2. Thực hiện Shutdown đúng quy trình; thử Hibernate (nếu có). ### Bài 2 – File & thư mục 1. Trên Desktop tạo cấu trúc: `BaoCao/2024/Ky1/` và các file mẫu `.txt`, `.docx`. 2. Đổi tên (F2), copy/cut/paste, xóa vào thùng rác rồi Restore; thử Shift+Delete trên file thử nghiệm. 3. Tìm mọi file `*.txt` đã sửa trong tuần này. ### Bài 3 – Shortcut & nén 1. Tạo Shortcut Word trên Desktop; xóa Shortcut và kiểm tra Word vẫn còn. 2. Nén 5 file thành `.zip`/`.rar` và giải nén lại. ### Bài 4 – Unikey & in 1. Gõ đoạn tiếng Việt; chuyển Anh/Việt bằng Ctrl+Shift. 2. Đặt máy in mặc định; in thử trang bằng Ctrl+P (Print to PDF nếu không có máy in). ---"
+    },
+    "answer": "A",
+    "explain": "Sao lưu thường xuyên tạo bản dự phòng để khôi phục dữ liệu khi tệp bị xóa, ổ đĩa hỏng hoặc máy nhiễm mã độc.",
+    "detail": "Backup nên được lưu ở thiết bị hoặc dịch vụ tách biệt với bản gốc. Không đặt mật khẩu và chia sẻ rộng làm tăng rủi ro, còn không sao lưu khiến dữ liệu mất là khó phục hồi.",
+    "icon": "☁️",
+    "id": 4
+   },
+   {
+    "src": "m6-q7",
+    "topic": "basics",
+    "text": "HTTP là gì? 96",
+    "options": {
+     "A": "Là giao thức truyền tải siêu văn bản",
+     "B": "Là tên của trang web",
+     "C": "Là ngôn ngữ để soạn thảo nội dung các trang Web",
+     "D": "Là địa chỉ của trang Web"
+    },
+    "answer": "A",
+    "explain": "HTTP là giao thức truyền tải siêu văn bản giữa trình duyệt và máy chủ web. Nó không phải tên trang web, ngôn ngữ soạn trang hay địa chỉ trang web.",
+    "detail": "HTTP (HyperText Transfer Protocol) quy định cách trình duyệt yêu cầu và nhận nội dung web. HTML mới là ngôn ngữ đánh dấu để tạo cấu trúc trang web, còn URL là địa chỉ tài nguyên. Khi có mã hóa bảo mật, ta thường thấy HTTPS thay cho HTTP.",
+    "icon": "📄",
+    "id": 5
+   },
+   {
+    "src": "m2-q31",
+    "topic": "basics",
+    "text": "Để gỡ bỏ 1 chương trình nào thì mở Control Panel/Uninstall a Programs/ Chọn biểu tượng chương trình cần gỡ bỏ và chọn?",
+    "options": {
+     "A": "Uninstall",
+     "B": "Change",
+     "C": "Delete",
+     "D": "Update"
+    },
+    "answer": "A",
+    "explain": "Gỡ chương trình trong Uninstall a program/Programs and Features bằng nút Uninstall, không phải Delete thư mục tay.",
+    "detail": "Change sửa/cài thêm thành phần; Update cập nhật; Delete không phải lệnh chuẩn ở đây. Gỡ bằng Uninstall xóa đăng ký và file cài đặt sạch hơn so với chỉ xóa folder trong Program Files.",
+    "icon": "🗑️",
+    "id": 6
+   },
+   {
+    "src": "m2-q109",
+    "topic": "basics",
+    "text": "Ứng dụng nào được sử dụng để xem nội dung của tệp Reports.zip?",
+    "options": {
+     "A": "Trình xử lý văn bản word",
+     "B": "Ứng dụng trang tính",
+     "C": "Chương trình nén và giải nén",
+     "D": "Trình duyệt web"
+    },
+    "answer": "C",
+    "explain": "Reports.zip phải mở bằng chương trình nén/giải nén, không phải Word hay Excel.",
+    "detail": "Word đọc .doc/.docx; trang tính đọc .xls/.xlsx; trình duyệt đọc web. Đuôi .zip = archive. Sau giải nén mới mở từng file bên trong bằng đúng ứng dụng.",
+    "icon": "📦",
+    "id": 7
+   },
+   {
+    "src": "m1-q28",
+    "topic": "basics",
+    "text": "Thành phần nào của máy tính có thể ngăn máy tính khởi động, nếu nó bị hư hỏng hoặc kết nối không đúng cách?",
+    "options": {
+     "A": "Ổ đĩa cứng",
+     "B": "Máy in",
+     "C": "Chuột",
+     "D": "Bàn phím 5"
+    },
+    "answer": "A",
+    "explain": "Nếu ổ cứng chứa hệ điều hành bị hỏng hoặc kết nối sai, máy không tìm thấy dữ liệu khởi động nên không vào được hệ điều hành.",
+    "detail": "Quá trình boot cần đọc bộ nạp khởi động và hệ điều hành từ thiết bị lưu trữ. Máy in, chuột hoặc bàn phím hỏng thường không ngăn máy bật và chạy qua giai đoạn khởi động.",
+    "icon": "🗄️",
+    "id": 8
+   },
+   {
+    "src": "m1-q13",
+    "topic": "basics",
+    "text": "MB (Megabyte) là đơn vị đo gì?",
+    "options": {
+     "A": "Đo dung lượng của thiết bị lưu trữ như đĩa cứng",
+     "B": "Đo tốc độ của nguồn máy tính",
+     "C": "Đo tốc độ mạng",
+     "D": "Độ phân giải màn hình"
+    },
+    "answer": "A",
+    "explain": "Megabyte là đơn vị biểu thị lượng dữ liệu hoặc dung lượng bộ nhớ, thiết bị lưu trữ.",
+    "detail": "MB (megabyte) thường dùng cho kích thước tệp và dung lượng lưu trữ. Tốc độ mạng đo bằng bit mỗi giây (bps), còn độ phân giải màn hình đo bằng pixel.",
+    "icon": "💾",
+    "id": 9
+   },
+   {
+    "src": "m2-q3",
+    "topic": "basics",
+    "text": "Khi khởi động máy tính, phần mềm nào sau đây sẽ được thực hiện trước?",
+    "options": {
+     "A": "Chương trình diệt virus máy tính",
+     "B": "Phần mềm Micrsoft Office",
+     "C": "Phần mềm gõ tiếng Việt",
+     "D": "Hệ điều hành"
+    },
+    "answer": "D",
+    "explain": "Máy bật lên phải nạp hệ điều hành trước; mọi phần mềm ứng dụng chỉ chạy được sau khi Windows đã sẵn sàng.",
+    "detail": "Chuỗi khởi động: BIOS/UEFI kiểm tra phần cứng → nạp hệ điều hành (Operating System) → rồi mới tới antivirus, Office, Unikey… Chrome hay Vietkey là ứng dụng, không thể chạy nếu chưa có HĐH quản lý CPU, RAM, ổ đĩa.",
+    "icon": "🪟",
+    "id": 10
+   },
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "Control Panel / Settings trong Windows chủ yếu dùng để:",
+    "options": {
+     "A": "Soạn thảo slide thuyết trình",
+     "B": "Cấu hình máy: mạng, âm thanh, thiết bị, tài khoản, cập nhật…",
+     "C": "Chỉ đổi hình nền",
+     "D": "Tạo công thức Excel"
+    },
+    "answer": "B",
+    "explain": "Đây là nơi chỉnh thông số hệ thống, không phải phần mềm văn phòng.",
+    "detail": "Có thể đổi mật khẩu, kết nối Wi-Fi, gỡ ứng dụng, cập nhật Windows. Word/Excel dùng để làm tài liệu, không thay vai trò Settings.",
+    "icon": "⚙️",
+    "id": 11
+   },
+   {
+    "src": "m1-q22",
+    "topic": "basics",
+    "text": "Các thiết bị nào có thể thiếu trong một bộ máy tính?",
+    "options": {
+     "A": "Bộ nguồn",
+     "B": "Bộ nhớ RAM",
+     "C": "Màn hình",
+     "D": "Ổ đĩa mềm"
+    },
+    "answer": "D",
+    "explain": "Ổ đĩa mềm có thể không có vì máy tính hiện đại không cần thiết bị lỗi thời này để hoạt động.",
+    "detail": "Ổ đĩa mềm (FDD – Floppy Disk Drive) từng dùng đọc đĩa mềm nhưng đã được USB và lưu trữ mạng thay thế. Bộ nguồn và RAM là thành phần thiết yếu; màn hình cần cho bộ máy người dùng thông thường.",
+    "icon": "💿",
+    "id": 12
+   },
+   {
+    "src": "m6-q6",
+    "topic": "basics",
+    "text": "Mỗi thiết bị khi tham gia vào một mạng máy tính nào đó cũng đều có",
+    "options": {
+     "A": "Địa chỉ IP",
+     "B": "GPS",
+     "C": "Địa chỉ nhà",
+     "D": "Mã sản phẩm"
+    },
+    "answer": "A",
+    "explain": "Thiết bị tham gia mạng cần có địa chỉ IP để được nhận diện và trao đổi dữ liệu. GPS, địa chỉ nhà hay mã sản phẩm không dùng để định tuyến gói tin trên mạng.",
+    "detail": "Địa chỉ IP (Internet Protocol address) giống như địa chỉ liên lạc của thiết bị trong mạng. Khi gửi dữ liệu, các thiết bị mạng dựa vào IP để biết gói tin đi đến đâu. Một thiết bị có thể nhận IP tự động qua DHCP hoặc được cấu hình thủ công.",
+    "icon": "🏷️",
+    "id": 13
+   },
+   {
+    "src": "m6-q13",
+    "topic": "basics",
+    "text": "Thuật ngữ nào dùng để chỉ các trang tin tức trên mạng?",
+    "options": {
+     "A": "Website",
+     "B": "Trình duyệt Web",
+     "C": "Webserver",
+     "D": "Tên miền .net"
+    },
+    "answer": "A",
+    "explain": "Các trang tin tức trên mạng là một dạng website. Trình duyệt là phần mềm để xem web, còn webserver là máy chủ phục vụ nội dung.",
+    "detail": "Website là tập hợp các trang web có cùng tên miền hoặc cùng hệ thống nội dung. Ví dụ một báo điện tử như `vnexpress.net` là website tin tức. Tên miền `.net` chỉ là một phần của địa chỉ, không phải thuật ngữ gọi trang tin.",
+    "icon": "📰",
+    "id": 14
+   },
+   {
+    "src": "m6-q55",
+    "topic": "basics",
+    "text": "Trong trình duyệt Internet Explorer, để lưu lại địa chỉ của trang web ưa thích, ta thực hiện thao chọn?",
+    "options": {
+     "A": "Favorites/Add to Favorites 103",
+     "B": "File/Save to Favorites",
+     "C": "View/Favorites",
+     "D": "Edit/Favorites"
+    },
+    "answer": "A",
+    "explain": "Trong Internet Explorer, muốn lưu địa chỉ trang ưa thích thì chọn Favorites/Add to Favorites. Đây là thao tác thêm trang vào danh sách yêu thích để mở lại nhanh.",
+    "detail": "Favorites tương đương Bookmarks trên nhiều trình duyệt khác. File/Save As là lưu nội dung trang xuống máy, không phải lưu địa chỉ vào danh sách yêu thích. Mẹo nhớ: địa chỉ hay dùng thì cho vào Favorites.",
+    "icon": "⭐",
+    "id": 15
+   },
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "LAN và WAN khác nhau chủ yếu ở phạm vi địa lý:",
+    "options": {
+     "A": "LAN rộng toàn cầu, WAN chỉ trong một phòng",
+     "B": "LAN thường trong phạm vi hẹp (nhà/cơ quan); WAN kết nối trên phạm vi rộng",
+     "C": "LAN chỉ dùng Wi-Fi, WAN chỉ dùng cáp quang",
+     "D": "LAN và WAN là cùng một loại mạng"
+    },
+    "answer": "B",
+    "explain": "LAN là mạng cục bộ; WAN phủ vùng rộng, Internet là ví dụ WAN quy mô lớn.",
+    "detail": "LAN (Local Area Network): nhà, lớp học, văn phòng. WAN (Wide Area Network): kết nối nhiều khu vực. Internet là mạng của các mạng trên toàn cầu.",
+    "icon": "🌐",
+    "id": 16
+   },
+   {
+    "src": "m1-q45",
+    "topic": "basics",
+    "text": "Phát biểu nào sau đây là đúng?",
+    "options": {
+     "A": "Phần mềm là tập hợp của các thiết bị lưu trữ như ổ cứng, đĩa mềm, USB,…",
+     "B": "Phần mềm là tập hợp của các thiết bị nhập như máy scan, bàn phím, chuột,…",
+     "C": "Phần mềm là tập hợp của các thiết bị xuất như màn hình, máy ín, máy chiếu,…",
+     "D": "Phần mềm là một tập hợp những câu lệnh được viết bằng một hoặc nhiều ngôn ngữ lập trình, và các dữ liệu hay tài liệu liên quan nhằm tự động thực hiện một số nhiệm vụ hay chức năng"
+    },
+    "answer": "D",
+    "explain": "Phần mềm là tập hợp câu lệnh, dữ liệu và tài liệu liên quan giúp máy tính tự động thực hiện nhiệm vụ.",
+    "detail": "Các câu lệnh được viết bằng ngôn ngữ lập trình và chạy trên phần cứng. Ổ cứng, bàn phím, màn hình hay máy chiếu là thiết bị vật lý nên không phải phần mềm.",
+    "icon": "💻",
+    "id": 17
+   },
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "1 Byte bằng bao nhiêu bit?",
+    "options": {
+     "A": "2 bit",
+     "B": "4 bit",
+     "C": "8 bit",
+     "D": "16 bit"
+    },
+    "answer": "C",
+    "explain": "Quy ước chuẩn: 1 Byte = 8 bit.",
+    "detail": "Một ký tự ASCII cơ bản thường chiếm 1 byte. Đây là câu hỏi đo lường thông tin rất phổ biến trong đề trắc nghiệm CNTT cơ bản.",
+    "icon": "📐",
+    "id": 18
+   },
+   {
+    "src": "m1-q98",
+    "topic": "basics",
+    "text": "Tác hại khi ngồi lâu trước máy tính?",
+    "options": {
+     "A": "Tất cả các đáp án đều đúng",
+     "B": "Đau lưng",
+     "C": "Căng thẳng thần kinh",
+     "D": "Mỏi mắt"
+    },
+    "answer": "A",
+    "explain": "Ngồi lâu trước máy tính có thể gây đau lưng, mỏi mắt và căng thẳng thần kinh nên tất cả đáp án đều đúng.",
+    "detail": "Tư thế cố định làm cơ xương mệt, còn nhìn màn hình liên tục giảm chớp mắt và gây khô mỏi. Nên nghỉ ngắn, vận động và nhìn xa định kỳ.",
+    "icon": "👀",
+    "id": 19
+   },
+   {
+    "src": "m1-q48",
+    "topic": "basics",
+    "text": "Hãy chỉ ra tên của một số hệ điều hành?",
+    "options": {
+     "A": "Windows, Max",
+     "B": "Linux, Turbo",
+     "C": "Linux, Windows, Mac OS",
+     "D": "Linux, Window"
+    },
+    "answer": "C",
+    "explain": "Linux, Windows và Mac OS đều là tên các hệ điều hành thực tế.",
+    "detail": "Hệ điều hành (operating system) quản lý tài nguyên và cho phép ứng dụng chạy. “Turbo”, “Max” và cách viết “Window” trong các phương án khác không phải bộ ba tên chuẩn.",
+    "icon": "🐧",
+    "id": 20
+   },
+   {
+    "src": "m6-q87",
+    "topic": "basics",
+    "text": "Để soạn thảo email cần mở phần mềm nào?",
+    "options": {
+     "A": "Outlook Express",
+     "B": "Microsoft Word",
+     "C": "Microsoft Excel 108",
+     "D": "Notepad"
+    },
+    "answer": "A",
+    "explain": "Outlook Express là phần mềm dùng để gửi, nhận và soạn email. Word, Excel và Notepad là phần mềm soạn thảo hoặc bảng tính, không phải trình khách email theo câu hỏi.",
+    "detail": "Trình khách thư điện tử (email client) như Outlook Express kết nối tới máy chủ thư để quản lý hộp thư. Microsoft Word có thể soạn văn bản nhưng không phải công cụ gửi email chính. Trong môi trường webmail, người dùng cũng có thể soạn email bằng trình duyệt, nhưng đề hỏi phần mềm trong các lựa chọn.",
+    "icon": "✉️",
+    "id": 21
+   },
+   {
+    "src": "m2-q40",
+    "topic": "basics",
+    "text": "Trong hệ điều hành Windows, để lấy lại mặc định ngày/giờ của hệ thống, sử dụng công cụ nào sau đây?",
+    "options": {
+     "A": "Date and Time",
+     "B": "System Infomations",
+     "C": "Không có đáp án đúng",
+     "D": "Region and Language"
+    },
+    "answer": "D",
+    "explain": "«Lấy lại mặc định» kiểu ngày/giờ (định dạng vùng) thuộc Region and Language, không phải chỉnh kim đồng hồ Date and Time.",
+    "detail": "Trong Region có thể Reset/khôi phục format theo vùng (Vietnam…). Date and Time đổi giá trị giờ hiện tại; System Information chỉ xem thông tin. Đề phân biệt «mặc định định dạng» với «giờ hiện tại».",
+    "icon": "🌍",
+    "id": 22
+   },
+   {
+    "src": "m2-q64",
+    "topic": "basics",
+    "text": "Trong hệ điều hành Windows, phần mở rộng trong tên file đảm nhận chức năng nào sau đây?",
+    "options": {
+     "A": "Quy định định dạng file",
+     "B": "Quy định thuộc tính file",
+     "C": "Quy định kiểu file",
+     "D": "Quy định kích thước file"
+    },
+    "answer": "C",
+    "explain": "Phần mở rộng (extension) quy định kiểu file để Windows biết mở bằng chương trình nào.",
+    "detail": "Ví dụ: .docx mở Word, .jpg mở xem ảnh, .pdf mở Foxit/Adobe. Extension không quyết định kích thước. Đổi đuôi tùy tiện dễ làm mở sai chương trình.",
+    "icon": "🔤",
+    "id": 23
+   },
+   {
+    "src": "m2-q87",
+    "topic": "basics",
+    "text": "Trong hệ điều hành Windows, để dán các tệp/thư mục sau khi đã thực hiện lệnh copy, ta mở ổ đĩa, thư mục muốn chứa bản sao và thực hiện",
+    "options": {
+     "A": "Nhấn tổ hợp phím Ctrl + V hoặc nhấp phải chuột vào đối tượng chọn Copy",
+     "B": "Nhấn tổ hợp phím Ctrl + X hoặc nhấp phải chuột vào đối tượng chọn Copy",
+     "C": "Không có đáp án đúng",
+     "D": "Nhấn tổ hợp phím Ctrl + V hoặc nhấp phải chuột vào đối tượng chọn Paste"
+    },
+    "answer": "D",
+    "explain": "Sau khi Copy, dán bằng Ctrl+V hoặc chuột phải vùng trống thư mục đích → Paste.",
+    "detail": "Phải Copy/Cut trước thì Clipboard mới có dữ liệu. Chọn lại Copy khi đang dán là sai. Paste vào đúng ổ/thư mục muốn chứa bản sao.",
+    "icon": "📋",
+    "id": 24
+   },
+   {
+    "src": "m6-q39",
+    "topic": "basics",
+    "text": "Nút Refresh trên thanh công cụ của trình duyệt Web cho phép?",
+    "options": {
+     "A": "Tải lại một trang web",
+     "B": "Đi đến một trang web khác",
+     "C": "Thoát khỏi trình duyệt web",
+     "D": "Trở về trang chủ"
+    },
+    "answer": "A",
+    "explain": "Nút Refresh dùng để tải lại trang web đang mở. Nó không dùng để thoát trình duyệt hay chuyển sang trang khác.",
+    "detail": "Refresh (reload) giúp cập nhật lại nội dung trang, ví dụ bảng tin vừa có bài mới hoặc biểu mẫu tải lỗi. Home mới đưa về trang chủ đã đặt trong trình duyệt. Nếu trang bị treo khi tải, đôi khi cần Stop trước rồi Refresh lại.",
+    "icon": "🔄",
+    "id": 25
+   },
+   {
+    "src": "m1-q66",
+    "topic": "basics",
+    "text": "Phương án nào sau đây là đúng?",
+    "options": {
+     "A": "Khi chuyển sang chế độ Sleep của Windows 7, máy tính không tiêu thụ điện năng",
+     "B": "Khi chuyển sang chế độ Logout của Windows 7, máy tính không tiêu thụ điện năng",
+     "C": "Khi chuyển sang chế độ Sleep của Windows 7, máy tính vẫn tiêu thụ điện năng",
+     "D": "Khi chuyển sang chế độ Shutdown của Windows 7, máy tính vẫn tiêu thụ điện năng"
+    },
+    "answer": "C",
+    "explain": "Ở chế độ Sleep, máy vẫn dùng một ít điện để duy trì dữ liệu phiên làm việc trong RAM.",
+    "detail": "Sleep giúp thức dậy nhanh vì trạng thái chưa bị ghi hết xuống ổ đĩa. Shutdown mới kết thúc hệ điều hành; Logout chỉ đăng xuất người dùng và máy vẫn hoạt động.",
+    "icon": "🌙",
+    "id": 26
+   },
+   {
+    "src": "m1-q71",
+    "topic": "basics",
+    "text": "Mạng LAN là mạng kết nối các máy tính?",
+    "options": {
+     "A": "Ở cách nhau một khoảng cách lớn",
+     "B": "Ở gần nhau",
+     "C": "Cùng một hệ điều hành",
+     "D": "Không dùng chung một giao thức"
+    },
+    "answer": "B",
+    "explain": "LAN kết nối các máy ở gần nhau, chẳng hạn trong một phòng, nhà hoặc tòa nhà.",
+    "detail": "LAN (Local Area Network) được xác định bởi phạm vi địa lý nhỏ, không phải bởi việc các máy dùng cùng hệ điều hành. Các máy vẫn cần giao thức mạng tương thích để giao tiếp.",
+    "icon": "🏠",
+    "id": 27
+   },
+   {
+    "src": "m6-q34",
+    "topic": "basics",
+    "text": "Trong Internet Explorer phiên bản 7 hoặc mới hơn, phím tắt chuyển đến Tab liền kề bên phải?",
+    "options": {
+     "A": "Alt+Shift+Tab",
+     "B": "Ctrl+Shift+Tab",
+     "C": "Ctrl+Tab",
+     "D": "Alt+Tab"
+    },
+    "answer": "C",
+    "explain": "Ctrl+Tab dùng để chuyển tới tab liền kề bên phải. Ctrl+Shift+Tab mới là chuyển ngược sang tab bên trái.",
+    "detail": "Đây là phím tắt quản lý tab trong trình duyệt. Alt+Tab chuyển giữa các cửa sổ ứng dụng của Windows nên không đúng ngữ cảnh. Khi làm bài, hãy phân biệt tab trong trình duyệt với cửa sổ chương trình.",
+    "icon": "➡️",
+    "id": 28
+   },
+   {
+    "src": "m2-q117",
+    "topic": "basics",
+    "text": "Trong hệ điều hành, để xem danh sách các máy in đã được cài đặt, ta có thể sử dụng công cụ nào sau đây?",
+    "options": {
+     "A": "Device Manager",
+     "B": "Printers and Faxes 38",
+     "C": "System Informations",
+     "D": "Default Programs"
+    },
+    "answer": "B",
+    "explain": "Danh sách máy in đã cài xem trong Printers and Faxes (Devices and Printers trên bản mới hơn).",
+    "detail": "Device Manager liệt kê phần cứng/driver chung; System Information xem cấu hình máy; Default Programs chọn app mặc định. Mở: Control Panel → Printers and Faxes.",
+    "icon": "🖨️",
+    "id": 29
+   },
+   {
+    "src": "m2-q72",
+    "topic": "basics",
+    "text": "Phần mềm Text Document dùng để tạo tệp có phần mở rộng là gì?",
+    "options": {
+     "A": "jpg",
+     "B": "txt",
+     "C": "pas",
+     "D": "pps"
+    },
+    "answer": "B",
+    "explain": "Text Document (New → Text Document) tạo tệp đuôi .txt — văn bản thuần, mở bằng Notepad.",
+    "detail": ".jpg là ảnh; .pas thường mã Pascal; .pps trình chiếu PowerPoint. Hiện phần mở rộng trong Folder Options để thấy rõ .txt.",
+    "icon": "📝",
+    "id": 30
+   },
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "World Wide Web (WWW) là gì?",
+    "options": {
+     "A": "Một loại phần cứng mạng",
+     "B": "Hệ thống tài nguyên siêu văn bản trên Internet, truy cập bằng trình duyệt",
+     "C": "Tên gọi khác của hệ điều hành Windows",
+     "D": "Phần mềm diệt virus"
+    },
+    "answer": "B",
+    "explain": "WWW là dịch vụ web trên Internet (trang web, liên kết); Internet rộng hơn, gồm nhiều dịch vụ khác.",
+    "detail": "Internet là hạ tầng mạng toàn cầu. WWW dùng giao thức HTTP/HTTPS và trình duyệt (Chrome, Edge…). Email, chat cũng chạy trên Internet nhưng không đồng nghĩa với WWW.",
+    "icon": "🌍",
+    "id": 31
+   },
+   {
+    "src": "m1-q97",
+    "topic": "basics",
+    "text": "Lựa chọn nào là đúng liên quan đến việc sửa tư thế khi sử dụng một máy tính?",
+    "options": {
+     "A": "Đầu và cằm nên nghiêng về phía sàn nhà, ngăn ngừa sự chênh lệch trọng lượng trên lưng và các vấn đề về cột sống",
+     "B": "Các cánh tay, cẳng tay, cổ tay để thẳng với bàn làm việc. Bàn chân nên được đặt trên sàn và hợp với đầu gối tạo thành một góc vuông",
+     "C": "Đầu gối nên được ở một góc vuông nhưng ở một vị trí thấp hơn so với khung xương chậu",
+     "D": "Luôn sử dụng một bệ nghỉ chân"
+    },
+    "answer": "B",
+    "explain": "Tư thế tốt là giữ tay, cẳng tay và cổ tay thẳng, đặt bàn chân trên sàn và gập đầu gối gần góc vuông.",
+    "detail": "Nguyên tắc công thái học (ergonomics) giúp giảm căng cổ tay, vai và lưng. Không nên cúi đầu về sàn; bệ kê chân chỉ cần khi chân không chạm sàn thoải mái.",
+    "icon": "🪑",
+    "id": 32
+   },
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "Trong Windows, thanh Taskbar (thanh tác vụ) thường dùng để:",
+    "options": {
+     "A": "Chỉ hiển thị hình nền",
+     "B": "Mở Start, chuyển nhanh giữa các cửa sổ đang chạy, xem khay hệ thống",
+     "C": "Xóa vĩnh viễn mọi tệp",
+     "D": "Thay thế BIOS"
+    },
+    "answer": "B",
+    "explain": "Taskbar giúp mở menu Start, chuyển cửa sổ và xem giờ/mạng/âm lượng.",
+    "detail": "Nằm thường ở cạnh dưới màn hình. Click biểu tượng để chuyển ứng dụng; khay hệ thống (system tray) hiện trạng thái mạng, pin, âm thanh.",
+    "icon": "🖥️",
+    "id": 33
+   },
+   {
+    "src": "m2-q5",
+    "topic": "basics",
+    "text": "Quy trình tắt máy tính nào sau đây đảm bảo an toàn cho chương trình và dữ liệu?",
+    "options": {
+     "A": "Đóng các file chương trình, Shutdown Windows, tắt công tắc nguồn",
+     "B": "Không có đáp án đúng",
+     "C": "Đóng các file chương trình, ghi dữ liệu vào đĩa, Shutdown Windows",
+     "D": "Ghi dữ liệu vào đĩa, đóng các file chương trình, Chọn nút Start/Shut down"
+    },
+    "answer": "D",
+    "explain": "An toàn nhất là lưu dữ liệu → đóng chương trình → rồi mới Start/Shut down, đúng thứ tự từ dữ liệu đến hệ thống.",
+    "detail": "Ghi (Save) trước để không mất nội dung chưa lưu; đóng file/ứng dụng để giải phóng ổ đĩa; sau đó Shutdown. Phương án đóng chương trình rồi Shutdown rồi mới tắt công tắc dễ bỏ sót bước lưu. Cắt nguồn sau Shutdown chỉ cần khi máy đã tắt hẳn.",
+    "icon": "💾",
+    "id": 34
+   },
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "Phần mềm ứng dụng khác hệ điều hành ở điểm nào?",
+    "options": {
+     "A": "Ứng dụng phục vụ công việc cụ thể; hệ điều hành quản lý máy và môi trường chạy",
+     "B": "Ứng dụng luôn được cài sẵn trong ROM",
+     "C": "Hệ điều hành chỉ dùng để chơi game",
+     "D": "Không có sự khác biệt"
+    },
+    "answer": "A",
+    "explain": "Word/Excel là ứng dụng làm việc; Windows là hệ điều hành “nền” để các ứng dụng chạy.",
+    "detail": "Phần mềm hệ thống (OS, trình điều khiển) quản lý tài nguyên. Phần mềm ứng dụng giải quyết nhu cầu người dùng: văn phòng, học tập, giải trí.",
+    "icon": "📦",
+    "id": 35
+   },
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "Thiết bị nào thuộc nhóm thiết bị nhập (input)?",
+    "options": {
+     "A": "Máy in",
+     "B": "Loa",
+     "C": "Bàn phím",
+     "D": "Máy chiếu"
+    },
+    "answer": "C",
+    "explain": "Bàn phím đưa dữ liệu vào máy; máy in, loa, máy chiếu đưa thông tin ra ngoài.",
+    "detail": "Thiết bị nhập: bàn phím, chuột, mic, scanner, cảm ứng. Thiết bị xuất: màn hình, loa, máy in, máy chiếu. Một số thiết bị vừa nhập vừa xuất (màn hình cảm ứng).",
+    "icon": "⌨️",
+    "id": 36
+   },
+   {
+    "src": "m1-q10",
+    "topic": "basics",
+    "text": "Thuật ngữ “RAM” là từ viết tắt của cụm từ?",
+    "options": {
+     "A": "Read Access Memory",
+     "B": "Random Access Memory",
+     "C": "Read And Modify",
+     "D": "Recent Access Memory"
+    },
+    "answer": "B",
+    "explain": "RAM là Random Access Memory, tức bộ nhớ truy cập ngẫu nhiên dùng cho dữ liệu đang được xử lý.",
+    "detail": "RAM cho phép đọc và ghi nhanh ở nhiều vị trí, nhưng dữ liệu thường mất khi tắt điện nên là bộ nhớ khả biến (volatile memory). Các cách mở rộng có chữ Read trong đáp án khác không đúng thuật ngữ chuẩn.",
+    "icon": "🧠",
+    "id": 37
+   },
+   {
+    "src": "m2-q18",
+    "topic": "basics",
+    "text": "Để di chuyển con trỏ chuột trong khi soạn thảo, tổ hợp phím Ctrl + <- (mũi tên sang trái), có chức năng gì?",
+    "options": {
+     "A": "Sang phải một ký tự",
+     "B": "Sang trái một ký tự",
+     "C": "Sang phải một từ",
+     "D": "Sang trái một từ"
+    },
+    "answer": "D",
+    "explain": "Ctrl + mũi tên trái nhảy con trỏ sang trái một từ; mũi tên trái không Ctrl chỉ sang trái một ký tự.",
+    "detail": "Tương tự Ctrl+→ sang phải một từ. Rất hữu khi sửa văn bản dài: di chuyển theo từ thay vì từng chữ. Đừng nhầm với chỉ nhấn ← (một ký tự).",
+    "icon": "⬅️",
+    "id": 38
+   },
+   {
+    "src": "m1-q47",
+    "topic": "basics",
+    "text": "Chức năng chính của hệ điều hành (Operating System) là gì?",
+    "options": {
+     "A": "Tất cả các đáp án đều đúng 8",
+     "B": "Quản lý, phân phối và thu hồi bộ nhớ",
+     "C": "Thực hiện các lệnh theo yêu cầu của người sử dụng",
+     "D": "Điều khiển các thiết bị ngoại vi như ổ đĩa, máy in, bàn phím, màn hình"
+    },
+    "answer": "A",
+    "explain": "Hệ điều hành vừa quản lý bộ nhớ, thực hiện yêu cầu người dùng, vừa điều khiển thiết bị ngoại vi nên tất cả các ý đều đúng.",
+    "detail": "Operating System phân phối tài nguyên CPU, RAM và thiết bị cho các chương trình. Ba chức năng B, C, D là các mặt khác nhau của cùng vai trò điều phối.",
+    "icon": "🕹️",
+    "id": 39
+   },
+   {
+    "src": "m1-q30",
+    "topic": "basics",
+    "text": "Máy Scanner được kết nối với máy tính thông qua cổng nào sau đây?",
+    "options": {
+     "A": "Jack 3.5",
+     "B": "RJ 11",
+     "C": "USB",
+     "D": "RJ 45"
+    },
+    "answer": "C",
+    "explain": "Máy quét thường kết nối với máy tính qua cổng USB để truyền ảnh số và nhận điện hoặc lệnh điều khiển.",
+    "detail": "USB (Universal Serial Bus) là cổng ngoại vi phổ biến. Jack 3,5 mm dùng cho âm thanh, RJ11 cho điện thoại và RJ45 chủ yếu cho mạng Ethernet.",
+    "icon": "🔌",
+    "id": 40
+   },
+   {
+    "src": "m2-q23",
+    "topic": "basics",
+    "text": "Giả sử bạn đang soạn thảo văn bản trên máy tính và bỗng nhiên bàn phím của bạn gặp sự cố, không gõ được kí tự. Bạn xử lý như thế nào?",
+    "options": {
+     "A": "Kích hoạt ứng dụng kiểm tra phần cứng máy tính",
+     "B": "Kết nối máy tính với màn hình của máy tính khác để tiếp tục soạn thảo văn bản",
+     "C": "Tìm và mở ứng dụng bàn phím ảo (On-Screen Keyboard) có sẵn của hệ điều hành Windows 7 để bật bàn phím ảo",
+     "D": "Kiểm tra lại kết nối mạng máy tính"
+    },
+    "answer": "C",
+    "explain": "Khi bàn phím hỏng, mở bàn phím ảo (On-Screen Keyboard) có sẵn trong Windows 7 để tiếp tục gõ.",
+    "detail": "Đường đi: Start → All Programs → Accessories → Ease of Access → On-Screen Keyboard (hoặc gõ osk trong Search). Kiểm tra mạng hay gắn màn hình máy khác không sửa được lỗi bàn phím vật lý.",
+    "icon": "⌨️",
+    "id": 41
+   },
+   {
+    "src": "m6-q30",
+    "topic": "basics",
+    "text": "Để truy cập vào một Website ta phải biết",
+    "options": {
+     "A": "IP của của máy tính",
+     "B": "Tên miền của Website đó",
+     "C": "Tất cả đều sai",
+     "D": "Website đó được đặt tại máy chủ nào"
+    },
+    "answer": "B",
+    "explain": "Để truy cập một website, ta thường cần biết tên miền của website đó. Tên miền dễ nhớ hơn địa chỉ IP và được hệ thống DNS chuyển thành IP khi truy cập.",
+    "detail": "Tên miền (domain name) như `moet.gov.vn` đại diện cho địa chỉ máy chủ trên Internet. DNS (Domain Name System) sẽ phân giải tên miền sang địa chỉ IP. Người dùng không cần biết website đặt ở máy chủ nào hoặc IP máy tính của mình để mở website.",
+    "icon": "🌐",
+    "id": 42
+   },
+   {
+    "src": "m2-q49",
+    "topic": "basics",
+    "text": "Windows Explorer dùng để làm gì?",
+    "options": {
+     "A": "Quản lý tập tin, thư mục",
+     "B": "Phần mềm xây dựng trang web",
+     "C": "Trình duyệt Web",
+     "D": "Truy cập mạng"
+    },
+    "answer": "A",
+    "explain": "Windows Explorer (File Explorer) dùng quản lý tập tin và thư mục: xem, copy, đổi tên, xóa, tìm…",
+    "detail": "Không phải trình duyệt web (IE/Chrome) hay công cụ làm website. Mở bằng Windows+E hoặc Computer. Cửa sổ trái là cây thư mục (Navigation pane), phải là nội dung.",
+    "icon": "📁",
+    "id": 43
+   },
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "Thiết bị nào là thiết bị xuất (output)?",
+    "options": {
+     "A": "Chuột",
+     "B": "Máy quét (scanner)",
+     "C": "Micro",
+     "D": "Máy in"
+    },
+    "answer": "D",
+    "explain": "Máy in đưa kết quả từ máy ra giấy — thuộc thiết bị xuất.",
+    "detail": "Chuột, scanner, micro là thiết bị nhập. Phân biệt đúng input/output là kiến thức nền thường gặp trong đề CNTT cơ bản.",
+    "icon": "🖨️",
+    "id": 44
+   },
+   {
+    "src": "m2-q79",
+    "topic": "basics",
+    "text": "Trong hệ điều hành window, để xem thuộc tính của tệp hoặc thư mục cần làm gì?",
+    "options": {
+     "A": "Nhấn tổ hợp phím Ctrl + N, gõ tên mới và nhấn phím Enter",
+     "B": "Nhấn tổ hợp phím Ctrl + T, gõ tên mới và nhấn phím Enter",
+     "C": "Nhấn tổ hợp phím Ctrl +R, gõ tên mới cho thư mục và nhấn phím Enter",
+     "D": "Nhấp phải chuột vào tệp/thư mục, chọn Properties/xem tại Attributes"
+    },
+    "answer": "D",
+    "explain": "Xem thuộc tính: chuột phải tệp/thư mục → Properties; mục Attributes (Read-only, Hidden…) nằm trong hộp thoại này.",
+    "detail": "Ctrl+N, Ctrl+T, Ctrl+R không phải lệnh xem thuộc tính. Trong Properties còn thấy Size, Location, ngày tạo/sửa.",
+    "icon": "ℹ️",
+    "id": 45
+   },
+   {
+    "src": "m2-q9",
+    "topic": "basics",
+    "text": "Trong Control Panel của Windows 7, để thay đổi cách thức đăng nhập (login) và đăng xuất (logout), ta có thể dùng cách nào sau đây?",
+    "options": {
+     "A": "Không có đáp án đúng",
+     "B": "Chọn User Accounts, chọn Change the way users log on or off",
+     "C": "Chọn Windows Firewall, đánh dấu mục On hoặc Off",
+     "D": "Chọn System, chọn Change the way user log on or off"
+    },
+    "answer": "B",
+    "explain": "Cách đăng nhập/đăng xuất đổi trong Control Panel → User Accounts → Change the way users log on or off.",
+    "detail": "User Accounts quản lý tài khoản, mật khẩu và kiểu log on (Welcome screen, Ctrl+Alt+Del…). Windows Firewall bật/tắt tường lửa; System xem thông tin máy — không phải chỗ đổi login. Ghi nhớ: «User Accounts» = tài khoản người dùng.",
+    "icon": "👤",
+    "id": 46
+   },
+   {
+    "src": "m2-q46",
+    "topic": "basics",
+    "text": "Khi thực hiện thao tác xóa một biểu tượng Shortcut trong Windows, chương trình tương ứng sẽ chịu tác động nào sau đây?",
+    "options": {
+     "A": "Không khởi động được",
+     "B": "Không thay đổi",
+     "C": "Không lưu được",
+     "D": "Bị xóa"
+    },
+    "answer": "B",
+    "explain": "Xóa biểu tượng Shortcut chỉ bỏ lối tắt; chương trình gốc trên ổ đĩa không bị xóa hay hỏng.",
+    "detail": "Vẫn mở được bằng Start Menu hoặc đường dẫn Program Files. Muốn gỡ hẳn phần mềm phải Uninstall trong Programs and Features. Nhầm «xóa Shortcut = gỡ máy» là lỗi phổ biến.",
+    "icon": "🔗",
+    "id": 47
+   },
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "Đặc điểm đúng của bộ nhớ RAM là:",
+    "options": {
+     "A": "Lưu dữ liệu vĩnh viễn ngay cả khi tắt máy",
+     "B": "Chỉ dùng để lưu chương trình hệ điều hành",
+     "C": "Lưu tạm dữ liệu đang làm việc; mất dữ liệu khi mất điện",
+     "D": "Không ảnh hưởng tốc độ máy tính"
+    },
+    "answer": "C",
+    "explain": "RAM là bộ nhớ tạm: máy đang chạy thì dùng, tắt máy là mất nội dung chưa lưu.",
+    "detail": "RAM (Random Access Memory) giúp mở nhiều chương trình nhanh. Dữ liệu quan trọng phải lưu ra ổ cứng/SSD hoặc đám mây. ROM giữ firmware khởi động, không thay thế RAM.",
+    "icon": "💾",
+    "id": 48
+   },
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "Đơn vị nhỏ nhất để đo thông tin trong máy tính là:",
+    "options": {
+     "A": "Byte",
+     "B": "Bit",
+     "C": "Kilobyte",
+     "D": "Megabyte"
+    },
+    "answer": "B",
+    "explain": "Bit là đơn vị nhỏ nhất (0 hoặc 1). 8 bit = 1 byte.",
+    "detail": "Thứ tự thường gặp: bit → Byte → KB → MB → GB → TB. Đề thi hay hỏi quan hệ 1 Byte = 8 bit và đơn vị nhỏ nhất là bit.",
+    "icon": "🔢",
+    "id": 49
+   },
+   {
+    "src": "m6-q8",
+    "topic": "basics",
+    "text": "Địa chỉ nào không phải là địa chỉ trang web?",
+    "options": {
+     "A": "ngoisao.net",
+     "B": "ninhbinh@yahoo.com",
+     "C": "mail.yahoo.com",
+     "D": "www.laodong.com.vn"
+    },
+    "answer": "B",
+    "explain": "`ninhbinh@yahoo.com` là địa chỉ email vì có ký hiệu `@`, không phải địa chỉ trang web. Các địa chỉ còn lại là tên miền hoặc địa chỉ máy chủ web có thể mở bằng trình duyệt.",
+    "detail": "Địa chỉ website thường có dạng tên miền như `ngoisao.net` hoặc `mail.yahoo.com`. Địa chỉ thư điện tử (email address) có cấu trúc tên_người_dùng@tên_miền. Mẹo nhanh: thấy `@` thì thường đang nói đến email, không phải website.",
+    "icon": "📧",
+    "id": 50
+   },
+   {
+    "src": "m6-q17",
+    "topic": "basics",
+    "text": "Opera là gì?",
+    "options": {
+     "A": "Thiết bị kết nối các mạng trên Internet",
+     "B": "Bộ giao thức",
+     "C": "1 chuẩn mạng cục bộ",
+     "D": "Trình duyệt web"
+    },
+    "answer": "D",
+    "explain": "Opera là một trình duyệt web. Nó cùng nhóm với Chrome, Firefox, Edge và Internet Explorer trong chức năng xem trang web.",
+    "detail": "Trình duyệt web (browser) là phần mềm phía người dùng, khác với web server là máy chủ cung cấp trang. Opera không phải bộ giao thức và cũng không phải thiết bị kết nối Internet. Dấu hiệu nhận biết là người dùng cài Opera để lướt web.",
+    "icon": "🧭",
+    "id": 51
+   },
+   {
+    "src": "m6-q47",
+    "topic": "basics",
+    "text": "Khi đã thiết lập khóa cửa sổ pop-up của 1 trang web:",
+    "options": {
+     "A": "Bạn phải cài đặt lại trình duyệt mới hiển thị được cửa sổ pop-up",
+     "B": "Bạn có thể tự thiết lập mở khóa trong trường hợp cần thiết",
+     "C": "Toàn bộ pop-up của tất cả các trang web không được hiển thị",
+     "D": "Bạn phải gửi thông báo tới quản trị trang web nếu muốn hiển thị lại"
+    },
+    "answer": "B",
+    "explain": "Khi đã chặn pop-up của một trang, người dùng vẫn có thể tự mở khóa nếu cần. Không cần cài lại trình duyệt hay liên hệ quản trị website.",
+    "detail": "Trình duyệt cho phép quản lý ngoại lệ (exceptions) cho từng website trong phần cài đặt pop-up. Ví dụ trang ngân hàng hoặc học trực tuyến đôi khi cần pop-up để mở hóa đơn hoặc cửa sổ xác nhận. Mẹo nhớ: chặn pop-up là thiết lập của trình duyệt, nên người dùng có thể thay đổi lại.",
+    "icon": "🔓",
+    "id": 52
+   },
+   {
+    "src": "m2-q34",
+    "topic": "basics",
+    "text": "Trong hệ điều hành Windows, để sửa lại ngày/giờ cho hệ thống máy tính, sử dụng công cụ nào sau đây?",
+    "options": {
+     "A": "Date and Time trong cửa sổ My Computer",
+     "B": "Date and Time trong cửa sổ My Networking",
+     "C": "Date and Time trong cửa sổ Internet Explorer",
+     "D": "Date and Time trong cửa sổ Control Panel"
+    },
+    "answer": "D",
+    "explain": "Sửa ngày/giờ hệ thống tại Control Panel → Date and Time, không nằm trong My Computer hay IE.",
+    "detail": "Cũng có thể đúp đồng hồ trên Taskbar → Change date and time settings. My Computer quản lý ổ đĩa; Internet Explorer là trình duyệt. Đồng bộ Internet time cũng nằm trong Date and Time.",
+    "icon": "🕐",
+    "id": 53
+   },
+   {
+    "src": "m1-q105",
+    "topic": "basics",
+    "text": "Virus máy tính là gì?",
+    "options": {
+     "A": "Chương trình máy tính mô tả hoạt động của virus",
+     "B": "Chương trình máy tính hoạt động ngay cả khi tắt máy",
+     "C": "Virus sinh học lây lan qua việc sử dụng chung bàn phím",
+     "D": "Chương trình máy tính có khả năng tự lây lan nhằm phá hoại hoặc lấy cắp thông tin"
+    },
+    "answer": "D",
+    "explain": "Virus máy tính là chương trình độc hại có khả năng tự lây lan để phá hoại hoặc đánh cắp thông tin.",
+    "detail": "Virus thường gắn vào tệp hay chương trình chủ và phát tán khi tệp được chạy hoặc chia sẻ. Nó là mã phần mềm, không phải virus sinh học và không hoạt động khi máy đã mất điện hoàn toàn.",
+    "icon": "🦠",
+    "id": 54
+   },
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "Hệ điều hành (Operating System) có vai trò nào sau đây?",
+    "options": {
+     "A": "Chỉ dùng để soạn thảo văn bản",
+     "B": "Quản lý phần cứng và tạo môi trường chạy phần mềm ứng dụng",
+     "C": "Chỉ kết nối mạng LAN",
+     "D": "Thay thế hoàn toàn phần cứng"
+    },
+    "answer": "B",
+    "explain": "Hệ điều hành điều khiển phần cứng và cho phép Word, Excel, trình duyệt… chạy được.",
+    "detail": "Ví dụ: Windows, macOS, Linux, Android. Không có OS thì người dùng khó tương tác với máy. Phần mềm ứng dụng (Word, Chrome) chạy trên OS, không thay thế OS.",
+    "icon": "🪟",
+    "id": 55
+   },
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "Bộ xử lý trung tâm (CPU) có chức năng chính nào?",
+    "options": {
+     "A": "Lưu trữ lâu dài toàn bộ dữ liệu người dùng",
+     "B": "Thực hiện các phép tính và điều khiển hoạt động của máy tính",
+     "C": "Kết nối máy tính với mạng Internet",
+     "D": "Hiển thị hình ảnh lên màn hình"
+    },
+    "answer": "B",
+    "explain": "CPU là “bộ não” của máy: xử lý lệnh và điều khiển các bộ phận khác làm việc.",
+    "detail": "CPU (Central Processing Unit) thực hiện phép tính số học/logic và điều khiển. RAM lưu tạm khi máy đang chạy; ổ cứng/SSD lưu lâu dài; màn hình chỉ xuất hình ảnh.",
+    "icon": "🧠",
+    "id": 56
+   },
+   {
+    "src": "m2-q86",
+    "topic": "basics",
+    "text": "Trong hệ điều hành Windows, muốn sao chép các tệp đang chọn vào bộ nhớ đệm ta thực hiện",
+    "options": {
+     "A": "Không có đáp án đúng",
+     "B": "Nhấn tổ hợp phím Ctrl + V hoặc nhấp phải chuột vào đối tượng chọn Copy",
+     "C": "Nhấn tổ hợp phím Ctrl + X hoặc nhấp phải chuột vào đối tượng chọn Copy",
+     "D": "Nhấn tổ hợp phím Ctrl + C hoặc nhấp phải chuột vào đối tượng chọn Copy"
+    },
+    "answer": "D",
+    "explain": "Sao chép vào Clipboard: Ctrl+C hoặc chuột phải → Copy; không dùng Ctrl+X (cắt) hay Ctrl+V (dán).",
+    "detail": "Copy giữ nguyên bản gốc; Cut (Ctrl+X) dùng để di chuyển. Sau Copy mở thư mục đích rồi Paste. Chuột phải đúng đối tượng đã chọn rất quan trọng.",
+    "icon": "📋",
+    "id": 57
+   },
+   {
+    "src": "m1-q79",
+    "topic": "basics",
+    "text": "Mạng Intranet là gì",
+    "options": {
+     "A": "Là sự kết nối các máy tính trong một phạm vi nhỏ (nhà ở, phòng làm việc,…)",
+     "B": "Là sự kết nối các máy tính trên phạm vi toàn cầu",
+     "C": "Là sự kết nối các máy tính trong 1 cơ quan, tùy theo cấu hình của nhà quản trị (Admin) mà mỗi thông tin được hay không được cho phép gửi ra bên ngoài",
+     "D": "Là sự kết nối giữa 2 máy tính với nhau"
+    },
+    "answer": "C",
+    "explain": "Intranet là mạng riêng trong một cơ quan, nơi quản trị viên kiểm soát quyền truy cập và thông tin được gửi ra ngoài.",
+    "detail": "Intranet dùng các công nghệ Internet nhưng giới hạn cho thành viên của tổ chức. Nó không đơn thuần là hai máy nối nhau và cũng không mở công cộng toàn cầu như Internet.",
+    "icon": "🏛️",
+    "id": 58
+   },
+   {
+    "src": "m1-q90",
+    "topic": "basics",
+    "text": "Đặc điểm chính của hệ thống truyền giọng nói trên giao thức IP (Voice over Internet Protocal-VoIP)",
+    "options": {
+     "A": "Chỉ thực hiện được bằng phần mềm",
+     "B": "Phụ thuộc vào phần cứng được sử dụng",
+     "C": "Cung cấp một liên kết đến các mạng điện thoại truyền thống và không trả thêm bất kì một khoản chi phí nào",
+     "D": "Phụ thuộc vào loại mạng ảo hỗ trợ nó"
+    },
+    "answer": "C",
+    "explain": "Theo mô tả của đề, VoIP có thể liên kết với mạng điện thoại truyền thống và thực hiện cuộc gọi qua Internet mà không phát sinh phí kết nối riêng trong tình huống nêu.",
+    "detail": "VoIP (Voice over Internet Protocol) biến giọng nói thành gói dữ liệu IP. Nó không chỉ chạy bằng phần mềm và không phụ thuộc duy nhất vào một loại phần cứng hay mạng ảo.",
+    "icon": "☎️",
+    "id": 59
+   },
+   {
+    "src": "m1-q31",
+    "topic": "basics",
+    "text": "Bàn phím máy tính là thiết bị nào trong các thiết bị sau?",
+    "options": {
+     "A": "Thiết bị xuất thông tin",
+     "B": "Thiết bị lưu trữ thông tin",
+     "C": "Thiết bị nhập thông tin",
+     "D": "Thiết bị thoát thông tin"
+    },
+    "answer": "C",
+    "explain": "Bàn phím là thiết bị nhập vì thao tác gõ đưa ký tự và lệnh vào máy tính.",
+    "detail": "Trong chu trình input–process–output, bàn phím nằm ở bước input. Nó không lưu dữ liệu và cũng không trình bày kết quả cho người dùng.",
+    "icon": "⌨️",
+    "id": 60
+   },
+   {
+    "src": "new",
+    "topic": "basics",
+    "text": "Trình duyệt web (web browser) dùng để:",
+    "options": {
+     "A": "Soạn thảo bảng tính",
+     "B": "Truy cập và hiển thị trang web trên Internet",
+     "C": "Quản lý tệp trên ổ cứng thay File Explorer",
+     "D": "Cài đặt hệ điều hành"
+    },
+    "answer": "B",
+    "explain": "Trình duyệt (Chrome, Edge, Firefox…) mở trang web và dịch vụ trực tuyến.",
+    "detail": "Nhập URL hoặc tìm kiếm để truy cập. Trình duyệt không thay Word/Excel, cũng không phải hệ điều hành.",
+    "icon": "🧭",
+    "id": 61
+   },
+   {
+    "src": "m6-q22",
+    "topic": "basics",
+    "text": "Phát biểu nào sau là đúng về Mozilla Firefox và Chromium 98",
+    "options": {
+     "A": "Chỉ có Chromium là trình duyệt web",
+     "B": "Chỉ có Mozilla Firefox là trình duyệt web",
+     "C": "Mozila Firefox là trình duyệt web còn Chromium là phần mềm tìm kiếm",
+     "D": "Mozilla Firefox và Chromium là các trình duyệt web"
+    },
+    "answer": "D",
+    "explain": "Mozilla Firefox và Chromium đều là trình duyệt web. Vì vậy phát biểu đúng là cả hai đều thuộc nhóm phần mềm dùng để xem trang web.",
+    "detail": "Chromium là dự án trình duyệt mã nguồn mở, là nền tảng của Google Chrome và một số trình duyệt khác. Firefox là trình duyệt của Mozilla. Phương án nói Chromium là phần mềm tìm kiếm là sai vì công cụ tìm kiếm là Google Search, Bing, Cốc Cốc Search...",
+    "icon": "🧭",
+    "id": 62
+   },
+   {
+    "src": "m2-q27",
+    "topic": "basics",
+    "text": "Để thay đổi kiểu hiển thị ngày tháng năm trong Windows 7 được thiết lập ở đâu?",
+    "options": {
+     "A": "Control Panel/Region and Language",
+     "B": "Control Panel - Display",
+     "C": "Control Panel - Regional",
+     "D": "Control Panel - System"
+    },
+    "answer": "A",
+    "explain": "Kiểu hiển thị ngày/tháng/năm (dd/MM/yyyy hay MM/dd/yyyy…) đặt trong Control Panel → Region and Language.",
+    "detail": "Region and Language (Vùng và Ngôn ngữ) đổi Formats của Short date/Long date/Time. Display chỉ độ phân giải/màn hình; System là thông tin máy. Date and Time đổi đồng hồ hiện tại, không phải «kiểu biểu diễn» định dạng.",
+    "icon": "📅",
+    "id": 63
+   },
+   {
+    "src": "m1-q11",
+    "topic": "basics",
+    "text": "ROM là bộ nhớ gì?",
+    "options": {
+     "A": "Bộ nhớ chỉ đọc",
+     "B": "Bộ nhớ tạm thời",
+     "C": "Bộ nhớ đọc, ghi",
+     "D": "Bộ nhớ ngoài"
+    },
+    "answer": "A",
+    "explain": "ROM là bộ nhớ chỉ đọc, thường lưu dữ liệu cần giữ lại ngay cả khi máy mất điện.",
+    "detail": "ROM (Read-Only Memory) thường chứa firmware hoặc mã khởi động. Khác RAM, ROM không phải bộ nhớ tạm và người dùng không thường xuyên ghi sửa nội dung của nó.",
+    "icon": "📖",
+    "id": 64
+   },
+   {
+    "src": "m2-q110",
+    "topic": "files",
+    "text": "Bạn cần gửi 24 tệp tin có kích thước lớn bằng email. Làm thế nào để bạn có thể gửi chúng nhanh và hiệu quả hơn?",
+    "options": {
+     "A": "Tạo một tệp chứa 24 tệp tin ban đầu 37",
+     "B": "Gửi từng tệp",
+     "C": "Nhóm các tệp tin thành từng nhóm sao cho ít tệp tin hơn được gửi, với cùng nội dung và dung lượng",
+     "D": "Sử dụng chương trình nén để nén và gửi tệp tin nén này với dung lượng nhỏ hơn"
+    },
+    "answer": "D",
+    "explain": "Gửi nhiều file lớn qua email hiệu quả hơn khi nén thành một (hoài) file dung lượng nhỏ hơn rồi đính kèm.",
+    "detail": "Gửi từng file chậm và dễ vượt giới hạn dung lượng mail. Nén còn gói 24 file thành ít tệp đính kèm. Một số mail vẫn giới hạn kích thước — cần nén mạnh hoặc gửi cloud nếu vẫn lớn.",
+    "icon": "📧",
+    "id": 65
+   },
+   {
+    "src": "m2-q14",
+    "topic": "files",
+    "text": "Phím tắt nào sao chép một đối tượng vào ClipBoard?",
+    "options": {
+     "A": "Ctrl+C",
+     "B": "Ctrl+X",
+     "C": "Ctrl+Z",
+     "D": "Ctrl+V"
+    },
+    "answer": "A",
+    "explain": "Ctrl+C là Copy: đưa bản sao vào Clipboard, đối tượng gốc vẫn nằm nguyên.",
+    "detail": "Sau Copy dùng Ctrl+V (Paste) để dán. Ctrl+X là Cut (cắt/di chuyển); Ctrl+Z Undo; Ctrl+V Paste. Mẹo: C = Copy, X trông như kéo cắt, V = dán vào.",
+    "icon": "📋",
+    "id": 66
+   },
+   {
+    "src": "m2-q104",
+    "topic": "files",
+    "text": "Khi tìm kiếm tập tin, thư mục, ký tự * dùng để làm gì?",
+    "options": {
+     "A": "Thay thế cho 1 số ký tự",
+     "B": "Thay thế cho dấu cách",
+     "C": "Không thể thay thế cho ký tự",
+     "D": "Thay thế cho từ khóa 36"
+    },
+    "answer": "A",
+    "explain": "Dấu * trong tìm kiếm thay thế cho một chuỗi nhiều ký tự (0 hoặc nhiều).",
+    "detail": "Ví dụ: *ke*.txt tìm file txt có chữ «ke» trong tên. Dấu ? chỉ thay một ký tự. Không phải thay dấu cách hay «từ khóa» theo nghĩa ngôn ngữ.",
+    "icon": "✳️",
+    "id": 67
+   },
+   {
+    "src": "m2-q75",
+    "topic": "files",
+    "text": "Phím tắt để đổi tên tệp tin, thư mục là gì?",
+    "options": {
+     "A": "Ctrl+N",
+     "B": "Alt+N",
+     "C": "F4",
+     "D": "F2"
+    },
+    "answer": "D",
+    "explain": "F2 đổi tên (Rename) tệp hoặc thư mục đang được chọn trong Windows Explorer.",
+    "detail": "Chọn mục → F2 → gõ tên mới → Enter (Esc để hủy). Ctrl+N tạo mới; F4 thường kích hoạt thanh Address. Chuột phải → Rename cũng được.",
+    "icon": "✏️",
+    "id": 68
+   },
+   {
+    "src": "m2-q57",
+    "topic": "files",
+    "text": "Tệp tin có phần mở rộng là MP3 cho ta biết đây là",
+    "options": {
+     "A": "File văn bản",
+     "B": "File thực thi",
+     "C": "File âm thanh",
+     "D": "File ảnh"
+    },
+    "answer": "C",
+    "explain": ".MP3 là file âm thanh (nhạc); phát bằng Windows Media Player hoặc phần mềm nghe nhạc.",
+    "detail": "Không phải ảnh (.jpg) hay văn bản (.txt/.doc). MP3 phổ biến vì dung lượng nhỏ nhờ nén có mất mát (lossy).",
+    "icon": "🎵",
+    "id": 69
+   },
+   {
+    "src": "m2-q53",
+    "topic": "files",
+    "text": "Ứng dụng có thể đọc các file có phần mở rộng là PDF là?",
+    "options": {
+     "A": "My computer",
+     "B": "Photoshop CS6",
+     "C": "Corel Draw CS5",
+     "D": "Foxit Reader"
+    },
+    "answer": "D",
+    "explain": "File .PDF mở bằng trình đọc PDF như Foxit Reader (hoặc Adobe Reader), không phải My Computer hay Photoshop.",
+    "detail": "My Computer quản lý ổ đĩa; Photoshop/Corel là đồ họa — mở PDF không phải chức năng chính theo đề. Đuôi .pdf = Portable Document Format, giữ nguyên bố cục khi in/chia sẻ.",
+    "icon": "📄",
+    "id": 70
+   },
+   {
+    "src": "m2-q103",
+    "topic": "files",
+    "text": "Các kí tự nào sau đây được sử dụng để thay thế tên file trong thao tác tìm kiếm?",
+    "options": {
+     "A": "Kí tự & và $",
+     "B": "Kí tự & và @",
+     "C": "Kí tự ! và %",
+     "D": "Kí tự * và ?"
+    },
+    "answer": "D",
+    "explain": "Khi tìm kiếm, ký tự đại diện (wildcard) dùng là * và ? để thay thế phần tên file.",
+    "detail": "* thay nhiều ký tự; ? thay đúng một ký tự. Ví dụ: *.docx mọi Word; báo?.xlsx khớp báo1.xlsx. Không dùng &, @, ! làm wildcard chuẩn Windows.",
+    "icon": "✳️",
+    "id": 71
+   },
+   {
+    "src": "m2-q15",
+    "topic": "files",
+    "text": "Phím tắt để cắt một đối tượng vào ClipBoard là gì?",
+    "options": {
+     "A": "Ctrl+M",
+     "B": "Ctrl+X",
+     "C": "Ctrl+V",
+     "D": "Ctrl+Z"
+    },
+    "answer": "B",
+    "explain": "Ctrl+X là Cut: đưa đối tượng vào Clipboard để di chuyển, không giữ bản gốc tại chỗ cũ sau khi dán.",
+    "detail": "Cut dùng khi muốn chuyển file/chữ từ A sang B. Ctrl+C nhân bản; Ctrl+V dán; Ctrl+Z hoàn tác. Nhầm Copy với Cut là lỗi phổ biến khi «di chuyển» file giữa thư mục.",
+    "icon": "✂️",
+    "id": 72
+   },
+   {
+    "src": "m2-q99",
+    "topic": "files",
+    "text": "Muốn xoá vĩnh viễn thư mục ra khỏi máy, ta thao tác thế nào?",
+    "options": {
+     "A": "Chọn thư mục và nhấn tổ hợp phím Shift + Delete",
+     "B": "Nhấn tổ hợp phím Ctrl + Z",
+     "C": "Nhấn tổ hợp phím Ctrl +B",
+     "D": "Nhấn tổ hợp phím Ctrl + A"
+    },
+    "answer": "A",
+    "explain": "Xóa vĩnh viễn thư mục: chọn thư mục rồi Shift+Delete (xác nhận Yes).",
+    "detail": "Ctrl+Z hoàn tác thao tác gần nhất (không phải công cụ xóa hẳn). Ctrl+A chọn tất cả. Muốn xóa hẳn từ thùng rác: Empty Recycle Bin.",
+    "icon": "💥",
+    "id": 73
+   },
+   {
+    "src": "m2-q65",
+    "topic": "files",
+    "text": "Phần mở rộng của tệp tin ngăn cách nhau bởi dấu gì?",
+    "options": {
+     "A": "*",
+     "B": "@",
+     "C": "Dấu chấm (.)",
+     "D": "Dấu chấm than (!) 30"
+    },
+    "answer": "C",
+    "explain": "Tên tệp và phần mở rộng ngăn cách bằng dấu chấm (.), ví dụ anh.jpg.",
+    "detail": "«anh» là tên, «jpg» là phần mở rộng. Không dùng @, *, ! để tách đuôi. Phần sau dấu chấm cuối thường được coi là extension.",
+    "icon": "🔤",
+    "id": 74
+   },
+   {
+    "src": "new",
+    "topic": "files",
+    "text": "Recycle Bin dùng để:",
+    "options": {
+     "A": "Cài đặt Windows Update",
+     "B": "Lưu tạm các mục đã xóa để có thể khôi phục",
+     "C": "Tăng tốc CPU",
+     "D": "Quản lý mật khẩu Wi-Fi"
+    },
+    "answer": "B",
+    "explain": "Thùng rác giữ tệp đã xóa; Restore để lấy lại, Empty để xóa hẳn.",
+    "detail": "Empty Recycle Bin sẽ xóa vĩnh viễn các mục trong thùng rác. Không dùng Recycle Bin để sao lưu dài hạn.",
+    "icon": "♻️",
+    "id": 75
+   },
+   {
+    "src": "m2-q78",
+    "topic": "files",
+    "text": "Thao tác: Chọn thư mục\\ sau đó nhấn F2, có chức năng gì? 32",
+    "options": {
+     "A": "Xóa thư mục",
+     "B": "Đổi tên thư mục",
+     "C": "Di chuyển thư mục",
+     "D": "Không có đáp án đúng"
+    },
+    "answer": "B",
+    "explain": "Chọn thư mục rồi nhấn F2 có chức năng đổi tên thư mục, không xóa hay di chuyển.",
+    "detail": "Xóa dùng Delete; di chuyển dùng Cut (Ctrl+X) rồi Paste. Sau F2 nhấn Enter để xác nhận. Thao tác giống nhau với file.",
+    "icon": "✏️",
+    "id": 76
+   },
+   {
+    "src": "m2-q21",
+    "topic": "files",
+    "text": "Tổ hợp phím Ctrl + C có chức năng gì?",
+    "options": {
+     "A": "Sao chép văn bản được chọn, và đưa vào bộ nhớ đệm",
+     "B": "Di chuyển văn bản được chọn, và đưa vào bộ nhớ đệm",
+     "C": "Hiển thị văn bản từ bộ nhớ đệm",
+     "D": "Phục hồi lại thao tác trước đó"
+    },
+    "answer": "A",
+    "explain": "Ctrl+C sao chép phần đã chọn vào bộ nhớ đệm (Clipboard); bản gốc vẫn còn nguyên.",
+    "detail": "Clipboard là vùng nhớ tạm chung của Windows. Sau Ctrl+C dùng Ctrl+V để dán. Nhầm với Ctrl+X (cắt/di chuyển) hoặc Ctrl+Z (hoàn tác) là lỗi hay gặp khi làm bài phím tắt.",
+    "icon": "📋",
+    "id": 77
+   },
+   {
+    "src": "m2-q22",
+    "topic": "files",
+    "text": "Tổ hợp phím Ctrl + X có chức năng gì?",
+    "options": {
+     "A": "Di chuyển văn bản được chọn, và đưa vào bộ nhớ đệm",
+     "B": "Phục hồi lại thao tác trước đó",
+     "C": "Hiển thị văn bản từ bộ nhớ đệm",
+     "D": "Sao chép văn bản được chọn, và đưa vào bộ nhớ đệm"
+    },
+    "answer": "A",
+    "explain": "Ctrl+X cắt văn bản đã chọn vào Clipboard — dùng để di chuyển chứ không nhân bản.",
+    "detail": "Sau Cut, dán bằng Ctrl+V ở vị trí mới. Khác Ctrl+C (Copy giữ nguyên gốc). Ctrl+Z hoàn tác nếu cắt nhầm. Mẹo: X giống kéo cắt giấy.",
+    "icon": "✂️",
+    "id": 78
+   },
+   {
+    "src": "m2-q74",
+    "topic": "files",
+    "text": "Trong các tên thư mục sau đây, tên thư mục nào máy chấp nhận?",
+    "options": {
+     "A": "Hocphantin1:.doc",
+     "B": "Hoc?phan?tin?1",
+     "C": "Hoc_phan_tin_1",
+     "D": "Hoc*phan*tin*1.doc"
+    },
+    "answer": "C",
+    "explain": "Hoc_phan_tin_1 hợp lệ: chỉ chữ, số và gạch dưới; các tên còn lại chứa :, ? hoặc * nên bị từ chối.",
+    "detail": "Hocphantin1:.doc có hai chấm; Hoc?phan?tin?1 có dấu hỏi; Hoc*phan*tin*1.doc có dấu sao. Mẹo đặt tên: ưu tiên chữ–số–gạch dưới.",
+    "icon": "✅",
+    "id": 79
+   },
+   {
+    "src": "m2-q20",
+    "topic": "files",
+    "text": "Muốn xóa ký tự đằng sau con trỏ thì nhấn phím gì?",
+    "options": {
+     "A": "Ctrl",
+     "B": "Home",
+     "C": "End 23",
+     "D": "Delete"
+    },
+    "answer": "D",
+    "explain": "Delete xóa ký tự đứng ngay sau (bên phải) con trỏ; Backspace mới xóa ký tự trước con trỏ.",
+    "detail": "Home đưa con trỏ đầu dòng; End cuối dòng. Khi soạn thảo, nhớ cặp: Backspace = phía trước, Delete = phía sau. Ctrl không phải phím xóa ký tự.",
+    "icon": "⌫",
+    "id": 80
+   },
+   {
+    "src": "new",
+    "topic": "files",
+    "text": "Phím tắt thường dùng để đổi tên tệp/thư mục đang chọn trong Windows là:",
+    "options": {
+     "A": "F2",
+     "B": "F5",
+     "C": "F1",
+     "D": "F12"
+    },
+    "answer": "A",
+    "explain": "Chọn mục rồi nhấn F2 để đổi tên.",
+    "detail": "F5 làm mới cửa sổ; F1 trợ giúp; F12 trong Office thường là Save As. Chuột phải → Rename cũng được.",
+    "icon": "✏️",
+    "id": 81
+   },
+   {
+    "src": "m2-q107",
+    "topic": "files",
+    "text": "Tệp tin có phần mở rộng là RAR, ZIP cho ta biết là?",
+    "options": {
+     "A": "File nén",
+     "B": "File video",
+     "C": "File văn bản",
+     "D": "File thực thi"
+    },
+    "answer": "A",
+    "explain": "Đuôi .RAR hoặc .ZIP cho biết đó là file nén (archive), không phải video hay văn bản thường.",
+    "detail": "Giải nén bằng WinRAR/WinZip để lấy file gốc. File thực thi thường .exe; video .mp4/.avi. Nhìn đuôi để chọn đúng phần mềm mở.",
+    "icon": "📦",
+    "id": 82
+   },
+   {
+    "src": "new",
+    "topic": "files",
+    "text": "Trong ô Search của File Explorer, gõ `*.docx` thường để:",
+    "options": {
+     "A": "Tìm mọi tệp Word có phần mở rộng .docx",
+     "B": "Xóa toàn bộ tệp Word",
+     "C": "Đổi tên hàng loạt thành .docx",
+     "D": "Cài Microsoft Word"
+    },
+    "answer": "A",
+    "explain": "Dấu * là ký tự đại diện: `*.docx` = mọi tên file kết thúc bằng .docx.",
+    "detail": "Ví dụ khác: `bao_cao*` tìm tên bắt đầu bằng bao_cao. Đây là kỹ năng tìm kiếm tệp thường gặp trong phần Windows của đề thực hành/trắc nghiệm.",
+    "icon": "🔎",
+    "id": 83
+   },
+   {
+    "src": "new",
+    "topic": "files",
+    "text": "Sau khi Cut (Ctrl + X) một tệp, thao tác Paste (Ctrl + V) sẽ:",
+    "options": {
+     "A": "Tạo bản sao và giữ nguyên tệp ở vị trí cũ",
+     "B": "Di chuyển tệp sang vị trí mới",
+     "C": "Xóa vĩnh viễn tệp",
+     "D": "Nén tệp thành ZIP"
+    },
+    "answer": "B",
+    "explain": "Cut + Paste là di chuyển; Copy + Paste mới là sao chép.",
+    "detail": "Ctrl + C sao chép (giữ bản gốc). Ctrl + X cắt (bản gốc sẽ mất ở chỗ cũ sau khi dán). Kéo thả giữ Shift cũng thường là di chuyển trong cùng ổ.",
+    "icon": "📋",
+    "id": 84
+   },
+   {
+    "src": "m2-q98",
+    "topic": "files",
+    "text": "Chọn thư mục, ấn tổ hợp phím Shift + Delete, điều gì sẽ xảy ra?",
+    "options": {
+     "A": "Không có đáp án đúng",
+     "B": "Thư mục bị đưa vào thùng rác",
+     "C": "Phục hồi thư mục từ trong thùng rác",
+     "D": "Thư mục bị xoá vĩnh viễn khỏi máy 35"
+    },
+    "answer": "D",
+    "explain": "Shift+Delete xóa vĩnh viễn, bỏ qua Recycle Bin — thư mục không vào thùng rác.",
+    "detail": "Delete thường → Recycle Bin; Shift+Delete → xóa hẳn. Không dùng để «phục hồi». Chỉ dùng khi chắc chắn không cần lấy lại.",
+    "icon": "💥",
+    "id": 85
+   },
+   {
+    "src": "new",
+    "topic": "files",
+    "text": "Cách nhanh để tạo thư mục mới trong File Explorer là:",
+    "options": {
+     "A": "Ctrl + Shift + N",
+     "B": "Ctrl + S",
+     "C": "Alt + F4",
+     "D": "Ctrl + P"
+    },
+    "answer": "A",
+    "explain": "Trong cửa sổ thư mục, Ctrl + Shift + N tạo folder mới.",
+    "detail": "Ctrl + S thường là Lưu; Alt + F4 đóng cửa sổ; Ctrl + P in. Cũng có thể chuột phải → New → Folder.",
+    "icon": "📁",
+    "id": 86
+   },
+   {
+    "src": "m2-q105",
+    "topic": "files",
+    "text": "Mục đích của việc nén dữ liệu (Data compression) là?",
+    "options": {
+     "A": "Chuyển đổi định dạng dữ liệu của file từ .doc sang .rar",
+     "B": "Giảm dung lượng lưu trữ",
+     "C": "Để sắp xếp lại thư mục theo nhóm",
+     "D": "Mã hóa dữ liệu để người khác không đọc được"
+    },
+    "answer": "B",
+    "explain": "Nén dữ liệu (Data compression) nhằm giảm dung lượng lưu trữ/truyền tải, vẫn giữ thông tin để giải nén lại.",
+    "detail": "Không phải mục đích chính là mã hóa mật khẩu (dù một số tool hỗ trợ thêm). Cũng không «đổi .doc thành .rar» theo nghĩa chuyển định dạng văn bản. Ví dụ: 20 ảnh → 1 file .zip nhỏ hơn tổng rời.",
+    "icon": "📦",
+    "id": 87
+   },
+   {
+    "src": "m2-q54",
+    "topic": "files",
+    "text": "Ứng dụng có thể đọc các file có phần mở rộng là PPT hoặc PPTX là?",
+    "options": {
+     "A": "Paint",
+     "B": "WinZip",
+     "C": "Microsoft Office Power Point",
+     "D": "Foxit Reader"
+    },
+    "answer": "C",
+    "explain": ".PPT/.PPTX là bài trình chiếu PowerPoint; mở bằng Microsoft Office PowerPoint.",
+    "detail": "Paint vẽ ảnh bitmap; WinZip nén file; Foxit đọc PDF. Đuôi cũ .ppt (Office 97–2003), .pptx (2007 trở đi). Nhầm PPT với PDF là lỗi hay gặp.",
+    "icon": "📊",
+    "id": 88
+   },
+   {
+    "src": "m2-q56",
+    "topic": "files",
+    "text": "Tệp tin có phần mở rộng là JPG là tệp?",
+    "options": {
+     "A": "File văn bản",
+     "B": "File ảnh",
+     "C": "File thực thi",
+     "D": "File âm thanh"
+    },
+    "answer": "B",
+    "explain": ".JPG/.JPEG là định dạng ảnh nén phổ biến (ảnh chụp, ảnh web), không phải văn bản hay âm thanh.",
+    "detail": "Mở bằng Windows Photo Viewer, Paint, trình duyệt… File thực thi thường .exe; âm thanh .mp3/.wav. Đổi đuôi .jpg thành .txt không biến ảnh thành văn bản.",
+    "icon": "🖼️",
+    "id": 89
+   },
+   {
+    "src": "m2-q80",
+    "topic": "files",
+    "text": "Thao tác: Chọn thư mục\\nhấn Delete, có chức năng gì?",
+    "options": {
+     "A": "Di chuyển thư mục",
+     "B": "Xóa thư mục",
+     "C": "Không có đáp án đúng",
+     "D": "Đổi tên thư mục"
+    },
+    "answer": "B",
+    "explain": "Chọn thư mục rồi nhấn Delete sẽ xóa thư mục (thường đưa vào Recycle Bin nếu xóa từ ổ cứng).",
+    "detail": "Không phải đổi tên (F2) hay di chuyển (Cut). Nếu thư mục có nội dung, Windows thường hỏi xác nhận trước khi xóa cả cây con.",
+    "icon": "🗑️",
+    "id": 90
+   },
+   {
+    "src": "m2-q81",
+    "topic": "files",
+    "text": "Tệp hoặc thư mục có thuộc tính chỉ đọc là thuộc tính nào?",
+    "options": {
+     "A": "Delete",
+     "B": "Read Only",
+     "C": "Modify",
+     "D": "Hidden"
+    },
+    "answer": "B",
+    "explain": "Thuộc tính chỉ đọc là Read Only: cho phép xem/mở nhưng hạn chế sửa hoặc ghi đè tùy ngữ cảnh.",
+    "detail": "Hidden ẩn file; Delete/Modify không phải tên thuộc tính Attributes chuẩn. Xem/tắt: chuột phải → Properties → Attributes → Read-only. File Read Only vẫn copy được.",
+    "icon": "🔒",
+    "id": 91
+   },
+   {
+    "src": "new",
+    "topic": "files",
+    "text": "Muốn giữ nguyên tệp gốc và tạo thêm bản ở thư mục khác, nên dùng:",
+    "options": {
+     "A": "Cut rồi Paste",
+     "B": "Copy rồi Paste",
+     "C": "Delete rồi Restore",
+     "D": "Rename rồi Empty Recycle Bin"
+    },
+    "answer": "B",
+    "explain": "Copy + Paste tạo bản sao; Cut + Paste là chuyển chỗ.",
+    "detail": "Phím tắt: Ctrl + C rồi Ctrl + V. Rất hay dùng khi nộp bài: giữ bản làm việc, nộp bản copy vào thư mục theo yêu cầu đề thi.",
+    "icon": "📄",
+    "id": 92
+   },
+   {
+    "src": "m2-q114",
+    "topic": "files",
+    "text": "Nếu bạn đang gõ từ có dấu, để bỏ dấu nhấn phím gì?",
+    "options": {
+     "A": "Ctrl + A",
+     "B": "A",
+     "C": "Ctrl +N",
+     "D": "Z"
+    },
+    "answer": "D",
+    "explain": "Khi gõ Telex bằng Unikey, nhấn Z để bỏ dấu của từ đang gõ.",
+    "detail": "Ví dụ gõ «hoaf» ra «hòa», thêm Z để về «hoa». Ctrl+A chọn tất cả — không bỏ dấu. Ghi nhớ: Z = xóa dấu trong Unikey/Telex.",
+    "icon": "⌨️",
+    "id": 93
+   },
+   {
+    "src": "m2-q47",
+    "topic": "files",
+    "text": "Khi sao chép Shortcut để mở một tệp hoặc thư mục từ máy A sang máy B, thì tại máy B người dùng có thể làm gì?",
+    "options": {
+     "A": "Máy B sẽ bị nhiễm Virus",
+     "B": "Vẫn mở được thư mục",
+     "C": "Máy B sẽ không đọc được tệp hoặc thư mục",
+     "D": "Không mở được thư mục hoặc tệp"
+    },
+    "answer": "D",
+    "explain": "Copy Shortcut từ máy A sang máy B thường không mở được vì đường dẫn gốc (C:\\Users\\…) trên B khác hoặc file không tồn tại.",
+    "detail": "Shortcut chỉ lưu đường dẫn (path), không chứa nội dung file. Muốn dùng trên máy khác phải copy cả file/thư mục thật, hoặc cài lại chương trình rồi tạo Shortcut mới. Không phải do nhiễm virus.",
+    "icon": "🔗",
+    "id": 94
+   },
+   {
+    "src": "new",
+    "topic": "files",
+    "text": "Thư mục (folder) khác tệp (file) ở chỗ:",
+    "options": {
+     "A": "Thư mục dùng để chứa và tổ chức tệp/thư mục con; tệp là đơn vị dữ liệu cụ thể",
+     "B": "Thư mục luôn có phần mở rộng .exe",
+     "C": "Tệp không thể đổi tên",
+     "D": "Thư mục chỉ tồn tại trên Internet"
+    },
+    "answer": "A",
+    "explain": "Folder như ngăn tủ; file như tài liệu nằm trong ngăn tủ đó.",
+    "detail": "Ví dụ: thư mục BaiThi chứa BaiWord.docx, BaiExcel.xlsx. Tổ chức thư mục rõ ràng giúp tìm và nộp bài đúng yêu cầu.",
+    "icon": "🗂️",
+    "id": 95
+   },
+   {
+    "src": "new",
+    "topic": "files",
+    "text": "Khi xóa tệp bằng phím Delete (không giữ Shift), tệp thường:",
+    "options": {
+     "A": "Bị xóa vĩnh viễn ngay lập tức",
+     "B": "Được đưa vào Recycle Bin (Thùng rác)",
+     "C": "Tự gửi qua email",
+     "D": "Được mã hóa bằng virus"
+    },
+    "answer": "B",
+    "explain": "Delete thường đưa vào Thùng rác; còn có thể khôi phục nếu chưa Empty.",
+    "detail": "Shift + Delete thường xóa thẳng, khó khôi phục. Trong đề thi/thực hành Windows, cần phân biệt Delete và Shift + Delete.",
+    "icon": "🗑️",
+    "id": 96
+   },
+   {
+    "src": "m6-q25",
+    "topic": "security",
+    "text": "Dấu hiệu nhận biết một website an toàn?",
+    "options": {
+     "A": "Có logo chứng nhận bảo mật trên website",
+     "B": "Giao diện đẹp, chức năng và menu có sắp thứ tự",
+     "C": "Có địa chỉ công ty xây dựng website",
+     "D": "Sử dụng giao thức bảo mật để truyền tải nội dung"
+    },
+    "answer": "D",
+    "explain": "Website an toàn cần dùng giao thức bảo mật để truyền tải nội dung, thường là HTTPS. Giao diện đẹp hay logo tự gắn không đủ chứng minh dữ liệu được bảo vệ.",
+    "detail": "Giao thức truyền siêu văn bản an toàn (HTTPS) mã hóa dữ liệu giữa trình duyệt và máy chủ. Khi nhập mật khẩu hoặc thanh toán, hãy kiểm tra URL bắt đầu bằng `https://` và chứng chỉ hợp lệ. Logo bảo mật có thể bị làm giả, còn HTTPS là dấu hiệu kỹ thuật quan trọng hơn.",
+    "icon": "🔒",
+    "id": 97
+   },
+   {
+    "src": "m6-q105",
+    "topic": "security",
+    "text": "Đâu là thư mục không có sẵn trong tài khoản Email",
+    "options": {
+     "A": "Draft",
+     "B": "Sent",
+     "C": "MyEmail",
+     "D": "Spam"
+    },
+    "answer": "C",
+    "explain": "MyEmail không phải thư mục có sẵn phổ biến trong tài khoản email. Draft, Sent và Spam là các thư mục chuẩn thường gặp.",
+    "detail": "Draft lưu thư nháp, Sent lưu thư đã gửi, Spam lưu thư rác. Người dùng có thể tự tạo thư mục riêng với tên tùy ý như MyEmail, nhưng nó không phải thư mục mặc định có sẵn. Câu hỏi hỏi “không có sẵn” nên chọn MyEmail.",
+    "icon": "📁",
+    "id": 98
+   },
+   {
+    "src": "m1-q102",
+    "topic": "security",
+    "text": "Đâu là ví dụ của mật khẩu tốt?",
+    "options": {
+     "A": "Mật khẩu chỉ gồm chữ hoặc số",
+     "B": "Chọn một mật khẩu có ít hơn 6 ký tự",
+     "C": "Mật khẩu phải giống lý lịch người sử dụng (ngày tháng năm sinh)",
+     "D": "Mật khẩu nhiều hơn 7 ký tự gồm cả chữ hoa, số, ký tự đặc biệt"
+    },
+    "answer": "D",
+    "explain": "Mật khẩu dài hơn 7 ký tự và phối hợp chữ hoa, số, ký tự đặc biệt khó dò hơn các mật khẩu ngắn hoặc gắn với lý lịch.",
+    "detail": "Độ dài và tính khó đoán làm tăng không gian tìm kiếm của tấn công vét cạn (brute force). Ngày sinh, tên riêng và chuỗi chỉ toàn chữ hoặc số dễ bị đoán.",
+    "icon": "🛡️",
+    "id": 99
+   },
+   {
+    "src": "new",
+    "topic": "security",
+    "text": "Sao lưu (backup) dữ liệu quan trọng giúp:",
+    "options": {
+     "A": "Máy chạy nhanh gấp đôi CPU",
+     "B": "Khôi phục khi máy hỏng, mất file hoặc dính ransomware",
+     "C": "Thay thế antivirus hoàn toàn",
+     "D": "Tăng dung lượng RAM vật lý"
+    },
+    "answer": "B",
+    "explain": "Backup là bản dự phòng để lấy lại dữ liệu khi sự cố.",
+    "detail": "Có thể copy ra USB/ổ ngoài hoặc dùng cloud. Nguyên tắc 3-2-1 thường gặp: 3 bản, 2 loại thiết bị, 1 bản offsite.",
+    "icon": "💾",
+    "id": 100
+   },
+   {
+    "src": "m6-q77",
+    "topic": "security",
+    "text": "Hai người đã tạo được tài khoản thư miễn phí tại địa chỉ MAIL.YAHOO.COM. Phát biểu nào dưới đây là sai?",
+    "options": {
+     "A": "Người này có thể mở được hộp thư của người kia và ngược lại nếu như 2 người biết tên đăng nhập và mật khẩu của nhau",
+     "B": "Hai người này buộc phải lựa chọn hai tên đăng nhập khác nhau",
+     "C": "Mật khẩu mở hộp thư của hai người này phải khác nhau.",
+     "D": "Hộp thư của cả hai đều nằm trên máy Mail Server của công ty Yahoo"
+    },
+    "answer": "C",
+    "explain": "Phát biểu C sai vì hai tài khoản email khác nhau không bắt buộc phải có mật khẩu khác nhau. Hệ thống bắt buộc tên đăng nhập khác nhau, còn mật khẩu có thể trùng dù không nên dùng như vậy.",
+    "detail": "Tên đăng nhập (username) phải duy nhất trong cùng dịch vụ để tạo địa chỉ email riêng. Mật khẩu (password) là bí mật xác thực, hệ thống không dùng nó để định danh công khai tài khoản. Về an toàn, mỗi người vẫn nên dùng mật khẩu mạnh và không chia sẻ cho nhau.",
+    "icon": "🔑",
+    "id": 101
+   },
+   {
+    "src": "new",
+    "topic": "security",
+    "text": "Biện pháp bảo vệ thông tin cá nhân trên mạng xã hội phù hợp là:",
+    "options": {
+     "A": "Công khai số CMND, địa chỉ nhà và ảnh thẻ ngân hàng",
+     "B": "Giới hạn đối tượng xem, không chia sẻ dữ liệu nhạy cảm, kiểm tra quyền riêng tư",
+     "C": "Dùng chung một mật khẩu với mọi nền tảng",
+     "D": "Chấp nhận mọi lời kết bạn để tăng follow"
+    },
+    "answer": "B",
+    "explain": "Hạn chế lộ dữ liệu cá nhân và chỉnh quyền riêng tư giúp giảm rủi ro bị lợi dụng.",
+    "detail": "Không đăng OTP, mật khẩu, ảnh giấy tờ tùy thân. Cảnh giác tin nhắn lạ xin tiền/mượn tài khoản.",
+    "icon": "👤",
+    "id": 102
+   },
+   {
+    "src": "new",
+    "topic": "security",
+    "text": "Tường lửa (firewall) có tác dụng chính:",
+    "options": {
+     "A": "Tăng dung lượng ổ cứng",
+     "B": "Kiểm soát kết nối mạng ra/vào, giảm nguy cơ truy cập trái phép",
+     "C": "Soạn thảo văn bản tự động",
+     "D": "Thay thế hoàn toàn mật khẩu"
+    },
+    "answer": "B",
+    "explain": "Firewall lọc lưu lượng mạng, giúp chặn kết nối đáng ngờ.",
+    "detail": "Windows có tường lửa tích hợp. Firewall không thay antivirus 100%, cũng không bảo vệ nếu bạn tự nhập mật khẩu trên trang giả mạo.",
+    "icon": "🧱",
+    "id": 103
+   },
+   {
+    "src": "m6-q85",
+    "topic": "security",
+    "text": "Các Email rác được lưu trong thư mục nào?",
+    "options": {
+     "A": "Sent",
+     "B": "Spam",
+     "C": "Draft",
+     "D": "Inbox"
+    },
+    "answer": "B",
+    "explain": "Email rác thường được lưu trong thư mục Spam. Inbox là hộp thư đến, Sent là thư đã gửi, Draft là thư nháp.",
+    "detail": "Thư rác (Spam) có thể do bộ lọc tự chuyển vào thư mục Spam hoặc do người dùng đánh dấu. Cần kiểm tra thư mục này khi nghi ngờ thư hợp lệ bị lọc nhầm, nhưng không nên mở nội dung đáng ngờ. Mẹo nhớ: Spam = thư rác.",
+    "icon": "🗑️",
+    "id": 104
+   },
+   {
+    "src": "new",
+    "topic": "security",
+    "text": "Phishing (lừa đảo trực tuyến) thường nhằm mục đích:",
+    "options": {
+     "A": "Tăng tốc độ RAM",
+     "B": "Lừa người dùng cung cấp mật khẩu, OTP, thông tin thẻ…",
+     "C": "Sao lưu dữ liệu tự động",
+     "D": "Cài driver máy in"
+    },
+    "answer": "B",
+    "explain": "Phishing giả danh ngân hàng/cơ quan để đánh cắp thông tin đăng nhập hoặc tiền.",
+    "detail": "Dấu hiệu: email/SMS link lạ,催 gấp, sai tên miền (ví dụ ngânhang-secure.ru). Không nhập mật khẩu trên trang không chắc chắn; kiểm tra địa chỉ HTTPS và tên miền chính chủ.",
+    "icon": "🎣",
+    "id": 105
+   },
+   {
+    "src": "new",
+    "topic": "security",
+    "text": "Khi dùng máy công cộng, nên:",
+    "options": {
+     "A": "Lưu mật khẩu trình duyệt và không đăng xuất",
+     "B": "Đăng xuất tài khoản, không lưu mật khẩu, chú ý người xung quanh",
+     "C": "Tắt antivirus để máy nhẹ hơn",
+     "D": "Cài phần mềm lạ theo yêu cầu người ngồi cạnh"
+    },
+    "answer": "B",
+    "explain": "Máy công cộng dễ bị lộ tài khoản nếu quên đăng xuất hoặc lưu mật khẩu.",
+    "detail": "Ưu tiên xác thực 2 bước. Tránh thanh toán/nhập OTP trên máy không tin cậy nếu không cần thiết.",
+    "icon": "🔐",
+    "id": 106
+   },
+   {
+    "src": "m6-q119",
+    "topic": "security",
+    "text": "Nguyên tắc đảm bảo an toàn cho mật khẩu đối với người sử dụng khi điền thông tin, các biểu mẫu để thực hiện thanh toán khi giao dịch thương mại điện tử là gì?",
+    "options": {
+     "A": "Đặt mật khẩu trùng với địa chỉ email giao dịch",
+     "B": "Mã hóa mật khẩu khi lưu trữ",
+     "C": "Quy định thời gian sử dụng tối đa của mật khẩu",
+     "D": "Không dùng mật khẩu quá ngắn, mật khẩu có chứa tên người dùng, mật khẩu là những từ có nghĩa trong từ điển"
+    },
+    "answer": "D",
+    "explain": "Mật khẩu an toàn không nên quá ngắn, không chứa tên người dùng và không nên là từ có nghĩa trong từ điển. Những kiểu mật khẩu đó rất dễ bị đoán hoặc dò tự động.",
+    "detail": "Tấn công dò mật khẩu (password guessing/brute force) thường thử tên người dùng, ngày sinh và các từ trong từ điển (dictionary attack). Người dùng nên đặt mật khẩu dài, khó đoán, kết hợp chữ hoa, chữ thường, số và ký tự đặc biệt nếu hệ thống cho phép. Các phương án như mã hóa khi lưu trữ là trách nhiệm của hệ thống, còn câu hỏi hỏi nguyên tắc đối với người sử dụng khi điền thông tin.",
+    "icon": "🔐",
+    "id": 107
+   },
+   {
+    "src": "new",
+    "topic": "security",
+    "text": "Cách tạo mật khẩu mạnh hơn là:",
+    "options": {
+     "A": "Dùng ngày sinh và tên mình cho dễ nhớ",
+     "B": "Dùng một mật khẩu ngắn cho mọi tài khoản",
+     "C": "Dài, khó đoán, kết hợp chữ hoa/thường, số, ký tự đặc biệt; mỗi tài khoản một mật khẩu",
+     "D": "Gửi mật khẩu cho bạn bè giữ hộ"
+    },
+    "answer": "C",
+    "explain": "Mật khẩu mạnh phải khó đoán và không dùng chung mọi nơi.",
+    "detail": "Nên bật xác thực hai yếu tố (2FA) nếu có. Không lưu mật khẩu trên giấy dán màn hình. Tránh mật khẩu kiểu 123456, password.",
+    "icon": "🔒",
+    "id": 108
+   },
+   {
+    "src": "new",
+    "topic": "security",
+    "text": "Malware là thuật ngữ chỉ:",
+    "options": {
+     "A": "Mọi phần mềm Microsoft Office",
+     "B": "Phần mềm độc hại nói chung (virus, trojan, ransomware…)",
+     "C": "Chỉ các bản cập nhật Windows",
+     "D": "Cáp HDMI"
+    },
+    "answer": "B",
+    "explain": "Malware = malicious software: nhóm phần mềm gây hại.",
+    "detail": "Virus là một dạng malware. Ransomware mã hóa dữ liệu đòi tiền chuộc. Phòng bằng cập nhật, antivirus, backup và thói quen an toàn.",
+    "icon": "💣",
+    "id": 109
+   },
+   {
+    "src": "m1-q109",
+    "topic": "security",
+    "text": "Bạn nhận được một bức thư điện tử chứa tệp tin đính kèm mà bạn không nhận biết ra, bạn sẽ xử lý thế nào trong tình huống này để đảm bảo an toàn?",
+    "options": {
+     "A": "Quét tệp tin bằng chương trình chống virus",
+     "B": "Mở tệp tin đó ra để kiểm tra loại tệp tin",
+     "C": "Chuyển thư này cho người không có chuyên ngành công nghệ thông tin xem",
+     "D": "Lưu bản sao tệp tin này vào đĩa cứng và mở bản sao này"
+    },
+    "answer": "A",
+    "explain": "Tệp đính kèm không rõ nguồn cần được quét bằng chương trình chống virus trước khi xem.",
+    "detail": "Mở trực tiếp hoặc mở bản sao vẫn có thể kích hoạt cùng mã độc; sao chép sang ổ cứng không làm tệp an toàn hơn. Tốt hơn nữa là xác minh người gửi và xóa thư nếu đáng ngờ.",
+    "icon": "📎",
+    "id": 110
+   },
+   {
+    "src": "m1-q101",
+    "topic": "security",
+    "text": "Các mật khẩu nào sau đây là khó phá nhất đối với hacker?",
+    "options": {
+     "A": "password",
+     "B": "123456",
+     "C": "p@ssWord123",
+     "D": "h3llo"
+    },
+    "answer": "C",
+    "explain": "Trong các lựa chọn, p@ssWord123 khó đoán nhất vì kết hợp chữ thường, chữ hoa, số và ký tự đặc biệt.",
+    "detail": "“password” và “123456” nằm trong danh sách mật khẩu bị thử đầu tiên; “h3llo” ngắn và dựa trên từ quen thuộc. Thực tế nên dùng mật khẩu dài, độc nhất hoặc cụm mật khẩu thay vì chỉ biến đổi chữ “password”.",
+    "icon": "🔐",
+    "id": 111
+   },
+   {
+    "src": "new",
+    "topic": "security",
+    "text": "Tệp đính kèm email lạ có phần mở rộng .exe hoặc .bat thì nên:",
+    "options": {
+     "A": "Mở ngay để xem nội dung",
+     "B": "Tắt máy rồi mở",
+     "C": "Không mở; đây có thể là phần mềm độc hại",
+     "D": "Đổi tên thành .docx rồi mở"
+    },
+    "answer": "C",
+    "explain": "File thực thi từ người lạ là đường lây malware rất phổ biến.",
+    "detail": "Chỉ mở đính kèm khi biết rõ người gửi và đúng ngữ cảnh. Khi nghi ngờ, hỏi lại qua kênh khác (gọi điện, chat nội bộ).",
+    "icon": "📎",
+    "id": 112
+   },
+   {
+    "src": "new",
+    "topic": "security",
+    "text": "Nhận email báo “trúng thưởng”, yêu cầu bấm link và nhập mật khẩu ngân hàng. Cách xử lý đúng là:",
+    "options": {
+     "A": "Bấm link ngay để nhận thưởng",
+     "B": "Chuyển tiếp cho nhiều người cùng làm",
+     "C": "Không bấm link; kiểm tra/báo cáo là thư lừa đảo; liên hệ kênh chính thức nếu cần",
+     "D": "Trả lời email bằng số CMND"
+    },
+    "answer": "C",
+    "explain": "Đây là tình huống phishing điển hình — không cung cấp thông tin qua link lạ.",
+    "detail": "Ngân hàng/cơ quan uy tín không đòi mật khẩu qua email. Có thể đánh dấu Spam/Phishing và xóa. Nếu đã lộ thông tin, đổi mật khẩu và liên hệ ngân hàng.",
+    "icon": "📧",
+    "id": 113
+   },
+   {
+    "src": "new",
+    "topic": "security",
+    "text": "Virus máy tính là:",
+    "options": {
+     "A": "Phần cứng bị nóng",
+     "B": "Chương trình độc hại có thể tự lây lan và gây hại dữ liệu/hệ thống",
+     "C": "Một loại trình duyệt web",
+     "D": "Cập nhật Windows chính thức"
+    },
+    "answer": "B",
+    "explain": "Virus là phần mềm độc hại, có thể nhân bản và phá dữ liệu hoặc làm chậm máy.",
+    "detail": "Malware là khái niệm rộng hơn (virus, worm, trojan, ransomware…). Cần phần mềm diệt virus, cập nhật hệ thống và thói quen an toàn khi tải file/mở email.",
+    "icon": "🦠",
+    "id": 114
+   },
+   {
+    "src": "new",
+    "topic": "security",
+    "text": "HTTPS trên thanh địa chỉ trình duyệt thường cho thấy:",
+    "options": {
+     "A": "Trang web dùng kết nối mã hóa, an toàn hơn HTTP thường",
+     "B": "Trang web chắc chắn không bao giờ lừa đảo",
+     "C": "Máy tính đã hết virus",
+     "D": "Tốc độ mạng luôn đạt 1 Gbps"
+    },
+    "answer": "A",
+    "explain": "HTTPS mã hóa dữ liệu truyền tải; vẫn phải kiểm tra đúng tên miền chính chủ.",
+    "detail": "Trang giả mạo cũng có thể có HTTPS. Cần xem kỹ domain (ví dụ vietcombank.com.vn chứ không phải vietcombank-login.xyz).",
+    "icon": "🔑",
+    "id": 115
+   },
+   {
+    "src": "new",
+    "topic": "security",
+    "text": "Biện pháp nào giúp bảo vệ máy/Internet an toàn hơn?",
+    "options": {
+     "A": "Tắt hoàn toàn cập nhật Windows mãi mãi",
+     "B": "Cài phần mềm crack từ diễn đàn lạ",
+     "C": "Cập nhật hệ thống, dùng antivirus, không mở tệp đính kèm đáng ngờ",
+     "D": "Chia sẻ mật khẩu Wi-Fi công khai trên mạng xã hội"
+    },
+    "answer": "C",
+    "explain": "Cập nhật + antivirus + thận trọng với file/email lạ là bộ ba bảo vệ cơ bản.",
+    "detail": "Tường lửa (firewall) cũng hỗ trợ chặn kết nối nguy hiểm. Phần mềm crack/keygen là nguồn malware phổ biến.",
+    "icon": "🛡️",
+    "id": 116
+   },
+   {
+    "src": "m1-q103",
+    "topic": "security",
+    "text": "Cách nào để đề phòng khi giao dịch trực tuyến?",
+    "options": {
+     "A": "Cảnh giác với thư giả mạo",
+     "B": "Tất cả các đáp án đều đúng",
+     "C": "Không để lộ hồ sơ cá nhân",
+     "D": "Đặt mật khẩu nhiều hơn 7 ký tự, gồm cả chữ hoa, số, ký tự đặc biệt"
+    },
+    "answer": "B",
+    "explain": "Giao dịch an toàn cần đồng thời cảnh giác thư giả, giữ kín thông tin cá nhân và dùng mật khẩu mạnh nên tất cả đều đúng.",
+    "detail": "Thư giả mạo (phishing) thường dụ người dùng nhập thông tin vào trang giả. Không một biện pháp đơn lẻ đủ bảo vệ; cần kết hợp kiểm tra địa chỉ, xác thực và bảo mật tài khoản.",
+    "icon": "💳",
+    "id": 117
+   },
+   {
+    "src": "m6-q84",
+    "topic": "security",
+    "text": "Để chặn các Email không mong muốn, thực hiện thao tác chọn Email, sau đó?",
+    "options": {
+     "A": "Kích nút Reply",
+     "B": "Kích nút Forward",
+     "C": "Kích nút Delete",
+     "D": "Kích nút Spam"
+    },
+    "answer": "D",
+    "explain": "Để chặn email không mong muốn, chọn email rồi bấm Spam. Thao tác này đánh dấu thư rác để hệ thống lọc những thư tương tự về sau.",
+    "detail": "Thư rác (Spam) là email quảng cáo, lừa đảo hoặc không mong muốn. Reply là trả lời, Forward là chuyển tiếp, Delete chỉ xóa thư hiện tại chứ không giúp bộ lọc học rõ bằng nút Spam. Không nên mở liên kết hoặc tệp đính kèm trong thư nghi ngờ.",
+    "icon": "🚫",
+    "id": 118
+   },
+   {
+    "src": "new",
+    "topic": "security",
+    "text": "Phần mềm diệt virus (antivirus) giúp:",
+    "options": {
+     "A": "Phát hiện/ngăn chặn nhiều loại mã độc; cần cập nhật mẫu nhận diện",
+     "B": "Thay thế hoàn toàn việc tạo mật khẩu mạnh",
+     "C": "Tự sửa mọi lỗi ngữ pháp trong Word",
+     "D": "Tăng số lõi CPU vật lý"
+    },
+    "answer": "A",
+    "explain": "Antivirus quét và cảnh báo mã độc, nhưng vẫn cần thao tác an toàn của người dùng.",
+    "detail": "Nên bật cập nhật tự động. Không tắt antivirus để cài crack. Windows Security là lớp bảo vệ cơ bản sẵn có trên nhiều máy.",
+    "icon": "🕵️",
+    "id": 119
+   },
+   {
+    "src": "m5-q72",
+    "topic": "office",
+    "text": "Trong Powerpoint 2010, để chọn toàn bộ bảng trong Slide, ta ấn tổ hợp phím?",
+    "options": {
+     "A": "Shift + A",
+     "B": "Ctrl + S",
+     "C": "Ctrl + A",
+     "D": "Alt + A"
+    },
+    "answer": "C",
+    "explain": "Trong bảng đang chọn, Ctrl + A chọn toàn bộ bảng (hoặc toàn bộ nội dung vùng active).",
+    "detail": "Ctrl + S lưu file; Alt/Shift + A không phải chọn bảng chuẩn. Sau khi chọn hết có thể đổi Style hoặc xóa nội dung hàng loạt.",
+    "icon": "🔲",
+    "id": 120
+   },
+   {
+    "src": "m5-q98",
+    "topic": "office",
+    "text": "Trong PowerPoint 2010, chọn phát biểu đúng ?",
+    "options": {
+     "A": "Có thể di chuyển đối tượng ra khỏi nhóm bằng kéo và thả đối tượng 91",
+     "B": "Không thể di chuyển các đối tượng sau khi gom nhóm",
+     "C": "Không thể chỉnh sửa từng đối tượng sau khi gom nhóm chúng",
+     "D": "Có thể chỉnh sửa từng đối tượng sau khi gom nhóm chúng"
+    },
+    "answer": "D",
+    "explain": "Sau khi Group, vẫn có thể chọn và chỉnh từng đối tượng bên trong nhóm.",
+    "detail": "Click lần một chọn group, click lần nữa (hoặc chọn trong Selection Pane) để sửa object con. Không đúng nếu bảo “không thể chỉnh từng cái”. Ungroup khi cần tách hẳn.",
+    "icon": "✅",
+    "id": 121
+   },
+   {
+    "src": "m3-q46",
+    "topic": "office",
+    "text": "Trong khi làm việc với Word, tổ hợp phím tắt nào cho phép chọn tất cả văn bản đang soạn thảo?",
+    "options": {
+     "A": "Ctrl + F",
+     "B": "Alt + F",
+     "C": "Alt + A",
+     "D": "Ctrl + A"
+    },
+    "answer": "D",
+    "explain": "Ctrl + A chọn (Select All) toàn bộ nội dung tài liệu đang mở.",
+    "detail": "A = All. Ctrl + F là tìm; Alt + A/F không chọn hết văn bản. Dùng trước khi đổi font toàn bài hoặc copy cả tài liệu.",
+    "icon": "🔠",
+    "id": 122
+   },
+   {
+    "src": "new",
+    "topic": "office",
+    "text": "Microsoft PowerPoint dùng chủ yếu để:",
+    "options": {
+     "A": "Tạo bài trình chiếu (slide) hỗ trợ thuyết trình",
+     "B": "Quản lý Recycle Bin",
+     "C": "Biên dịch hệ điều hành",
+     "D": "Đo tốc độ Internet"
+    },
+    "answer": "A",
+    "explain": "PowerPoint tạo slide, thêm nội dung/ảnh/biểu đồ và trình chiếu.",
+    "detail": "Có thể thêm Transition (chuyển slide) và Animation (hiệu ứng đối tượng). Không thay Word để soạn văn bản dài hay Excel để tính bảng phức tạp.",
+    "icon": "📙",
+    "id": 123
+   },
+   {
+    "src": "m5-q79",
+    "topic": "office",
+    "text": "Trong Powerpoint 2010, lệnh Insert/ Chart dùng để thực hiện công việc gì?",
+    "options": {
+     "A": "Chèn các file âm thanh vào Slide",
+     "B": "Chèn hình ảnh vào Slide",
+     "C": "Chèn biểu đồ vào Slide",
+     "D": "Chèn công thức toán học vào Slide"
+    },
+    "answer": "C",
+    "explain": "Insert → Chart dùng để chèn biểu đồ vào slide.",
+    "detail": "Không chèn audio, ảnh hay công thức (Equation). Chart minh họa số liệu; ảnh dùng Picture; âm thanh dùng Audio.",
+    "icon": "📊",
+    "id": 124
+   },
+   {
+    "src": "m4-q69",
+    "topic": "office",
+    "text": "Trong bảng tính MS Excel, công thức =Mid(“m1234”,2,3) cho kết quả:",
+    "options": {
+     "A": "Số 123",
+     "B": "Chuỗi “123”",
+     "C": "Số 12",
+     "D": "Số 23"
+    },
+    "answer": "B",
+    "explain": "=MID(\"m1234\",2,3) lấy 3 ký tự từ vị trí 2 → chuỗi \"123\" (vẫn là Text, không phải số).",
+    "detail": "Cú pháp: =MID(chuỗi, vị_trí_bắt_đầu, số_ký_tự). LEFT/RIGHT lấy từ đầu/cuối; MID lấy đoạn giữa.",
+    "icon": "✂️",
+    "id": 125
+   },
+   {
+    "src": "m5-q112",
+    "topic": "office",
+    "text": "Trong PowerPoint, tổ hợp Phím nào sau được dùng để in?",
+    "options": {
+     "A": "Ctrl + O",
+     "B": "Ctrl + S",
+     "C": "Ctrl + N",
+     "D": "Ctrl + P"
+    },
+    "answer": "D",
+    "explain": "Phím tắt in là Ctrl + P — mở Backstage Print.",
+    "detail": "Ctrl + O Open; Ctrl + S Save; Ctrl + N New. Trong Print chọn Full Page Slides hoặc Handouts trước khi in phát cho học viên.",
+    "icon": "🖨️",
+    "id": 126
+   },
+   {
+    "src": "new",
+    "topic": "office",
+    "text": "Ribbon trong Word/Excel/PowerPoint là:",
+    "options": {
+     "A": "Thanh công cụ gồm các tab (Home, Insert…) chứa nhóm lệnh",
+     "B": "Tên của thùng rác Windows",
+     "C": "Một loại virus macro",
+     "D": "Cáp mạng LAN"
+    },
+    "answer": "A",
+    "explain": "Ribbon là dải lệnh trên cùng: chọn tab rồi bấm nhóm công cụ cần dùng.",
+    "detail": "Ví dụ Word: tab Home (font, đậm/nghiêng), Insert (bảng, ảnh). Hiểu Ribbon giúp tìm đúng lệnh khi làm bài thực hành Office.",
+    "icon": "🎀",
+    "id": 127
+   },
+   {
+    "src": "m3-q75",
+    "topic": "office",
+    "text": "Để đánh dấu đề mục, ta thực hiện thao tác",
+    "options": {
+     "A": "Tab Home/ nhóm Clipboard/ Bullets",
+     "B": "Tab Home/ nhóm Font/ Bullets 50",
+     "C": "Tab Home/ nhóm Font/ Numbering",
+     "D": "Tab Home/ nhóm Paragraph/ Bullets"
+    },
+    "answer": "D",
+    "explain": "Đánh dấu đầu dòng (Bullets): Home → Paragraph → Bullets.",
+    "detail": "Không nằm nhóm Font hay Clipboard. Dùng cho liệt kê không cần thứ tự; cần thứ tự thì dùng Numbering.",
+    "icon": "🔸",
+    "id": 128
+   },
+   {
+    "src": "m4-q3",
+    "topic": "office",
+    "text": "Trong MS Excel, muốn nhờ chương trình giúp đỡ về một vấn đề gì đó, ta nhấn phím:",
+    "options": {
+     "A": "F2",
+     "B": "F4",
+     "C": "F1",
+     "D": "F3"
+    },
+    "answer": "C",
+    "explain": "Phím F1 mở trợ giúp (Help) khi cần Excel giải thích một lệnh hay thao tác.",
+    "detail": "F2 sửa nội dung ô, F4 đổi kiểu tham chiếu khi đang sửa công thức, F3 dán tên đã định nghĩa. Chỉ F1 gọi Help — đúng chuẩn hầu hết phần mềm Windows/Office.",
+    "icon": "❓",
+    "id": 129
+   },
+   {
+    "src": "m3-q104",
+    "topic": "office",
+    "text": "Trong Microsoft Word để chèn header hoặc footer trên trang văn bản, ta thực hiện:",
+    "options": {
+     "A": "Insert / Header and Footer / nhấn nút Header hoặc Footer",
+     "B": "Format / Header and Footer",
+     "C": "View / Header and Footer",
+     "D": "Insert / Header and Footer"
+    },
+    "answer": "A",
+    "explain": "Chèn đầu trang/chân trang: Insert → nhóm Header & Footer → Header hoặc Footer.",
+    "detail": "Sau khi chèn, tab Header & Footer Tools cho phép chỉnh khác trang đầu, số trang… Không dùng Format/View như Word rất cũ.",
+    "icon": "📑",
+    "id": 130
+   },
+   {
+    "src": "m4-q45",
+    "topic": "office",
+    "text": "Trong Excel sau khi nhập công thức sau: =\"123\"-\"23\" ta có kết quả?",
+    "options": {
+     "A": "23",
+     "B": "123",
+     "C": "100",
+     "D": "#VALUE!"
+    },
+    "answer": "A",
+    "explain": "Sau khi nhập =\"123\"-\"23\", kết quả theo đáp án là 23 — không phải 123 và cũng không phải lỗi #VALUE!.",
+    "detail": "Phép trừ trên chuỗi số khác nối chuỗi bằng & (=\"123\"&\"23\" ra \"12323\"). Loại phương án giữ nguyên 123 hoặc báo lỗi. Ghi nhớ đáp án 23 cho đúng đề.",
+    "icon": "➖",
+    "id": 131
+   },
+   {
+    "src": "m3-q92",
+    "topic": "office",
+    "text": "Trong Microsoft Word để thực hiện vẽ các đường thẳng, hình khối, ta thực hiện:",
+    "options": {
+     "A": "View/ Toolbars/ Standard",
+     "B": "View / Show/Hide / Ruler",
+     "C": "Insert/ Illustrations/ Shapes 53",
+     "D": "View/ Toolbars/ Drawing"
+    },
+    "answer": "C",
+    "explain": "Vẽ hình: Insert → Illustrations → Shapes (đường thẳng, chữ nhật, mũi tên…).",
+    "detail": "Toolbar Drawing kiểu Word cũ không còn là đáp án chuẩn; Ruler chỉ là thước. Sau khi chèn, tab Format xuất hiện để chỉnh shape.",
+    "icon": "🔷",
+    "id": 132
+   },
+   {
+    "src": "m5-q97",
+    "topic": "office",
+    "text": "Trong PowerPoint 2010, để thay đổi đường viền (nét vẽ) của đối tượng, ta sử dụng tùy chọn nào sau đây ?",
+    "options": {
+     "A": "Shape Position",
+     "B": "Shape Fill",
+     "C": "Shape Outline",
+     "D": "Shape Effects"
+    },
+    "answer": "C",
+    "explain": "Đổi đường viền nét vẽ dùng Shape Outline.",
+    "detail": "Shape Fill tô bên trong; Shape Effects đổ bóng/3D; Shape Position vị trí. Outline đổi màu, độ dày (Weight) và kiểu nét (Dashes).",
+    "icon": "✏️",
+    "id": 133
+   },
+   {
+    "src": "m5-q15",
+    "topic": "office",
+    "text": "Trong Powerpoint 2010, thao tác nào sau đây để tạo mới 1 tập tin trình diễn theo mẫu giao diện (Themes) của chương trình?",
+    "options": {
+     "A": "Vào File / New / Themes / Chọn mẫu / Create",
+     "B": "Vào File / New / Themes / Chọn mẫu / OK",
+     "C": "Vào Home / New / Themes / Chọn mẫu / OK",
+     "D": "Vào Home / New / Themes / Chọn mẫu / Create"
+    },
+    "answer": "A",
+    "explain": "Tạo bài mới theo Themes: File → New → Themes → chọn mẫu → Create.",
+    "detail": "Themes gắn bộ màu–font–hiệu ứng thống nhất ngay từ đầu. Home không có New/Themes để tạo file mới; Design → Themes chỉ áp theme cho bài đang mở. Kết thúc bằng Create, không phải OK.",
+    "icon": "🎨",
+    "id": 134
+   },
+   {
+    "src": "m3-q108",
+    "topic": "office",
+    "text": "Hướng Landscape hiển thị văn bản theo",
+    "options": {
+     "A": "Hướng dọc",
+     "B": "Hướng kết hợp giữa dọc và ngang",
+     "C": "Hướng ngang",
+     "D": "Hướng nghiêng 45 độ"
+    },
+    "answer": "C",
+    "explain": "Landscape hiển thị/in theo hướng ngang.",
+    "detail": "Portrait = dọc. Ví dụ in bảng nhiều cột hoặc lịch ngang dùng Landscape.",
+    "icon": "🖼️",
+    "id": 135
+   },
+   {
+    "src": "m4-q18",
+    "topic": "office",
+    "text": "Đáp án nào sau đây đúng? Khi nhập dữ liệu vào bảng tính Excel thì:",
+    "options": {
+     "A": "Dữ liệu kiểu ký tự sẽ mặc định căn lề trái",
+     "B": "Dữ liệu kiểu ngày tháng sẽ mặc định căn lề trái",
+     "C": "Dữ liệu kiểu số sẽ mặc định căn lề trái",
+     "D": "Dữ liệu kiểu thời gian sẽ mặc định căn lề trái"
+    },
+    "answer": "A",
+    "explain": "Chuỗi/ký tự (Text) mặc định căn trái; số, ngày, giờ mặc định căn phải — nên chỉ phương án A đúng.",
+    "detail": "Nếu số căn trái, ô có thể đang định dạng Text hoặc dính khoảng trắng — cần kiểm trước khi đưa vào công thức.",
+    "icon": "🔤",
+    "id": 136
+   },
+   {
+    "src": "new",
+    "topic": "office",
+    "text": "Trong PowerPoint, Transition khác Animation ở chỗ:",
+    "options": {
+     "A": "Transition là hiệu ứng chuyển giữa các slide; Animation là hiệu ứng cho đối tượng trên slide",
+     "B": "Hai khái niệm hoàn toàn giống nhau",
+     "C": "Animation chỉ dùng khi in handout",
+     "D": "Transition chỉ áp dụng cho hình ảnh trong Word"
+    },
+    "answer": "A",
+    "explain": "Chuyển slide dùng Transition; chữ/ảnh bay vào dùng Animation.",
+    "detail": "Tab Transitions và Animations là hai nhóm lệnh khác nhau. Đề thi hay hỏi để kiểm tra thí sinh có phân biệt được không.",
+    "icon": "✨",
+    "id": 137
+   },
+   {
+    "src": "m5-q57",
+    "topic": "office",
+    "text": "Trong PowerPoint 2010, chế độ hiển thị Outline là chế độ có tính năng nào sau đây ?",
+    "options": {
+     "A": "Cho phép chỉ nhìn thấy chữ, không nhìn thấy hình ảnh",
+     "B": "Cho phép chỉ hiển thị hình ảnh, không hiển thị chữ",
+     "C": "Cho phép hiển thị để xóa các slide nhanh hơn",
+     "D": "Cho phép hiển thị để soạn thảo từng slide riêng biệt"
+    },
+    "answer": "A",
+    "explain": "Outline tập trung vào chữ: nhìn thấy văn bản cấu trúc, không hiện hình ảnh minh họa trên slide.",
+    "detail": "Thuận tiện chỉnh tiêu đề/ý chính hàng loạt. Muốn xem ảnh dùng Normal. Không phải chế độ xóa slide nhanh — đó ближе Slide Sorter.",
+    "icon": "📝",
+    "id": 138
+   },
+   {
+    "src": "m5-q3",
+    "topic": "office",
+    "text": "Trong Powerpoint 2010, phần mở rộng của tên file là nhóm ký tự nào?",
+    "options": {
+     "A": "ppts",
+     "B": "pptt",
+     "C": "ppt",
+     "D": "pptx"
+    },
+    "answer": "D",
+    "explain": "Từ PowerPoint 2007/2010 trở đi, file mặc định dùng đuôi .pptx (định dạng Open XML), không còn chỉ là .ppt cũ.",
+    "detail": ".ppt là định dạng nhị phân của bản trước 2007; .pptx là gói XML nén, hỗ trợ tốt hơn media và theme. Các đuôi ppts/pptt không phải phần mở rộng chuẩn. Khi gửi cho máy cũ có thể Save As → PowerPoint 97-2003 (.ppt).",
+    "icon": "📄",
+    "id": 139
+   },
+   {
+    "src": "m4-q16",
+    "topic": "office",
+    "text": "Trong MS Excel 2010, giả sử tại ô B5 có công thức = A1+$B$2+C$3. Sau khi sao chép công thức đó từ ô B5 đến ô D8 sẽ có công thức:",
+    "options": {
+     "A": "= C1 + $B$2 + E$3",
+     "B": "Báo lỗi",
+     "C": "= A4 + $B$2 + C$3",
+     "D": "= C4 + $B$2 + E$3"
+    },
+    "answer": "D",
+    "explain": "Copy từ B5 sang D8: dịch +2 cột, +3 hàng → A1 thành C4, $B$2 giữ nguyên, C$3 thành E$3, được =C4+$B$2+E$3.",
+    "detail": "Phần không có $ dịch theo hướng copy; Absolute $B$2 đứng yên; C$3 chỉ khóa hàng. Phương án A quên dịch hàng; C dịch sai cột.",
+    "icon": "📐",
+    "id": 140
+   },
+   {
+    "src": "m4-q92",
+    "topic": "office",
+    "text": "Giả sử ô E6 có giá trị là 28/11/2011, tại ô G6 gõ công thức =YEAR(now())-YEAR(E6), kết quả là?",
+    "options": {
+     "A": "4",
+     "B": "2",
+     "C": "5",
+     "D": "3"
+    },
+    "answer": "C",
+    "explain": "=YEAR(NOW())-YEAR(E6) với E6 năm 2011 cho 5 → năm hệ thống lúc đó là 2016 (2016−2011=5).",
+    "detail": "Hàm trừ hai thành phần năm, không phải đếm đủ tháng/ngày. Kết quả phụ thuộc năm máy đang đặt.",
+    "icon": "📅",
+    "id": 141
+   },
+   {
+    "src": "m5-q110",
+    "topic": "office",
+    "text": "Trong PowerPoint 2010, thao tác nào sau đây để bật tính năng kiểm tra chính tả ?",
+    "options": {
+     "A": "Vào View/Spelling/Options/Check spelling as you type",
+     "B": "Vào Review/Spelling/Check spelling as you type",
+     "C": "Vào Review/Spelling/Options/Check grammar as you type",
+     "D": "Vào Review/Spelling/Options/Check spelling as you type"
+    },
+    "answer": "D",
+    "explain": "Bật kiểm tra chính tả khi gõ: Review → Spelling → Options → Check spelling as you type.",
+    "detail": "Phải vào Options của Spelling, không chỉ bấm Spelling một lần. View không quản lý spelling. Gạch đỏ chân chữ sai giúp sửa trước khi thuyết trình.",
+    "icon": "🔤",
+    "id": 142
+   },
+   {
+    "src": "m5-q30",
+    "topic": "office",
+    "text": "Trong PowerPoint 2010, thao tác nào sau đây để mở một bài thuyết trình đồng thời trên hai của sổ ?",
+    "options": {
+     "A": "Vào Home/New Windows",
+     "B": "Vào Review/New Windows",
+     "C": "Vào View/New Windows",
+     "D": "Vào Data/New Windows"
+    },
+    "answer": "C",
+    "explain": "Mở cùng một bài trên hai cửa sổ: View → New Window.",
+    "detail": "Home/Review/Data không có New Window kiểu này. New Window tiện soi Slide Master ở cửa sổ này và soạn Normal ở cửa sổ kia. Arrange All xếp các cửa sổ cạnh nhau.",
+    "icon": "🪟",
+    "id": 143
+   },
+   {
+    "src": "m4-q27",
+    "topic": "office",
+    "text": "Tại D2 có công thức \"=B1+C1\", khi sao chép sang ô E2 thì E2 có công thức là:",
+    "options": {
+     "A": "=B1+D1",
+     "B": "=C1+D1",
+     "C": "=C2+D2",
+     "D": "=C1+D2"
+    },
+    "answer": "B",
+    "explain": "Copy từ D2 sang E2 dịch 1 cột phải: B1→C1, C1→D1 nên E2 thành =C1+D1.",
+    "detail": "Tham chiếu tương đối (Relative Reference) dịch theo hướng copy. Không nhảy xuống hàng vì vẫn cùng hàng 2. Sai thường gặp: đổi cả hàng thành C2+D2.",
+    "icon": "➡️",
+    "id": 144
+   },
+   {
+    "src": "new",
+    "topic": "office",
+    "text": "Hàm SUM trong Excel dùng để:",
+    "options": {
+     "A": "Đếm số ô chứa chữ",
+     "B": "Tính tổng các giá trị số trong vùng chọn",
+     "C": "Sắp xếp chữ cái A→Z",
+     "D": "Chèn ảnh vào ô"
+    },
+    "answer": "B",
+    "explain": "SUM cộng các số, ví dụ =SUM(B2:B10).",
+    "detail": "COUNT đếm ô số; COUNTA đếm ô không trống; AVERAGE tính trung bình. Nhầm SUM với AVERAGE/COUNT là lỗi phổ biến.",
+    "icon": "Σ",
+    "id": 145
+   },
+   {
+    "src": "m5-q8",
+    "topic": "office",
+    "text": "Để truy nhập hệ thống trợ giúp trên PowerPoint sử dụng phím hay tổ hợp phím nào ?",
+    "options": {
+     "A": "Alt + Tab",
+     "B": "F1",
+     "C": "Ctrl + H",
+     "D": "ESC"
+    },
+    "answer": "B",
+    "explain": "Phím F1 mở hệ thống trợ giúp (Help) trong PowerPoint và hầu hết ứng dụng Office.",
+    "detail": "Alt + Tab chuyển cửa sổ; Ctrl + H mở Replace; Esc hủy hộp thoại hoặc dừng trình chiếu — đều không phải Help. Khi quên lệnh, nhấn F1 rồi gõ từ khóa như “transition” để tra nhanh.",
+    "icon": "❓",
+    "id": 146
+   },
+   {
+    "src": "m3-q107",
+    "topic": "office",
+    "text": "Lề trang tài liệu là gì 55",
+    "options": {
+     "A": "Là khoảng cách trong tài liệu",
+     "B": "Là khoảng cách ảo được đo bằng thước ngang",
+     "C": "Là khoảng cách được tạo do người trình bày văn bản thiết lập",
+     "D": "Là khoảng cách giữa cạnh giấy và văn bản trong tài liệu"
+    },
+    "answer": "D",
+    "explain": "Lề trang (Margins) là khoảng trống giữa cạnh giấy và vùng nội dung văn bản.",
+    "detail": "Không phải khoảng “ảo” tùy ý không gắn mép giấy. Lề hẹp quá dễ bị máy in cắt chữ.",
+    "icon": "📏",
+    "id": 147
+   },
+   {
+    "src": "new",
+    "topic": "office",
+    "text": "Phím tắt Ctrl + S trong Word/Excel/PowerPoint thường để:",
+    "options": {
+     "A": "In tài liệu",
+     "B": "Lưu tệp đang làm",
+     "C": "Mở thùng rác",
+     "D": "Tắt máy"
+    },
+    "answer": "B",
+    "explain": "Ctrl + S lưu nhanh — nên nhấn thường xuyên khi làm bài.",
+    "detail": "Ctrl + P in; Ctrl + O mở; F12 thường Save As. Trong phòng thi, lưu đúng thư mục và đúng tên file theo đề rất quan trọng.",
+    "icon": "💾",
+    "id": 148
+   },
+   {
+    "src": "m3-q86",
+    "topic": "office",
+    "text": "Khi soạn thảo văn bản trong Microsoft word, muốn di chuyển từ 1 ô này sang ô kế tiếp về bên phải của một bảng (Table) ta bấm phím:",
+    "options": {
+     "A": "Tab",
+     "B": "CapsLock",
+     "C": "Ctrl 52",
+     "D": "ESC"
+    },
+    "answer": "A",
+    "explain": "Trong bảng, phím Tab chuyển sang ô bên phải (ô kế tiếp).",
+    "detail": "Ở ô cuối, Tab thường thêm một hàng mới. Shift + Tab lùi ô; Caps Lock/ESC/Ctrl không dùng để đi ô.",
+    "icon": "⏭️",
+    "id": 149
+   },
+   {
+    "src": "m3-q7",
+    "topic": "office",
+    "text": "Để đóng văn bản đang làm việc chúng ta thực hiện:",
+    "options": {
+     "A": "File/Print 40",
+     "B": "File/Save",
+     "C": "File/Close",
+     "D": "File/Open"
+    },
+    "answer": "C",
+    "explain": "File → Close đóng tài liệu đang làm việc (cửa sổ văn bản), không thoát hẳn Word nếu còn file khác.",
+    "detail": "File → Save chỉ lưu; File → Open mở file khác; File → Print in. Muốn thoát cả chương trình dùng File → Exit hoặc nút đóng cửa sổ ứng dụng.",
+    "icon": "🚪",
+    "id": 150
+   },
+   {
+    "src": "new",
+    "topic": "office",
+    "text": "Trong Word, tổ hợp phím Ctrl + B thường dùng để:",
+    "options": {
+     "A": "Lưu tệp",
+     "B": "In đậm (Bold) văn bản đang chọn",
+     "C": "Mở trình chiếu",
+     "D": "Chèn biểu đồ"
+    },
+    "answer": "B",
+    "explain": "Ctrl + B bật/tắt in đậm cho chữ đang chọn.",
+    "detail": "Ctrl + I nghiêng, Ctrl + U gạch chân, Ctrl + S lưu. Các phím tắt định dạng này rất hay gặp trong ôn Word cơ bản.",
+    "icon": "🅱️",
+    "id": 151
+   },
+   {
+    "src": "m5-q103",
+    "topic": "office",
+    "text": "Trong PowerPoint 2010, hiệu ứng cho các đối tượng trên Slide gồm các nhóm nào sau đây?",
+    "options": {
+     "A": "Exit, Entrange, Emphasis",
+     "B": "Tất cả đều sai",
+     "C": "Motion path, Exit, Emphasis",
+     "D": "Motion path, Exit, Entrange"
+    },
+    "answer": "B",
+    "explain": "Tất cả các nhóm liệt kê đều sai (sai chính tả Entrange hoặc thiếu nhóm): nhóm đúng là Entrance, Emphasis, Exit, Motion Paths.",
+    "detail": "A viết Entrange (sai, phải Entrance) và thiếu Motion Paths. C/D thiếu Entrance hoặc Emphasis. Vì không phương án nào đủ–đúng nên chọn “Tất cả đều sai”.",
+    "icon": "❌",
+    "id": 152
+   },
+   {
+    "src": "m4-q98",
+    "topic": "office",
+    "text": "Trong MS excel 2010, biểu tượng % trên thanh công cụ dùng để:",
+    "options": {
+     "A": "Hiển thị tỷ lệ phần trăm 72",
+     "B": "Chia cho 100",
+     "C": "Nhân cho 100",
+     "D": "Cả 3 ý trên đều sai"
+    },
+    "answer": "A",
+    "explain": "Nút % trên thanh công cụ áp dụng định dạng phần trăm (Percentage format) để hiển thị tỷ lệ %.",
+    "detail": "Excel nhân giá trị ô với 100 và thêm ký hiệu % khi format. Không chỉ là “chia/nhân 100” thuần toán trên thanh công cụ.",
+    "icon": "💯",
+    "id": 153
+   },
+   {
+    "src": "m4-q14",
+    "topic": "office",
+    "text": "Trong công thức của Microsoft Excel, sử dụng phím nào để chuyển đổi địa chỉ tuyệt đối sang địa chỉ tương đối hoặc ngược lại cho ô hoặc vùng đã chọn?",
+    "options": {
+     "A": "F3",
+     "B": "F2",
+     "C": "F5",
+     "D": "F4"
+    },
+    "answer": "D",
+    "explain": "Trong khi sửa công thức, F4 chuyển vòng tham chiếu tương đối ↔ tuyệt đối ↔ hỗn hợp cho ô/vùng đang chọn.",
+    "detail": "F2 vào sửa ô, F3 Paste Name, F5 Go To. Muốn cố định ô hệ số: chọn tham chiếu → F4 đến dạng $Cột$Hàng.",
+    "icon": "🔁",
+    "id": 154
+   },
+   {
+    "src": "m5-q89",
+    "topic": "office",
+    "text": "Trong PowerPoint 2010, để sao chép đối tượng đối họa từ định dạng này sang định dạng khác, ta sử dụng công cụ nào sau đây ?",
+    "options": {
+     "A": "Paste Format",
+     "B": "Paste All",
+     "C": "Paste Special",
+     "D": "Paste Painter"
+    },
+    "answer": "C",
+    "explain": "Sao chép đối tượng đồ họa kèm tùy chọn định dạng dùng Paste Special.",
+    "detail": "Paste Special (Home → Paste → Paste Special) cho chọn kiểu dán (picture, giữ nguồn…). Không phải Paste Painter (tên sai; công cụ gần nghĩa là Format Painter). Paste All không phải lệnh chuẩn.",
+    "icon": "📋",
+    "id": 155
+   },
+   {
+    "src": "m4-q83",
+    "topic": "office",
+    "text": "Trong bảng tính Excel, tại ô A2 gõ vào công thức =IF(3>5,100,IF(5<6,200,300)) thì kết quả nhận được tại ô A2 là:",
+    "options": {
+     "A": "100",
+     "B": "200",
+     "C": "true",
+     "D": "false"
+    },
+    "answer": "B",
+    "explain": "3>5 sai → bỏ 100; xét IF trong: 5<6 đúng → 200 (không tới 300).",
+    "detail": "IF lồng nhau (nested IF) xét tuần tự từ ngoài vào trong. Nhánh đầu tiên đúng sẽ trả kết quả ngay.",
+    "icon": "🔁",
+    "id": 156
+   },
+   {
+    "src": "new",
+    "topic": "office",
+    "text": "Trong PowerPoint, phím F5 thường dùng để:",
+    "options": {
+     "A": "Lưu bài trình chiếu",
+     "B": "Bắt đầu trình chiếu từ đầu",
+     "C": "Xóa slide hiện tại",
+     "D": "Chèn bảng Excel"
+    },
+    "answer": "B",
+    "explain": "F5 chiếu từ slide đầu; Shift + F5 chiếu từ slide đang chọn.",
+    "detail": "Có thể vào tab Slide Show → From Beginning. Esc để thoát chế độ trình chiếu.",
+    "icon": "▶️",
+    "id": 157
+   },
+   {
+    "src": "m4-q53",
+    "topic": "office",
+    "text": "Trong Microsoft Excel, hàm nào để tìm số nhỏ nhất trong các giá trị được chọn?",
+    "options": {
+     "A": "MINIMUM",
+     "B": "MIN",
+     "C": "MINUM",
+     "D": "MINUTE"
+    },
+    "answer": "B",
+    "explain": "Hàm tìm giá trị nhỏ nhất là MIN; không phải MINIMUM, MINUM hay MINUTE.",
+    "detail": "Cú pháp: =MIN(số1,[số2],…) hoặc =MIN(A1:A10). MAX tìm lớn nhất; MINUTE lấy phút từ giá trị thời gian — dễ nhầm vì gần chữ MIN.",
+    "icon": "⬇️",
+    "id": 158
+   },
+   {
+    "src": "new",
+    "topic": "office",
+    "text": "Microsoft Excel phù hợp nhất với công việc nào?",
+    "options": {
+     "A": "Viết tiểu thuyết dài nhiều chương",
+     "B": "Lập bảng số liệu, tính toán bằng công thức/hàm, vẽ biểu đồ",
+     "C": "Chỉ chiếu phim",
+     "D": "Cài driver card đồ họa"
+    },
+    "answer": "B",
+    "explain": "Excel là bảng tính: ô, công thức, hàm, biểu đồ phục vụ số liệu.",
+    "detail": "Ví dụ: bảng điểm, bảng lương, thống kê doanh thu. Văn bản thuần túy dài nên dùng Word; bài thuyết trình dùng PowerPoint.",
+    "icon": "📗",
+    "id": 159
+   },
+   {
+    "src": "m5-q87",
+    "topic": "office",
+    "text": "Trong Powerpoint 2010, nút lệnh ScreenShot có chức năng?",
+    "options": {
+     "A": "Chèn video vào Slide",
+     "B": "Chèn hình ảnh từ vị trí bất kỳ trong máy vào Slide",
+     "C": "Chèn âm thanh vào Slide",
+     "D": "Chụp ảnh màn hình để chèn vào Slide"
+    },
+    "answer": "D",
+    "explain": "Screenshot chụp ảnh cửa sổ/màn hình rồi chèn thẳng vào slide.",
+    "detail": "Khác Picture (chọn file có sẵn) và khác Audio/Video. Insert → Screenshot hữu ích khi minh họa giao diện phần mềm trong bài hướng dẫn.",
+    "icon": "📸",
+    "id": 160
+   },
+   {
+    "src": "m5-q44",
+    "topic": "office",
+    "text": "Phát biểu nào sau đây đúng?",
+    "options": {
+     "A": "Trong chương trình MS PowerPoint, chúng ta chỉ có thể thay đổi theme một lần.",
+     "B": "Trong chương trình MS PowerPoint, chúng ta có thể thiết lập các tùy chọn cho một slide hay một tập slide cùng một lúc.",
+     "C": "Trong chương trình MS PowerPoint, chúng ta chỉ có thể thiết lập các tùy chọn cho một slide và không thể thiết lập cho một tập slide cùng một lúc.",
+     "D": "Tất cả ý trên đều sai."
+    },
+    "answer": "B",
+    "explain": "PowerPoint cho phép thiết lập tùy chọn cho một slide hoặc nhiều slide cùng lúc (chọn nhiều rồi áp dụng).",
+    "detail": "Theme có thể đổi nhiều lần, không bị khóa “chỉ một lần”. Giữ Ctrl chọn nhiều slide rồi đổi Background/Transition là ví dụ thực tế. Ý “chỉ một slide” là sai.",
+    "icon": "✅",
+    "id": 161
+   },
+   {
+    "src": "new",
+    "topic": "office",
+    "text": "Microsoft Word chủ yếu dùng để:",
+    "options": {
+     "A": "Soạn thảo và định dạng văn bản (đơn, báo cáo, CV…)",
+     "B": "Tính toán thống kê lớn như phần mềm kế toán chuyên sâu",
+     "C": "Quản trị hệ thống mạng LAN",
+     "D": "Thiết kế chip CPU"
+    },
+    "answer": "A",
+    "explain": "Word là phần mềm xử lý văn bản: gõ, định dạng, chèn bảng/ảnh, in ấn.",
+    "detail": "Excel mạnh về bảng tính/tính toán; PowerPoint mạnh về trình chiếu. Nhầm chức năng ba phần mềm là lỗi thường gặp khi mới học.",
+    "icon": "📘",
+    "id": 162
+   },
+   {
+    "src": "new",
+    "topic": "office",
+    "text": "Trong Excel, công thức luôn bắt đầu bằng ký tự nào?",
+    "options": {
+     "A": "#",
+     "B": "=",
+     "C": "@",
+     "D": "*"
+    },
+    "answer": "B",
+    "explain": "Mọi công thức/hàm Excel bắt đầu bằng dấu =, ví dụ =A1+B1 hoặc =SUM(A1:A10).",
+    "detail": "Nếu không có dấu =, Excel thường hiểu là văn bản. Lỗi ##### thường do cột hẹp, khác với lỗi công thức như #DIV/0!.",
+    "icon": "🧮",
+    "id": 163
+   },
+   {
+    "src": "m3-q78",
+    "topic": "office",
+    "text": "Để tạo đường viền cho một đoạn văn bản, ta thực hiện:",
+    "options": {
+     "A": "Tab Home/ nhóm Font/ Border",
+     "B": "Tab Page Layout/ nhóm Paragraph/ Border",
+     "C": "Tab Home/ nhóm Paragraph/ Border and Shading",
+     "D": "Tab Design/ nhóm Paragraph/ Border"
+    },
+    "answer": "C",
+    "explain": "Viền một đoạn: Home → Paragraph → Border and Shading (hoặc nút Border).",
+    "detail": "Nhóm Font không có Border đoạn; Page Layout/Design không phải đường chuẩn trong đề này. Chọn Box/Custom rồi Apply to Paragraph.",
+    "icon": "⬜",
+    "id": 164
+   },
+   {
+    "src": "m5-q63",
+    "topic": "office",
+    "text": "Trong PowerPoint 2010, để xóa toàn bộ định dạng đoạn văn bản được chọn?",
+    "options": {
+     "A": "Vào Insert / Clear All Formatting",
+     "B": "Vào Format / Clear All Formatting",
+     "C": "Vào View / Clear All Formatting",
+     "D": "Vào Home / Clear All Formatting"
+    },
+    "answer": "D",
+    "explain": "Xóa hết định dạng chữ: Home → Clear All Formatting (biểu tượng tẩy chữ A).",
+    "detail": "Insert/View/Format không phải chỗ Clear All Formatting chuẩn trên ribbon Home. Giữ nguyên nội dung chữ, chỉ bỏ đậm/màu/font lệch. Nhanh hơn chỉnh từng thuộc tính Font.",
+    "icon": "🧹",
+    "id": 165
+   },
+   {
+    "src": "m5-q96",
+    "topic": "office",
+    "text": "Trong Powerpoint 2010, để tạo tiêu đề cuối trang cho slide hiện tại?",
+    "options": {
+     "A": "Insert/ Footer and Header/ Chọn Slide/ Nhập nội dung",
+     "B": "Insert/ Footer and Header/ Chọn Footer/ Nhập nội dung",
+     "C": "Insert/ Footer and Header/ Chọn Date and Time/ Nhập nội dung",
+     "D": "Insert/ Footer and Header/ Chọn Slide Number/ Nhập nội dung"
+    },
+    "answer": "B",
+    "explain": "Tiêu đề cuối trang (footer): Insert → Header and Footer → chọn Footer → nhập nội dung.",
+    "detail": "Phải tick/chọn ô Footer rồi gõ chữ; Date and Time/Slide Number là mục khác trong cùng hộp thoại. Apply hoặc Apply to All tùy một trang hay cả bài.",
+    "icon": "📌",
+    "id": 166
+   },
+   {
+    "src": "m4-q91",
+    "topic": "office",
+    "text": "Giả sử ngày hệ thống của máy tính là: 8/18/2008; Khi đó tại ô A2 gõ vào công thức =Today()-1 thì nhận được kết quả là:",
+    "options": {
+     "A": "#VALUE!",
+     "B": "8/17/2008 71",
+     "C": "#NAME!",
+     "D": "0"
+    },
+    "answer": "B",
+    "explain": "Hệ thống 8/18/2008 thì TODAY()-1 là ngày hôm trước: 8/17/2008.",
+    "detail": "Ngày trong Excel là số serial nên cộng/trừ số nguyên đổi ngày. Không ra #VALUE!/#NAME! với công thức này.",
+    "icon": "⏪",
+    "id": 167
+   },
+   {
+    "src": "m4-q102",
+    "topic": "office",
+    "text": "Để sao chép định dạng từ một ô/ dãy ô tới một ô khác/dãy ô khác ta thực hiện:",
+    "options": {
+     "A": "Page Layout\\Clipboard\\Format Paint",
+     "B": "Home\\Clipboard\\Format Paint",
+     "C": "Insert\\Clipboard\\Format Paint",
+     "D": "Data\\Clipboard\\Format Paint"
+    },
+    "answer": "B",
+    "explain": "Format Painter nằm Home → Clipboard — sao chép định dạng từ ô mẫu sang ô đích.",
+    "detail": "Không có Format Painter ở Insert/Data/Page Layout. Bấm đúp Format Painter để dán định dạng lên nhiều vùng liên tiếp.",
+    "icon": "🖌️",
+    "id": 168
+   },
+   {
+    "src": "m4-q73",
+    "topic": "office",
+    "text": "Cú pháp hàm Sumif là?",
+    "options": {
+     "A": "=SUMIF(criteria,[sum_range],range)",
+     "B": "=SUMIF(range,criteria,[sum_range])",
+     "C": "Không đáp án nào đúng",
+     "D": "=SUMIF(criteria,range,[sum_range])"
+    },
+    "answer": "B",
+    "explain": "Cú pháp chuẩn: =SUMIF(range, criteria, [sum_range]) — đúng thứ tự vùng điều kiện → tiêu chí → vùng cộng.",
+    "detail": "sum_range tùy chọn; nếu bỏ trống thì cộng trên range. Đảo criteria lên trước là sai cú pháp Microsoft Excel.",
+    "icon": "📝",
+    "id": 169
+   },
+   {
+    "src": "m3-q76",
+    "topic": "office",
+    "text": "Để đánh số đề mục, ta thực hiện thao tác",
+    "options": {
+     "A": "Tab Home/ nhóm Clipboard/ Numbering",
+     "B": "Tab Home/ nhóm Font/ Numbering",
+     "C": "Tab Home/ nhóm Paragraph/ Numbering",
+     "D": "Tab Home/ nhóm Font/ Bullets"
+    },
+    "answer": "C",
+    "explain": "Đánh số đề mục: Home → Paragraph → Numbering.",
+    "detail": "Bullets là ký hiệu không số. Có thể chọn định dạng 1. / a. / i. trong mũi tên Numbering.",
+    "icon": "🔢",
+    "id": 170
+   },
+   {
+    "src": "m4-q39",
+    "topic": "office",
+    "text": "Sheet được chèn thêm vào bảng tính sẽ nằm ở vị trí:",
+    "options": {
+     "A": "Phía sau tất cả các sheet",
+     "B": "Trước tất cả các sheet",
+     "C": "Sau sheet đang mở",
+     "D": "Trước sheet đang mở"
+    },
+    "answer": "D",
+    "explain": "Sheet mới chèn vào sẽ nằm ngay trước sheet đang mở (active sheet), không phải cuối danh sách.",
+    "detail": "Sau khi Insert, có thể kéo tab để sắp lại thứ tự. Nhầm “sau sheet đang mở” là lỗi hay gặp khi làm bài lý thuyết.",
+    "icon": "📑",
+    "id": 171
+   },
+   {
+    "src": "m4-q31",
+    "topic": "office",
+    "text": "Để xoá một cột, bôi đen cột và chọn?",
+    "options": {
+     "A": "Home\\Delete\\Clear",
+     "B": "Home\\Delete\\Delete Sheet Columns",
+     "C": "Insert\\Delete\\Worksheet",
+     "D": "Insert\\Delete\\Delete Sheet Rows"
+    },
+    "answer": "B",
+    "explain": "Xóa cả cột: chọn cột rồi Home → Delete → Delete Sheet Columns — cột bên phải dồn sang trái.",
+    "detail": "Clear chỉ xóa nội dung/định dạng, không gỡ cột. Delete Sheet Rows dành cho hàng. Đúng lệnh mới thay đổi cấu trúc lưới.",
+    "icon": "🗑️",
+    "id": 172
+   },
+   {
+    "src": "m5-q36",
+    "topic": "office",
+    "text": "Trong Powerpoint 2010, cách nào sau đây cho phép định dạng chung cho toàn bộ các Slide?",
+    "options": {
+     "A": "View/Notes Page",
+     "B": "View/Slide Master",
+     "C": "View/Normal",
+     "D": "View/Slide Sorter"
+    },
+    "answer": "B",
+    "explain": "Định dạng chung cho mọi slide dùng View → Slide Master.",
+    "detail": "Slide Master đặt logo, font tiêu đề, vị trí số trang một lần cho cả bộ layout. Normal/Sorter/Notes Page không phải chỗ sửa mẫu chung. Sửa Master xong nhớ Close Master View.",
+    "icon": "👑",
+    "id": 173
+   },
+   {
+    "src": "m4-q8",
+    "topic": "office",
+    "text": "Trong Microsoft Excel, cách nào để đóng một tệp?",
+    "options": {
+     "A": "Alt+F4",
+     "B": "F4",
+     "C": "Ctrl+F4",
+     "D": "Shift+F4"
+    },
+    "answer": "C",
+    "explain": "Ctrl+F4 đóng workbook/cửa sổ file hiện tại; Alt+F4 mới đóng cả chương trình Excel.",
+    "detail": "F4 khi sửa công thức đổi Absolute/Relative Reference, không đóng file. Shift+F4 tìm lần kế tiếp. Muốn thoát hẳn Excel dùng Alt+F4 hoặc File → Exit.",
+    "icon": "🚪",
+    "id": 174
+   },
+   {
+    "src": "m4-q26",
+    "topic": "office",
+    "text": "Trong Excel muốn sắp xếp dữ liệu sau khi quét khối phần dữ liệu muốn sắp xếp ta chọn?",
+    "options": {
+     "A": "Data --> Sort…",
+     "B": "Data --> Form…",
+     "C": "Data --> Index… 61",
+     "D": "Data --> Filter…"
+    },
+    "answer": "A",
+    "explain": "Sau khi quét khối dữ liệu, vào Data → Sort… để sắp xếp tăng/giảm theo một hoặc nhiều cột.",
+    "detail": "Filter lọc ẩn dòng không thỏa điều kiện; Form là form nhập liệu cũ; Index không phải lệnh sắp xếp. Nhớ tab Data cho cả Sort và Filter.",
+    "icon": "🔃",
+    "id": 175
+   },
+   {
+    "src": "new",
+    "topic": "office",
+    "text": "Muốn minh họa số liệu bằng cột/tròn trong Excel, nên dùng:",
+    "options": {
+     "A": "Recycle Bin",
+     "B": "Biểu đồ (Chart)",
+     "C": "Notepad",
+     "D": "Task Manager"
+    },
+    "answer": "B",
+    "explain": "Chart biến bảng số thành hình trực quan: cột, đường, tròn…",
+    "detail": "Chọn dữ liệu → Insert → Charts. Word/PowerPoint cũng chèn biểu đồ được, nhưng nguồn số liệu thường xử lý tốt nhất trong Excel.",
+    "icon": "📊",
+    "id": 176
+   },
+   {
+    "src": "m5-q22",
+    "topic": "office",
+    "text": "Trong Powerpoint 2010, để lưu file, ta làm thế nào?",
+    "options": {
+     "A": "File/Close",
+     "B": "File/Save",
+     "C": "File/Edit",
+     "D": "File/Open"
+    },
+    "answer": "B",
+    "explain": "Lưu file trình bày bằng File → Save (hoặc Ctrl + S).",
+    "detail": "Close đóng file; Open mở file; không dùng Edit để lưu. Lần đầu Save chưa có tên sẽ mở hộp thoại giống Save As. Thói quen: lưu ngay sau mỗi đoạn chỉnh lớn để tránh mất bài.",
+    "icon": "💾",
+    "id": 177
+   },
+   {
+    "src": "m4-q101",
+    "topic": "office",
+    "text": "Để định dạng được màu khác nhau đối với nội dung ô, nền của ô ta chọn công cụ nào sau đây:",
+    "options": {
+     "A": "Format as Table",
+     "B": "Cell Style",
+     "C": "Format Cell",
+     "D": "Conditional Formatting"
+    },
+    "answer": "D",
+    "explain": "Conditional Formatting đổi màu chữ/nền tự động theo điều kiện dữ liệu — đúng khi cần “màu khác nhau theo nội dung”.",
+    "detail": "Format Cells chỉnh thủ công một lần; Format as Table/Cell Styles là kiểu có sẵn, không theo điều kiện từng giá trị như CF.",
+    "icon": "🎨",
+    "id": 178
+   },
+   {
+    "src": "m5-q75",
+    "topic": "office",
+    "text": "Trong PowerPoint 2010, sau khi đã chèn một bảng vào slide, muốn chia ô hiện tại thành 2 ô?",
+    "options": {
+     "A": "Vào Table / Split Cells",
+     "B": "Nhấn chuột phải và chọn Split Cells.",
+     "C": "Vào Home / Split Cells",
+     "D": "Nhấn chuột trái và chọn Split Cells."
+    },
+    "answer": "B",
+    "explain": "Chia một ô thành hai: chuột phải ô → Split Cells.",
+    "detail": "Theo đáp án đề, thao tác chuột phải là cách được chọn (không phải Home/Table trên ribbon trong các phương án kia). Split Cells khác Merge Cells (gộp ô). Nhập số cột/hàng cần tách trong hộp thoại.",
+    "icon": "✂️",
+    "id": 179
+   },
+   {
+    "src": "m5-q102",
+    "topic": "office",
+    "text": "Trong Powerpoint 2010, sau khi chèn hiệu ứng cho đối tượng trên slide, muốn hiệu ứng xuất hiện đồng thời khi trình diễn, taị mục Start ta chọn?",
+    "options": {
+     "A": "After Click",
+     "B": "After Previous",
+     "C": "With Previous",
+     "D": "On Click"
+    },
+    "answer": "C",
+    "explain": "Muốn hiệu ứng chạy đồng thời với hiệu ứng trước: Timing → Start → With Previous.",
+    "detail": "On Click chờ chuột; After Previous chạy sau khi cái trước xong. With Previous = cùng lúc — hợp tiêu đề và icon xuất hiện một nhịp.",
+    "icon": "⏱️",
+    "id": 180
+   }
+  ]
+ }
 }

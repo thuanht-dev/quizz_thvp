@@ -19,17 +19,34 @@
     <p class="eyebrow">Tin học văn phòng</p>
     <h1>Học theo phần · ôn bằng quiz</h1>
     <p class="lede home-lede">
-      Mỗi phần: xem slides → làm 120 câu. Chọn đáp án là thấy ngay đúng/sai và giải thích.
+      Mỗi phần: xem slides → làm 120 câu. Hoặc ôn nhanh đề tổng hợp 50 câu ngẫu nhiên.
     </p>
+
+    <section class="mixed-card panel" id="mixed">
+      <div class="mixed-head">
+        <span class="unit-badge">Đề tổng hợp</span>
+        <div>
+          <h2>Ôn trắc nghiệm tổng hợp</h2>
+          <p class="unit-sub">50 câu / lần · rút ngẫu nhiên từ ngân hàng sát đề thi CNTT cơ bản</p>
+        </div>
+      </div>
+      <ul class="mixed-topics" id="mixed-topics"></ul>
+      <div class="mixed-foot">
+        <span class="mixed-meta" id="mixed-meta"></span>
+        <a class="btn btn-primary" id="mixed-cta" href="quiz.html?mode=mixed">Bắt đầu 50 câu</a>
+      </div>
+    </section>
 
     <div id="units" class="units"></div>
 
-    <p class="footer-note">Slides Genspark · 720 câu (6 module × 120)</p>
+    <p class="footer-note">Slides Genspark · Quiz module 720 câu · Đề tổng hợp 50 câu/lần</p>
   </div>
 
   <script src="learn-path.js"></script>
+  <script src="quiz-data.js"></script>
   <script>
     const path = window.LEARN_PATH;
+    const mixed = window.QUIZ_DATA?.mixed;
 
     function progressFor(moduleId) {
       try {
@@ -41,6 +58,36 @@
       } catch {
         return null;
       }
+    }
+
+    function mixedProgress() {
+      try {
+        const raw = localStorage.getItem("thvp-quiz-mixed");
+        if (!raw) return null;
+        const saved = JSON.parse(raw);
+        const total = saved?.ids?.length || mixed?.drawCount || 50;
+        const n = saved?.answers ? Object.keys(saved.answers).length : 0;
+        return { n, total };
+      } catch {
+        return null;
+      }
+    }
+
+    if (mixed) {
+      document.getElementById("mixed-topics").innerHTML = (mixed.topics || [])
+        .map(
+          (t) =>
+            `<li><strong>${t.label}</strong><span>${t.desc}</span></li>`
+        )
+        .join("");
+      const prog = mixedProgress();
+      const pool = mixed.questions?.length || 0;
+      document.getElementById("mixed-meta").textContent = prog
+        ? `Đang làm ${prog.n}/${prog.total} · Ngân hàng ${pool} câu`
+        : `Ngân hàng ${pool} câu · Mỗi lần ${mixed.drawCount} câu ngẫu nhiên`;
+      const cta = document.getElementById("mixed-cta");
+      if (prog && prog.n > 0 && prog.n < prog.total) cta.textContent = "Tiếp tục đề";
+      else if (prog && prog.n >= prog.total) cta.textContent = "Làm đề mới";
     }
 
     document.getElementById("units").innerHTML = path.units

@@ -1,5 +1,6 @@
 (() => {
   const params = new URLSearchParams(location.search);
+  const mode = params.get("mode");
   const moduleId = Number(params.get("module") || "0");
   const data = window.QUIZ_DATA;
   const $ = (id) => document.getElementById(id);
@@ -9,14 +10,37 @@
     return;
   }
 
-  const mod = data.modules.find((m) => m.id === moduleId);
-  if (!mod) {
-    showError('Không tìm thấy module. <a href="home.html">Về trang chủ</a>');
-    return;
+  const isMixed = mode === "mixed";
+  let mod;
+  let questions;
+  let storageKey;
+  let sessionIds = null;
+
+  if (isMixed) {
+    const mixed = data.mixed;
+    if (!mixed?.questions?.length) {
+      showError('Chưa có ngân hàng tổng hợp. <a href="home.html">Về trang chủ</a>');
+      return;
+    }
+    mod = {
+      id: "mixed",
+      short: mixed.short || "Tổng hợp",
+      title: mixed.title || "Ôn trắc nghiệm tổng hợp",
+    };
+    storageKey = "thvp-quiz-mixed";
+    const prepared = prepareMixedSession(mixed);
+    questions = prepared.questions;
+    sessionIds = prepared.ids;
+  } else {
+    mod = data.modules.find((m) => m.id === moduleId);
+    if (!mod) {
+      showError('Không tìm thấy module. <a href="home.html">Về trang chủ</a>');
+      return;
+    }
+    storageKey = `thvp-quiz-m${moduleId}`;
+    questions = mod.questions;
   }
 
-  const storageKey = `thvp-quiz-m${moduleId}`;
-  const questions = mod.questions;
   let answers = Object.create(null);
   let index = 0;
   let jumpFilter = "all";
@@ -25,9 +49,14 @@
 
   document.title = `THVP Quiz – ${mod.short}`;
   $("module-eyebrow").textContent = mod.short;
-  setupSlides(moduleId);
+  setupSlides(isMixed ? null : moduleId);
   restoreProgress();
   $("quiz-view").classList.remove("hidden");
+
+  if (isMixed) {
+    const resetBtn = $("btn-reset");
+    if (resetBtn) resetBtn.textContent = "Làm đề mới (50 câu khác)";
+  }
 
   $("btn-prev").addEventListener("click", () => go(-1));
   $("btn-next").addEventListener("click", () => {
@@ -41,13 +70,19 @@
     showResults();
   });
   $("btn-retry").addEventListener("click", () => {
-    if (!confirm("Xóa tiến độ và làm lại?")) return;
+    const msg = isMixed
+      ? "Xóa kết quả và rút 50 câu ngẫu nhiên mới?"
+      : "Xóa tiến độ và làm lại?";
+    if (!confirm(msg)) return;
     clearProgress();
     location.reload();
   });
   $("btn-reset").addEventListener("click", () => {
     closeMenu();
-    if (!confirm("Xóa tiến độ module này?")) return;
+    const msg = isMixed
+      ? "Xóa tiến độ và rút bộ 50 câu mới?"
+      : "Xóa tiến độ module này?";
+    if (!confirm(msg)) return;
     clearProgress();
     location.reload();
   });
@@ -82,6 +117,78 @@
 
   document.addEventListener("keydown", onKey);
   renderQuestion();
+
+  function prepareMixedSession(mixed) {
+    const draw = Number(mixed.drawCount) || 50;
+    const plan = mixed.drawPlan || { basics: 18, files: 10, security: 8, office: 14 };
+    let saved = null;
+    try {
+      saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+    } catch {}
+
+    if (saved?.ids?.length) {
+      const byId = Object.fromEntries(mixed.questions.map((q) => [q.id, q]));
+      const restored = saved.ids.map((id) => byId[id]).filter(Boolean);
+      if (restored.length === saved.ids.length && restored.length > 0) {
+        return {
+          ids: saved.ids,
+          questions: renumber(restored),
+        };
+      }
+    }
+
+    const drawn = drawBalanced(mixed.questions, plan, draw);
+    const ids = drawn.map((q) => q.id);
+    return { ids, questions: renumber(drawn) };
+  }
+
+  function drawBalanced(pool, plan, total) {
+    const byTopic = {};
+    for (const q of pool) {
+      const t = q.topic || "basics";
+      (byTopic[t] ||= []).push(q);
+    }
+    for (const list of Object.values(byTopic)) shuffleInPlace(list);
+
+    const picked = [];
+    const used = new Set();
+    for (const [topic, n] of Object.entries(plan)) {
+      const list = byTopic[topic] || [];
+      let take = Math.min(n, list.length);
+      for (let i = 0; i < take; i++) {
+        picked.push(list[i]);
+        used.add(list[i].id);
+      }
+    }
+
+    if (picked.length < total) {
+      const rest = pool.filter((q) => !used.has(q.id));
+      shuffleInPlace(rest);
+      for (const q of rest) {
+        if (picked.length >= total) break;
+        picked.push(q);
+      }
+    }
+
+    shuffleInPlace(picked);
+    return picked.slice(0, total);
+  }
+
+  function renumber(list) {
+    return list.map((q, i) => ({
+      ...q,
+      poolId: q.id,
+      id: i + 1,
+    }));
+  }
+
+  function shuffleInPlace(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
 
   function closeMenu() {
     menuOpen = false;
@@ -226,7 +333,7 @@
   function explainHtml(q) {
     const icon = (q.icon || "💡").trim();
     const summary = escapeHtml(
-      (q.explain || "").trim() || "Xem lại slides lý thuyết của module này."
+      (q.explain || "").trim() || "Xem lại kiến thức lý thuyết liên quan."
     );
     const detail = (q.detail || "").trim();
     return `
@@ -375,30 +482,41 @@
 
   function setupSlides(mid) {
     const link = $("link-slides");
-    if (!link || !window.LEARN_PATH) return;
+    if (!link) return;
+    if (mid == null || !window.LEARN_PATH) {
+      link.classList.add("hidden");
+      return;
+    }
     const unit = window.LEARN_PATH.units.find((u) => u.modules.some((m) => m.id === mid));
     if (!unit?.slides) {
       link.classList.add("hidden");
       return;
     }
+    link.classList.remove("hidden");
     link.href = unit.slides.url;
   }
 
   function saveProgress() {
     try {
-      localStorage.setItem(storageKey, JSON.stringify({ answers, index, ts: Date.now() }));
+      const payload = { answers, index, ts: Date.now() };
+      if (isMixed && sessionIds) payload.ids = sessionIds;
+      localStorage.setItem(storageKey, JSON.stringify(payload));
     } catch {}
   }
 
   function restoreProgress() {
     try {
       const raw = localStorage.getItem(storageKey);
-      if (!raw) return;
+      if (!raw) {
+        if (isMixed) saveProgress();
+        return;
+      }
       const saved = JSON.parse(raw);
       if (saved?.answers) answers = saved.answers;
       if (Number.isInteger(saved?.index) && saved.index >= 0 && saved.index < questions.length) {
         index = saved.index;
       }
+      if (isMixed && !saved?.ids) saveProgress();
     } catch {}
   }
 

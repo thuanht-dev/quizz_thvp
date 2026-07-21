@@ -7,7 +7,67 @@
 
 .home-lede {
   max-width: 36rem;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.mixed-card {
+  margin-bottom: 1.5rem;
+  padding: 1.15rem 1.2rem 1.1rem;
+  border: 1.5px solid #9dceb5;
+  background: linear-gradient(135deg, #f3faf6 0%, #fff 55%);
+}
+
+.mixed-head {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  margin-bottom: 0.85rem;
+}
+
+.mixed-head h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.mixed-topics {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.mixed-topics li {
+  display: grid;
+  gap: 0.1rem;
+  padding: 0.55rem 0.7rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--line);
+}
+
+.mixed-topics strong {
+  font-size: 0.88rem;
+  color: var(--accent-dark);
+}
+
+.mixed-topics span {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.mixed-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.mixed-meta {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
 }
 
 .home-wrap .units {
@@ -92,12 +152,14 @@
 }
 
 @media (max-width: 560px) {
-  .home-wrap .unit-mod {
+  .home-wrap .unit-mod,
+  .mixed-foot {
     flex-direction: column;
     align-items: stretch;
   }
 
-  .home-wrap .unit-mod .btn {
+  .home-wrap .unit-mod .btn,
+  .mixed-foot .btn {
     text-align: center;
   }
 }
