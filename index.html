@@ -5,28 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>THVP Quiz – Chọn module</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="home.css" />
 </head>
 <body>
-  <div class="wrap">
-    <header class="topbar">
+  <div class="wrap home-wrap">
+    <header class="home-bar">
       <a class="brand" href="home.html">THVP <span>Quiz</span></a>
-      <nav class="top-nav">
-        <a class="btn btn-ghost" href="home.html">Trang chủ</a>
-      </nav>
+      <a class="home-link" href="home.html">Trang chủ</a>
     </header>
 
-    <p class="eyebrow">Ôn trắc nghiệm</p>
-    <h1>Chọn module</h1>
-    <p class="lede">Chọn đáp án → xem ngay đúng/sai + giải thích. Nên xem slides trên trang chủ trước.</p>
+    <section class="home-intro">
+      <p class="eyebrow">Ôn trắc nghiệm</p>
+      <h1>Chọn bài làm</h1>
+      <p class="lede">Đề tổng hợp 50 câu, hoặc quiz đủ 120 câu theo từng module.</p>
+    </section>
 
-    <a class="module-card" href="quiz.html?mode=mixed" style="display:block;margin-bottom:1rem;border-color:#9dceb5;background:linear-gradient(135deg,#f3faf6,#fff)">
-      <div class="num">★</div>
-      <h2>Ôn trắc nghiệm tổng hợp</h2>
-      <p>50 câu ngẫu nhiên / lần — CNTT cơ bản, tệp thư mục, an toàn thông tin, tổng quan Office.</p>
-      <div class="meta" id="mixed-meta">Đề tổng hợp</div>
-    </a>
+    <section class="path-grid">
+      <a class="path-tile path-mixed" href="quiz.html?mode=mixed">
+        <span class="path-n">★</span>
+        <div class="path-body">
+          <strong>Đề tổng hợp</strong>
+          <span>50 câu ngẫu nhiên / lần</span>
+          <em id="mixed-meta">Ngân hàng câu hỏi</em>
+        </div>
+        <span class="path-go">Bắt đầu →</span>
+      </a>
+    </section>
 
-    <div class="module-grid" id="modules"></div>
+    <section class="parts">
+      <div class="parts-head">
+        <h2>Theo module</h2>
+        <p>120 câu / module</p>
+      </div>
+      <div class="parts-list" id="modules"></div>
+    </section>
+
     <p class="footer-note">720 câu module · Đề tổng hợp 50 câu/lần</p>
   </div>
 
@@ -37,8 +50,8 @@
     const mixed = data.mixed;
 
     if (mixed) {
-      const el = document.getElementById("mixed-meta");
-      el.textContent = `Ngân hàng ${mixed.questions.length} câu · Mỗi lần ${mixed.drawCount} câu`;
+      document.getElementById("mixed-meta").textContent =
+        `${mixed.questions.length} câu · mỗi lần ${mixed.drawCount}`;
     }
 
     function progressFor(id) {
@@ -52,19 +65,22 @@
     }
 
     root.innerHTML = data.modules
-      .map((m) => {
+      .map((m, idx) => {
         const done = progressFor(m.id);
-        const meta =
-          done > 0
-            ? `Đã làm ${done}/${m.questions.length} · Tiếp tục`
-            : `${m.questions.length} câu hỏi`;
+        const status = done > 0 ? `Đã làm ${done}/${m.questions.length}` : `${m.questions.length} câu`;
         return `
-      <a class="module-card" href="quiz.html?module=${m.id}">
-        <div class="num">${m.id}</div>
-        <h2>${m.title}</h2>
-        <p>Chọn đáp án → xem ngay đúng/sai và kiến thức.</p>
-        <div class="meta">${meta}</div>
-      </a>`;
+        <article class="part-row" style="--i:${idx}">
+          <div class="part-index">${String(m.id).padStart(2, "0")}</div>
+          <div class="part-main">
+            <div class="part-title-row">
+              <h3>${m.title}</h3>
+              <span class="part-sub">${status}</span>
+            </div>
+            <div class="part-actions">
+              <a class="part-slides" href="quiz.html?module=${m.id}">${done > 0 ? "Tiếp tục" : "Làm quiz"}</a>
+            </div>
+          </div>
+        </article>`;
       })
       .join("");
   </script>

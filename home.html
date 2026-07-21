@@ -9,37 +9,49 @@
 </head>
 <body>
   <div class="wrap home-wrap">
-    <header class="topbar">
-      <div class="brand">THVP <span>Học tập</span></div>
-      <nav class="top-nav">
-        <a class="btn btn-soft" href="index.html">Tất cả quiz</a>
-      </nav>
+    <header class="home-bar">
+      <a class="brand" href="home.html">THVP <span>Học tập</span></a>
+      <a class="home-link" href="index.html">Tất cả quiz</a>
     </header>
 
-    <p class="eyebrow">Tin học văn phòng</p>
-    <h1>Học theo phần · ôn bằng quiz</h1>
-    <p class="lede home-lede">
-      Mỗi phần: xem slides → làm 120 câu. Hoặc ôn nhanh đề tổng hợp 50 câu ngẫu nhiên.
-    </p>
-
-    <section class="mixed-card panel" id="mixed">
-      <div class="mixed-head">
-        <span class="unit-badge">Đề tổng hợp</span>
-        <div>
-          <h2>Ôn trắc nghiệm tổng hợp</h2>
-          <p class="unit-sub">50 câu / lần · rút ngẫu nhiên từ ngân hàng sát đề thi CNTT cơ bản</p>
-        </div>
-      </div>
-      <ul class="mixed-topics" id="mixed-topics"></ul>
-      <div class="mixed-foot">
-        <span class="mixed-meta" id="mixed-meta"></span>
-        <a class="btn btn-primary" id="mixed-cta" href="quiz.html?mode=mixed">Bắt đầu 50 câu</a>
+    <section class="home-intro">
+      <div>
+        <p class="eyebrow">Tin học văn phòng</p>
+        <h1>Học slides · ôn quiz</h1>
+        <p class="lede">Chọn đề tổng hợp để luyện nhanh, hoặc học từng phần theo module.</p>
       </div>
     </section>
 
-    <div id="units" class="units"></div>
+    <section class="path-grid" id="mixed">
+      <a class="path-tile path-mixed" id="mixed-cta" href="quiz.html?mode=mixed">
+        <span class="path-n">01</span>
+        <div class="path-body">
+          <strong>Đề tổng hợp</strong>
+          <span>50 câu ngẫu nhiên / lần</span>
+          <em id="mixed-meta">CNTT · tệp · an toàn · Office</em>
+        </div>
+        <span class="path-go" id="mixed-go">Bắt đầu →</span>
+      </a>
+      <a class="path-tile path-parts" href="#parts">
+        <span class="path-n">02</span>
+        <div class="path-body">
+          <strong>Học theo phần</strong>
+          <span>Slides + quiz từng module</span>
+          <em>5 phần · 720 câu</em>
+        </div>
+        <span class="path-go">Xem phần →</span>
+      </a>
+    </section>
 
-    <p class="footer-note">Slides Genspark · Quiz module 720 câu · Đề tổng hợp 50 câu/lần</p>
+    <section class="parts" id="parts">
+      <div class="parts-head">
+        <h2>Các phần học</h2>
+        <p>Mỗi phần: xem slides trước, rồi làm quiz.</p>
+      </div>
+      <div id="units" class="parts-list"></div>
+    </section>
+
+    <p class="footer-note">Slides Genspark · Quiz 720 câu · Đề tổng hợp 50 câu/lần</p>
   </div>
 
   <script src="learn-path.js"></script>
@@ -74,65 +86,40 @@
     }
 
     if (mixed) {
-      document.getElementById("mixed-topics").innerHTML = (mixed.topics || [])
-        .map(
-          (t) =>
-            `<li><strong>${t.label}</strong><span>${t.desc}</span></li>`
-        )
-        .join("");
       const prog = mixedProgress();
       const pool = mixed.questions?.length || 0;
       document.getElementById("mixed-meta").textContent = prog
-        ? `Đang làm ${prog.n}/${prog.total} · Ngân hàng ${pool} câu`
-        : `Ngân hàng ${pool} câu · Mỗi lần ${mixed.drawCount} câu ngẫu nhiên`;
-      const cta = document.getElementById("mixed-cta");
-      if (prog && prog.n > 0 && prog.n < prog.total) cta.textContent = "Tiếp tục đề";
-      else if (prog && prog.n >= prog.total) cta.textContent = "Làm đề mới";
+        ? `Đang làm ${prog.n}/${prog.total} · ${pool} câu trong ngân hàng`
+        : `${pool} câu trong ngân hàng · mỗi lần ${mixed.drawCount}`;
+      const go = document.getElementById("mixed-go");
+      if (prog && prog.n > 0 && prog.n < prog.total) go.textContent = "Tiếp tục →";
+      else if (prog && prog.n >= prog.total) go.textContent = "Đề mới →";
     }
 
     document.getElementById("units").innerHTML = path.units
-      .map((u) => {
-        const mods = u.modules
+      .map((u, idx) => {
+        const quizLinks = u.modules
           .map((m) => {
             const done = progressFor(m.id);
-            const status = done
-              ? `<span class="mod-progress">Đã làm ${done}/${m.quizCount}</span>`
-              : `<span class="mod-progress muted">Chưa bắt đầu</span>`;
-            return `
-          <div class="unit-mod">
-            <div class="unit-mod-info">
-              <b>Module ${m.id}</b>
-              <span>${m.title}</span>
-              ${status}
-            </div>
-            <a class="btn btn-primary" href="quiz.html?module=${m.id}">
-              ${done ? "Tiếp tục" : "Làm quiz"}
-            </a>
-          </div>`;
+            const label = done ? `M${m.id} · ${done}/${m.quizCount}` : `Quiz M${m.id}`;
+            return `<a class="part-quiz" href="quiz.html?module=${m.id}">${label}</a>`;
           })
           .join("");
 
         return `
-        <section class="unit-card panel" id="${u.id}">
-          <div class="unit-head">
-            <span class="unit-badge">${u.badge}</span>
-            <div>
-              <h2>${u.title}</h2>
-              <p class="unit-sub">${u.subtitle}</p>
+        <article class="part-row" id="${u.id}" style="--i:${idx}">
+          <div class="part-index">${String(idx + 1).padStart(2, "0")}</div>
+          <div class="part-main">
+            <div class="part-title-row">
+              <h3>${u.title}</h3>
+              <span class="part-sub">${u.subtitle}</span>
+            </div>
+            <div class="part-actions">
+              <a class="part-slides" href="${u.slides.url}" target="_blank" rel="noopener">Slides</a>
+              ${quizLinks}
             </div>
           </div>
-          <div class="unit-actions-row">
-            <a class="slide-link" href="${u.slides.url}" target="_blank" rel="noopener">
-              <span class="slide-icon">▶</span>
-              <span>
-                <strong>${u.slides.label}</strong>
-                <small>Lý thuyết trước khi quiz</small>
-              </span>
-            </a>
-          </div>
-          <div class="unit-path-label">Quiz module</div>
-          ${mods}
-        </section>`;
+        </article>`;
       })
       .join("");
   </script>
