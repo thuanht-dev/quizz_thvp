@@ -11,6 +11,7 @@
   }
 
   const isMixed = mode === "mixed";
+  const forceSequential = params.get("shuffle") === "0";
   let mod;
   let questions;
   let storageKey;
@@ -38,7 +39,9 @@
       return;
     }
     storageKey = `thvp-quiz-m${moduleId}`;
-    questions = mod.questions;
+    const prepared = prepareModuleSession(mod.questions, !forceSequential);
+    questions = prepared.questions;
+    sessionIds = prepared.ids;
   }
 
   let answers = Object.create(null);
@@ -53,10 +56,16 @@
   restoreProgress();
   $("quiz-view").classList.remove("hidden");
 
-  if (isMixed) {
-    const resetBtn = $("btn-reset");
-    if (resetBtn) resetBtn.textContent = "Làm đề mới (50 câu khác)";
+  const resetBtn = $("btn-reset");
+  if (resetBtn) {
+    resetBtn.textContent = isMixed
+      ? "Làm đề mới (50 câu khác)"
+      : forceSequential
+        ? "Xóa tiến độ / làm lại"
+        : "Xáo trộn lại & làm mới";
   }
+  if (isMixed) $("btn-shuffle")?.classList.add("hidden");
+  else if (forceSequential) $("btn-shuffle")?.classList.add("hidden");
 
   $("btn-prev").addEventListener("click", () => go(-1));
   $("btn-next").addEventListener("click", () => {
@@ -72,7 +81,9 @@
   $("btn-retry").addEventListener("click", () => {
     const msg = isMixed
       ? "Xóa kết quả và rút 50 câu ngẫu nhiên mới?"
-      : "Xóa tiến độ và làm lại?";
+      : forceSequential
+        ? "Xóa tiến độ và làm lại?"
+        : "Xáo trộn lại thứ tự câu và làm mới từ đầu?";
     if (!confirm(msg)) return;
     clearProgress();
     location.reload();
@@ -81,10 +92,20 @@
     closeMenu();
     const msg = isMixed
       ? "Xóa tiến độ và rút bộ 50 câu mới?"
-      : "Xóa tiến độ module này?";
+      : forceSequential
+        ? "Xóa tiến độ module này?"
+        : "Xáo trộn lại thứ tự câu hỏi và xóa tiến độ?";
     if (!confirm(msg)) return;
     clearProgress();
     location.reload();
+  });
+  $("btn-shuffle")?.addEventListener("click", () => {
+    closeMenu();
+    if (!confirm("Xáo trộn lại thứ tự câu hỏi? Tiến độ hiện tại sẽ bị xóa.")) return;
+    clearProgress();
+    const url = new URL(location.href);
+    url.searchParams.delete("shuffle");
+    location.href = url.toString();
   });
   $("btn-menu").addEventListener("click", (e) => {
     e.stopPropagation();
@@ -117,6 +138,32 @@
 
   document.addEventListener("keydown", onKey);
   renderQuestion();
+
+  function prepareModuleSession(bank, shuffle) {
+    let saved = null;
+    try {
+      saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+    } catch {}
+
+    const byId = Object.fromEntries(bank.map((q) => [q.id, q]));
+
+    if (saved?.ids?.length) {
+      const restored = saved.ids.map((id) => byId[id]).filter(Boolean);
+      if (restored.length === bank.length) {
+        return { ids: saved.ids, questions: restored };
+      }
+    }
+
+    // Phiên cũ (có đáp án nhưng chưa có order): giữ thứ tự gốc để không lệch tiến độ
+    if (saved?.answers && Object.keys(saved.answers).length && !saved?.ids) {
+      const ids = bank.map((q) => q.id);
+      return { ids, questions: bank.slice() };
+    }
+
+    const list = bank.map((q) => q);
+    if (shuffle) shuffleInPlace(list);
+    return { ids: list.map((q) => q.id), questions: list };
+  }
 
   function prepareMixedSession(mixed) {
     const draw = Number(mixed.drawCount) || 50;
@@ -261,7 +308,9 @@
     const done = Object.keys(answers).length;
     const pct = Math.round((done / questions.length) * 100);
 
-    $("q-label").textContent = `Câu ${q.id}`;
+    $("q-label").textContent = isMixed
+      ? `Câu ${q.id}`
+      : `Câu ${index + 1} · Đề số ${q.id}`;
     $("q-text").textContent = q.text;
     $("progress-text").textContent = `${index + 1}/${questions.length}`;
     $("score-live").textContent = `${correct} đúng · ${wrong} sai`;
@@ -381,7 +430,7 @@
         ]
           .filter(Boolean)
           .join(" ");
-        return `<button type="button" class="${cls}" data-i="${i}">${q.id}</button>`;
+        return `<button type="button" class="${cls}" data-i="${i}">${isMixed ? q.id : indexLabel(i, q)}</button>`;
       })
       .join("");
 
@@ -393,6 +442,10 @@
         renderQuestion({ scrollTop: true });
       });
     });
+  }
+
+  function indexLabel(i, q) {
+    return String(i + 1);
   }
 
   function tally() {
@@ -468,9 +521,13 @@
                 : ok
                   ? `<span class="qz-badge ok">Đúng</span>`
                   : `<span class="qz-badge bad">Sai</span>`;
+            const pos = questions.indexOf(q) + 1;
+            const title = isMixed
+              ? `Câu ${q.id}. ${escapeHtml(q.text)}`
+              : `Câu ${pos} · Đề số ${q.id}. ${escapeHtml(q.text)}`;
             return `<article class="qz-review ${status === "correct" ? "correct" : "wrong"}">
               ${badge}
-              <h3>Câu ${q.id}. ${escapeHtml(q.text)}</h3>
+              <h3>${title}</h3>
               <p class="line">Bạn chọn: <strong>${user ? user + ". " + escapeHtml(q.options[user]) : "—"}</strong></p>
               <p class="line">Đáp án đúng: <strong>${q.answer}. ${escapeHtml(q.options[q.answer])}</strong></p>
               ${explainHtml(q)}
@@ -499,7 +556,7 @@
   function saveProgress() {
     try {
       const payload = { answers, index, ts: Date.now() };
-      if (isMixed && sessionIds) payload.ids = sessionIds;
+      if (sessionIds) payload.ids = sessionIds;
       localStorage.setItem(storageKey, JSON.stringify(payload));
     } catch {}
   }
@@ -508,7 +565,7 @@
     try {
       const raw = localStorage.getItem(storageKey);
       if (!raw) {
-        if (isMixed) saveProgress();
+        saveProgress();
         return;
       }
       const saved = JSON.parse(raw);
@@ -516,7 +573,7 @@
       if (Number.isInteger(saved?.index) && saved.index >= 0 && saved.index < questions.length) {
         index = saved.index;
       }
-      if (isMixed && !saved?.ids) saveProgress();
+      if (!saved?.ids && sessionIds) saveProgress();
     } catch {}
   }
 
