@@ -1,0 +1,7 @@
+# Dùng khi deploy Edge Function từ thư mục quiz/
+# supabase link --project-ref YOUR_REF
+# supabase secrets set ADMIN_KEY=...
+# supabase functions deploy admin-dashboard
+
+[functions.admin-dashboard]
+verify_jwt = false

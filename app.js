@@ -1,9 +1,10 @@
-(() => {
+(async () => {
   const params = new URLSearchParams(location.search);
   const mode = params.get("mode");
   const moduleId = Number(params.get("module") || "0");
   const data = window.QUIZ_DATA;
   const $ = (id) => document.getElementById(id);
+  const api = () => window.THVP_API;
 
   if (!data?.modules?.length) {
     showError("Không tải được dữ liệu quiz.");
@@ -16,6 +17,12 @@
   let questions;
   let storageKey;
   let sessionIds = null;
+  let attemptStartedAt = Date.now();
+
+  if (window.THVP_AUTH?.requireLoginForQuiz) {
+    await window.THVP_AUTH.requireLoginForQuiz();
+  }
+  window.THVP_AUTH?.mountUserChip?.(".qz-header-actions");
 
   if (isMixed) {
     const mixed = data.mixed;
@@ -29,6 +36,7 @@
       title: mixed.title || "Ôn trắc nghiệm tổng hợp",
     };
     storageKey = "thvp-quiz-mixed";
+    await hydrateFromCloud(storageKey);
     const prepared = prepareMixedSession(mixed);
     questions = prepared.questions;
     sessionIds = prepared.ids;
@@ -39,6 +47,7 @@
       return;
     }
     storageKey = `thvp-quiz-m${moduleId}`;
+    await hydrateFromCloud(storageKey);
     const prepared = prepareModuleSession(mod.questions, !forceSequential);
     questions = prepared.questions;
     sessionIds = prepared.ids;
@@ -507,6 +516,20 @@
 
     setReviewFilter(wrong > 0 ? "wrong" : "all");
     window.scrollTo({ top: 0 });
+
+    const attemptMode = redoWrongMode ? "redo_wrong" : isMixed ? "mixed" : "full";
+    api()
+      ?.saveAttempt?.({
+        storageKey,
+        reviewRows,
+        correct,
+        wrong,
+        skip,
+        percent: pct,
+        mode: attemptMode,
+        startedAt: attemptStartedAt,
+      })
+      ?.catch?.((e) => console.warn("saveAttempt", e));
   }
 
   function retryWrong() {
@@ -529,6 +552,7 @@
     document.body.classList.remove("showing-result");
     document.addEventListener("keydown", onKey);
     window.scrollTo({ top: 0 });
+    attemptStartedAt = Date.now();
     saveProgress();
     renderQuestion({ scrollTop: true });
   }
@@ -584,6 +608,29 @@
     link.href = unit.slides.url;
   }
 
+  async function hydrateFromCloud(key) {
+    const a = api();
+    if (!a?.configured?.() || !a.getStudent?.()) return;
+    try {
+      const row = await a.fetchProgress(key);
+      if (!row?.payload) return;
+      const cloudPayload = row.payload;
+      const cloudTs =
+        Number(cloudPayload.ts) ||
+        (row.updated_at ? new Date(row.updated_at).getTime() : 0);
+      let localTs = 0;
+      try {
+        const local = JSON.parse(localStorage.getItem(key) || "null");
+        localTs = Number(local?.ts) || 0;
+      } catch {}
+      if (cloudTs > localTs) {
+        localStorage.setItem(key, JSON.stringify(cloudPayload));
+      }
+    } catch (e) {
+      console.warn("hydrateFromCloud", e);
+    }
+  }
+
   function saveProgress() {
     try {
       const payload = { answers, index, ts: Date.now() };
@@ -593,6 +640,14 @@
         payload.redoIndex = index;
       }
       localStorage.setItem(storageKey, JSON.stringify(payload));
+      api()?.syncProgressDebounced?.({
+        storageKey,
+        answers,
+        index,
+        sessionIds,
+        redoWrongMode,
+        questions,
+      });
     } catch {}
   }
 

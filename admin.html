@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>THVP – Dashboard GV</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body class="admin-body">
+  <div class="wrap admin-wrap">
+    <header class="admin-bar">
+      <a class="brand" href="home.html">THVP <span>GV</span></a>
+      <div class="admin-bar-actions">
+        <button type="button" class="admin-link" id="btn-refresh" hidden>Làm mới</button>
+        <button type="button" class="admin-link danger" id="btn-logout" hidden>Đăng xuất GV</button>
+        <a class="admin-link" href="home.html">Về cổng học</a>
+      </div>
+    </header>
+
+    <section id="login-panel" class="admin-login">
+      <h1>Dashboard giáo viên</h1>
+      <p class="lede">Nhập mã admin (secret trên Supabase). Không lưu vào repo.</p>
+      <form id="admin-form">
+        <label for="admin-key">Mã admin</label>
+        <input id="admin-key" type="password" autocomplete="current-password" required placeholder="ADMIN_KEY" />
+        <p class="admin-error hidden" id="login-error"></p>
+        <button type="submit">Vào dashboard</button>
+      </form>
+    </section>
+
+    <section id="dash-panel" class="admin-dash hidden">
+      <div class="admin-intro">
+        <div>
+          <p class="eyebrow">Theo dõi lớp</p>
+          <h1>Học viên &amp; kết quả</h1>
+          <p class="lede" id="dash-meta">Đang tải…</p>
+        </div>
+        <div class="admin-kpis">
+          <div class="kpi">
+            <strong id="kpi-online">0</strong>
+            <span>Đang online</span>
+          </div>
+          <div class="kpi">
+            <strong id="kpi-total">0</strong>
+            <span>Tổng học viên</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="admin-cols">
+        <section class="admin-block">
+          <h2>Đang online <span class="hint">(≤ 2 phút)</span></h2>
+          <ul id="list-online" class="person-list"></ul>
+        </section>
+        <section class="admin-block">
+          <h2>Vừa vào gần đây</h2>
+          <ul id="list-recent" class="person-list"></ul>
+        </section>
+      </div>
+
+      <section class="admin-block">
+        <h2>Điểm theo học viên</h2>
+        <div class="table-scroll">
+          <table class="admin-table" id="table-students">
+            <thead>
+              <tr>
+                <th>Mã</th>
+                <th>Tên</th>
+                <th>TT</th>
+                <th>m1</th>
+                <th>m2</th>
+                <th>m3</th>
+                <th>m4</th>
+                <th>m5</th>
+                <th>m6</th>
+                <th>Tổng hợp</th>
+                <th>Lần gần nhất</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="admin-block">
+        <h2>Lịch sử làm bài gần đây</h2>
+        <div class="table-scroll">
+          <table class="admin-table" id="table-attempts">
+            <thead>
+              <tr>
+                <th>Thời gian</th>
+                <th>Học viên</th>
+                <th>Phạm vi</th>
+                <th>Chế độ</th>
+                <th>Đúng/Sai/Bỏ</th>
+                <th>%</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="admin-block hidden" id="detail-panel">
+        <div class="detail-head">
+          <h2>Chi tiết attempt</h2>
+          <button type="button" class="admin-link" id="btn-close-detail">Đóng</button>
+        </div>
+        <p class="lede" id="detail-meta"></p>
+        <div class="table-scroll">
+          <table class="admin-table" id="table-detail">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Câu</th>
+                <th>Chọn</th>
+                <th>Đúng</th>
+                <th>KQ</th>
+                <th>Lúc</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.1/dist/umd/supabase.min.js"></script>
+  <script src="supabase-config.js"></script>
+  <script src="api.js"></script>
+  <script>
+    (() => {
+      const KEY = "thvp-admin-key";
+      const $ = (id) => document.getElementById(id);
+      const scopes = ["m1", "m2", "m3", "m4", "m5", "m6", "mixed"];
+      let cache = null;
+
+      function getKey() {
+        try {
+          return sessionStorage.getItem(KEY) || "";
+        } catch {
+          return "";
+        }
+      }
+
+      function setKey(v) {
+        sessionStorage.setItem(KEY, v);
+      }
+
+      function clearKey() {
+        sessionStorage.removeItem(KEY);
+      }
+
+      function fmtTime(iso) {
+        if (!iso) return "—";
+        const d = new Date(iso);
+        return d.toLocaleString("vi-VN", {
+          day: "2-digit",
+          month: "2-digit",
+          hour: "2-digit",
+          minute: "2-digit",
+        });
+      }
+
+      function pctCell(row) {
+        if (!row) return "—";
+        return `${row.percent}%`;
+      }
+
+      function studentLabel(id) {
+        const s = (cache?.students || []).find((x) => x.id === id);
+        return s ? `${s.code} · ${s.name}` : id.slice(0, 8);
+      }
+
+      function renderPersonList(el, list) {
+        if (!list?.length) {
+          el.innerHTML = `<li class="empty">Không có ai</li>`;
+          return;
+        }
+        el.innerHTML = list
+          .map(
+            (s) => `<li>
+              <span class="dot ${s.online ? "on" : ""}"></span>
+              <div>
+                <strong>${escapeHtml(s.code)}</strong> · ${escapeHtml(s.name)}
+                <em>${fmtTime(s.last_seen_at)}</em>
+              </div>
+            </li>`
+          )
+          .join("");
+      }
+
+      function renderStudents() {
+        const tbody = $("table-students").querySelector("tbody");
+        const rows = cache?.students || [];
+        if (!rows.length) {
+          tbody.innerHTML = `<tr><td colspan="11" class="empty">Chưa có học viên</td></tr>`;
+          return;
+        }
+        tbody.innerHTML = rows
+          .map((s) => {
+            const p = s.progress || {};
+            const la = s.latest_attempt;
+            const laText = la
+              ? `${la.scope} ${la.percent}% · ${fmtTime(la.finished_at)}`
+              : "—";
+            const cells = scopes
+              .map((sc) => `<td>${pctCell(p[sc])}</td>`)
+              .join("");
+            return `<tr>
+              <td><strong>${escapeHtml(s.code)}</strong></td>
+              <td>${escapeHtml(s.name)}</td>
+              <td>${s.online ? '<span class="tag on">Online</span>' : '<span class="tag">Off</span>'}</td>
+              ${cells}
+              <td class="muted">${escapeHtml(laText)}</td>
+            </tr>`;
+          })
+          .join("");
+      }
+
+      function renderAttempts() {
+        const tbody = $("table-attempts").querySelector("tbody");
+        const rows = cache?.recent_attempts || [];
+        if (!rows.length) {
+          tbody.innerHTML = `<tr><td colspan="7" class="empty">Chưa có lịch sử</td></tr>`;
+          return;
+        }
+        tbody.innerHTML = rows
+          .map(
+            (a) => `<tr>
+              <td>${fmtTime(a.finished_at)}</td>
+              <td>${escapeHtml(studentLabel(a.student_id))}</td>
+              <td>${escapeHtml(a.scope)}</td>
+              <td>${escapeHtml(a.mode || "full")}</td>
+              <td>${a.correct}/${a.wrong}/${a.skip}</td>
+              <td><strong>${a.percent}%</strong></td>
+              <td><button type="button" class="admin-link" data-attempt="${a.id}">Chi tiết</button></td>
+            </tr>`
+          )
+          .join("");
+
+        tbody.querySelectorAll("[data-attempt]").forEach((btn) => {
+          btn.addEventListener("click", () => openDetail(btn.dataset.attempt));
+        });
+      }
+
+      async function openDetail(attemptId) {
+        const key = getKey();
+        $("detail-panel").classList.remove("hidden");
+        $("detail-meta").textContent = "Đang tải…";
+        $("table-detail").querySelector("tbody").innerHTML = "";
+        try {
+          const data = await window.THVP_API.adminFetch(key, {
+            action: "attempt_detail",
+            attempt_id: attemptId,
+          });
+          const attempt = (cache?.recent_attempts || []).find((a) => a.id === attemptId);
+          $("detail-meta").textContent = attempt
+            ? `${studentLabel(attempt.student_id)} · ${attempt.scope} · ${attempt.percent}% · ${fmtTime(attempt.finished_at)}`
+            : attemptId;
+          const answers = data.answers || [];
+          const tbody = $("table-detail").querySelector("tbody");
+          tbody.innerHTML = answers.length
+            ? answers
+                .map(
+                  (r, i) => `<tr class="${r.is_correct ? "ok" : "bad"}">
+                    <td>${i + 1}</td>
+                    <td>${escapeHtml(r.question_id)}</td>
+                    <td>${escapeHtml(r.selected || "—")}</td>
+                    <td>${escapeHtml(r.correct_answer)}</td>
+                    <td>${r.is_correct ? "Đúng" : "Sai"}</td>
+                    <td>${fmtTime(r.answered_at)}</td>
+                  </tr>`
+                )
+                .join("")
+            : `<tr><td colspan="6" class="empty">Không có đáp án</td></tr>`;
+          $("detail-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+        } catch (e) {
+          $("detail-meta").textContent = e.message || "Lỗi tải chi tiết";
+        }
+      }
+
+      function escapeHtml(str) {
+        return String(str)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+
+      function showDash(on) {
+        $("login-panel").classList.toggle("hidden", on);
+        $("dash-panel").classList.toggle("hidden", !on);
+        $("btn-refresh").hidden = !on;
+        $("btn-logout").hidden = !on;
+      }
+
+      async function load() {
+        const key = getKey();
+        if (!key) {
+          showDash(false);
+          return;
+        }
+        if (!window.THVP_API?.configured?.()) {
+          alert("Chưa cấu hình supabase-config.js (url, anonKey, adminFunctionUrl).");
+          clearKey();
+          showDash(false);
+          return;
+        }
+        showDash(true);
+        $("dash-meta").textContent = "Đang tải dữ liệu…";
+        try {
+          cache = await window.THVP_API.adminFetch(key, { action: "overview" });
+          $("kpi-online").textContent = String(cache.online_count || 0);
+          $("kpi-total").textContent = String(cache.student_count || 0);
+          $("dash-meta").textContent = `Cập nhật ${fmtTime(cache.generated_at)} · làm mới mỗi lần bấm nút`;
+          renderPersonList($("list-online"), cache.online || []);
+          renderPersonList($("list-recent"), cache.recent || []);
+          renderStudents();
+          renderAttempts();
+        } catch (e) {
+          clearKey();
+          showDash(false);
+          $("login-error").textContent = e.message || "Không vào được dashboard";
+          $("login-error").classList.remove("hidden");
+        }
+      }
+
+      $("admin-form").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const key = $("admin-key").value.trim();
+        if (!key) return;
+        setKey(key);
+        $("login-error").classList.add("hidden");
+        load();
+      });
+
+      $("btn-logout").addEventListener("click", () => {
+        clearKey();
+        cache = null;
+        $("admin-key").value = "";
+        showDash(false);
+      });
+
+      $("btn-refresh").addEventListener("click", () => load());
+      $("btn-close-detail").addEventListener("click", () => {
+        $("detail-panel").classList.add("hidden");
+      });
+
+      if (getKey()) load();
+    })();
+  </script>
+</body>
+</html>

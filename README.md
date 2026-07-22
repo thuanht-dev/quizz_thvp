@@ -16,3 +16,11 @@ Mở **`BAT_DAU_HOC.html`** hoặc **`quiz/home.html`**
 | 3 | MS Excel | Module 4 |
 | 4 | MS PowerPoint | Module 5 |
 | 5 | Internet | Module 6 |
+
+## Backend (Supabase)
+
+Đăng nhập Mã+Tên, lưu tiến độ/điểm, lịch sử, dashboard GV: xem **`HUONG_DAN_BACKEND.md`**.
+
+- Học viên: form đăng nhập trên trang chủ / quiz
+- Giáo viên: **`admin.html`** (mã admin)
+- Cấu hình: **`supabase-config.js`**
