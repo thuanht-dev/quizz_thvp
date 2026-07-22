@@ -20,7 +20,7 @@
 
   async function rpc(name, args) {
     const sb = getClient();
-    if (!sb) throw new Error("Chưa cấu hình Supabase (supabase-config.js).");
+    if (!sb) throw new Error("Chưa cấu hình Supabase (js/config.js).");
     const { data, error } = await sb.rpc(name, args);
     if (error) throw error;
     return data;
@@ -163,7 +163,7 @@
     const action = body.action || "overview";
     const attemptId = body.attempt_id || null;
 
-    // RPC trước (chạy APPLY_ADMIN_NOW.sql). Edge Function chỉ là dự phòng.
+    // RPC trước (trong schema.sql). Edge Function chỉ là dự phòng.
     if (configured()) {
       try {
         return await rpc("admin_dashboard", {
@@ -177,14 +177,14 @@
         if (!missingFn) throw e;
         if (!cfg().adminFunctionUrl) {
           throw new Error(
-            "Chưa có hàm admin_dashboard. Chạy file supabase/APPLY_ADMIN_NOW.sql trong SQL Editor."
+            "Chưa có hàm admin_dashboard. Chạy file supabase/schema.sql trong SQL Editor."
           );
         }
       }
     }
 
     const url = cfg().adminFunctionUrl;
-    if (!url) throw new Error("Chưa cấu hình adminFunctionUrl trong supabase-config.js");
+    if (!url) throw new Error("Chưa cấu hình adminFunctionUrl trong js/config.js");
     const res = await fetch(url, {
       method: "POST",
       headers: {

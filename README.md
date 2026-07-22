@@ -1,26 +1,26 @@
-# THVP – Học & ôn cho sinh viên
+# THVP Quiz
 
-## Bắt đầu
+Cổng học + quiz trắc nghiệm (static) trên Vercel.
 
-Mở **`BAT_DAU_HOC.html`** hoặc **`quiz/home.html`**
+## Chạy local
 
-## Lộ trình mỗi phần
+Mở `index.html`, hoặc từ thư mục cha mở `BAT_DAU_HOC.html`.
 
-1. **Xem slides** (lý thuyết)  
-2. **Làm quiz** (120 câu/module, giải thích ngay khi chọn)
+## Cấu trúc
 
-| Phần | Slides | Quiz |
-|------|--------|------|
-| 1 | Nền tảng tin học & máy tính | Module 1 + 2 |
-| 2 | MS Word | Module 3 |
-| 3 | MS Excel | Module 4 |
-| 4 | MS PowerPoint | Module 5 |
-| 5 | Internet | Module 6 |
+```
+index.html      Cổng học (entry)
+quiz.html       Player quiz
+admin.html      Dashboard giáo viên
+css/            styles, home, quiz, admin
+js/             config, api, auth, app, learn-path, whats-new
+data/           quiz-data.js
+supabase/       schema.sql + Edge Function (dự phòng)
+docs/           hướng dẫn chi tiết
+```
 
-## Backend (Supabase)
+## Backend
 
-Đăng nhập Mã+Tên, lưu tiến độ/điểm, lịch sử, dashboard GV: xem **`HUONG_DAN_BACKEND.md`**.
+Xem [docs/HUONG_DAN_BACKEND.md](docs/HUONG_DAN_BACKEND.md).
 
-- Học viên: form đăng nhập trên trang chủ / quiz
-- Giáo viên: **`admin.html`** (mã admin)
-- Cấu hình: **`supabase-config.js`**
+Cấu hình: `js/config.js` (URL + anon key).

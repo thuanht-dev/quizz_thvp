@@ -4,14 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>THVP Quiz</title>
-  <link rel="stylesheet" href="quiz.css" />
+  <link rel="stylesheet" href="css/quiz.css" />
 </head>
 <body class="qz">
   <div id="error" class="qz-error hidden"></div>
 
   <div id="quiz-view" class="qz-shell hidden">
     <header class="qz-header">
-      <a class="qz-btn-icon" href="home.html" title="Trang chủ" aria-label="Trang chủ">
+      <a class="qz-btn-icon" href="index.html" title="Trang chủ" aria-label="Trang chủ">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
       </a>
       <div class="qz-header-mid">
@@ -72,7 +72,7 @@
 
   <section id="result-view" class="qz-result hidden">
     <div class="qz-result-inner">
-      <a class="qz-back" href="home.html">← Trang chủ</a>
+      <a class="qz-back" href="index.html">← Trang chủ</a>
       <p class="qz-eyebrow">Kết quả</p>
       <h1 id="result-title">Hoàn thành</h1>
 
@@ -109,11 +109,11 @@
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.1/dist/umd/supabase.min.js"></script>
-  <script src="supabase-config.js"></script>
-  <script src="api.js"></script>
-  <script src="auth.js"></script>
-  <script src="learn-path.js"></script>
-  <script src="quiz-data.js"></script>
-  <script src="app.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/learn-path.js"></script>
+  <script src="data/quiz-data.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>

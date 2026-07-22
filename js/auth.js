@@ -240,8 +240,8 @@
         <div class="auth-card">
           <h2>Chưa kết nối backend</h2>
           <p class="auth-warn">
-            Điền <code>url</code> và <code>anonKey</code> trong <code>supabase-config.js</code>,
-            rồi chạy SQL trong <code>supabase/schema.sql</code>. Xem <code>HUONG_DAN_BACKEND.md</code>.
+            Điền <code>url</code> và <code>anonKey</code> trong <code>js/config.js</code>,
+            rồi chạy SQL trong <code>supabase/schema.sql</code>. Xem <code>docs/HUONG_DAN_BACKEND.md</code>.
           </p>
           <div class="auth-actions">
             <button type="button" id="auth-continue">${gateQuiz ? "Vào quiz offline" : "Đóng"}</button>

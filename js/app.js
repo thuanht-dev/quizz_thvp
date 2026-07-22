@@ -27,7 +27,7 @@
   if (isMixed) {
     const mixed = data.mixed;
     if (!mixed?.questions?.length) {
-      showError('Chưa có ngân hàng tổng hợp. <a href="home.html">Về trang chủ</a>');
+      showError('Chưa có ngân hàng tổng hợp. <a href="index.html">Về trang chủ</a>');
       return;
     }
     mod = {
@@ -43,7 +43,7 @@
   } else {
     mod = data.modules.find((m) => m.id === moduleId);
     if (!mod) {
-      showError('Không tìm thấy module. <a href="home.html">Về trang chủ</a>');
+      showError('Không tìm thấy module. <a href="index.html">Về trang chủ</a>');
       return;
     }
     storageKey = `thvp-quiz-m${moduleId}`;
