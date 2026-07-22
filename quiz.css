@@ -463,6 +463,10 @@ body {
   cursor: not-allowed;
 }
 
+.qz-result-btns .qz-cta:disabled {
+  opacity: 0.45;
+}
+
 .qz-cta.ghost:hover:not(:disabled) {
   background: var(--bg);
 }

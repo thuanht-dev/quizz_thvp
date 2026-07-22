@@ -49,6 +49,7 @@
   let jumpFilter = "all";
   let reviewRows = [];
   let menuOpen = false;
+  let redoWrongMode = false;
 
   document.title = `THVP Quiz – ${mod.short}`;
   $("module-eyebrow").textContent = mod.short;
@@ -127,10 +128,7 @@
     buildJump();
   });
 
-  $("btn-review-wrong").addEventListener("click", () => {
-    setReviewFilter("wrong");
-    $("review-wrap").scrollIntoView({ behavior: "smooth" });
-  });
+  $("btn-retry-wrong").addEventListener("click", () => retryWrong());
 
   document.querySelectorAll(".review-filters .qz-chip").forEach((chip) => {
     chip.addEventListener("click", () => setReviewFilter(chip.dataset.filter));
@@ -490,7 +488,8 @@
     openMap(false);
     closeMenu();
 
-    $("result-title").textContent = `${mod.short}: ${mod.title}`;
+    const titleSuffix = redoWrongMode ? " (ôn câu sai)" : "";
+    $("result-title").textContent = `${mod.short}: ${mod.title}${titleSuffix}`;
     $("score-pct").textContent = `${pct}%`;
     $("score-ring").style.setProperty("--pct", String(pct));
     $("score-grade").textContent = gradeLabel(pct);
@@ -498,8 +497,40 @@
     $("stat-correct").textContent = String(correct);
     $("stat-wrong").textContent = String(wrong);
     $("stat-skip").textContent = String(skip);
-    setReviewFilter("all");
+
+    const retryWrongBtn = $("btn-retry-wrong");
+    if (retryWrongBtn) {
+      retryWrongBtn.disabled = wrong === 0;
+      retryWrongBtn.textContent =
+        wrong === 0 ? "Không còn câu sai" : `Làm lại ${wrong} câu sai`;
+    }
+
+    setReviewFilter(wrong > 0 ? "wrong" : "all");
     window.scrollTo({ top: 0 });
+  }
+
+  function retryWrong() {
+    const wrongQs = reviewRows.filter((r) => r.status === "wrong").map((r) => r.q);
+    if (!wrongQs.length) {
+      alert("Không có câu sai để làm lại.");
+      return;
+    }
+
+    for (const q of wrongQs) delete answers[q.id];
+    const list = wrongQs.slice();
+    shuffleInPlace(list);
+    questions = list;
+    redoWrongMode = true;
+    index = 0;
+
+    $("module-eyebrow").textContent = `${mod.short} · Ôn sai`;
+    $("result-view").classList.add("hidden");
+    $("quiz-view").classList.remove("hidden");
+    document.body.classList.remove("showing-result");
+    document.addEventListener("keydown", onKey);
+    window.scrollTo({ top: 0 });
+    saveProgress();
+    renderQuestion({ scrollTop: true });
   }
 
   function setReviewFilter(filter) {
@@ -557,6 +588,10 @@
     try {
       const payload = { answers, index, ts: Date.now() };
       if (sessionIds) payload.ids = sessionIds;
+      if (redoWrongMode) {
+        payload.redoWrongIds = questions.map((q) => q.id);
+        payload.redoIndex = index;
+      }
       localStorage.setItem(storageKey, JSON.stringify(payload));
     } catch {}
   }
@@ -570,6 +605,26 @@
       }
       const saved = JSON.parse(raw);
       if (saved?.answers) answers = saved.answers;
+
+      if (saved?.redoWrongIds?.length) {
+        const byId = Object.fromEntries(questions.map((q) => [q.id, q]));
+        // For mixed, questions are renumbered; ids match session questions
+        const restored = saved.redoWrongIds.map((id) => byId[id]).filter(Boolean);
+        if (restored.length) {
+          questions = restored;
+          redoWrongMode = true;
+          $("module-eyebrow").textContent = `${mod.short} · Ôn sai`;
+          if (
+            Number.isInteger(saved.redoIndex) &&
+            saved.redoIndex >= 0 &&
+            saved.redoIndex < questions.length
+          ) {
+            index = saved.redoIndex;
+          }
+          return;
+        }
+      }
+
       if (Number.isInteger(saved?.index) && saved.index >= 0 && saved.index < questions.length) {
         index = saved.index;
       }
