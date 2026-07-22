@@ -6,5 +6,5 @@ window.SUPABASE_CONFIG = {
   anonKey: "sb_publishable_ZSlxDCnllffgnvmyamymeQ_gnfl2uLz", // ví dụ: eyJhbGciOi...
   // URL Edge Function admin (sau khi deploy):
   // https://xxxx.supabase.co/functions/v1/admin-dashboard
-  adminFunctionUrl: "",
+  adminFunctionUrl: "https://mbwyyhqydmbfgyfaueiv.supabase.co/functions/v1/admin-dashboard",
 };

@@ -160,6 +160,29 @@
   }
 
   async function adminFetch(adminKey, body = {}) {
+    const action = body.action || "overview";
+    const attemptId = body.attempt_id || null;
+
+    // RPC trước (chạy APPLY_ADMIN_NOW.sql). Edge Function chỉ là dự phòng.
+    if (configured()) {
+      try {
+        return await rpc("admin_dashboard", {
+          p_admin_key: adminKey,
+          p_action: action,
+          p_attempt_id: attemptId,
+        });
+      } catch (e) {
+        const msg = String(e?.message || e);
+        const missingFn = /could not find|does not exist|PGRST202/i.test(msg);
+        if (!missingFn) throw e;
+        if (!cfg().adminFunctionUrl) {
+          throw new Error(
+            "Chưa có hàm admin_dashboard. Chạy file supabase/APPLY_ADMIN_NOW.sql trong SQL Editor."
+          );
+        }
+      }
+    }
+
     const url = cfg().adminFunctionUrl;
     if (!url) throw new Error("Chưa cấu hình adminFunctionUrl trong supabase-config.js");
     const res = await fetch(url, {
